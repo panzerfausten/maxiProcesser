@@ -8,7 +8,6 @@ class MyPlotter:
 		self.labelX = labelX
 		self.labelY = labelY
 		self.limy = limy
-		print self.limy
 
         def plot(self,outputFigure):
                 #init the plot

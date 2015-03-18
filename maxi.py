@@ -3,6 +3,9 @@ import time
 import datetime
 import os
 import MyPlotter
+import numpy as np
+from sklearn import preprocessing
+
 class session:
 	def __init__(self,folderPath):
 		self._path = folderPath
@@ -16,7 +19,8 @@ class session:
 		
 		self._pathZEPHYR  = None
 		for _f in self._dirList:
-			if (_f.endswith("csv")):
+			if (True):
+	
 				if "ACC" in _f:
 					self._pathACC = self._path  + _f
 				elif "IBI" in _f:
@@ -170,6 +174,21 @@ class session:
 					self._cleanHR.append([ _t1 , _d1 ])
 					self._cleanHR.append([ _t1 +_d1 , _t2 - _t1 -_t1 ])
 					self._cleanHR.append([ _t1 , _t1 ])
+	def normalizeGSR(self):
+		_data_with_timestamps = np.asarray(self._dataGSR)
+			
+		_data_to_norm = _data_with_timestamps[:,1]
+		min_max_scaler = preprocessing.MinMaxScaler()
+
+		_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+		return _data_normalized
+	#TODO: Move this to SessionUtils
+	def normalize(self,data):
+		_data_to_norm = np.asarray(data)
+		min_max_scaler = preprocessing.MinMaxScaler()
+		_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+		return _data_normalized
+
 	def positiveBVPToHR(self):
 		_hr = [None]  * len(self._positiveBVP)
 		
