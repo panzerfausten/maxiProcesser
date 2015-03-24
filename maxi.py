@@ -18,6 +18,7 @@ class session:
 		self._dirList = os.listdir(self._path)
 		
 		self._pathZEPHYR  = None
+		self._pathSOUNDS  = None
 		for _f in self._dirList:
 			if (True):
 	
@@ -37,6 +38,8 @@ class session:
 					self._pathHR = self._path +_f
 				elif "ZEPHYR" in _f:
 					self._pathZEPHYR = self._path +_f
+				elif "SOUNDS" in _f:
+					self._pathSOUNDS = self._path +_f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
@@ -90,6 +93,11 @@ class session:
 			self._dataZEPHYR = self.readFile(self._pathZEPHYR)
 		else:
 			self._dataZEPHYR = None
+		if(self._pathSOUNDS != None):
+			self._dataSOUNDS = self.readFile(self._pathSOUNDS)
+		else:
+			self._dataSOUNDS = None
+
 	def sanitizeAllData(self):
 		"""Removes breaklines and splits data into positions in the lists"""
 		_splittedData = []
@@ -155,6 +163,14 @@ class session:
 					#self._dataZEPHYR_HR.append([_data[0],_hr])
 				elif(_row[2] == "heart_rate"):
 					self._dataZEPHYR_HR.append( _data)
+		self._dataSOUNDS= []
+		if(self._dataSOUNDS  != None):
+			for _row in self._dataSOUNDS:
+				_data = []
+				_row  = _row.replace("\n","").split(",")
+				_data.append(str(_row[1]))
+				_data.append( str(_row[2]))
+
 		##generate clean HR from PPG file
 		self._cleanHR = []
 		self._positiveBVP = []
@@ -198,6 +214,14 @@ class session:
 				_data[1] = 60.0 / _data[1]
 				_hr[_x] = _data
 		return _hr
+	def soundsToUnixStamp(self):
+		if(self._dataSOUNDS != None):
+			for _v in self._dataSOUNDS:
+				_d1 = _v[1]
+				_s = _d1.strip(" ")
+				_s1 = _d1[0]
+				_s2 = _d1[1]
+				
 	def getAVGHR(self):
 		_avg = 0.0
 		for _v in self._dataHR:
