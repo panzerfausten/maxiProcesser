@@ -279,7 +279,6 @@ class session:
 					_maxs[_x] = _max
 				_x += 1
 			return _maxs
-
 		return _data
 ########################N1
 if(__name__ == "__main__"):

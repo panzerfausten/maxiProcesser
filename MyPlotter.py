@@ -2,12 +2,13 @@ import pylab as plt
 import numpy as np
 
 class MyPlotter:
-        def __init__(self,title,data,labelX,labelY,limy=None,color='red'):
+        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red'):
                 self.data = data
                 self.title = title
 		self.labelX = labelX
 		self.labelY = labelY
 		self.limy = limy
+		self.limx = limx
 		self.color = color
 
         def plot(self,outputFigure):
@@ -21,6 +22,7 @@ class MyPlotter:
                 ax.set_ylabel(self.labelY)
                 ax.set_title(self.title)
 		plt.ylim(self.limy)
+		plt.xlim(self.limx)
                 plt.grid(True)
                 plt.savefig(outputFigure)
 		plt.close()	
