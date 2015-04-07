@@ -1,0 +1,9 @@
+cd l1/plots
+sh pre.sh
+cd ../../
+cd l2/plots
+sh merge.sh
+cd ../../
+cd l3/plots
+sh merge.sh
+cd ../../

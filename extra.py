@@ -2,24 +2,29 @@ from MyPlotter import MyPlotter
 from maxi import session
 from sklearn import preprocessing
 
-def plotGSR(subject,test,sessionpath,_limx=None,_limy=None):
+def plotGSR(subject,test,sessionpath,_limx=None,_limy=None,_groupBySec=False):
 	u = u'\u00B5'
         s = session(sessionpath)
 	_data_to_norm = []
 	min_max_scaler = preprocessing.MinMaxScaler()
+	_label = "Seconds"
+	if(_groupBySec):
+		_dataToPlot = s.groupBySec(s._dataGSR,True,False)
+	else:	
+		_dataToPlot = []
+		_label = "Values ( 4.0 Hz )"
+		for _x in s._dataGSR:
+			_dataToPlot.append(_x[1])
 
-	_dataAvgBySec = s.groupBySec(s._dataGSR,True,False)
-	#for _x in _dataAvgBySec:
-	#	_data_to_norm.append(_x[])
 	
 	#_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
  
-        _title_raw = "GSR: [%s,%s,raw]" % (subject,test)
+        _title_raw = "GSR: [%s,%s,BySec]" % (subject,test)
 	_title_norm = "GSR: [%s,%s,normalized]" % (subject,test)
 
 	_path_raw = "%s/plots/%s_%s_GSR_raw" % (subject,subject,test)
 	_path_norm = "%s/plots/%s_%s_GSR_normalized" % (subject,subject,test)
-	m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
+	m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value "+u)
@@ -87,6 +92,7 @@ def generateMergeScript(subject,path):
 
 def generateAlbumScript(subjects):
 	with open("album.sh","w") as _album:
+		_album.write("sh joins.sh\n")
 		_album.write("pdftk ")
 		for _subject in subjects:
 			_album.write(" %s/plots/plots_GSR_HR_%s.pdf " %(_subject,_subject))
@@ -97,35 +103,39 @@ def generateAlbumScript(subjects):
 			_album.write(" %s/plots/plots_TEMP_%s.pdf " %(_subject,_subject))
 		_album.write(" output albumTEMP.pdf\n")
 
+		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
-	plotGSR("l1","t1","l1/l1_1/1427146438281/",_limx=[0,500])
-	plotHR_ZEPHYR("l1","t1","l1/l1_1/1427146438281/",_limx=[0,500])
-	plotGSR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200])
-	plotHR_ZEPHYR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200])
-	plotGSR("l1","t3","l1/l1_3/1427148713649/",_limx=[0,120])
-	plotHR_ZEPHYR("l1","t3","l1/l1_3/1427148713649/",_limx=[0,120])
-	plotGSR("l1","pre","l1/l1_pre/1427145620546/",_limx=[300,600])
-	plotHR_ZEPHYR("l1","pre","l1/l1_pre/1427145620546/",_limx=[300,600])
+	plotGSR("l1","pre","l1/l1_pre/1427145620546/",_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l1","pre","l1/l1_pre/1427145620546/",_limy=[35,100] )
+	plotGSR("l1","t1","l1/l1_1/1427146438281/",_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l1","t1","l1/l1_1/1427146438281/",_limy=[35,100] )
+	plotGSR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200],_groupBySec=True,_limy=[0.35,1.05])
+	### For Academic Purposes
+	plotGSR("l1","t2_ng","l1/l1_2/1427147325779/",_groupBySec=False,_limy=[0.35,1.05])
+	### 
+	plotHR_ZEPHYR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200],_limy=[35,100] )
+	plotGSR("l1","t3","l1/l1_3/1427148713649/",_limx=[0,120],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l1","t3","l1/l1_3/1427148713649/",_limx=[0,120],_limy=[35,100] )
 	generateMergeScript("l1","l1/plots")
 		
-	plotGSR("l2","sample","l2/l2_sample/1427150028457/",_limx=[0,300])
-	plotHR_ZEPHYR("l2","sample","l2/l2_sample/1427150028457/",_limx=[0,300])
-	plotGSR("l2","t1","l2/l2_1/1427150551647/",_limx=[0,1200])
-	plotHR_ZEPHYR("l2","t1","l2/l2_1/1427150551647/",_limx=[0,1200])
-	plotGSR("l2","t2","l2/l2_2/1427152284131/",_limx=[0,1200])
+	plotGSR("l2","sample","l2/l2_sample/1427150028457/",_limx=[0,300],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l2","sample","l2/l2_sample/1427150028457/",_limx=[0,300],_limy=[35,100] )
+	plotGSR("l2","t1","l2/l2_1/1427150551647/",_limx=[0,1200],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l2","t1","l2/l2_1/1427150551647/",_limx=[0,1200],_limy=[35,100] )
+	plotGSR("l2","t2","l2/l2_2/1427152284131/",_limx=[0,1200],_limy=[0.35,1.05])
 	plotHR_ZEPHYR("l2","t2","l2/l2_2/1427152284131/",_limx=[0,1200],groupBySec=True)
-	plotGSR("l2","t3","l2/l2_3/1427153781978/",_limx=[0,120])
-	plotHR_ZEPHYR("l2","t3","l2/l2_3/1427153781978/",_limx=[0,120])
+	plotGSR("l2","t3","l2/l2_3/1427153781978/",_limx=[0,120],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l2","t3","l2/l2_3/1427153781978/",_limx=[0,120],_limy=[35,100] )
 	generateMergeScript("l2","l2/plots")
 	
-	plotGSR("l3","sample","l3/l3_sample/1427156710381/",_limx=[0,300])
-	plotHR_ZEPHYR("l3","sample","l3/l3_sample/1427156710381/",_limx=[0,300],groupBySec=False)
-	plotGSR("l3","t1","l3/l3_1/1427157308300/",_limx=[0,1200])
-	plotHR_ZEPHYR("l3","t1","l3/l3_1/1427157308300/",_limx=[0,1200])
-	plotGSR("l3","t2","l3/l3_2/1427159032942/",_limx=[0,1200])
-	plotHR_ZEPHYR("l3","t2","l3/l3_2/1427159032942/",_limx=[0,1200])
-	plotGSR("l3","t3","l3/l3_3/1427160538271/",_limx=[0,120])
-	plotHR_ZEPHYR("l3","t3","l3/l3_3/1427160538271/",_limx=[0,120])
+	plotGSR("l3","sample","l3/l3_sample/1427156710381/",_limx=[0,300],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l3","sample","l3/l3_sample/1427156710381/",_limx=[0,300],groupBySec=False,_limy=[35,100] )
+	plotGSR("l3","t1","l3/l3_1/1427157308300/",_limx=[0,1200],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l3","t1","l3/l3_1/1427157308300/",_limx=[0,1200],_limy=[35,100] )
+	plotGSR("l3","t2","l3/l3_2/1427159032942/",_limx=[0,1200],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l3","t2","l3/l3_2/1427159032942/",_limx=[0,1200],_limy=[35,100] )
+	plotGSR("l3","t3","l3/l3_3/1427160538271/",_limx=[0,120],_limy=[0.35,1.05])
+	plotHR_ZEPHYR("l3","t3","l3/l3_3/1427160538271/",_limx=[0,120],_limy=[35,100] )
 	generateMergeScript("l3","l3/plots")
 	
 	generateAlbumScript(["l1","l2","l3"])
