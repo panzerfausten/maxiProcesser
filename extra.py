@@ -2,7 +2,7 @@ from MyPlotter import MyPlotter
 from maxi import session
 from sklearn import preprocessing
 
-def plotGSR(subject,test,sessionpath,_limx=None,_limy=None,_groupBySec=False):
+def plotGSR(subject,test,sessionpath,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session(sessionpath)
 	_data_to_norm = []
@@ -24,7 +24,13 @@ def plotGSR(subject,test,sessionpath,_limx=None,_limy=None,_groupBySec=False):
 
 	_path_raw = "%s/plots/%s_%s_GSR_raw" % (subject,subject,test)
 	_path_norm = "%s/plots/%s_%s_GSR_normalized" % (subject,subject,test)
-	m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
+
+	if (s._dataCODIFICATION != None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+	elif(s._dataSOUNDS !=None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds())
+	else:
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value "+u)
@@ -64,10 +70,22 @@ def plotHR_ZEPHYR(subject,test,sessionpath, sounds = [],_limx=None,_limy=None,gr
 
 	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
 	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
-	if(groupBySec):
-		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy)
+	if (s._dataSOUNDS != None):
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+	elif (s._dataCODIFICATION != None):
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+
 	else:
-		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy)
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy)
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy)
 		
         m.plot(_path_raw)
 	
@@ -111,7 +129,7 @@ if (__name__ == "__main__"):
 	plotHR_ZEPHYR("l1","t1","l1/l1_1/1427146438281/",_limy=[35,100] )
 	plotGSR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200],_groupBySec=True,_limy=[0.35,1.05])
 	### For Academic Purposes
-	plotGSR("l1","t2_ng","l1/l1_2/1427147325779/",_groupBySec=False,_limy=[0.35,1.05])
+	plotGSR("l1","t2_zoom","l1/l1_2/1427147325779/",_groupBySec=True,_limy=[0.35,0.5],_limx=[0,1200])
 	### 
 	plotHR_ZEPHYR("l1","t2","l1/l1_2/1427147325779/",_limx=[0,1200],_limy=[35,100] )
 	plotGSR("l1","t3","l1/l1_3/1427148713649/",_limx=[0,120],_limy=[0.35,1.05])

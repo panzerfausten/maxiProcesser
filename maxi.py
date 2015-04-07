@@ -19,6 +19,7 @@ class session:
 		
 		self._pathZEPHYR  = None
 		self._pathSOUNDS  = None
+		self._pathCODIFICATION  = None
 		for _f in self._dirList:
 			if (True):
 	
@@ -40,6 +41,8 @@ class session:
 					self._pathZEPHYR = self._path +_f
 				elif "SOUNDS" in _f:
 					self._pathSOUNDS = self._path +_f
+				elif "CODIFICATION" in _f:
+					self._pathCODIFICATION = self._path +_f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
@@ -89,6 +92,7 @@ class session:
 		self._dataTEMP = self.readFile(self._pathTEMP)
 		self._dataBVP = self.readFile(self._pathBVP)
 		self._dataHR = self.readFile(self._pathHR)
+		self._dataCODIFICATION = None
 		if(self._pathZEPHYR != None):
 			self._dataZEPHYR = self.readFile(self._pathZEPHYR)
 		else:
@@ -98,6 +102,9 @@ class session:
 		else:
 			self._dataSOUNDS = None
 			self._dataSOUNDSUNIX = None
+
+		if(self._pathCODIFICATION != None):
+			self._dataCODIFICATION = self.readFile(self._pathCODIFICATION)
 
 	def sanitizeAllData(self):
 		"""Removes breaklines and splits data into positions in the lists"""
@@ -174,6 +181,16 @@ class session:
 				_data.append(_sd)
 				_data.append(_ed)
 				self._dataSOUNDSUNIX.append(_data)
+		_splittedData = []
+		if(self._dataCODIFICATION != None):
+			for _row in self._dataCODIFICATION:
+				_row = _row.replace("\n","").split(",")
+				_row[0] = int(_row[0])
+				_row[1] = int(_row[1])
+				_splittedData.append( _row)
+			self._dataCODIFICATION = _splittedData
+
+
 		##generate clean HR from PPG file
 		self._cleanHR = []
 		self._positiveBVP = []
