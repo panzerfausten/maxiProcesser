@@ -43,6 +43,8 @@ class session:
 					self._pathSOUNDS = self._path +_f
 				elif "CODIFICATION" in _f:
 					self._pathCODIFICATION = self._path +_f
+				elif "EEG" in _f
+					self._pathEEG = self._path + _f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
