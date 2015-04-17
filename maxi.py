@@ -109,25 +109,25 @@ class session:
 			self._dataZEPHYR = self.readFile(self._pathZEPHYR)
 	def readAllDataTypes(self):
 		"""Reads all datatypes files in the session"""
-		if(self._dataACC != None):
+		if(self._pathACC != None):
 			self._dataACC = self.readFile(self._pathACC)
 		
-		if(self._dataIBI != None):
+		if(self._pathIBI != None):
 			self._dataIBI = self.readFile(self._pathIBI)
 
-		if(self._dataSESSION != None):
+		if(self._pathSESSION != None):
 			self._dataSESSION = self.readFile(self._pathSESSION)
 	
-		if(self._dataGSR != None):
+		if(self._pathGSR != None):
 			self._dataGSR = self.readFile(self._pathGSR)
 
-		if(self._dataTEMP != None):
+		if(self._pathTEMP != None):
 			self._dataTEMP = self.readFile(self._pathTEMP)
 
-		if(self._dataBVP != None):
+		if(self._pathBVP != None):
 			self._dataBVP = self.readFile(self._pathBVP)
 	
-		if(self._dataHR != None):
+		if(self._pathHR != None):
 			self._dataHR = self.readFile(self._pathHR)
 
 		if(self._dataCODIFICATION != None):
@@ -145,6 +145,8 @@ class session:
 
 		if(self._pathCODIFICATION != None):
 			self._dataCODIFICATION = self.readFile(self._pathCODIFICATION)
+		if(self._pathEEG != None):
+			self._dataEEG = self.readFile(self._pathEEG)
 
 	def sanitizeAllData(self):
 		"""Removes breaklines and splits data into positions in the lists"""
@@ -230,6 +232,24 @@ class session:
 				_splittedData.append( _row)
 			self._dataCODIFICATION = _splittedData
 
+		_splittedData = []
+		if(self._dataEEG != None):
+			self._dataEEG1 = []
+			self._dataEEG2 = []
+			self._dataEEG3 = []
+			self._dataEEG4 = []
+			for _row in self._dataEEG:
+				_row = _row.replace("\n","").split(",")
+				_row[0] = int(_row[0])
+				_row[1] = float(_row[1])
+				_row[2] = float(_row[2])
+				_row[3] = float(_row[3])
+				_row[4] = float(_row[4])
+				#_splittedData.append(_row)
+				self._dataEEG1.append( [ _row[0] , _row[1] ] )
+				self._dataEEG2.append( [ _row[0] , _row[2] ] )
+				self._dataEEG3.append( [ _row[0] , _row[3] ] )
+				self._dataEEG4.append( [ _row[0] , _row[4] ] )
 
 	def normalizeGSR(self):
 		_data_with_timestamps = np.asarray(self._dataGSR)
@@ -291,7 +311,17 @@ class session:
 		_duration = int ( math.ceil(self._duration) )
 		_data = [None] * _duration
 		for _v in data:
-			_pos = int(math.floor((_v[0] - self._startTime)))
+			#print _v[0]
+			#print self._startTime
+			#TODO:DELETE ME ONCE YOU FIX THE APP
+			if (len(str(_v[0])) > 10):
+				_pos = int(math.floor(( int( str(_v[0])[:10]) - self._startTime)))	
+			else:
+				_pos = int(math.floor((_v[0] - self._startTime)))
+			#print "firstdata -> %i"  %(int(math.floor((_v[0]))))
+			#print "startTime-> %i" %(self._startTime)
+			#print "len(data)-> %i" %(len(_data))
+			#print "pos-> %i" %(_pos)
 			if(_pos > 1):
 				if(_data[_pos-1] == None):
 					_data[_pos-1] = []
