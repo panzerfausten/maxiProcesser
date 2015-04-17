@@ -19,32 +19,54 @@ class session:
 		
 		self._pathZEPHYR  = None
 		self._pathSOUNDS  = None
-		self._pathCODIFICATION  = None
+		self._pathACC = None
+		self._pathIBI = None
+		self._pathSESSION = None
+		self._pathGSR = None
+		self._pathTEMP = None
+		self._pathBVP = None
+		self._pathHR = None
+		self._pathZEPHYR = None
+		self._pathSOUNDS = None
+		self._pathCODIFICATION = None
+		self._pathEEG = None
+                self._dataZEPHYR  = None
+                self._dataSOUNDS  = None
+                self._dataACC = None
+                self._dataIBI = None
+                self._dataSESSION = None
+                self._dataGSR = None
+                self._dataTEMP = None
+                self._dataBVP = None
+                self._dataHR = None
+                self._dataZEPHYR = None
+                self._dataSOUNDS = None
+                self._dataCODIFICATION = None
+                self._dataEEG = None
+
 		for _f in self._dirList:
-			if (True):
-	
-				if "ACC" in _f:
-					self._pathACC = self._path  + _f
-				elif "IBI" in _f:
-					self._pathIBI = self._path + _f
-				elif "SESSION" in _f:
-					self._pathSESSION = self._path + _f
-				elif "GSR" in _f:
-					self._pathGSR = self._path + _f
-				elif "TEMP" in _f:
-					self._pathTEMP = self._path + _f
-				elif "BVP" in _f:
-					self._pathBVP = self._path + _f
-				elif "HR" in _f:
-					self._pathHR = self._path +_f
-				elif "ZEPHYR" in _f:
-					self._pathZEPHYR = self._path +_f
-				elif "SOUNDS" in _f:
-					self._pathSOUNDS = self._path +_f
-				elif "CODIFICATION" in _f:
-					self._pathCODIFICATION = self._path +_f
-				elif "EEG" in _f
-					self._pathEEG = self._path + _f
+			if "ACC" in _f:
+				self._pathACC = self._path  + _f
+			elif "IBI" in _f:
+				self._pathIBI = self._path + _f
+			elif "SESSION" in _f:
+				self._pathSESSION = self._path + _f
+			elif "GSR" in _f:
+				self._pathGSR = self._path + _f
+			elif "TEMP" in _f:
+				self._pathTEMP = self._path + _f
+			elif "BVP" in _f:
+				self._pathBVP = self._path + _f
+			elif "HR" in _f:
+				self._pathHR = self._path +_f
+			elif "ZEPHYR" in _f:
+				self._pathZEPHYR = self._path +_f
+			elif "SOUNDS" in _f:
+				self._pathSOUNDS = self._path +_f
+			elif "CODIFICATION" in _f:
+				self._pathCODIFICATION = self._path +_f
+			elif "EEG" in _f:
+				self._pathEEG = self._path + _f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
@@ -87,14 +109,30 @@ class session:
 			self._dataZEPHYR = self.readFile(self._pathZEPHYR)
 	def readAllDataTypes(self):
 		"""Reads all datatypes files in the session"""
-		self._dataACC = self.readFile(self._pathACC)
-		self._dataIBI = self.readFile(self._pathIBI)
-		self._dataSESSION = self.readFile(self._pathSESSION)
-		self._dataGSR = self.readFile(self._pathGSR)
-		self._dataTEMP = self.readFile(self._pathTEMP)
-		self._dataBVP = self.readFile(self._pathBVP)
-		self._dataHR = self.readFile(self._pathHR)
-		self._dataCODIFICATION = None
+		if(self._dataACC != None):
+			self._dataACC = self.readFile(self._pathACC)
+		
+		if(self._dataIBI != None):
+			self._dataIBI = self.readFile(self._pathIBI)
+
+		if(self._dataSESSION != None):
+			self._dataSESSION = self.readFile(self._pathSESSION)
+	
+		if(self._dataGSR != None):
+			self._dataGSR = self.readFile(self._pathGSR)
+
+		if(self._dataTEMP != None):
+			self._dataTEMP = self.readFile(self._pathTEMP)
+
+		if(self._dataBVP != None):
+			self._dataBVP = self.readFile(self._pathBVP)
+	
+		if(self._dataHR != None):
+			self._dataHR = self.readFile(self._pathHR)
+
+		if(self._dataCODIFICATION != None):
+			self._dataCODIFICATION = None
+
 		if(self._pathZEPHYR != None):
 			self._dataZEPHYR = self.readFile(self._pathZEPHYR)
 		else:
@@ -193,25 +231,6 @@ class session:
 			self._dataCODIFICATION = _splittedData
 
 
-		##generate clean HR from PPG file
-		self._cleanHR = []
-		self._positiveBVP = []
-		for _value in self._dataBVP:
-			if(_value[1] >= 0.0):
-				_newValue = _value
-				_newValue[1] 
-				self._positiveBVP.append( _newValue)
-
-		for _x in range(1,len(self._positiveBVP)-3,2):
-			_t1 = self._positiveBVP[_x][0] - self._startTime
-			_d1 = self._positiveBVP[_x][1] 
-			_t2 = self._positiveBVP[_x+1][0] - self._startTime
-			_d2 = self._positiveBVP[_x+1][1]
-			if( _d1 > 0.0):
-				if( _t1 +_d1 < _t2 ):
-					self._cleanHR.append([ _t1 , _d1 ])
-					self._cleanHR.append([ _t1 +_d1 , _t2 - _t1 -_t1 ])
-					self._cleanHR.append([ _t1 , _t1 ])
 	def normalizeGSR(self):
 		_data_with_timestamps = np.asarray(self._dataGSR)
 			
