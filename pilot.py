@@ -1,7 +1,7 @@
 from MyPlotter import MyPlotter
 from maxi import session
 from sklearn import preprocessing
-
+import numpy as np
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -32,29 +32,71 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	else:
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
-	
-	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value "+u)
-        #m.plot(_path_norm) 
-
-def plotTEMP(subject,test,sessionpath):
-        s = session(sessionpath)
+def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+	u = u'\u00B5'
+        s = session
 	_data_to_norm = []
 	min_max_scaler = preprocessing.MinMaxScaler()
-	for _x in s._dataTEMP:
-		_data_to_norm.append(_x[1])
+	_label = "Seconds"
+	if(_groupBySec):
+		_dataToPlot = s.groupBySec(s._dataHR,True,False)
+		for _i, _d in enumerate(_dataToPlot):
+			if _d == None:
+				_dataToPlot[_i] = 0
+		_dataToPlot = np.array(_dataToPlot)
+	else:	
+		_dataToPlot = []
+		_label = "Values ( 4.0 Hz )"
+		for _x in s._dataHR:
+			_dataToPlot.append(_x[1])
 
-	_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+	
+	#_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
  
-        _title_raw = "TEMP: [%s,%s,raw]" % (subject,test)
+        _title_raw = "HR: [%s,%s,BySec]" % (subject,test)
+	_title_norm = "GSR: [%s,%s,normalized]" % (subject,test)
+
+	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
+	_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
+
+	if (s._dataCODIFICATION != None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+	elif(s._dataSOUNDS !=None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds())
+	else:
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
+        m.plot(_path_raw)
+	
+def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+	u = u'\u00B5'
+        s = session
+	_data_to_norm = []
+	min_max_scaler = preprocessing.MinMaxScaler()
+	_label = "Seconds"
+	if(_groupBySec):
+		_dataToPlot = s.groupBySec(s._dataTEMP,True,False)
+	else:	
+		_dataToPlot = []
+		_label = "Values ( 4.0 Hz )" #TODO
+		for _x in s._dataTEMP:
+			_dataToPlot.append(_x[1])
+
+	
+	#_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+ 
+       	_title_raw = "TEMP: [%s,%s,raw]" % (subject,test)
 	_title_norm = "TEMP: [%s,%s,normalized]" % (subject,test)
 
 	_path_raw = "%s/plots/%s_%s_TEMP_raw" % (subject,subject,test)
 	_path_norm = "%s/plots/%s_%s_TEMP_normalized" % (subject,subject,test)
-	m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (C)",)
+
+	if (s._dataCODIFICATION != None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value (C)"+u,color='blue',limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+	elif(s._dataSOUNDS !=None):
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value (C)"+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds())
+	else:
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value (C)"+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
-	
-	m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)")
-        m.plot(_path_norm) 
 
 def plotHR_ZEPHYR(subject,test, sounds = [],_limx=None,_limy=None,groupBySec=False):
         s = session
@@ -99,6 +141,8 @@ def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	_label = "Seconds"
 	if(_groupBySec):
 		_dataToPlot = s.groupBySec(s._dataEEG1,True,False)
+		print _dataToPlot[0]
+		print s._dataEEG1[0]
 	else:	
 		_dataToPlot = []
 		_label = "Values "
@@ -249,6 +293,31 @@ def generateAlbumScript(subjects):
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
         s = session("piloto_1/1430264513038/")
-	plotGSR("Piloto_1","Rest",s)
-        s = session("piloto_1_t1/1430265036998/")
-	plotGSR("Piloto_1_t1","Test",s)
+	#plotGSR("piloto_1","Rest",s,_limy=[0.0,5.0])
+	plotHR("piloto_1","Rest",s)
+        
+
+	s = session("piloto_1_t1/1430265036998/")
+	plotHR("piloto_1_t1","Rest",s)
+
+	###P2
+	s = session("p2/p2_test/1430349218221/")
+	plotGSR("p2/p2_test","Rest",s,_limy=[0.0,5.0])
+	plotHR("p2/p2_test","Rest",s,_limy=[0.0,5.0])
+
+	s = session("p2/p2_t1/1430349866785/")
+	plotGSR("p2/p2_t1","t1",s,_limy=[0.0,5.0])
+	plotHR("p2/p2_t1","t1",s)
+	
+	"""plotEEG1("piloto_1","Rest",s)
+	plotEEG2("piloto_1","Rest",s)
+	plotEEG3("piloto_1","Rest",s)
+	plotEEG4("piloto_1","Rest",s)
+	#plotTEMP("piloto_1","Rest",s,_limy=[30.0,40.0]) not useful
+	plotGSR("piloto_1_t1","Test",s,_limy=[0.0,5.0])
+	plotEEG1("piloto_1_t1","Test",s,_limx=[800,1200])
+	plotEEG2("piloto_1_t1","Test",s,_limx=[800,1200])
+	plotEEG3("piloto_1_t1","Test",s,_limx=[800,1200])
+	plotEEG4("piloto_1_t1","Test",s,_limx=[800,1200])
+	plotTEMP("piloto_1_t1","Test",s,_limy=[30.0,40.0])
+	"""

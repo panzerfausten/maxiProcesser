@@ -84,7 +84,8 @@ class session:
 			elif(_r[0] == "END_TIME"):
 				self._endTime = float ( _r[1][:10] +"." +_r[1][10:])
 			elif(_r[0] == "DURATION"):
-				self._duration = float ( _r[1][:10] +"." +_r[1][10:])
+				self._duration = float ( _r[1][:3] +"." +_r[1][3:])
+
 	def readFile(self,path):
 		"""Reads a file from a path and returns a list with the raw data"""
 		with open(path,"r") as _file:
@@ -240,7 +241,7 @@ class session:
 			self._dataEEG4 = []
 			for _row in self._dataEEG:
 				_row = _row.replace("\n","").split(",")
-				_row[0] = int(_row[0])
+				_row[0] = float(_row[0])
 				_row[1] = float(_row[1])
 				_row[2] = float(_row[2])
 				_row[3] = float(_row[3])
@@ -321,8 +322,7 @@ class session:
 			#print "firstdata -> %i"  %(int(math.floor((_v[0]))))
 			#print "startTime-> %i" %(self._startTime)
 			#print "len(data)-> %i" %(len(_data))
-			#print "pos-> %i" %(_pos)
-			if(_pos > 1):
+			if(_pos > 1 and _pos < len(_data) -1):
 				if(_data[_pos-1] == None):
 					_data[_pos-1] = []
 					_data[_pos-1].append(_v)
