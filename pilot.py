@@ -32,7 +32,12 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	else:
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
-def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+def none_to_nan(values):
+    """Replace every 0 with 'nan' and return a copy."""
+    return [float('nan') if x==None else x for x in values]
+
+
+def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=False):
 	u = u'\u00B5'
         s = session
 	_data_to_norm = []
@@ -40,10 +45,10 @@ def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	_label = "Seconds"
 	if(_groupBySec):
 		_dataToPlot = s.groupBySec(s._dataHR,True,False)
-		for _i, _d in enumerate(_dataToPlot):
-			if _d == None:
-				_dataToPlot[_i] = 0
-		_dataToPlot = np.array(_dataToPlot)
+		#for _i, _d in enumerate(_dataToPlot):
+		#	if _d == None:
+		#		_dataToPlot[_i] = 0
+		#_dataToPlot = none_to_nan(_dataToPlot)
 	else:	
 		_dataToPlot = []
 		_label = "Values ( 4.0 Hz )"
@@ -292,22 +297,20 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
-        s = session("piloto_1/1430264513038/")
+        #s = session("piloto_1/1430264513038/")
 	#plotGSR("piloto_1","Rest",s,_limy=[0.0,5.0])
-	plotHR("piloto_1","Rest",s)
         
 
-	s = session("piloto_1_t1/1430265036998/")
-	plotHR("piloto_1_t1","Rest",s)
+	#s = session("piloto_1_t1/1430265036998/")
 
 	###P2
 	s = session("p2/p2_test/1430349218221/")
 	plotGSR("p2/p2_test","Rest",s,_limy=[0.0,5.0])
-	plotHR("p2/p2_test","Rest",s,_limy=[0.0,5.0])
+	plotHR("p2/p2_test","Rest",s,_limy=[0,100])
 
 	s = session("p2/p2_t1/1430349866785/")
 	plotGSR("p2/p2_t1","t1",s,_limy=[0.0,5.0])
-	plotHR("p2/p2_t1","t1",s)
+	plotHR("p2/p2_t1","t1",s,_limx=[0,300],_limy=[0,100])
 	
 	"""plotEEG1("piloto_1","Rest",s)
 	plotEEG2("piloto_1","Rest",s)

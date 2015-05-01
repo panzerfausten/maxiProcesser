@@ -2,7 +2,7 @@ import pylab as plt
 import numpy as np
 
 class MyPlotter:
-        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None):
+        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None,linestyle="solid"):
                 self.data = data
                 self.title = title
 		self.labelX = labelX
@@ -12,12 +12,13 @@ class MyPlotter:
 		self.color = color
 		self.sounds = sounds
 		self.codification = codification 
+		self.linestyle = linestyle
         def plot(self,outputFigure):
                 #init the plot
                 fig, ax = plt.subplots()
                 index = np.arange(len (self.data))
                 bar_width = 1
-                ax.plot(self.data,color=self.color)
+                ax.plot(self.data,color=self.color,linestyle=self.linestyle)
                 #ax.set_ylabel("%s value" %(self.e3data.dataType))
                 ax.set_xlabel(self.labelX)
                 ax.set_ylabel(self.labelY)
