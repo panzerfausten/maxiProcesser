@@ -9,7 +9,7 @@ class HalfRecoveryTimeDetector:
 		self.limy = [0,5]
 		self.limx = [0,len(_data)]
 		self.detect()
-		
+		self.peaks = []
 	def removeDuplicates(self,seq):
 		seen = set()
 		seen_add = seen.add
@@ -22,7 +22,6 @@ class HalfRecoveryTimeDetector:
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
                 ax.plot(self._gaussianData)
-                #ax.plot(self._data)
 		for _i, _p in enumerate(self._peakind):
 			if(_i < len(self._peakind) and _i > 0):
 				
@@ -30,7 +29,6 @@ class HalfRecoveryTimeDetector:
 				_diff = self._gaussianData[_p] - self._gaussianData[self._peakind [_i-1  ]]
 				#Calculate only data within the threshold
 				if(_diff > 0.04): #
-					print "peak #",_p
 					#calculateRaisingTime
 					_limLeft = self._peakind[_i-1]
 					_limRight = self._peakind[_i]
@@ -46,33 +44,34 @@ class HalfRecoveryTimeDetector:
 					#calculateHalfRecoveryTime
 					if ( _i < len(self._peakind)-1):
 						_nextPeak = self._peakind[_i+1]
-						print "HR_peak",_currentPeak,_nextPeak
+						#print "HR_peak",_currentPeak,_nextPeak
 						_segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:_nextPeak]
 					else:
 						_segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:]
 						
+			
 					_halfAmplitude = _amplitude / 2.0
 					_halfRecoveryTime = None
 					_hrtPointValue = None
 					for _x,_val in enumerate(_segmentToSearchHalfRecoveryTime):
-						print "halfampli",_halfAmplitude,_amplitude/2.0
 						_valueAtPeak = self._gaussianData[_currentPeak]
 						_ampliDiff = _valueAtPeak - _halfAmplitude
-						print "amplidiff", _valueAtPeak - _ampliDiff
-						if( _val - _ampliDiff < 0.00000000000000001):
-							print "hrt",_currentPeak,_ampliDiff, _x + _currentPeak
+						if( _val - _ampliDiff < 0.00000000000000001): #Now with Zero* diff!
+							#print "hrt",_currentPeak,_ampliDiff, _x + _currentPeak
 							_hrtPoint = _currentPeak +_x
 							_hrtPointValue = self._gaussianData[_hrtPoint]
-							ax.scatter(  _hrtPoint  , self._gaussianData[_hrtPoint],color='m' )
+							ax.scatter(  _hrtPoint  , self._gaussianData[_hrtPoint],color='m',marker="x")
 							_halfRecoveryTime = _hrtPoint - _currentPeak
-							break
+							break # we ain't no need your data dawg
 					ax.scatter(  _p , self._gaussianData[_p],color='r' )
 					ax.scatter(  _c,self._gaussianData[_c],color='y')
-					print "amplitude",_amplitude
-					print "rise time",_risingTime
-					print "peakIndex",_p
-					print "HRTPeak: #%f, Amplitude: %f, Raise Time: %f, HRT: %s, ValAtHRT:%s" \
-						%(_p,_amplitude,_risingTime,str(_halfRecoveryTime),str(_hrtPointValue))
+					_peakData = [_p,_amplitude,_risingTime,str(_halfRecoveryTime),str(_hrtPointValue)]
+					self.peaks.append(_peakData)
+					#print "amplitude",_amplitude
+					#print "rise time",_risingTime
+					#print "peakIndex",_p
+					#print "HRTPeak: #%f, Amplitude: %f, Raise Time: %f, HRT: %s, ValAtHRT:%s" \
+					#	%(_p,_amplitude,_risingTime,str(_halfRecoveryTime),str(_hrtPointValue))
 			else:
 				ax.scatter(  _p , self._gaussianData[_p],color='g' )
 		plt.grid(True)
