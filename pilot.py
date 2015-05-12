@@ -309,7 +309,7 @@ if (__name__ == "__main__"):
 	_gsrData = s.groupBySec(s._dataGSR,True,False)[100:800]
 	htr = HalfRecoveryTimeDetector(_gsrData[2:])
 	htr.plot("peaks.png")
-	for _peak in htr.peaks:
+	for _peak in htr._peaks:
 		print _peak
 
 
