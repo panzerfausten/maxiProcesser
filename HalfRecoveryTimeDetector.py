@@ -31,7 +31,7 @@ class HalfRecoveryTimeDetector:
 					_segmentToSearchRaisingTime = self._gaussianData[_limLeft:_limRight].tolist()
 					_raisingPoint = _segmentToSearchRaisingTime.index(min(_segmentToSearchRaisingTime))
 					_c = self._peakind[_i-1] + _raisingPoint
-
+					_peakValue = self._gaussianData[_p]
 					#Calculate amplitude and rising time
 					_amplitude = self._gaussianData[_p] - self._gaussianData[_c]
 					_risingTime = _p - _c
@@ -60,10 +60,11 @@ class HalfRecoveryTimeDetector:
 					_risingTime = _p - _risingTime
 					
 					#Pack everything up!
-					_peakData = [_p,_amplitude,_risingTime,_halfRecoveryTime,_hrtPointValue]
+					_halfRecoveryIndex = _hrtPoint
+					_peakData = { "peakIndex": _p,"peakValue": _peakValue,
+						"risingTimeIndex":_risingTime,"halfRecoveryIndex":_halfRecoveryIndex,
+						"halfRecoveryValue":_hrtPointValue}
 					self._peaks.append(_peakData)
-					#print "HRTPeak: #%f, Amplitude: %f, Raise Time: %f, HRT: %s, ValAtHRT:%s" \
-					#	%(_p,_amplitude,_risingTime,str(_halfRecoveryTime),str(_hrtPointValue))
 			else:
 				pass
 	def plot(self,figname):
@@ -78,11 +79,11 @@ class HalfRecoveryTimeDetector:
 
 		for _p in self._peaks:
 			#scatter rising point and peak
-			ax.scatter(  _p[0] , self._gaussianData[_p[0]],color='r' )
-			ax.scatter(  _p[2],self._gaussianData[_p[2]],color='y')
+			plt.scatter(  _p["peakIndex"] , self._gaussianData[_p["peakIndex"]],color='r' )
+			plt.scatter(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y')
 			#scatter the HRT
-			if _p[3] != None:
-				ax.scatter(  int(_p[3])  , self._gaussianData[ int(_p[3]) ],color='m',marker="x")
+			if _p["halfRecoveryIndex"] != None:
+				plt.scatter(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x")
 
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)
