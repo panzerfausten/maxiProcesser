@@ -77,14 +77,17 @@ class session:
 		#find the subject name:
 		for _l in _lines:
 			_r = _l.replace("\n","").split(",")
+			_digits =  len(_r[1]) - 3
+			print _digits
 			if(_r[0] == "SUBJECT"):
 				self._subjectName = _r[1]
 			elif(_r[0] == "START_TIME"):
-				self._startTime = float( _r[1][:10] +"." +_r[1][10:])
+				self._startTime = float( _r[1][:_digits] +"." +_r[1][_digits:])
 			elif(_r[0] == "END_TIME"):
-				self._endTime = float ( _r[1][:10] +"." +_r[1][10:])
+				self._endTime = float ( _r[1][:_digits] +"." +_r[1][_digits:])
 			elif(_r[0] == "DURATION"):
-				self._duration = float ( _r[1][:3] +"." +_r[1][3:])
+				self._duration = float ( _r[1][:_digits] +"." +_r[1][_digits:])
+				print self._duration
 
 	def readFile(self,path):
 		"""Reads a file from a path and returns a list with the raw data"""

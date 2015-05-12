@@ -2,8 +2,7 @@ from MyPlotter import MyPlotter
 from maxi import session
 from sklearn import preprocessing
 import numpy as np
-from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
-def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True,_plotEach=None):
+def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
 	_data_to_norm = []
@@ -31,14 +30,14 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True,_plotEac
 	elif(s._dataSOUNDS !=None):
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds())
 	else:
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_plotEach=_plotEach)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
 def none_to_nan(values):
     """Replace every 0 with 'nan' and return a copy."""
     return [float('nan') if x==None else x for x in values]
 
 
-def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=False):
 	u = u'\u00B5'
         s = session
 	_data_to_norm = []
@@ -297,54 +296,15 @@ def generateAlbumScript(subjects):
 		_album.write(" output albumTEMP.pdf\n")
 
 		_album.write(" okular albumGSR.pdf\n")
-
-def removeTimeStamps(_list):
-	_result = []
-	for _x in _list:
-		if (_x != None):
-			print _x
-			_result.append(_x[1])
-	return _result
 if (__name__ == "__main__"):
-        s = session("piloto_1_t1/1430265036998/")
-	#plotGSR("piloto_1_t1","T1",s,_limy=[0.0,5.0],_plotEach=60)
-	#plotGSR("piloto_1_t1","T1_Zoom",s,_limy=[0.0,1.0],_limx=[350,450],_plotEach=60)
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1500]
-	htr = HalfRecoveryTimeDetector(_gsrData[2:])
-	htr.plot("peaks.png")
-	
+        	s = session("driving1/1430943595332/")
+		plotGSR("driving1","Driving1",s,_limy=[0.0,10.0])
+        	
+		s = session("driving2/1430949608005/")
+		plotGSR("driving2","Driving2",s,_limy=[0.0,10.0])
 
-
-	s = session("p2/p2_t1/1430349866785/")
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[180:240]
-	print _gsrData
-	htr = HalfRecoveryTimeDetector(_gsrData[2:])
-	htr.plot("peaks_T1_p2")
-
-	"""
-	#s = session("piloto_1_t1/1430265036998/")
-
-	###P2
-	s = session("p2/p2_test/1430349218221/")
-	plotGSR("p2/p2_test","Rest",s,_limy=[0.0,5.0],_plotEach=60)
-	plotHR("p2/p2_test","Rest",s,_limy=[0,150])
-
-	s = session("p2/p2_t1/1430349866785/")
-	plotGSR("p2/p2_t1","t1",s,_limy=[0.0,5.0],_plotEach=60)
-	plotGSR("p2/p2_t1","t1_zoom",s,_limy=[0.0,1.0],_limx=[100,200],_plotEach=60)
-	plotHR("p2/p2_t1","t1",s,_limy=[0,150])
-	
-	s = session("P_t11/1430865724248/")
-	plotGSR("P_t11","",s,_limy=[0.0,1.0])
-	plotEEG1("piloto_1","Rest",s)
-	plotEEG2("piloto_1","Rest",s)
-	plotEEG3("piloto_1","Rest",s)
-	plotEEG4("piloto_1","Rest",s)
-	#plotTEMP("piloto_1","Rest",s,_limy=[30.0,40.0]) not useful
-	plotGSR("piloto_1_t1","Test",s,_limy=[0.0,5.0])
-	plotEEG1("piloto_1_t1","Test",s,_limx=[800,1200])
-	plotEEG2("piloto_1_t1","Test",s,_limx=[800,1200])
-	plotEEG3("piloto_1_t1","Test",s,_limx=[800,1200])
-	plotEEG4("piloto_1_t1","Test",s,_limx=[800,1200])
-	plotTEMP("piloto_1_t1","Test",s,_limy=[30.0,40.0])
-	"""
+		s = session("noeeg/1430940311152/")
+		plotGSR("noeeg","noeeg",s,_limy=[0.0,10.0])
+		
+		s = session("tienda/1430947370234/")
+		plotGSR("tienda","tienda",s,_limy=[0.0,10.0])
