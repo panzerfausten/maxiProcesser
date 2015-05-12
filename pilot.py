@@ -308,15 +308,15 @@ def removeTimeStamps(_list):
 if (__name__ == "__main__"):
         s = session("piloto_1_t1/1430265036998/")
 	#plotGSR("piloto_1_t1","T1",s,_limy=[0.0,5.0],_plotEach=60)
-	#plotGSR("piloto_1_t1","T1_Zoom",s,_limy=[0.0,1.0],_limx=[350,450],_plotEach=60)
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1500]
+	#aplotGSR("piloto_1_t1","T1_Zoom",s,_limy=[0.0,1.0],_limx=[350,450],_plotEach=60)
+	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1000]
 	htr = HalfRecoveryTimeDetector(_gsrData[2:])
 	htr.plot("peaks.png")
 	
 
 
 	s = session("p2/p2_t1/1430349866785/")
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[180:240]
+	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1000]
 	print _gsrData
 	htr = HalfRecoveryTimeDetector(_gsrData[2:])
 	htr.plot("peaks_T1_p2")
