@@ -4,13 +4,14 @@ import pylab as plt
 from  scipy.ndimage.filters import gaussian_filter
 class HalfRecoveryTimeDetector:
 	def __init__(self,_data,_segment=None):
-		self._data = _data
+		self._data = self.removeNones(_data)
 		self._segment = _segment
 		self.limy = [0,5]
 		self.limx = [0,len(_data)]
 		self._peaks = []
 		self.detect()
-
+	def removeNones(self,_data):
+		return filter(lambda x: x!=None, _data)
 	def detect(self):
 		#find all the peaks
 		self._gaussianData = gaussian_filter(self._data,1)
@@ -35,6 +36,8 @@ class HalfRecoveryTimeDetector:
 					#Calculate amplitude and rising time
 					_amplitude = self._gaussianData[_p] - self._gaussianData[_c]
 					_risingTime = _p - _c
+					_risingTime = _p - _risingTime
+					_risingTimeValue = self._gaussianData[_risingTime]
 					_currentPeak = self._peakind[_i]
 
 					#calculate segment to search the Half Recovery Time
@@ -48,25 +51,35 @@ class HalfRecoveryTimeDetector:
 					_halfAmplitude = _amplitude / 2.0
 					_halfRecoveryTime = None
 					_hrtPointValue = None
+					_hrtPointIndex = None
+					_halfRecoveryIndex = None
 					#And find the right HRT
 					for _x,_val in enumerate(_segmentToSearchHalfRecoveryTime):
 						_valueAtPeak = self._gaussianData[_currentPeak]
 						_ampliDiff = _valueAtPeak - _halfAmplitude
 						if( _val - _ampliDiff < 0.00000000000000001): #Now with Zero* diff!
-							_hrtPoint = _currentPeak +_x
-							_hrtPointValue = self._gaussianData[_hrtPoint]
-							_halfRecoveryTime = _hrtPoint #+ _currentPeak
+							_hrtPointIndex = _currentPeak +_x
+							_hrtPointValue = self._gaussianData[_hrtPointIndex]
+							_halfRecoveryTime = _hrtPointIndex #+ _currentPeak
 							break # we ain't no need your data dawg
-					_risingTime = _p - _risingTime
 					
 					#Pack everything up!
-					_halfRecoveryIndex = _hrtPoint
-					_peakData = { "peakIndex": _p,"peakValue": _peakValue,
-						"risingTimeIndex":_risingTime,"halfRecoveryIndex":_halfRecoveryIndex,
-						"halfRecoveryValue":_hrtPointValue}
+					_halfRecoveryIndex = _hrtPointIndex
+					_peakData = { "peakIndex": _p,"peakValue": _peakValue,	
+						"risingTimeIndex":_risingTime,"risingTimeValue": _risingTimeValue,"halfRecoveryIndex":_halfRecoveryIndex,
+						"halfRecoveryValue":_hrtPointValue, "distanceToPrevPeak": None}
 					self._peaks.append(_peakData)
-			else:
-				pass
+
+				#Aaand do some more math
+				self.calculateDistances()
+	def calculateDistances(self):
+		if (self._peaks != None):
+			for  _i, _peak in enumerate(self._peaks):
+				if ( _i > 0):
+					_peak["distanceToPrevPeak"] = _peak["peakIndex"] - self._peaks[_i-1]["peakIndex"]
+					
+		else:
+			raise Exception("You must to call detect() first")
 	def plot(self,figname):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
