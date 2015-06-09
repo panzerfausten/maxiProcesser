@@ -2,7 +2,11 @@ from MyPlotter import MyPlotter
 from maxi import session
 from sklearn import preprocessing
 import numpy as np
+<<<<<<< HEAD:darien.py
 from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
+=======
+from  HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
+>>>>>>> 1a1382c0a6c5b344426537912e638d2126ed7b31:process.py
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -298,6 +302,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
+<<<<<<< HEAD:darien.py
         	s = session("abue/1433282828708/")
 		plotGSR("abue","abue",s,_limy=[0.0,10.0])
                 _gsrData = s.groupBySec(s._dataGSR,True,False)[1000:]
@@ -305,3 +310,19 @@ if (__name__ == "__main__"):
                 hrt = HalfRecoveryTimeDetector(_gsrData)
                 print hrt._peaks
                 hrt.plot("abue.png")
+=======
+        	s = session("p1/carlos_S1_R1/1433807211979/")
+		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,10.0])
+		_data = s.groupBySec(s._dataGSR,True,False)
+		htr = HalfRecoveryTimeDetector(_data)
+		htr.plot("carlos_T1")
+
+        	s = session("p2/eduardo/1433809471952/")
+		plotGSR("p2/eduardo","eduardo",s,_limy=[0.0,10.0])
+		_data = s.groupBySec(s._dataGSR,True,False)
+		htr = HalfRecoveryTimeDetector(_data)
+		htr.plot("eduardo_T1")
+
+
+
+>>>>>>> 1a1382c0a6c5b344426537912e638d2126ed7b31:process.py
