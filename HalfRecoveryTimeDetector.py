@@ -6,8 +6,6 @@ class HalfRecoveryTimeDetector:
 	def __init__(self,_data,_segment=None):
 		self._data = self.removeNones(_data)
 		self._segment = _segment
-		self.limy = [0,5]
-		self.limx = [0,len(_data)]
 		self._peaks = []
 		self.detect()
 	def removeNones(self,_data):
@@ -86,9 +84,11 @@ class HalfRecoveryTimeDetector:
                 ax.plot(self._gaussianData) #plot the processed data
 		plt.grid(True)
 		plt.show()
+
 		#set axis. Nazi axis?
-		plt.ylim(self.limy)
-                plt.xlim(self.limx)
+		ax.set_ylabel("uS")
+                ax.set_xlabel("Seconds")
+                ax.set_title("Peak and Half Time Recovery detection")
 
 		for _p in self._peaks:
 			#scatter rising point and peak

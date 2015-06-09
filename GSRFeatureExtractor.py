@@ -1,6 +1,11 @@
 from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
 
 class GSRFeatureExtractor:
+	""" 
+	This class provides a middleware to extract GSR signal features.
+	Just add the data as a list in the constructor and call extract()
+	"""
+
 	def __init__(self,_data):
 		self._data = _data
 		try:

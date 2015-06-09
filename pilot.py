@@ -306,21 +306,21 @@ if (__name__ == "__main__"):
         s = session("piloto_1_t1/1430265036998/")
 	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1000]
 	htr = HalfRecoveryTimeDetector(_gsrData[2:])
-	htr.plot("peaks.png")
+	htr.plot("peaks.svg")
 	print "Number of peaks in segment:",len(htr._peaks)
 	for _p in htr._peaks:
 		print _p
 	_eegData = s.groupBySec(s._dataEEG1,True,False)[1000:1200]
-	plotEEG1("piloto_1","t1",s,_limx=[1000,1200])
-	plotHR("piloto_1","t1",s)
+	#plotEEG1("piloto_1","t1",s,_limx=[1000,1200])
+	#plotHR("piloto_1","t1",s)
 
  	##N7 T1
 
 
-        s = session("n7/n7_1/1425685387543/")
-	_gsrData = s.groupBySec(s._dataGSR,True,False)
-	htr = HalfRecoveryTimeDetector(_gsrData[2:1000])
-	htr.plot("peaks_N7.png")
+        #s = session("oldData/n7/n7_1/1425685387543/")
+	#_gsrData = s.groupBySec(s._dataGSR,True,False)
+	#htr = HalfRecoveryTimeDetector(_gsrData[2:1000])
+	#htr.plot("peaks_N7.svg")
 
 
 	
