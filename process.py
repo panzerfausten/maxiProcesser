@@ -104,7 +104,7 @@ def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value (C)"+u,color='blue',limx=_limx,limy=_limy)
         m.plot(_path_raw)
 
-def plotHR_ZEPHYR(subject,test, sounds = [],_limx=None,_limy=None,groupBySec=False):
+def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=False):
         s = session
 	_data_to_norm = []
 	min_max_scaler = preprocessing.MinMaxScaler()
@@ -300,13 +300,17 @@ def generateAlbumScript(subjects):
 if (__name__ == "__main__"):
         	s = session("p1/carlos_S1_R1/1433807211979/")
 		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,10.0])
-		_data = s.groupBySec(s._dataGSR,True,False)
-		htr = HalfRecoveryTimeDetector(_data)
-		htr.plot("carlos_T1")
+		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_hr",s,_limy=[0,120])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                for _x in range(0,len(_data),600):
+                    htr = HalfRecoveryTimeDetector(_data[_x:_x+600])
+		    htr.plot("carlos_T1_min_%i" %(_x))
 
         	s = session("p2/eduardo/1433809471952/")
 		plotGSR("p2/eduardo","eduardo",s,_limy=[0.0,10.0])
+		plotHR_ZEPHYR("p2/eduardo","eduardo_HR",s,_limy=[0.0,120])
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("eduardo_T1")
-
+                print htr.toCSV()

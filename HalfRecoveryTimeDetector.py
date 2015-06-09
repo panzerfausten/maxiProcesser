@@ -2,6 +2,7 @@ from scipy import signal
 import numpy as np
 import pylab as plt
 from  scipy.ndimage.filters import gaussian_filter
+import json
 class HalfRecoveryTimeDetector:
 	def __init__(self,_data,_segment=None):
 		self._data = self.removeNones(_data)
@@ -84,12 +85,12 @@ class HalfRecoveryTimeDetector:
                 ax.plot(self._gaussianData) #plot the processed data
 		plt.grid(True)
 		plt.show()
-
+            
 		#set axis. Nazi axis?
 		ax.set_ylabel("uS")
                 ax.set_xlabel("Seconds")
                 ax.set_title("Peak and Half Time Recovery detection")
-
+                plt.ylim([0,5])
 		for _p in self._peaks:
 			#scatter rising point and peak
 			plt.scatter(  _p["peakIndex"] , self._gaussianData[_p["peakIndex"]],color='r' )
@@ -100,3 +101,12 @@ class HalfRecoveryTimeDetector:
 
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)
+        def toJson(self):
+            return json.dumps(self._peaks)
+        def toCSV(self):
+            for _peak in self._peaks:
+                    _valsToPrint = []
+                    for _val in _peak:
+                        _valsToPrint.append(str(_peak[_val]))
+                    print ",".join(_valsToPrint)
+
