@@ -147,8 +147,6 @@ def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	_label = "Seconds"
 	if(_groupBySec):
 		_dataToPlot = s.groupBySec(s._dataEEG1,True,False)
-		print _dataToPlot[0]
-		print s._dataEEG1[0]
 	else:	
 		_dataToPlot = []
 		_label = "Values "
@@ -302,24 +300,34 @@ def removeTimeStamps(_list):
 	_result = []
 	for _x in _list:
 		if (_x != None):
-			print _x
 			_result.append(_x[1])
 	return _result
 if (__name__ == "__main__"):
         s = session("piloto_1_t1/1430265036998/")
-	#plotGSR("piloto_1_t1","T1",s,_limy=[0.0,5.0],_plotEach=60)
-	#plotGSR("piloto_1_t1","T1_Zoom",s,_limy=[0.0,1.0],_limx=[350,450],_plotEach=60)
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1500]
+	_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1000]
 	htr = HalfRecoveryTimeDetector(_gsrData[2:])
 	htr.plot("peaks.png")
+	print "Number of peaks in segment:",len(htr._peaks)
+	for _p in htr._peaks:
+		print _p
+	_eegData = s.groupBySec(s._dataEEG1,True,False)[1000:1200]
+	plotEEG1("piloto_1","t1",s,_limx=[1000,1200])
+	plotHR("piloto_1","t1",s)
+
+ 	##N7 T1
+
+
+        s = session("n7/n7_1/1425685387543/")
+	_gsrData = s.groupBySec(s._dataGSR,True,False)
+	htr = HalfRecoveryTimeDetector(_gsrData[2:1000])
+	htr.plot("peaks_N7.png")
+
+
 	
-
-
-	s = session("p2/p2_t1/1430349866785/")
-	_gsrData = s.groupBySec(s._dataGSR,True,False)[180:240]
-	print _gsrData
-	htr = HalfRecoveryTimeDetector(_gsrData[2:])
-	htr.plot("peaks_T1_p2")
+	#s = session("p2/p2_t1/1430349866785/")
+	#_gsrData = s.groupBySec(s._dataGSR,True,False)[0:1000]
+	#htr = HalfRecoveryTimeDetector(_gsrData[2:])
+	#htr.plot("peaks_T1_p2")
 
 	"""
 	#s = session("piloto_1_t1/1430265036998/")

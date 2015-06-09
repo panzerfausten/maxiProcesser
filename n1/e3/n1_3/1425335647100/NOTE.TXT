@@ -1,2 +1,0 @@
- the trial started 35 secs later.
- please remove first 35 seconds of data
