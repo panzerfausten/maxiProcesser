@@ -368,4 +368,4 @@ if (__name__ == "__main__"):
 		plotGSR("p4/celia_rest","celia_rest",s,_limy=[0.0,10.0])
 		plotHR_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,120],_limx=[290,2300])
 		plotIBI_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,1.5],_limx=[290,2300])
-                print htr.toCSV()
+                #print htr.toCSV()
