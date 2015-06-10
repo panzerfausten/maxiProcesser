@@ -313,4 +313,17 @@ if (__name__ == "__main__"):
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("eduardo_T1")
+
+                ######p3 and p4###################
+        	s = session("p3/karime_T1/1433892485204/")
+		plotGSR("p3/karime_T1","karime_T1",s,_limy=[0.0,10.0])
+		#plotHR_ZEPHYR("p3/karime_T1","",s,_limy=[0,120])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                print htr.toCSV()
+                s = session("p4/celia_rest/1433894624813/")
+		plotGSR("p4/celia_rest","celia_rest",s,_limy=[0.0,10.0])
+		#plotHR_ZEPHYR("p3/karime_T1","",s,_limy=[0,120])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
                 print htr.toCSV()
