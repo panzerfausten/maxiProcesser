@@ -90,7 +90,7 @@ class HalfRecoveryTimeDetector:
 		ax.set_ylabel("uS")
                 ax.set_xlabel("Seconds")
                 ax.set_title("Peak and Half Time Recovery detection")
-                plt.ylim([0,5])
+                plt.ylim([0,4])
 		for _p in self._peaks:
 			#scatter rising point and peak
 			plt.scatter(  _p["peakIndex"] , self._gaussianData[_p["peakIndex"]],color='r' )
