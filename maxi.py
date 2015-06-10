@@ -40,6 +40,7 @@ class session:
                 self._dataBVP = None
                 self._dataHR = None
                 self._dataZEPHYR = None
+                self._dataZEPHYR_IBI = None
                 self._dataSOUNDS = None
                 self._dataCODIFICATION = None
                 self._dataEEG = None

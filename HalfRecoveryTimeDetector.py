@@ -82,22 +82,21 @@ class HalfRecoveryTimeDetector:
 	def plot(self,figname):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
-                ax.plot(self._gaussianData) #plot the processed data
 		plt.grid(True)
-		plt.show()
+                plt.plot(self._gaussianData) #plot the processed data
             
 		#set axis. Nazi axis?
 		ax.set_ylabel("uS")
                 ax.set_xlabel("Seconds")
                 ax.set_title("Peak and Half Time Recovery detection")
-                plt.ylim([0,4])
+                plt.ylim([0,6])
 		for _p in self._peaks:
-			#scatter rising point and peak
-			plt.scatter(  _p["peakIndex"] , self._gaussianData[_p["peakIndex"]],color='r' )
-			plt.scatter(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y')
-			#scatter the HRT
+			#overplot rising point and peak
+			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o" )
+			plt.plot(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y',marker="o")
+			#overplot the HRT
 			if _p["halfRecoveryIndex"] != None:
-				plt.scatter(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x")
+				plt.plot(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x")
 
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)

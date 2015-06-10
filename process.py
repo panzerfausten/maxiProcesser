@@ -139,6 +139,42 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
         #m.plot(_path_norm)  not norm by now
+def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True):
+        s = session
+	_data_to_norm = []
+	min_max_scaler = preprocessing.MinMaxScaler()
+	for _x in s._dataZEPHYR_IBI:
+		_data_to_norm.append(_x[1])
+
+	_dataAvgBySec = s.groupBySec(s._dataZEPHYR_IBI,False,True)
+	#_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+        _title_raw = "IBI: [%s,%s,raw]" % (subject,test)
+	#_title_norm = "HR: [%s,%s,normalized]" % (subject,test)
+
+	_path_raw = "%s/plots/%s_%s_IBI_raw" % (subject,subject,test)
+	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
+	if (s._dataSOUNDS != None):
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+	elif (s._dataCODIFICATION != None):
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+
+	else:
+		if(groupBySec):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy)
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy)
+	
+        m.plot(_path_raw)
+	
+	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
+        #m.plot(_path_norm)  not norm by now
+
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -298,18 +334,20 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
-        	#s = session("p1/carlos_S1_R1/1433807211979/")
-		#plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,10.0])
-		#plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_hr",s,_limy=[0,120])
-                #_data = s.groupBySec(s._dataGSR,True,False)
-                #htr = HalfRecoveryTimeDetector(_data)
+        	s = session("p1/carlos_S1_R1/1433807211979/")
+		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,10.0])
+		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_hr",s,_limy=[0,120],_limx=[0.0,2000])
+		plotIBI_ZEPHYR("p1/carlos_S1_R1","carlos_ibi",s,_limy=[0,1],_limx=[0.0,2000])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
                 #for _x in range(0,len(_data),600):
                 #    htr = HalfRecoveryTimeDetector(_data[_x:_x+600])
-		#    htr.plot("carlos_T1_min_%i" %(_x))
+		htr.plot("carlos_T1")
 
         	s = session("p2/eduardo/1433809471952/")
 		plotGSR("p2/eduardo","eduardo",s,_limy=[0.0,10.0])
-		#plotHR_ZEPHYR("p2/eduardo","eduardo_HR",s,_limy=[0.0,120])
+		plotHR_ZEPHYR("p2/eduardo","eduardo_HR",s,_limy=[0.0,120])
+		plotIBI_ZEPHYR("p2/eduardo","eduardo_IBI",s,_limy=[0,1.5])
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("eduardo_T1")
@@ -317,13 +355,17 @@ if (__name__ == "__main__"):
                 ######p3 and p4###################
         	s = session("p3/karime_T1/1433892485204/")
 		plotGSR("p3/karime_T1","karime_T1",s,_limy=[0.0,10.0])
-		#plotHR_ZEPHYR("p3/karime_T1","",s,_limy=[0,120])
+		plotHR_ZEPHYR("p3/karime_T1","karime_T1",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p3/karime_T1","karime_T1",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                print htr.toCSV()
+
+                #print htr.toCSV()
                 s = session("p4/celia_rest/1433894624813/")
-		plotGSR("p4/celia_rest","celia_rest",s,_limy=[0.0,10.0])
-		#plotHR_ZEPHYR("p3/karime_T1","",s,_limy=[0,120])
                 _data = s.groupBySec(s._dataGSR,True,False)
-                htr = HalfRecoveryTimeDetector(_data)
+                htr = HalfRecoveryTimeDetector(_data[290:])
+		htr.plot("p4/celia_rest/plots/p4/celia_hrt")
+		plotGSR("p4/celia_rest","celia_rest",s,_limy=[0.0,10.0])
+		plotHR_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,120],_limx=[290,2300])
+		plotIBI_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,1.5],_limx=[290,2300])
                 print htr.toCSV()
