@@ -2,7 +2,7 @@ import pylab as plt
 import numpy as np
 
 class MyPlotter:
-        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None,linestyle="solid",_plotEach = None,_xTick=None,_yTick=None):
+        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None,linestyle="solid",_plotEach = None,_xTick=None,_yTick=None,_yTickMinor=None):
                 self.data = data
                 self.title = title
 		self.labelX = labelX
@@ -16,6 +16,7 @@ class MyPlotter:
 		self.plotEach = _plotEach
                 self._xTick = _xTick
                 self._yTick = _yTick
+                self._yTickMinor = _yTickMinor
         def plot(self,outputFigure):
                 #init the plot
                 fig, ax = plt.subplots()
@@ -26,17 +27,19 @@ class MyPlotter:
                 ax.set_xlabel(self.labelX)
                 ax.set_ylabel(self.labelY)
                 ax.set_title(self.title)
-                if (self._xTick != None and self._yTick != None):
+                if (self._yTickMinor == None):
+                    self._yTickMinor = self._xTick/2.0
+                if (self._xTick != None or self._yTick != None):
                     # major ticks every 200, minor ticks every 100
                     major_ticks = np.arange(0, len(self.data), self._xTick)
                     minor_ticks = np.arange(0, len(self.data), self._xTick/2.0)
 
                     major_ticks_y = np.arange(0, len(self.data), self._yTick)
-                    minor_ticks_y = np.arange(0, max(self.data), self._yTick/2.0)
-                    ax.set_xticks(major_ticks)
-                    ax.set_xticks(minor_ticks, minor=True)          
-                    ax.set_yticks(major_ticks_y)                
-                    ax.set_yticks(minor_ticks_y, minor=True)                 
+                    minor_ticks_y = np.arange(0, len(self.data), self._yTickMinor)
+                    #ax.set_xticks(major_ticks)
+                    #ax.set_xticks(minor_ticks, minor=True)          
+                    #ax.set_yticks(major_ticks_y)                
+                    #ax.set_yticks(minor_ticks_y, minor=True)                 
           
 
 

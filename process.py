@@ -155,20 +155,20 @@ def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,group
         #_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
         if (s._dataSOUNDS != None):
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0,_yTickMinor=0.1)
         elif (s._dataCODIFICATION != None):
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
 
         else:
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy)
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy)
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
 
         m.plot(_path_raw)
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
