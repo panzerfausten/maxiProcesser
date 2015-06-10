@@ -139,6 +139,38 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
         #m.plot(_path_norm)  not norm by now
+def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True):
+        s = session
+        _data_to_norm = []
+        min_max_scaler = preprocessing.MinMaxScaler()
+        for _x in s._dataZEPHYR_IBI:
+                _data_to_norm.append(_x[1])
+
+        _dataAvgBySec = s.groupBySec(s._dataZEPHYR_IBI,False,True)
+        #_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
+        _title_raw = "IBI: [%s,%s,raw]" % (subject,test)
+        #_title_norm = "HR: [%s,%s,normalized]" % (subject,test)
+
+        _path_raw = "%s/plots/%s_%s_IBI_raw" % (subject,subject,test)
+        #_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
+        if (s._dataSOUNDS != None):
+                if(groupBySec):
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+                else:
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds())
+        elif (s._dataCODIFICATION != None):
+                if(groupBySec):
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+                else:
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION)
+
+        else:
+                if(groupBySec):
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy)
+                else:
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy)
+
+        m.plot(_path_raw)
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
