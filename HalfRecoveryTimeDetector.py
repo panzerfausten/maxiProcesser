@@ -89,6 +89,24 @@ class HalfRecoveryTimeDetector:
 		ax.set_ylabel("uS")
                 ax.set_xlabel("Seconds")
                 ax.set_title("Peak and Half Time Recovery detection")
+                # major ticks every 200, minor ticks every 100
+                major_ticks = np.arange(0, len(self._data), 200)                                              
+                minor_ticks = np.arange(0, len(self._data), 100)     
+
+                major_ticks_y = np.arange(0, len(self._data), 1)                                              
+                minor_ticks_y = np.arange(0, len(self._data), 0.5)     
+                ax.set_xticks(major_ticks)                                                       
+                ax.set_xticks(minor_ticks, minor=True)                                           
+                ax.set_yticks(major_ticks_y)                                                       
+                ax.set_yticks(minor_ticks_y, minor=True)                                           
+
+                # and a corresponding grid                                                       
+                
+                ax.grid(which='both')                                                            
+
+                # or if you want differnet settings for the grids:                               
+                ax.grid(which='minor', alpha=0.2)                                                
+                ax.grid(which='major', alpha=0.5)    
                 plt.ylim([0,6])
 		for _p in self._peaks:
 			#overplot rising point and peak
