@@ -36,8 +36,8 @@ class MyPlotter:
 
                     major_ticks_y = np.arange(0, len(self.data), self._yTick)
                     minor_ticks_y = np.arange(0, len(self.data), self._yTickMinor)
-                    #ax.set_xticks(major_ticks)
-                    #ax.set_xticks(minor_ticks, minor=True)          
+                    ax.set_xticks(major_ticks)
+                    ax.set_xticks(minor_ticks, minor=True)          
                     #ax.set_yticks(major_ticks_y)                
                     #ax.set_yticks(minor_ticks_y, minor=True)                 
           

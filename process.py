@@ -118,24 +118,11 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 
 	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
 	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
-	if (s._dataSOUNDS != None):
-		if(groupBySec):
-			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=20)
-		else:
-			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=20)
-	elif (s._dataCODIFICATION != None):
-		if(groupBySec):
-			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=20)
-		else:
-			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=20)
-
+	if(groupBySec):
+		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
 	else:
-		if(groupBySec):
-			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
-		else:
-			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
-		
-        m.plot(_path_raw)
+		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
+		m.plot(_path_raw)
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
         #m.plot(_path_norm)  not norm by now
@@ -362,16 +349,18 @@ if (__name__ == "__main__"):
                 """
                 ######p5 and p6###################
         	s = session("p5/alma_rest/1433977560736/")
-		plotGSR("p5/alma_rest","alma_rest",s,_limy=[0.0,10.0])
-		plotHR_ZEPHYR("p5/alma_rest","",s,_limy=[0,120])
+		#plotGSR("p5/alma_rest","alma_rest",s,_limy=[0.0,10.0])
+		#plotHR_ZEPHYR("p5/alma_rest","",s,_limy=[0,120])
+		#plotIBI_ZEPHYR("p5/alma_rest","alma_ibi",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p5/alma_rest/alma_htr")
-
         	s = session("p6/luis_relax/1433979780288/")
-		plotGSR("p6/luis_relax","luis_relax",s,_limy=[0.0,10.0])
-		plotHR_ZEPHYR("p6/luis_relax","",s,_limy=[0,120])
+		#plotGSR("p6/luis_relax","luis_relax",s,_limy=[0.0,20.0])
+		#plotHR_ZEPHYR("p6/luis_relax","",s,_limy=[0,120])
+		#plotIBI_ZEPHYR("p6/luis_relax","",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p6/luis_relax/luis_htr")
+                htr.plot("p6/luis_relax/luis_htr",_ylim=[0,15])
+		print htr.toCSV()
 
