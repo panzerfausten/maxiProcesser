@@ -330,7 +330,8 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
-        	s = session("p1/carlos_S1_R1/1433807211979/")
+        	"""
+                s = session("p1/carlos_S1_R1/1433807211979/")
 		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,10.0])
 		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_hr",s,_limy=[0,120])
                 _data = s.groupBySec(s._dataGSR,True,False)
@@ -352,8 +353,25 @@ if (__name__ == "__main__"):
 		plotHR_ZEPHYR("p3/karime_T1","",s,_limy=[0,120])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                print htr.toCSV()
+
                 s = session("p4/celia_rest/1433894624813/")
 		plotGSR("p4/celia_rest","celia_rest",s,_limy=[0.0,10.0])
 		plotHR_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,120],_limx=[290,2300])
 		plotIBI_ZEPHYR("p4/celia_rest","celia",s,_limy=[0,1.5],_limx=[290,2300])
+
+                """
+                ######p5 and p6###################
+        	s = session("p5/alma_rest/1433977560736/")
+		plotGSR("p5/alma_rest","alma_rest",s,_limy=[0.0,10.0])
+		plotHR_ZEPHYR("p5/alma_rest","",s,_limy=[0,120])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p5/alma_rest/alma_htr")
+
+        	s = session("p6/luis_relax/1433979780288/")
+		plotGSR("p6/luis_relax","luis_relax",s,_limy=[0.0,10.0])
+		plotHR_ZEPHYR("p6/luis_relax","",s,_limy=[0,120])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p6/luis_relax/luis_htr")
+
