@@ -324,7 +324,7 @@ if (__name__ == "__main__"):
                 plotIBI_ZEPHYR("p1/carlos_S1_R1","carlos_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-		htr.plot("p1/carlos_S1_R1/carlos_S1_R1_HTR")
+		htr.plot("p1/carlos_S1_R1/plots/carlos_S1_R1_HTR")
 
         	s = session("p2/eduardo/1433809471952/")
 		plotGSR("p2/eduardo","eduardo_GSR",s,_limy=[0.0,10.0])
@@ -333,7 +333,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p2/eduardo","eduardo_IBI",s,_limy=[0,1.5])
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
-		htr.plot("p2/eduardo/eduardo_HTR")
+		htr.plot("p2/eduardo/plots/eduardo_HTR")
 
                 ######p3 and p4###################
         	s = session("p3/karime_T1/1433892485204/")
@@ -343,7 +343,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p3/karime_T1","karime_T1_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p3/karime_T1/karime_T1_TEMP")
+                htr.plot("p3/karime_T1/plots/karime_T1_TEMP")
 
                 s = session("p4/celia_rest/1433894624813/")
 		plotGSR("p4/celia_rest","celia_rest_GSR",s,_limy=[0.0,10.0])
@@ -352,7 +352,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p4/celia_rest","celia_rest_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p4/celia_rest/celia_HTR")
+                htr.plot("p4/celia_rest/plots/celia_HTR")
                 ######p5 and p6###################
         	s = session("p5/alma_rest/1433977560736/")
 		plotGSR("p5/alma_rest","alma_rest_GSR",s,_limy=[0.0,10.0])
@@ -361,7 +361,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p5/alma_rest/alma_rest_htr")
+                htr.plot("p5/alma_rest/plots/alma_rest_htr")
 
 
         	s = session("p6/luis_relax/1433979780288/")
@@ -371,7 +371,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p6/luis_relax","luis_relax_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p6/luis_relax/luis_relax_HTR",_ylim=[0,15])
+                htr.plot("p6/luis_relax/plots/luis_relax_HTR",_ylim=[0,15])
 
                 ######p7 and p8###################
 		s = session("p7/alfonso_relax/1434064078558/")
@@ -381,7 +381,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p7/alfonso_relax","alfonso_relax_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax/alfonso_relax_htr",_ylim=[0,20])
+                htr.plot("p7/alfonso_relax/plots/alfonso_relax_htr",_ylim=[0,20])
 
 		s = session("p8/angello_relax/1434066549276/")
 		plotGSR("p8/angello_relax","angello_relax_GSR",s,_limy=[0.0,10.0])
@@ -390,7 +390,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p8/angello_relax","angello_relax_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p8/angello_relax/angello_relax_HTR")
+                htr.plot("p8/angello_relax/plots/angello_relax_HTR")
 		print htr.toCSV()
 
 
