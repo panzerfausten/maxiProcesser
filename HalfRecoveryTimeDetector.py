@@ -112,11 +112,11 @@ class HalfRecoveryTimeDetector:
 		plt.ylim(_ylim)
 		for _p in self._peaks:
 			#overplot rising point and peak
-			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o" )
-			plt.plot(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y',marker="o")
+			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o",markersize=5 )
+			plt.plot(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y',marker="o",markersize=5)
 			#overplot the HRT
 			if _p["halfRecoveryIndex"] != None:
-				plt.plot(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x")
+				plt.plot(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x",markersize=5)
 
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)

@@ -348,19 +348,40 @@ if (__name__ == "__main__"):
 
                 """
                 ######p5 and p6###################
-        	s = session("p5/alma_rest/1433977560736/")
+        	#s = session("p5/alma_rest/1433977560736/")
 		#plotGSR("p5/alma_rest","alma_rest",s,_limy=[0.0,10.0])
 		#plotHR_ZEPHYR("p5/alma_rest","",s,_limy=[0,120])
 		#plotIBI_ZEPHYR("p5/alma_rest","alma_ibi",s,_limy=[0,1.5])
-                _data = s.groupBySec(s._dataGSR,True,False)
-                htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p5/alma_rest/alma_htr")
-        	s = session("p6/luis_relax/1433979780288/")
+                #_data = s.groupBySec(s._dataGSR,True,False)
+                #htr = HalfRecoveryTimeDetector(_data)
+                #htr.plot("p5/alma_rest/alma_htr")
+        	#s = session("p6/luis_relax/1433979780288/")
 		#plotGSR("p6/luis_relax","luis_relax",s,_limy=[0.0,20.0])
 		#plotHR_ZEPHYR("p6/luis_relax","",s,_limy=[0,120])
 		#plotIBI_ZEPHYR("p6/luis_relax","",s,_limy=[0,1.5])
+                #_data = s.groupBySec(s._dataGSR,True,False)
+                #htr = HalfRecoveryTimeDetector(_data)
+                #htr.plot("p6/luis_relax/luis_htr",_ylim=[0,15])
+                ######p7 and p8###################
+		s = session("p7/alfonso_relax/1434064078558/")
+		#plotGSR("p7/alfonso_relax","alfonso_relax",s,_limy=[0.0,20.0])
+		#plotHR_ZEPHYR("p7/alfonso_relax","",s,_limy=[0,120])
+		#plotIBI_ZEPHYR("p7/alfonso_relax","alfonso_ibi",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p6/luis_relax/luis_htr",_ylim=[0,15])
+                htr.plot("p7/alfonso_relax/alfonso_htr",_ylim=[0,20])
+
+		s = session("p8/angello_relax/1434066549276/")
+		#plotGSR("p8/angello_relax","angello_relax",s,_limy=[0.0,10.0])
+		#plotHR_ZEPHYR("p8/angello_relax","",s,_limy=[0,120])
+		#plotIBI_ZEPHYR("p8/angello_relax","angello_ibi",s,_limy=[0,1.5])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p8/angello_relax/angello_htr")
 		print htr.toCSV()
+
+
+
+
+
 
