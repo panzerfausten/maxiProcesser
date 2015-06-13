@@ -391,7 +391,27 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p8/angello_relax/plots/angello_relax_HTR")
-		print htr.toCSV()
+
+		s = session("p9/sandra_relax/1434150573545/")
+		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p9/sandra_relax","sandra_relax_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p9/sandra_relax","sandra_relax_IBI",s,_limy=[0,1.5])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p9/sandra_relax/plots/sandra_relax_HTR")
+
+		s = session("p10/mirna_relax/1434153018088/")
+		plotGSR("p10/mirna_relax","mirna_relax_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p10/mirna_relax","mirna_relax_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p10/mirna_relax","mirna_relax_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p10/mirna_relax","mirna_relax_IBI",s,_limy=[0,1.5])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p10/mirna_relax/plots/mirna_relax_HTR")
+
+
+
 
 
 
