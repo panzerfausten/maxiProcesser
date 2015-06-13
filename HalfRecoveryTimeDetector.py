@@ -9,6 +9,7 @@ class HalfRecoveryTimeDetector:
 		self._segment = _segment
 		self._peaks = []
 		self.detect()
+		self._xlim = None
 	def removeNones(self,_data):
 		return filter(lambda x: x!=None, _data)
 	def detect(self):
@@ -110,6 +111,7 @@ class HalfRecoveryTimeDetector:
                 if (_ylim == None):
 			_ylim = [0,6]
 		plt.ylim(_ylim)
+		plt.xlim(self._xlim)
 		for _p in self._peaks:
 			#overplot rising point and peak
 			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o",markersize=5 )
