@@ -33,7 +33,7 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	else:
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
         m.plot(_path_raw)
-def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True,_xTick=4):
 	u = u'\u00B0'
         s = session
 	_data_to_norm = []
@@ -61,7 +61,7 @@ def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	elif(s._dataSOUNDS !=None):
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u+"C",color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1)
 	else:
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u+"C",color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u+"C",color='blue',limx=_limx,limy=_limy,_xTick=_xTick,_yTick=1)
         m.plot(_path_raw)
 
 def none_to_nan(values):
@@ -103,7 +103,7 @@ def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=False):
 	else:
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=20)
         m.plot(_path_raw)
-def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=False):
+def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=False,_xTick=4):
         s = session
 	_data_to_norm = []
 	min_max_scaler = preprocessing.MinMaxScaler()
@@ -118,14 +118,14 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
 	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
 	if(groupBySec):
-		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
+		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=_xTick,_yTick=20)
 	else:
-		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
+		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=_xTick,_yTick=20)
 		m.plot(_path_raw)
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
         #m.plot(_path_norm)  not norm by now
-def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True):
+def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True,_xTick=4):
         s = session
         _data_to_norm = []
         min_max_scaler = preprocessing.MinMaxScaler()
@@ -141,20 +141,20 @@ def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,group
         #_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
         if (s._dataSOUNDS != None):
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0)
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=_xTick,_yTick=1.0)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0,_yTickMinor=0.1)
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=_xTick,_yTick=1.0,_yTickMinor=0.1)
         elif (s._dataCODIFICATION != None):
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=_xTick,_yTick=2.0,_yTickMinor=0.1)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=_xTick,_yTick=2.0,_yTickMinor=0.1)
 
         else:
                 if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
+                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=_xTick,_yTick=2.0,_yTickMinor=0.1)
                 else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
+                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy,_xTick=_xTick,_yTick=2.0,_yTickMinor=0.1)
 
         m.plot(_path_raw)
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
@@ -363,7 +363,10 @@ if (__name__ == "__main__"):
 		#plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p5/alma_rest/plots/alma_rest_htr_1183",_xlim=[1168,1198],_xTick=4)
+                htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_1560",_xlim=[1545,1575],_xTick=4)
+		plotHR_ZEPHYR("p5/alma_rest","alma_rest_HR_1560",s,_limx=[1545,1575],_xTick=4)
+		plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI_1560",s,_limx=[1545,1575],_xTick=4)
+		plotTEMP("p5/alma_rest","alma_rest_TEMP_1560",s,_limx=[1545,1575],_xTick=4)
                 #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1222,1252],_xTick=4)
                 #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1554,1584],_xTick=4)
                 #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1652,1682],_xTick=4)
