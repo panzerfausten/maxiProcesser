@@ -80,7 +80,7 @@ class HalfRecoveryTimeDetector:
 					
 		else:
 			raise Exception("You must to call detect() first")
-	def plot(self,figname,_ylim=None):
+	def plot(self,figname,_ylim=None,_xlim=None,_xTick=200,_xMinorTick=100):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
 		plt.grid(True)
@@ -91,8 +91,8 @@ class HalfRecoveryTimeDetector:
                 ax.set_xlabel("Seconds")
                 ax.set_title("Peak and Half Time Recovery detection")
                 # major ticks every 200, minor ticks every 100
-                major_ticks = np.arange(0, len(self._data), 200)                                              
-                minor_ticks = np.arange(0, len(self._data), 100)     
+                major_ticks = np.arange(0, len(self._data), _xTick)                                              
+                minor_ticks = np.arange(0, len(self._data), _xMinorTick)     
 
                 major_ticks_y = np.arange(0, len(self._data), 1)                                              
                 minor_ticks_y = np.arange(0, len(self._data), 0.5)     
@@ -111,7 +111,7 @@ class HalfRecoveryTimeDetector:
                 if (_ylim == None):
 			_ylim = [0,6]
 		plt.ylim(_ylim)
-		plt.xlim(self._xlim)
+		plt.xlim(_xlim)
 		for _p in self._peaks:
 			#overplot rising point and peak
 			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o",markersize=5 )
