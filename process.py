@@ -417,7 +417,7 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p10/mirna_relax","mirna_relax_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p10/mirna_relax/plots/mirna_relax_HTR",[0,1])
+                htr.plot("p10/mirna_relax/plots/mirna_relax_HTR",[0,10])
 		##############session2
 		s = session("p10/mirna_relax2/1434409029312/")
 		plotGSR("p10/mirna_relax2","mirna_relax2_GSR",s,_limy=[0.0,10.0])
@@ -426,5 +426,5 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p10/mirna_relax2","mirna_relax2_IBI",s,_limy=[0,1.5])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p10/mirna_relax2/plots/mirna_relax_HTR",[0,1])
+                htr.plot("p10/mirna_relax2/plots/mirna_relax_HTR",[0,10])
 
