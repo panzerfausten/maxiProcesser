@@ -354,6 +354,17 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p3/karime_T1/plots/karime_T1_TEMP")
 
+        	s = session("p3/karime_relax2/1434498836908/")
+		plotGSR("p3/karime_relax2","karime_relax2_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p3/karime_relax2","karime_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p3/karime_relax2","karime_relax2_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p3/karime_relax2","karime_relax2_IBI",s,_limy=[0,1.5])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p3/karime_relax2/plots/karime2_htr")
+
+
+                ######session2###################
                 s = session("p4/celia_rest/1433894624813/")
 		plotGSR("p4/celia_rest","celia_rest_GSR",s,_limy=[0.0,10.0])
                 plotTEMP("p4/celia_rest","celia_rest_TEMP",s,_limy=[30,40.0])
@@ -391,6 +402,18 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p7/alfonso_relax/plots/alfonso_relax_htr",_ylim=[0,20])
+
+                ######session2###################
+		s = session("p7/alfonso_relax2/1434495734670/")
+		plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR",s,_limy=[0.0,20.0])
+		plotTEMP("p7/alfonso_relax2","alfonso_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_IBI",s,_limy=[0,1.5])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p7/alfonso_relax2/plots/alfonso_relax2_htr",_ylim=[0,20])
+
+
 
 		s = session("p8/angello_relax/1434066549276/")
 		plotGSR("p8/angello_relax","angello_relax_GSR",s,_limy=[0.0,10.0])
