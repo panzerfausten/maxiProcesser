@@ -3,7 +3,7 @@ from maxi import session
 from sklearn import preprocessing
 import numpy as np
 from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
-def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
+def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True,_yTick=100,_xTick=200):
 	u = u'\u00B5'
         s = session
 	_data_to_norm = []
@@ -27,11 +27,11 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	_path_norm = "%s/plots/%s_%s_GSR_normalized" % (subject,subject,test)
 
 	if (s._dataCODIFICATION != None):
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=_xTick,_yTick=_yTick)
 	elif(s._dataSOUNDS !=None):
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=_xTick,_yTick=_yTick)
 	else:
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=_yTick)
         m.plot(_path_raw)
 def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True,_xTick=4):
 	u = u'\u00B0'
@@ -356,25 +356,22 @@ if (__name__ == "__main__"):
                 htr.plot("p4/celia_rest/plots/celia_HTR")
 		"""
                 ######p5 and p6###################
-        	s = session("p5/alma_rest/1433977560736/")
+        	#s = session("p5/alma_rest/1433977560736/")
 		#plotGSR("p5/alma_rest","alma_rest_GSR",s,_limy=[0.0,10.0])
 		#plotTEMP("p5/alma_rest","alma_rest_TEMP",s,_limy=[30,40])
 		#plotHR_ZEPHYR("p5/alma_rest","alma_rest_HR",s,_limy=[0,120])
 		#plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI",s,_limy=[0,1.5])
+                #_data = s.groupBySec(s._dataGSR,True,False)
+                #htr = HalfRecoveryTimeDetector(_data)
+                #htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_1560",_xlim=[1545,1575],_xTick=4)
+                s = session("p5/alma_rest/1433977560736/")
+		plotGSR("p5/alma_rest","alma_rest_GSR_600_700",s,_limy=[0.0,10.0],_limx=[600,660],_xTick=10)
+		plotTEMP("p5/alma_rest","alma_rest_TEMP_600_700",s,_limy=[30,40],_limx=[600,660],_xTick=10)
+		plotHR_ZEPHYR("p5/alma_rest","alma_rest_HR_600_700",s,_limy=[0,120],_limx=[600,660],_xTick=10)
+		plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI_600_700",s,_limy=[0,1.5],_limx=[600,660],_xTick=10)
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_1560",_xlim=[1545,1575],_xTick=4)
-		plotHR_ZEPHYR("p5/alma_rest","alma_rest_HR_1560",s,_limx=[1545,1575],_xTick=4)
-		plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI_1560",s,_limx=[1545,1575],_xTick=4)
-		plotTEMP("p5/alma_rest","alma_rest_TEMP_1560",s,_limx=[1545,1575],_xTick=4)
-                #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1222,1252],_xTick=4)
-                #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1554,1584],_xTick=4)
-                #htr.plot("p5/alma_rest/plots/alma_rest_htr_1237",_xlim=[1652,1682],_xTick=4)
-		#plotHR_ZEPHYR("p5/alma_rest","alma_rest_HR_603",s,_limx=[588,618])
-		#plotIBI_ZEPHYR("p5/alma_rest","alma_rest_IBI_603",s,_limx=[588,618])
-		#plotTEMP("p5/alma_rest","alma_rest_TEMP_603",s,_limx=[588,618])
-                #htr.plot("p5/alma_rest/plots/alma_rest_htr_675",_xlim=[660,690],_xTick=2)
-                #htr.plot("p5/alma_rest/plots/alma_rest_htr_847",_xlim=[832,862],_xTick=2)
+                htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_600_700",_xlim=[600,700],_xTick=10)
 
 		"""
         	s = session("p6/luis_relax/1433979780288/")
@@ -404,7 +401,7 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p8/angello_relax/plots/angello_relax_HTR")
-		
+
 		s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p9/sandra_relax","sandra_relax_TEMP",s,_limy=[30,40])
@@ -413,7 +410,17 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p9/sandra_relax/plots/sandra_relax_HTR")
-		
+
+		"""
+		s = session("p9/sandra_relax/1434150573545/")
+		plotGSR("p9/sandra_relax","sandra_relax_GSR_600_660",s,_limy=[0.0,10.0],_limx=[600,660],_xTick=10)
+		plotTEMP("p9/sandra_relax","sandra_relax_TEMP_600_660",s,_limy=[30,40],_limx=[600,660],_xTick=10)
+		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR_600_660",s,_limy=[0,120],_limx=[600,660],_xTick=10)
+		plotIBI_ZEPHYR("p9/sandra_relax","sandra_relax_IBI_600_660",s,_limy=[0,1.5],_limx=[600,660],_xTick=10)
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data[600:660])
+                htr.plot("p9/sandra_relax/plots/sandra_relax_HTR_600_660")
+		"""
 		s = session("p10/mirna_relax/1434153018088/")
 		plotGSR("p10/mirna_relax","mirna_relax_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p10/mirna_relax","mirna_relax_TEMP",s,_limy=[30,40])
