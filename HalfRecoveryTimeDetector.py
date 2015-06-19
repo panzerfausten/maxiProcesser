@@ -89,7 +89,7 @@ class HalfRecoveryTimeDetector:
 		#set axis. Nazi axis?
 		ax.set_ylabel("uS")
                 ax.set_xlabel("Seconds")
-                ax.set_title("Peak and Half Time Recovery detection")
+                ax.set_title("GSR: Peak and Half Time Recovery detection")
                 # major ticks every 200, minor ticks every 100
                 major_ticks = np.arange(0, len(self._data), _xTick)                                              
                 minor_ticks = np.arange(0, len(self._data), _xMinorTick)     

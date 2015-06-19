@@ -411,7 +411,6 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p9/sandra_relax/plots/sandra_relax_HTR")
 
-		"""
 		s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR_600_660",s,_limy=[0.0,10.0],_limx=[600,660],_xTick=10)
 		plotTEMP("p9/sandra_relax","sandra_relax_TEMP_600_660",s,_limy=[30,40],_limx=[600,660],_xTick=10)
@@ -420,7 +419,6 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data[600:660])
                 htr.plot("p9/sandra_relax/plots/sandra_relax_HTR_600_660")
-		"""
 		s = session("p10/mirna_relax/1434153018088/")
 		plotGSR("p10/mirna_relax","mirna_relax_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p10/mirna_relax","mirna_relax_TEMP",s,_limy=[30,40])
