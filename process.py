@@ -470,4 +470,3 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p10/mirna_relax2/plots/mirna_relax_HTR",[0,10])
-

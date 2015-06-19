@@ -112,14 +112,26 @@ class HalfRecoveryTimeDetector:
 			_ylim = [0,6]
 		plt.ylim(_ylim)
 		plt.xlim(_xlim)
+		_peaksToPlotX =[]
+		_peaksToPlotY =[]
+		_risingsToPlotX =[]
+		_risingsToPlotY =[]
+		_hrtToPlotX =[]
+		_hrtToPlotY =[]
 		for _p in self._peaks:
 			#overplot rising point and peak
-			plt.plot(  int(_p["peakIndex"]) , self._gaussianData[int(_p["peakIndex"])],color='r',marker="o",markersize=5 )
-			plt.plot(  _p["risingTimeIndex"],self._gaussianData[_p["risingTimeIndex"]],color='y',marker="o",markersize=5)
-			#overplot the HRT
+			_peaksToPlotX.append( int(_p["peakIndex"]))
+			_peaksToPlotY.append(  self._gaussianData[int(_p["peakIndex"])])
+			_risingsToPlotX.append( _p["risingTimeIndex"])
+			_risingsToPlotY.append( self._gaussianData[_p["risingTimeIndex"]])
 			if _p["halfRecoveryIndex"] != None:
-				plt.plot(  int(_p["halfRecoveryIndex"])  , self._gaussianData[ int(_p["halfRecoveryIndex"]) ],color='m',marker="x",markersize=5)
+				_hrtToPlotX.append(  int(_p["halfRecoveryIndex"]))
+				_hrtToPlotY.append( self._gaussianData[ int(_p["halfRecoveryIndex"])])
 
+		plt.plot(_peaksToPlotX,_peaksToPlotY,  color='r',marker="o",markersize=5,linestyle='None' )
+		plt.plot(_risingsToPlotX,_risingsToPlotY,  color='y',marker="o",markersize=5,linestyle='None')
+		plt.plot(_hrtToPlotX,_hrtToPlotY, color='m',marker="x",markersize=5,linestyle='None')
+		#overplot the HRT
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)
         def toJson(self):
