@@ -130,8 +130,8 @@ class HalfRecoveryTimeDetector:
 
 		plt.plot(_peaksToPlotX,_peaksToPlotY,  color='r',marker="o",markersize=5,linestyle='None' )
 		plt.plot(_risingsToPlotX,_risingsToPlotY,  color='y',marker="o",markersize=5,linestyle='None')
+		#overplot the hrt
 		plt.plot(_hrtToPlotX,_hrtToPlotY, color='m',marker="x",markersize=5,linestyle='None')
-		#overplot the HRT
 		#save it! Because.. humans
 		plt.savefig(figname,dpi=450)
         def toJson(self):
