@@ -371,7 +371,12 @@ if (__name__ == "__main__"):
 		plotIBI_ZEPHYR("p5/alma_rest","p5_rest_IBI_590_610",s,_limy=[0.4,1],_limx=[590,610],_xTick=2)
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
+<<<<<<< HEAD
                 htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_590_610",_xlim=[590,610],_xTick=2,_ylim=[0,3])
+=======
+                htr.plot("p5/alma_rest/plots/p5/alma_rest_htr_600_700",_xlim=[600,700],_xTick=10,_ylim=[0,4])
+
+>>>>>>> 02d12b85bbc4f8693ae882e8ab18b455217517ea
 		"""
         	s = session("p6/luis_relax/1433979780288/")
 		plotGSR("p6/luis_relax","luis_relax_GSR",s,_limy=[0.0,20.0])
