@@ -383,6 +383,14 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p5/alma_rest/plots/alma_rest_htr")
 
+        	s = session("p5/alma_relax2/1435014511799/")
+		plotGSR("p5/alma_relax2","alma_relax2_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p5/alma_relax2","alma_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p5/alma_relax2","alma_relax2_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p5/alma_relax2","alma_relax2_IBI",s,_limy=[0.4,1])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p5/alma_relax2/plots/alma_relax2_htr")
 
         	s = session("p6/luis_relax/1433979780288/")
 		plotGSR("p6/luis_relax","luis_relax_GSR",s,_limy=[0.0,20.0])
@@ -453,6 +461,16 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p9/sandra_relax/plots/sandra_relax_HTR")
 		
+
+		s = session("p9/sandra_relax2/1435016928790/")
+		plotGSR("p9/sandra_relax2","sandra_relax2_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p9/sandra_relax2","sandra_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p9/sandra_relax2","sandra_relax2_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p9/sandra_relax2","sandra_relax2_IBI",s,_limy=[0.4,1])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p9/sandra_relax2/plots/sandra_relax2_HTR")
+
 		s = session("p10/mirna_relax/1434153018088/")
 		plotGSR("p10/mirna_relax","mirna_relax_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p10/mirna_relax","mirna_relax_TEMP",s,_limy=[30,40])
