@@ -133,7 +133,7 @@ class HalfRecoveryTimeDetector:
 		#overplot the hrt
 		plt.plot(_hrtToPlotX,_hrtToPlotY, color='m',marker="x",markersize=5,linestyle='None')
 		#save it! Because.. humans
-		plt.savefig(figname,dpi=450)
+		plt.savefig(figname)
         def toJson(self):
             return json.dumps(self._peaks)
         def toCSV(self):
