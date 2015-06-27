@@ -335,6 +335,15 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("p1/carlos_relax2/plots/p1/carlos_relax2_htr")
 
+        	###############session3
+		s = session("p1/carlos_relax3/1435362269780/")
+		plotGSR("p1/carlos_relax3","carlos_relax3_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p1/carlos_relax3","carlos_relax3_TEMP",s,_limy=[30,40])
+                plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax3_HR",s,_limy=[0,120],_limx=[0,2000])
+                plotIBI_ZEPHYR("p1/carlos_relax3","carlos_relax3_IBI",s,_limy=[0.4,1],_limx=[0,2000])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+		htr.plot("p1/carlos_relax3/plots/p1/carlos_relax3_htr")
                 print "p1 done"
 		s = session("p2/eduardo/1433809471952/")
 		plotGSR("p2/eduardo","eduardo_GSR",s,_limy=[0.0,10.0])
@@ -353,6 +362,17 @@ if (__name__ == "__main__"):
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("p2/eduardo_relax2/plots/eduardo_relax2_HTR")
+
+
+		s = session("p2/eduardo_relax2/1435103122898/")
+		plotGSR("p2/eduardo_relax2","eduardo_relax2_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p2/eduardo_relax2","eduardo_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p2/eduardo_relax2","eduardo_relax2_HR",s,_limy=[0.0,120])
+		plotIBI_ZEPHYR("p2/eduardo_relax2","eduardo_relax_2_IBI",s,_limy=[0.4,1])
+		_data = s.groupBySec(s._dataGSR,True,False)
+		htr = HalfRecoveryTimeDetector(_data)
+		htr.plot("p2/eduardo_relax2/plots/eduardo_relax2_HTR")
+
 
 
                 print "p2 done"
