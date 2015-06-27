@@ -364,18 +364,19 @@ if (__name__ == "__main__"):
 		htr.plot("p2/eduardo_relax2/plots/eduardo_relax2_HTR")
 
 
-		s = session("p2/eduardo_relax2/1435103122898/")
-		plotGSR("p2/eduardo_relax2","eduardo_relax2_GSR",s,_limy=[0.0,10.0])
-		plotTEMP("p2/eduardo_relax2","eduardo_relax2_TEMP",s,_limy=[30,40])
-		plotHR_ZEPHYR("p2/eduardo_relax2","eduardo_relax2_HR",s,_limy=[0.0,120])
-		plotIBI_ZEPHYR("p2/eduardo_relax2","eduardo_relax_2_IBI",s,_limy=[0.4,1])
+		s = session("p2/eduardo_relax3/1435359906650/")
+		plotGSR("p2/eduardo_relax3","eduardo_relax2_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p2/eduardo_relax3","eduardo_relax2_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p2/eduardo_relax3","eduardo_relax3_HR",s,_limy=[0.0,120])
+		plotIBI_ZEPHYR("p2/eduardo_relax3","eduardo_relax_3_IBI",s,_limy=[0.4,1])
 		_data = s.groupBySec(s._dataGSR,True,False)
 		htr = HalfRecoveryTimeDetector(_data)
-		htr.plot("p2/eduardo_relax2/plots/eduardo_relax2_HTR")
+		htr.plot("p2/eduardo_relax3/plots/eduardo_relax3_HTR")
 
 
 
                 print "p2 done"
+
                 ######p3 and p4###################
         	s = session("p3/karime_T1/1433892485204/")
 		plotGSR("p3/karime_T1","karime_T1_GSR",s,_limy=[0.0,10.0])
