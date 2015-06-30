@@ -316,7 +316,6 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
-                """
                 ######p1 and p2###################
                 s = session("p1/carlos_S1_R1/1433807211979/")
 		plotGSR("p1/carlos_S1_R1","carlos_S1_R1_GSR",s,_limy=[0.0,10.0])
@@ -551,7 +550,6 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p9/sandra_relax2/plots/sandra_relax2_HTR")
 
-                """
 		s = session("p9/sandra_relax3/1435619278734/")
 		plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p9/sandra_relax3","sandra_relax3_TEMP",s,_limy=[30,40])
@@ -562,7 +560,6 @@ if (__name__ == "__main__"):
                 htr.plot("p9/sandra_relax3/plots/sandra_relax3_HTR")
 
 
-                """
                 print "p9 done"
                     
 		s = session("p10/mirna_relax/1434153018088/")
@@ -593,4 +590,3 @@ if (__name__ == "__main__"):
                 htr.plot("p10/mirna_relax3/plots/mirna_relax_HTR",[0,10])
 
                 print "p10 done"
-                """
