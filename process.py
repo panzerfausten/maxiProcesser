@@ -550,6 +550,18 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p9/sandra_relax2/plots/sandra_relax2_HTR")
 
+
+		s = session("p9/sandra_relax3/1435619278734/")
+		plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p9/sandra_relax3","sandra_relax3_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p9/sandra_relax3","sandra_relax3_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p9/sandra_relax3","sandra_relax3_IBI",s,_limy=[0.4,1])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p9/sandra_relax3/plots/sandra_relax3_HTR")
+
+
+
                 print "p9 done"
                     
 		s = session("p10/mirna_relax/1434153018088/")
