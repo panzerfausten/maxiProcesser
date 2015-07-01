@@ -396,6 +396,16 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p3/karime_relax2/plots/karime2_htr")
 
+
+        	s = session("p3/karime_relax3/1435705550645/")
+		plotGSR("p3/karime_relax3","karime_relax3_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p3/karime_relax3","karime_relax3_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p3/karime_relax3","karime_relax3_HR",s,_limy=[0,120])
+		plotIBI_ZEPHYR("p3/karime_relax3","karime_relax3_IBI",s,_limy=[0.4,1])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p3/karime_relax3/plots/karime3_htr")
+
                 print "p3 done"
 
                 ######session2###################
@@ -527,7 +537,17 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p8/angello_relax2/plots/angello_relax2_HTR")
-		
+	
+
+	
+		s = session("p8/angello_relax3/143570800815/")
+		plotGSR("p8/angello_relax3" ,"angello_relax3_GSR",s,_limy=[0.0,10.0])
+		plotTEMP("p8/angello_relax3","angello_relax3_TEMP",s,_limy=[30,40])
+		plotHR_ZEPHYR("p8/angello_relax3","angello_relax3_HR",s,_limy=[0,150])
+		plotIBI_ZEPHYR("p8/angello_relax3","angello_relax3_IBI",s,_limy=[0.4,1])
+                _data = s.groupBySec(s._dataGSR,True,False)
+                htr = HalfRecoveryTimeDetector(_data)
+                htr.plot("p8/angello_relax3/plots/angello_relax3_HTR")
 	
                 print "p8 done"
 
