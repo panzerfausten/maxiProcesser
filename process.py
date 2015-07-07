@@ -3,6 +3,7 @@ from maxi import session
 from sklearn import preprocessing
 import numpy as np
 from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
+from HRFeatureExtractor import HRFeatureExtractor
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -118,10 +119,16 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
 	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
 	if(groupBySec):
-		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
+		if (s._dataANXIETY != None):
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20,anxiData=s.getAnxious(),_session=s)
+		else:
+			m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
 	else:
-		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
-		m.plot(_path_raw)
+		if (s._dataANXIETY != None):
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20,_anxiData=s.getAnxious(),_session=s)
+		else:
+			m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
+	m.plot(_path_raw)
 	
 	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
         #m.plot(_path_norm)  not norm by now
@@ -320,17 +327,19 @@ if (__name__ == "__main__"):
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
 	#	plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0],_limx=[900,1100])
 		#plotTEMP("p9/sandra_relax","sandra_relax_TEMP",s,_limy=[30,40])
-		#plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
+		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
 		#plotIBI_ZEPHYR("p9/sandra_relax","sandra_relax_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 #htr = HalfRecoveryTimeDetector(_data)
 		s.getAnxious()
+		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
 		for seg in s._dataANXIETYRANGES:
 			_s,_e,_l = seg
 			if (_l != -1):
-				try:
-					htr = HalfRecoveryTimeDetector(_data[_s:_e])
-					plotGSR("p9/sandra_relax","sandra_relax_GSR%i_%i" %(_s,_e),s,_limy=[0.0,10.0],_limx=[_s,_e])
-					print [_l,htr.toJson()]
-				except:
-					pass
+				hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
+				print _l,",",hrfe.extract()
+				htr = HalfRecoveryTimeDetector(_data[_s:_e])
+				#plotGSR("p9/sandra_relax","sandra_relax_GSR%i_%i" %(_s,_e),s,_limy=[0.0,10.0],_limx=[_s,_e])
+				#plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR_%i_%i" %(_s,_e),s,_limx=[_s,_e],_limy=[0,120])
+				print _l,",",htr.toCSV()
+				print "------------"
