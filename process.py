@@ -103,7 +103,7 @@ def plotHR(subject,test,session,_limx=None,_limy=None,_groupBySec=False):
 	else:
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=20)
         m.plot(_path_raw)
-def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=False):
+def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True):
         s = session
 	_data_to_norm = []
 	min_max_scaler = preprocessing.MinMaxScaler()
@@ -111,20 +111,15 @@ def plotHR_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupB
 		_data_to_norm.append(_x[1])
 
 	_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
-	#_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
         _title_raw = "HR: [%s,%s,raw]" % (subject,test)
-	#_title_norm = "HR: [%s,%s,normalized]" % (subject,test)
 
 	_path_raw = "%s/plots/%s_%s_HR_raw" % (subject,subject,test)
-	#_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
 	if(groupBySec):
 		m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
 	else:
 		m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (BPM) ",limx=_limx,limy=_limy,_xTick=200,_yTick=20)
-		m.plot(_path_raw)
+        m.plot(_path_raw)
 	
-	#m = MyPlotter(_title_norm,_data_normalized,"Seconds","Value (C)",[50,100])
-        #m.plot(_path_norm)  not norm by now
 def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,groupBySec=True):
         s = session
         _data_to_norm = []
@@ -133,28 +128,13 @@ def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,group
                 _data_to_norm.append(_x[1])
 
         _dataAvgBySec = s.groupBySec(s._dataZEPHYR_IBI,False,True)
-        #_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
         _title_raw = "IBI: [%s,%s,raw]" % (subject,test)
-        #_title_norm = "HR: [%s,%s,normalized]" % (subject,test)
 
         _path_raw = "%s/plots/%s_%s_IBI_raw" % (subject,subject,test)
-        #_path_norm = "%s/plots/%s_%s_HR_normalized" % (subject,subject,test)
-        if (s._dataSOUNDS != None):
-                if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0)
-                else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1.0,_yTickMinor=0.1)
-        elif (s._dataCODIFICATION != None):
-                if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
-                else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,codification=s._dataCODIFICATION,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
-
+        if(groupBySec):
+                m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=1.0)
         else:
-                if(groupBySec):
-                        m = MyPlotter(_title_raw,_dataAvgBySec,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
-                else:
-                        m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds)",limx=_limx,limy=_limy,_xTick=200,_yTick=2.0,_yTickMinor=0.1)
+                m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,xTick=200,_yTick=1.0,_yTickMinor=0.1)
 
         m.plot(_path_raw)
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
@@ -317,12 +297,11 @@ def generateAlbumScript(subjects):
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
                 ######p1 and p2###################
-                """
                 s = session("p1/carlos_S1_R1/1433807211979/")
 		plotGSR("p1/carlos_S1_R1","carlos_S1_R1_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p1/carlos_S1_R1","carlos_S1_R1_TEMP",s,_limy=[30,40])
-                plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_HR",s,_limy=[0,120],_limx=[0,2000])
-                plotIBI_ZEPHYR("p1/carlos_S1_R1","carlos_IBI",s,_limy=[0.4,1],_limx=[0,2000])
+                plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_HR",s,_limy=[0,120])
+                plotIBI_ZEPHYR("p1/carlos_S1_R1","carlos_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("p1/carlos_S1_R1/plots/carlos_S1_R1_HTR")
@@ -330,8 +309,8 @@ if (__name__ == "__main__"):
 		s = session("p1/carlos_relax2/1434411781135/")
 		plotGSR("p1/carlos_relax2","carlos_relax2_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p1/carlos_relax2","carlos_relax2_TEMP",s,_limy=[30,40])
-                plotHR_ZEPHYR("p1/carlos_relax2","carlos_relax2_HR",s,_limy=[0,120],_limx=[0,2000])
-                plotIBI_ZEPHYR("p1/carlos_relax2","carlos_relax2_IBI",s,_limy=[0.4,1],_limx=[0,2000])
+                plotHR_ZEPHYR("p1/carlos_relax2","carlos_relax2_HR",s,_limy=[0,120])
+                plotIBI_ZEPHYR("p1/carlos_relax2","carlos_relax2_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("p1/carlos_relax2/plots/p1/carlos_relax2_htr")
@@ -340,8 +319,8 @@ if (__name__ == "__main__"):
 		s = session("p1/carlos_relax3/1435362269780/")
 		plotGSR("p1/carlos_relax3","carlos_relax3_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p1/carlos_relax3","carlos_relax3_TEMP",s,_limy=[30,40])
-                plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax3_HR",s,_limy=[0,120],_limx=[0,2000])
-                plotIBI_ZEPHYR("p1/carlos_relax3","carlos_relax3_IBI",s,_limy=[0.4,1],_limx=[0,2000])
+                plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax3_HR",s,_limy=[0,120])
+                plotIBI_ZEPHYR("p1/carlos_relax3","carlos_relax3_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
 		htr.plot("p1/carlos_relax3/plots/p1/carlos_relax3_htr")
@@ -397,7 +376,6 @@ if (__name__ == "__main__"):
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p3/karime_relax2/plots/karime2_htr")
 
-                """
         	s = session("p3/karime_relax3/1435705550645/")
 		plotGSR("p3/karime_relax3","karime_relax3_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p3/karime_relax3","karime_relax3_TEMP",s,_limy=[30,40])
@@ -408,7 +386,7 @@ if (__name__ == "__main__"):
                 htr.plot("p3/karime_relax3/plots/karime3_htr")
 
                 print "p3 done"
-                """
+
                 ######session2###################
                 s = session("p4/celia_rest/1433894624813/")
 		plotGSR("p4/celia_rest","celia_rest_GSR",s,_limy=[0.0,10.0])
@@ -540,7 +518,6 @@ if (__name__ == "__main__"):
                 htr.plot("p8/angello_relax2/plots/angello_relax2_HTR")
 	
 
-	        """
 		s = session("p8/angello_relax3/1435708008150/")
 		plotGSR("p8/angello_relax3" ,"angello_relax3_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p8/angello_relax3","angello_relax3_TEMP",s,_limy=[30,40])
@@ -551,7 +528,7 @@ if (__name__ == "__main__"):
                 htr.plot("p8/angello_relax3/plots/angello_relax3_HTR")
 	
                 print "p8 done"
-                """
+
 		s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
 		plotTEMP("p9/sandra_relax","sandra_relax_TEMP",s,_limy=[30,40])
@@ -609,5 +586,5 @@ if (__name__ == "__main__"):
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
                 htr.plot("p10/mirna_relax3/plots/mirna_relax_HTR",[0,10])
-                """
+                
                 print "p10 done"
