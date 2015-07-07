@@ -1,7 +1,7 @@
 def find_between(s,_s1,_s2):
 	_i1 = s.index("#")
 	_i2 = s[_i1+1:].index("#")
-	return s[_i1+1:_i2].replace("-",""),s[_i2+4:]
+	return s[_i1+1:_i2].replace("-",""),s[_i2+2:]
 def deduct_secs(time,secs=1):
 	_hours,_mins,_secs = time.split(":")
 	_hours = int(_hours)
@@ -25,10 +25,22 @@ def to_secs(time,secs=1):
 
         _total_secs =  ( (_hours * 60) * 60) + (_mins * 60) + _secs
 	return _total_secs
+def usage():
+    print "Python utility to generate synced transcripts data"
+    print ""
+    print "USAGE:"
+    print "     python syncer.py <file_path> <diff_time> <session_time>"
+    print "         <diff_time> Time in seconds to sync."
+    print "         <session_time> Time in unix time when the session starts."
 import sys
-_file = sys.argv[1]
-_difftime = int(sys.argv[2])
-_session_time = float(sys.argv[3])
+
+try:
+    _file = sys.argv[1]
+    _difftime = int(sys.argv[2])
+    _session_time = float(sys.argv[3])
+except:
+    usage()
+    sys.exit(1)
 with open(_file,"r") as _FILE:
 	_lines = _FILE.readlines()
 	for _x in range(0,len(_lines) -1):
