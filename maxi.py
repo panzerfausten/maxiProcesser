@@ -30,6 +30,7 @@ class session:
 		self._pathSOUNDS = None
 		self._pathCODIFICATION = None
 		self._pathEEG = None
+		self._pathANXIETY = None
                 self._dataZEPHYR  = None
                 self._dataSOUNDS  = None
                 self._dataACC = None
@@ -44,6 +45,7 @@ class session:
                 self._dataSOUNDS = None
                 self._dataCODIFICATION = None
                 self._dataEEG = None
+                self._dataANXIETY = None
 
 		for _f in self._dirList:
 			if "ACC" in _f:
@@ -68,6 +70,8 @@ class session:
 				self._pathCODIFICATION = self._path +_f
 			elif "EEG" in _f:
 				self._pathEEG = self._path + _f
+			elif "ANXIETY" in _f:
+				self._pathANXIETY = self._path + _f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
@@ -150,6 +154,8 @@ class session:
 			self._dataCODIFICATION = self.readFile(self._pathCODIFICATION)
 		if(self._pathEEG != None):
 			self._dataEEG = self.readFile(self._pathEEG)
+		if(self._pathANXIETY != None):
+			self._dataANXIETY = self.readFile(self._pathANXIETY)
 
 	def sanitizeAllData(self):
 		"""Removes breaklines and splits data into positions in the lists"""
@@ -254,6 +260,18 @@ class session:
 				self._dataEEG3.append( [ _row[0] , _row[3] ] )
 				self._dataEEG4.append( [ _row[0] , _row[4] ] )
 
+		if(self._dataANXIETY != None):
+			for _row in self._dataANXIETY:
+				_row = _row.replace("\n","").split("\t")
+				_row[0] = float(_row[0])
+				_row[1] = str(_row[1])
+				_row[2] = str(_row[2])
+				if (_row[2] == "" or _row[2] == "-"):
+					_row[2] = -1
+				else:
+					_row[2] = int(_row[2])
+				_splittedData.append( _row)
+			self._dataANXIETY = _splittedData
 	def normalizeGSR(self):
 		_data_with_timestamps = np.asarray(self._dataGSR)
 			
@@ -262,6 +280,28 @@ class session:
 
 		_data_normalized = min_max_scaler.fit_transform(_data_to_norm)
 		return _data_normalized
+	def getAnxious(self):
+		_duration = int ( math.ceil(self._duration) )
+		_data = [None] * _duration
+		self._dataANXIETYRANGES = [] 
+		for _x in range (0,len(self._dataANXIETY)):
+			_pos = int (self._dataANXIETY[_x][0] - self._startTime)
+			#we have to eval if the current value is the same as the next, and then fill the zeroes
+			_data[_pos] = (self._dataANXIETY[_x][2])
+			_state_s =  self._dataANXIETY[_x][2]
+			_state =  self._dataANXIETY[_x][2]
+			_seg_start = _x
+			while( _state == _state_s and _x < len(self._dataANXIETY) - 1):
+				_x  = _x +  1
+				_state = self._dataANXIETY[_x][2]
+			_seg_end = _x - 1
+			_pos_nx = int (self._dataANXIETY[_x][0] - self._startTime)
+			if( len(self._dataANXIETYRANGES) != 0):
+				if (self._dataANXIETYRANGES[-1][1] !=_pos_nx):
+					self._dataANXIETYRANGES.append([_pos,_pos_nx,_state_s])
+			else:
+				self._dataANXIETYRANGES.append([_pos,_pos_nx,_state_s])
+		return _data
 	#TODO: Move this to SessionUtils
 	def normalize(self,data):
 		_data_to_norm = np.asarray(data)

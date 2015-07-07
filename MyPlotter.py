@@ -2,7 +2,7 @@ import pylab as plt
 import numpy as np
 
 class MyPlotter:
-        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None,linestyle="solid",_plotEach = None,_xTick=None,_yTick=None,_yTickMinor=None):
+        def __init__(self,title,data,labelX,labelY,limx=None,limy=None,color='red',sounds = None,codification = None,linestyle="solid",_plotEach = None,_xTick=None,_yTick=None,_yTickMinor=None,_anxiData = None,_session = None):
                 self.data = data
                 self.title = title
 		self.labelX = labelX
@@ -17,6 +17,8 @@ class MyPlotter:
                 self._xTick = _xTick
                 self._yTick = _yTick
                 self._yTickMinor = _yTickMinor
+		self._anxiData = _anxiData
+		self._session = _session
         def plot(self,outputFigure):
                 #init the plot
                 fig, ax = plt.subplots()
@@ -43,14 +45,16 @@ class MyPlotter:
           
 
 
-		if (self.codification != None):
-			for _i,_c in enumerate(self.codification):
-				if(_c[2] == "t"):
-					ax.axvspan(_c[0],_c[1],color="green",alpha=0.3)
-				if(_c[2] == "w"):
-					ax.axvspan(_c[0],_c[1],color="blue",alpha=0.3)
-				if(_c[2] == "e"):
-					ax.axvspan(_c[0],_c[1],color="yellow",alpha=0.3)
+		if (self._session._dataANXIETYRANGES != None):
+			for _i,_c in enumerate(self._session._dataANXIETYRANGES):
+				if(_c[2] == 0):
+					ax.axvspan(_c[0],_c[1],color="green",alpha=1)
+				if(_c[2] == 1):
+					ax.axvspan(_c[0],_c[1],color="yellow",alpha=1)
+				if(_c[2] == 2):
+					ax.axvspan(_c[0],_c[1],color="orange",alpha=1)
+				if(_c[2] == 3):
+					ax.axvspan(_c[0],_c[1],color="red",alpha=1)
 		if (self.sounds != None):
 			for _s in self.sounds:
 				try:
