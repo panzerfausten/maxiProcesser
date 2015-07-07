@@ -137,9 +137,10 @@ class HalfRecoveryTimeDetector:
         def toJson(self):
             return json.dumps(self._peaks)
         def toCSV(self):
+	    _data = []
             for _peak in self._peaks:
                     _valsToPrint = []
                     for _val in _peak:
                         _valsToPrint.append(str(_peak[_val]))
-                    print ",".join(_valsToPrint)
-
+                    _data.append([",".join(_valsToPrint)])
+	    return _data
