@@ -29,15 +29,23 @@ def usage():
     print "Python utility to generate synced transcripts data"
     print ""
     print "USAGE:"
-    print "     python syncer.py <file_path> <diff_time> <session_time>"
+    print "     python syncer.py <file_path> <diff_time> <session_time> [-s]" 
     print "         <diff_time> Time in seconds to sync."
     print "         <session_time> Time in unix time when the session starts."
+    print "         -s  shows timestamp in unixtime and seconds"
+
 import sys
 
 try:
     _file = sys.argv[1]
     _difftime = int(sys.argv[2])
     _session_time = float(sys.argv[3])
+    try:
+        _secs_flag = str(sys.argv[4])
+        if (_secs_flag == "-s"):
+            _secs_flag = True
+    except:
+        _secs_flag = False
 except:
     usage()
     sys.exit(1)
@@ -50,4 +58,7 @@ with open(_file,"r") as _FILE:
 		_startn,_textn = find_between(_ln,"#","#")
 		_end = deduct_secs(_startn)
 		_to_secs = to_secs(_start)
-		print (_to_secs + _difftime) +_session_time,"\t", _text.replace("\n","")
+                if not (_secs_flag):
+                    print (_to_secs + _difftime) +_session_time,"\t", _text.replace("\n","")
+                else:
+                    print (_to_secs + _difftime),"\t", _text.replace("\n","")
