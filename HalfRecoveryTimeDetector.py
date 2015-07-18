@@ -17,7 +17,12 @@ class HalfRecoveryTimeDetector:
 		self._gaussianData = gaussian_filter(self._data,1)
                 index = np.arange(len (self._gaussianData))
 		self._peakind = signal.find_peaks_cwt(self._gaussianData, np.arange(1,2))
-
+                #if we have no data, then create this empty data
+                if( len(self._peakind) == 0):
+                         _peakData = { "peakIndex": None,"peakValue": None,
+                                                "risingTimeIndex":None,"risingTimeValue": None,"halfRecoveryIndex":None,
+                                                "halfRecoveryValue":None, "distanceToPrevPeak": None, "peakAmplitude":None}
+                         self._peaks.append(_peakData)
 		#And then filter the right peaks
 		for _i, _p in enumerate(self._peakind):
 			if(_i < len(self._peakind) and _i > 0):
@@ -67,7 +72,7 @@ class HalfRecoveryTimeDetector:
 					_halfRecoveryIndex = _hrtPointIndex
 					_peakData = { "peakIndex": _p,"peakValue": _peakValue,	
 						"risingTimeIndex":_risingTime,"risingTimeValue": _risingTimeValue,"halfRecoveryIndex":_halfRecoveryIndex,
-						"halfRecoveryValue":_hrtPointValue, "distanceToPrevPeak": None}
+                                                "halfRecoveryValue":_hrtPointValue, "distanceToPrevPeak": None, "peakAmplitude": _peakValue - _risingTimeValue  }
 					self._peaks.append(_peakData)
 
 				#Aaand do some more math
@@ -140,7 +145,10 @@ class HalfRecoveryTimeDetector:
 	    _data = []
             for _peak in self._peaks:
                     _valsToPrint = []
-                    for _val in _peak:
-                        _valsToPrint.append(str(_peak[_val]))
+                    _valsToPrint.append(str(_peak["peakValue"]))
+                    _valsToPrint.append(str(_peak["peakAmplitude"]))
+                    _valsToPrint.append(str(_peak["risingTimeValue"]))
+                    _valsToPrint.append(str(_peak["halfRecoveryValue"]))
+                    _valsToPrint.append(str(_peak["distanceToPrevPeak"]))
                     _data.append([",".join(_valsToPrint)])
 	    return _data

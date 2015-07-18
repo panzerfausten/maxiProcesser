@@ -304,6 +304,7 @@ def generateAlbumScript(subjects):
 		_album.write(" okular albumGSR.pdf\n")
 if (__name__ == "__main__"):
 
+                """
 		s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
 	#	plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0],_limx=[900,1100])
@@ -327,7 +328,6 @@ if (__name__ == "__main__"):
                                     print "------------"
                                 except:
                                     pass
-                """
                 s = session("p7/alfonso_relax/1434064078558/")
                 plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
                 plotTEMP("p7/alfonso_relax","alfonso_TEMP",s,_limy=[30,40])
@@ -352,16 +352,14 @@ if (__name__ == "__main__"):
 		for seg in s._dataANXIETYRANGES:
 			_s,_e,_l = seg
 			if (_l != -1):
-                                try:
-                                    hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
-                                    #print _l,",",hrfe.extract()
-                                    htr = HalfRecoveryTimeDetector(_data[_s:_e])
-                                    plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
-                                    plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
-                                    #print _l,",",htr.toCSV()
-                                    #print "------------"
-                                except:
-                                    pass
+                                hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
+                                #print _l,",",hrfe.extract()
+                                htr = HalfRecoveryTimeDetector(_data[_s:_e])
+                                #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
+                                #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
+                                for _val in htr.toCSV():
+                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())
+                                #print "-----------"
                 """
 
                 s = session("p7/alfonso_relax3/1435275565320/")
