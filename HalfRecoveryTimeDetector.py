@@ -2,16 +2,21 @@ from scipy import signal
 import numpy as np
 import pylab as plt
 from  scipy.ndimage.filters import gaussian_filter
+from sklearn import preprocessing
 import json
 class HalfRecoveryTimeDetector:
 	def __init__(self,_data,_segment=None):
 		self._data = self.removeNones(_data)
 		self._segment = _segment
 		self._peaks = []
+                self.normalize()
 		self.detect()
 		self._xlim = None
 	def removeNones(self,_data):
 		return filter(lambda x: x!=None, _data)
+        def normalize(self):
+            min_max_scaler = preprocessing.MinMaxScaler()
+            self._data = min_max_scaler.fit_transform(self._data)
 	def detect(self):
 		#find all the peaks
 		self._gaussianData = gaussian_filter(self._data,1)
@@ -29,7 +34,7 @@ class HalfRecoveryTimeDetector:
 				_diff = self._gaussianData[_p] - self._gaussianData[self._peakind [_i-1  ]]
 
 				#Calculate only data within the threshold
-				if(_diff > 0.04): #this threshold looks good. Dayum!
+				if(True): #this threshold looks good. Dayum!
 
 					#calculate segments to search amplitude and rising time
 					_limLeft = self._peakind[_i-1]
@@ -40,40 +45,41 @@ class HalfRecoveryTimeDetector:
 					_peakValue = self._gaussianData[_p]
 					#Calculate amplitude and rising time
 					_amplitude = self._gaussianData[_p] - self._gaussianData[_c]
-					_risingTime = _p - _c
-					_risingTime = _p - _risingTime
-					_risingTimeValue = self._gaussianData[_risingTime]
-					_currentPeak = self._peakind[_i]
+                                        if(_amplitude > 0.01):
+                                            _risingTime = _p - _c
+                                            _risingTime = _p - _risingTime
+                                            _risingTimeValue = self._gaussianData[_risingTime]
+                                            _currentPeak = self._peakind[_i]
 
-					#calculate segment to search the Half Recovery Time
-					if ( _i < len(self._peakind)-1):
-						_nextPeak = self._peakind[_i+1]
-						_segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:_nextPeak]
-					else:
-						_segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:]
-					
-					#calculate the half amplitude	
-					_halfAmplitude = _amplitude / 2.0
-					_halfRecoveryTime = None
-					_hrtPointValue = None
-					_hrtPointIndex = None
-					_halfRecoveryIndex = None
-					#And find the right HRT
-					for _x,_val in enumerate(_segmentToSearchHalfRecoveryTime):
-						_valueAtPeak = self._gaussianData[_currentPeak]
-						_ampliDiff = _valueAtPeak - _halfAmplitude
-						if( _val - _ampliDiff < 0.00000000000000001): #Now with Zero* diff!
-							_hrtPointIndex = _currentPeak +_x
-							_hrtPointValue = self._gaussianData[_hrtPointIndex]
-							_halfRecoveryTime = _hrtPointIndex #+ _currentPeak
-							break # we ain't no need your data dawg
-					
-					#Pack everything up!
-					_halfRecoveryIndex = _hrtPointIndex
-					_peakData = { "peakIndex": _p,"peakValue": _peakValue,	
-						"risingTimeIndex":_risingTime,"risingTimeValue": _risingTimeValue,"halfRecoveryIndex":_halfRecoveryIndex,
-                                                "halfRecoveryValue":_hrtPointValue, "distanceToPrevPeak": None, "peakAmplitude": _peakValue - _risingTimeValue  }
-					self._peaks.append(_peakData)
+                                            #calculate segment to search the Half Recovery Time
+                                            if ( _i < len(self._peakind)-1):
+                                                    _nextPeak = self._peakind[_i+1]
+                                                    _segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:_nextPeak]
+                                            else:
+                                                    _segmentToSearchHalfRecoveryTime = self._gaussianData[_currentPeak:]
+                                            
+                                            #calculate the half amplitude	
+                                            _halfAmplitude = _amplitude / 2.0
+                                            _halfRecoveryTime = None
+                                            _hrtPointValue = None
+                                            _hrtPointIndex = None
+                                            _halfRecoveryIndex = None
+                                            #And find the right HRT
+                                            for _x,_val in enumerate(_segmentToSearchHalfRecoveryTime):
+                                                    _valueAtPeak = self._gaussianData[_currentPeak]
+                                                    _ampliDiff = _valueAtPeak - _halfAmplitude
+                                                    if( _val - _ampliDiff < 0.00000000000000001): #Now with Zero* diff!
+                                                            _hrtPointIndex = _currentPeak +_x
+                                                            _hrtPointValue = self._gaussianData[_hrtPointIndex]
+                                                            _halfRecoveryTime = _hrtPointIndex #+ _currentPeak
+                                                            break # we ain't no need your data dawg
+                                            
+                                            #Pack everything up!
+                                            _halfRecoveryIndex = _hrtPointIndex
+                                            _peakData = { "peakIndex": _p,"peakValue": _peakValue,	
+                                                    "risingTimeIndex":_risingTime,"risingTimeValue": _risingTimeValue,"halfRecoveryIndex":_halfRecoveryIndex,
+                                                    "halfRecoveryValue":_hrtPointValue, "distanceToPrevPeak": None, "peakAmplitude": _peakValue - _risingTimeValue  }
+                                            self._peaks.append(_peakData)
 
 				#Aaand do some more math
 				self.calculateDistances()
@@ -148,6 +154,8 @@ class HalfRecoveryTimeDetector:
                     _valsToPrint.append(str(_peak["peakValue"]))
                     _valsToPrint.append(str(_peak["peakAmplitude"]))
                     _valsToPrint.append(str(_peak["risingTimeValue"]))
+                    _valsToPrint.append(str(_peak["halfRecoveryIndex"]))
+                    #halfrecovery in secs
                     _valsToPrint.append(str(_peak["halfRecoveryValue"]))
                     _valsToPrint.append(str(_peak["distanceToPrevPeak"]))
                     _data.append([",".join(_valsToPrint)])

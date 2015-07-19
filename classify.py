@@ -35,26 +35,26 @@ def convertLine(_line):
     return _l
 def takeSample(_maxSample,_s=0):
     _X =    _dataB[_s:_maxSample+_s] + _dataC[_s:_maxSample+_s]
-    _y = [1]*_maxSample + [2]*_maxSample
+    _y =   [1]*_maxSample + [2]*_maxSample
     return _X,_y
 if __name__ == "__main__":
     _file_path = sys.argv[1]
     _dataA,_dataB,_dataC,_dataD  = readFile(_file_path)
     print "Data: %s" % (_file_path)
-    print "     class A available data: %i" %(len(_dataA))
-    print "     class B available data: %i" %(len(_dataB))
-    print "     class C available data: %i" %(len(_dataC))
-    print "     class D available data: %i" %(len(_dataD))
+    print "     class 0 available data: %i" %(len(_dataA))
+    print "     class 1 available data: %i" %(len(_dataB))
+    print "     class 2 available data: %i" %(len(_dataC))
+    print "     class 3 available data: %i" %(len(_dataD))
     print "     Taking sample of: %i" %(19)
     clf = svm.SVC()
-    X,y = takeSample(18)
-    _X,_y = takeSample(18,1)
+    X,y = takeSample(20)
+    _X,_y = takeSample(10,19)
     clf.fit(X,y)
     svm.SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3,
     gamma=0.0, kernel='rbf', max_iter=-1, probability=False, random_state=None,
-    shrinking=True, tol=0.001, verbose=False)
+    shrinking=True, tol=0.001, verbose=True)
     y_pred = clf.predict(_X)
     cm = confusion_matrix(_y, y_pred)
     print cm
-    print "Precision: %i" %(precision_score(_y,y_pred))
+    print "Precision: %f" %(precision_score(_y,y_pred)*100)
     print "Recall: %f" %(recall_score(_y,y_pred) *100)

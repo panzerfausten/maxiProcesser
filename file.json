@@ -1,0 +1,9 @@
+[
+{"halfRecoveryTimes": [5, 2, 2], "peakValues": [2.318472734758839, 2.7466711049787911, 2.589390279688959], "risingTimeValues": [2.1712202044424815, 2.2210705207969683, 2.3334804086016612], "peaksCount": 3}
+,
+{"halfRecoveryTimes": [null, 2], "peakValues": [2.5641035167489541, 2.6871875802672665], "risingTimeValues": [2.3575090136681283, 2.5463815408393611], "peaksCount": 2}
+,
+{"halfRecoveryTimes": [null, 3], "peakValues": [2.6238210881975159, 2.578721112459176], "risingTimeValues": [2.3617976903822586, 2.4979529038714117], "peaksCount": 2}
+,
+{"halfRecoveryTimes": [2, null, 2], "peakValues": [3.2807264773183729, 2.8392770665422677, 3.1683541727603446], "risingTimeValues": [2.54746808237531, 2.5879410889360681, 2.7388593553507725], "peaksCount": 3}
+]

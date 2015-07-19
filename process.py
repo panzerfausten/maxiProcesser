@@ -328,15 +328,30 @@ if (__name__ == "__main__"):
                                     print "------------"
                                 except:
                                     pass
+
+                """
                 s = session("p7/alfonso_relax/1434064078558/")
                 plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                plotTEMP("p7/alfonso_relax","alfonso_TEMP",s,_limy=[30,40])
-                plotHR_ZEPHYR("p7/alfonso_relax","alfonso_relax_HR",s,_limy=[0,120])
-                plotIBI_ZEPHYR("p7/alfonso_relax","alfonso_relax_IBI",s,_limy=[0.4,1])
+                #plotTEMP("p7/alfonso_relax","alfonso_TEMP",s,_limy=[30,40])
+                #plotHR_ZEPHYR("p7/alfonso_relax","alfonso_relax_HR",s,_limy=[0,120])
+                #plotIBI_ZEPHYR("p7/alfonso_relax","alfonso_relax_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax/plots/alfonso_relax_htr",_ylim=[0,20])
-                """
+                htr.plot("p7/alfonso_relax/plots/alfonso_relax_htr",_ylim=[0,1])
+                s.getAnxious()
+		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
+		for seg in s._dataANXIETYRANGES:
+			_s,_e,_l = seg
+			if (_l != -1):
+                                hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
+                                #print _l,",",hrfe.extract()
+                                htr = HalfRecoveryTimeDetector(_data[_s:_e])
+                                #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
+                                #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
+                                for _val in htr.toCSV():
+                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())
+
+
                 ######session2###################
                 s = session("p7/alfonso_relax2/1434495734670/")
                 plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR",s,_limy=[0.0,20.0])
@@ -345,7 +360,7 @@ if (__name__ == "__main__"):
                 #plotIBI_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_IBI",s,_limy=[0.4,1])
                 _data = s.groupBySec(s._dataGSR,True,False)
                 htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax2/plots/alfonso_relax2_htr",_ylim=[0,20])
+                htr.plot("p7/alfonso_relax2/plots/alfonso_relax2_htr",_ylim=[0,1])
 
 		s.getAnxious()
 		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
