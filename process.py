@@ -4,6 +4,7 @@ from sklearn import preprocessing
 import numpy as np
 from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
 from HRFeatureExtractor import HRFeatureExtractor
+from IBIFeatureExtractor import IBIFeatureExtractor
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -344,12 +345,13 @@ if (__name__ == "__main__"):
 			_s,_e,_l = seg
 			if (_l != -1):
                                 hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
+                                ibife = IBIFeatureExtractor(s._dataZEPHYR_IBI[_s:_e])
                                 #print _l,",",hrfe.extract()
                                 htr = HalfRecoveryTimeDetector(_data[_s:_e])
                                 #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
                                 #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
                                 for _val in htr.toCSV():
-                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())
+                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())+","+",".join ( str(i) for i in ibife.extract())
 
 
                 ######session2###################
@@ -368,12 +370,13 @@ if (__name__ == "__main__"):
 			_s,_e,_l = seg
 			if (_l != -1):
                                 hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
-                                #print _l,",",hrfe.extract()
+                                ibife = IBIFeatureExtractor(s._dataZEPHYR_IBI[_s:_e])
                                 htr = HalfRecoveryTimeDetector(_data[_s:_e])
                                 #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
                                 #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
                                 for _val in htr.toCSV():
-                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())
+                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())+","+",".join ( str(i) for i in ibife.extract())
+
                                 #print "-----------"
                 """
 

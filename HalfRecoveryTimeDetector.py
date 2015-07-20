@@ -105,8 +105,8 @@ class HalfRecoveryTimeDetector:
                 major_ticks = np.arange(0, len(self._data), _xTick)                                              
                 minor_ticks = np.arange(0, len(self._data), _xMinorTick)     
 
-                major_ticks_y = np.arange(0, len(self._data), 1)                                              
-                minor_ticks_y = np.arange(0, len(self._data), 0.5)     
+                major_ticks_y = np.arange(0, 1.1, 0.2)                                              
+                minor_ticks_y = np.arange(0, 1.1, 0.1)     
                 ax.set_xticks(major_ticks)                                                       
                 ax.set_xticks(minor_ticks, minor=True)                                           
                 ax.set_yticks(major_ticks_y)                                                       
@@ -159,4 +159,5 @@ class HalfRecoveryTimeDetector:
                     _valsToPrint.append(str(_peak["halfRecoveryValue"]))
                     _valsToPrint.append(str(_peak["distanceToPrevPeak"]))
                     _data.append([",".join(_valsToPrint)])
+                    break
 	    return _data
