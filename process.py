@@ -303,93 +303,64 @@ def generateAlbumScript(subjects):
 			_album.write(" %s/plots/plots_TEMP_%s.pdf " %(_subject,_subject))
 		_album.write(" output albumTEMP.pdf\n")
 
-		_album.write(" okular albumGSR.pdf\n")
+		_album.write(" okular albumGSR.pdf\n")\
+
+def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=True):
+            _session.getAnxious()
+            _dataAvgBySecHR = _session._dataZEPHYR_HR
+            _dataAvgBySecIBI = _session._dataZEPHYR_IBI
+            _dataAvgBySecTEMP = _session._dataTEMP
+            _dataGSR = _session.groupBySec(_session._dataGSR,True,False)
+            for seg in s._dataANXIETYRANGES:
+                    _s,_e,_l = seg
+                    if (_l != -1):
+                            extraFeatures = []
+                            if(gsr):
+                                if  len(_dataGSR[_s:_e]) > 0:
+                                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
+                                    extraFeatures.append(htr.extract())
+                            if(hr):
+                                if  len(_dataAvgBySecHR[_s:_e]) > 0:
+                                    hrfe = HRFeatureExtractor(_dataAvgBySecHR[_s:_e])
+                                    extraFeatures.append(hrfe.extract())
+                            if(ibi):
+                                if  len(_dataAvgBySecIBI[_s:_e]) > 0:
+                                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
+                                    extraFeatures.append(ibife.extract())
+                            if(temp):
+                                if  len(_dataAvgBySecTEMP[_s:_e]) > 0:
+                                    tempfe = TEMPFeatureExtractor(_dataAvgBySecTEMP[_s:_e])
+                                    extraFeatures.append(tempfe.extract())
+                            _line = str(_l)
+                            if( len(extraFeatures) > 0):
+                                for _t in extraFeatures:
+                                    _line += ","+ ",".join(str(_x) for _x in _t)
+                                print _line
+                            #print _line
+
 if (__name__ == "__main__"):
 
-                """
 		s = session("p9/sandra_relax/1434150573545/")
-		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0])
-	#	plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,10.0],_limx=[900,1100])
-		#plotTEMP("p9/sandra_relax","sandra_relax_TEMP",s,_limy=[30,40])
+		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,1.0])
 		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
-		#plotIBI_ZEPHYR("p9/sandra_relax","sandra_relax_IBI",s,_limy=[0.4,1])
-                _data = s.groupBySec(s._dataGSR,True,False)
-                #htr = HalfRecoveryTimeDetector(_data)
-		s.getAnxious()
-		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
-		for seg in s._dataANXIETYRANGES:
-			_s,_e,_l = seg
-			if (_l != -1):
-                                try:
-                                    hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
-                                    print _l,",",hrfe.extract()
-                                    htr = HalfRecoveryTimeDetector(_data[_s:_e])
-                                    #plotGSR("p9/sandra_relax","sandra_relax_GSR%i_%i" %(_s,_e),s,_limy=[0.0,10.0],_limx=[_s,_e])
-                                    #plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR_%i_%i" %(_s,_e),s,_limx=[_s,_e],_limy=[0,120])
-                                    print _l,",",htr.toCSV()
-                                    print "------------"
-                                except:
-                                    pass
+                getFeaturesFrom(s)
 
-                """
+		s = session("p9/sandra_relax3/1435619278734/")
+		plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,1.0])
+		plotHR_ZEPHYR("p9/sandra_relax3","sandra_relax3_HR",s,_limy=[0,120])
+                getFeaturesFrom(s)
+
                 s = session("p7/alfonso_relax/1434064078558/")
                 plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                #plotTEMP("p7/alfonso_relax","alfonso_TEMP",s,_limy=[30,40])
-                #plotHR_ZEPHYR("p7/alfonso_relax","alfonso_relax_HR",s,_limy=[0,120])
-                #plotIBI_ZEPHYR("p7/alfonso_relax","alfonso_relax_IBI",s,_limy=[0.4,1])
-                _data = s.groupBySec(s._dataGSR,True,False)
-                htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax/plots/alfonso_relax_htr",_ylim=[0,1])
-                s.getAnxious()
-		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
-		for seg in s._dataANXIETYRANGES:
-			_s,_e,_l = seg
-			if (_l != -1):
-                                hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
-                                ibife = IBIFeatureExtractor(s._dataZEPHYR_IBI[_s:_e])
-                                tempfe = IBIFeatureExtractor(s._dataTEMP[_s:_e])
-                                #print _l,",",hrfe.extract()
-                                htr = HalfRecoveryTimeDetector(_data[_s:_e])
-                                #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
-                                #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
-                                for _val in htr.toCSV():
-                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())+","+",".join ( str(i) for i in ibife.extract())+","+",".join ( str(i) for i in tempfe.extract())
-
-
+                getFeaturesFrom(s)
                 ######session2###################
-                s = session("p7/alfonso_relax2/1434495734670/")
-                plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR",s,_limy=[0.0,20.0])
-                #plotTEMP("p7/alfonso_relax2","alfonso_relax2_TEMP",s,_limy=[30,40])
-                plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_HR",s,_limy=[0,120])
-                #plotIBI_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_IBI",s,_limy=[0.4,1])
-                _data = s.groupBySec(s._dataGSR,True,False)
-                htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax2/plots/alfonso_relax2_htr",_ylim=[0,1])
-
-		s.getAnxious()
-		_dataAvgBySec = s.groupBySec(s._dataZEPHYR_HR,False,True)
-		for seg in s._dataANXIETYRANGES:
-			_s,_e,_l = seg
-			if (_l != -1):
-                                hrfe = HRFeatureExtractor(s._dataZEPHYR_HR[_s:_e])
-                                ibife = IBIFeatureExtractor(s._dataZEPHYR_IBI[_s:_e])
-                                htr = HalfRecoveryTimeDetector(_data[_s:_e])
-                                tempfe = IBIFeatureExtractor(s._dataTEMP[_s:_e])
-                                #plotGSR("p7/alfonso_relax2","alfonso_relax2_GSR_%i_%i" %(_s,_e),s,_limy=[0.0,20.0],_limx=[_s,_e])
-                                #plotHR_ZEPHYR("p7/alfonso_relax2","alfonso_relax2_%i_%i" %(_s,_e),s,_limy=[0,120],_limx=[_s,_e])
-                                for _val in htr.toCSV():
-                                    print str(_l)+","+",".join(str(i) for i  in _val)+","+",".join( str(i) for i in hrfe.extract())+","+",".join ( str(i) for i in ibife.extract())+","+",".join ( str(i) for i in tempfe.extract())
-
-                                #print "-----------"
-                """
-
+                #s = session("p7/alfonso_relax2/1434495734670/")
+                getFeaturesFrom(s)
                 s = session("p7/alfonso_relax3/1435275565320/")
                 plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
-                plotTEMP("p7/alfonso_relax3","alfonso_relax3_TEMP",s,_limy=[30,40])
                 plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
-                plotIBI_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_IBI",s,_limy=[0.4,1])
-                _data = s.groupBySec(s._dataGSR,True,False)
-                htr = HalfRecoveryTimeDetector(_data)
-                htr.plot("p7/alfonso_relax3/plots/alfonso_relax3_htr",_ylim=[0,20])
-                print "p7 done"
-                """
+                getFeaturesFrom(s)
+                ###
+                s = session("p5/alma_rest/1433977560736/")
+                getFeaturesFrom(s)
+		

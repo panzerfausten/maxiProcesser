@@ -8,7 +8,7 @@ class TEMPFeatureExtractor:
 		self._cdata = []
         def cleanData(self):
                 data = []
-        	for _x in self._data:
+           	for _x in self._data:
 	                data.append(_x[1])
                 self._data = data
         def normalize(self):
@@ -17,6 +17,7 @@ class TEMPFeatureExtractor:
 
 	def extract(self):
 		_max = max(self._data)
+                
 		_avg = reduce(lambda x, y: x + y, self._data) / len(self._data)
 		self._TEMPFeatures = [_max,_avg]
 		return self._TEMPFeatures

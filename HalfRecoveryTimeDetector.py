@@ -159,5 +159,26 @@ class HalfRecoveryTimeDetector:
                     _valsToPrint.append(str(_peak["halfRecoveryValue"]))
                     _valsToPrint.append(str(_peak["distanceToPrevPeak"]))
                     _data.append([",".join(_valsToPrint)])
+                    #TODO: How to merge multiple peaks in a single vector?
+                    break
+	    return _data
+        def extract(self):
+	    _data = [None,None,None,None,None,None]
+            #peakcount, avg of all...
+            #quantity of recoveries
+            _pv = 0.0
+            _pa = 0.0
+            _pa = 0.0
+            for _peak in self._peaks:
+                    _valsToPrint = []
+                    _valsToPrint.append(str(_peak["peakValue"]))
+                    _valsToPrint.append(str(_peak["peakAmplitude"]))
+                    _valsToPrint.append(str(_peak["risingTimeValue"]))
+                    _valsToPrint.append(str(_peak["halfRecoveryIndex"]))
+                    #halfrecovery in secs
+                    _valsToPrint.append(str(_peak["halfRecoveryValue"]))
+                    _valsToPrint.append(str(_peak["distanceToPrevPeak"]))
+                    #TODO: How to merge multiple peaks in a single vector?
+                    _data = _valsToPrint
                     break
 	    return _data
