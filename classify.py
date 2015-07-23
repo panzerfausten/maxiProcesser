@@ -69,21 +69,23 @@ def plot(_X,_y,_clf):
     plt.savefig("svm")
 def randomiceData(data):
         for d in data:
-                shuffle(d)        
+                shuffle(d)
 if __name__ == "__main__":
     _file_path = sys.argv[1]
     _dataA,_dataB,_dataC,_dataD  = readFile(_file_path)
-    #randomiceData([_dataA,_dataB,_dataC,_dataD])
+    randomiceData([_dataA,_dataB,_dataC,_dataD])
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
     print "     class 1 available data: %i" %(len(_dataB))
     print "     class 2 available data: %i" %(len(_dataC))
     print "     class 3 available data: %i" %(len(_dataD))
-    print "     Taking sample of: %i" %(12)
+    print ""
+    print "     Training elements: %i" %(20)
+    print "     Test elements: %i" %(20)
     for i, kernel in enumerate(['linear','rbf','poly']):
         clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(10)
-        _X,_y = takeSample(23,20)
+        X,y = takeSample(20)
+        _X,_y = takeSample(20,20)
         Z = clf.fit(X,y)
         y_pred = clf.predict(_X)
         cm = confusion_matrix(_y, y_pred)

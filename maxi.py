@@ -287,7 +287,7 @@ class session:
 		for _x in range (0,len(self._dataANXIETY)):
 			_pos = int (self._dataANXIETY[_x][0] - self._startTime)
 			#we have to eval if the current value is the same as the next, and then fill the zeroes
-			_data[_pos] = (self._dataANXIETY[_x][2])
+			_data[_pos] = self._dataANXIETY[_x][2]
 			_state_s =  self._dataANXIETY[_x][2]
 			_state =  self._dataANXIETY[_x][2]
 			_seg_start = _x

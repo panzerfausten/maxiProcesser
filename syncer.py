@@ -1,7 +1,7 @@
 def find_between(s,_s1,_s2):
 	_i1 = s.index("#")
 	_i2 = s[_i1+1:].index("#")
-	return s[_i1+1:_i2].replace(".",""),s[_i2+2:]
+	return s[_i1+1:_i2].replace("-",""),s[_i2+2:]
 def deduct_secs(time,secs=1):
 	_hours,_mins,_secs = time.split(":")
 	_hours = int(_hours)
