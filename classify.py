@@ -37,8 +37,8 @@ def convertLine(_line):
                 _l.append( float(_line[_x]))
     return _l
 def takeSample(_maxSample,_s=0):
-    _X =    _dataA[_s:_maxSample+_s] +  _dataB[_s:_maxSample+_s] + _dataC[_s:_maxSample+_s] + _dataD[_s:_maxSample+_s]
-    _y =    [0]*_maxSample + [1]*_maxSample + [2]*_maxSample + [3]*_maxSample
+    _X =      _dataB[_s:_maxSample+_s] + _dataC[_s:_maxSample+_s] + _dataD[_s:_maxSample+_s]
+    _y =    [1]*_maxSample + [2]*_maxSample + [3]*_maxSample
     return _X,_y
 
 def takeSampleFrom(_source,_maxSample,_s=0,):
@@ -90,9 +90,9 @@ if __name__ == "__main__":
     print "     Test elements: %i" %(20)
     for i, kernel in enumerate(['linear','rbf','poly']):
         clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(25)
+        X,y = takeSample(50)
         validateVector(X)
-        _X,_y = takeSample(25,25)
+        _X,_y = takeSample(53,53)
         Z = clf.fit(X,y)
         y_pred = clf.predict(_X)
         cm = confusion_matrix(_y, y_pred)
