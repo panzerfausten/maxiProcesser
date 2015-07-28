@@ -4,7 +4,7 @@ class HRFeatureExtractor:
 		self._data = _data
                 self.cleanData()
                 self.normalize()
-		self._HRFeatures = []
+		self._HRFeatures = [0.0,0.0]
 		self._cdata = []
         def cleanData(self):
                 data = []

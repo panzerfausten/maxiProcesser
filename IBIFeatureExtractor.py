@@ -5,7 +5,7 @@ class IBIFeatureExtractor:
 		self._data = _data
                 self.cleanData()
                 self.normalize()
-		self._IBIFeatures = []
+		self._IBIFeatures = [0.0,0.0,0.0]
 		self._cdata = []
         def cleanData(self):
                 data = []

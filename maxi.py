@@ -261,7 +261,7 @@ class session:
 				self._dataEEG4.append( [ _row[0] , _row[4] ] )
 
 		if(self._dataANXIETY != None):
-			for _row in self._dataANXIETY:
+			for _x,_row in enumerate(self._dataANXIETY):
 				_row = _row.replace("\n","").split("\t")
 				_row[0] = float(_row[0])
 				_row[1] = str(_row[1])

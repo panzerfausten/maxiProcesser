@@ -67,6 +67,12 @@ def plot(_X,_y,_clf):
     yy = a * xx - clf.intercept_[0] / w[1]
     h0 = plt.plot(xx, yy, 'k-', label="non weighted div")
     plt.savefig("svm")
+def validateVector(vector):
+    _len = len(vector[0])
+    for _x, _v in enumerate(vector):
+        if (len(_v) != _len):
+            raise Exception("Invalid Feature Vector. All lines MUST to have the same lenght. (Line: %i)" %(_x))
+
 def randomiceData(data):
         for d in data:
                 shuffle(d)
@@ -84,8 +90,9 @@ if __name__ == "__main__":
     print "     Test elements: %i" %(20)
     for i, kernel in enumerate(['linear','rbf','poly']):
         clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(20)
-        _X,_y = takeSample(20,20)
+        X,y = takeSample(25)
+        validateVector(X)
+        _X,_y = takeSample(20,25)
         Z = clf.fit(X,y)
         y_pred = clf.predict(_X)
         cm = confusion_matrix(_y, y_pred)

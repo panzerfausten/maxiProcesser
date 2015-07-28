@@ -34,7 +34,7 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	elif(s._dataSOUNDS !=None):
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1)
 	else:
-		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,min_max_scaler,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
         m.plot(_path_raw)
 def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B0'
@@ -305,7 +305,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFeaturesFrom(_session,gsr=True,hr=False,ibi=False,temp=False):
+def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=True):
             _session.getAnxious()
             _dataAvgBySecHR = _session._dataZEPHYR_HR
             _dataAvgBySecIBI = _session._dataZEPHYR_IBI
@@ -320,17 +320,23 @@ def getFeaturesFrom(_session,gsr=True,hr=False,ibi=False,temp=False):
                                     htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
                                     extraFeatures.append(htr.extract())
                             if(hr):
+                                _hrToappend = [0.0,0.0] #TODO:FIX THIS HACK PLS
                                 if  len(_dataAvgBySecHR[_s:_e]) > 0:
                                     hrfe = HRFeatureExtractor(_dataAvgBySecHR[_s:_e])
-                                    extraFeatures.append(hrfe.extract())
+                                    _hrToAppend = hrfe.extract()
+                                extraFeatures.append(_hrToAppend)
                             if(ibi):
+                                _ibiToAppend = [0.0,0.0,0.0]
                                 if  len(_dataAvgBySecIBI[_s:_e]) > 0:
                                     ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
-                                    extraFeatures.append(ibife.extract())
+                                    _ibiToAppend = ibife.extract()
+                                extraFeatures.append(_ibiToAppend)
                             if(temp):
+                                _tempToAppend = [0.0,0.0]
                                 if  len(_dataAvgBySecTEMP[_s:_e]) > 0:
                                     tempfe = TEMPFeatureExtractor(_dataAvgBySecTEMP[_s:_e])
-                                    extraFeatures.append(tempfe.extract())
+                                    _tempToAppend= tempfe.extract()
+                                extraFeatures.append(_tempToAppend)
                             _line = str(_l)
                             if( len(extraFeatures) > 0):
                                 for _t in extraFeatures:
@@ -340,7 +346,36 @@ def getFeaturesFrom(_session,gsr=True,hr=False,ibi=False,temp=False):
 
 if (__name__ == "__main__"):
 
-		s = session("p9/sandra_relax/1434150573545/")
+
+
+		s = session("p6/luis_relax/1433979780288/")
+		plotGSR("p6/luis_relax","luismiguel_relax",s,_limy=[0.0,1.0])
+                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+                htr.plot("p6/luis_relax",_ylim=[0,1.1])
+		plotHR_ZEPHYR("p6/luis_relax","luismiguel_relax_HR",s,_limy=[0,120])
+                getFeaturesFrom(s)
+
+		s = session("p6/luismiguel_relax2/1434671046538/")
+		plotGSR("p6/luismiguel_relax2","luismiguel_relax2",s,_limy=[0.0,1.0])
+                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+                htr.plot("p6/luismiguel_relax2",_ylim=[0,1.1])
+		plotHR_ZEPHYR("p6/luismiguel_relax2","luismiguel_relax2_HR",s,_limy=[0,120])
+                getFeaturesFrom(s)
+
+		s = session("p1/carlos_S1_R1/1433807211979/")
+		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,1.0])
+                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+                htr.plot("p1/carlos_S1_R1/plots/carlos_S1_R1_htr",_ylim=[0,1.1])
+		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_S1_R1_relax_HR",s,_limy=[0,120])
+                getFeaturesFrom(s)
+		s = session("p1/carlos_relax3/1435362269780/")
+		plotGSR("p1/carlos_relax3","carlos_relax_GSR",s,_limy=[0.0,1.0])
+                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+                htr.plot("p1/carlos_relax3/plots/carlos_relax3_htr",_ylim=[0,1.1])
+		plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax_HR",s,_limy=[0,120])
+                getFeaturesFrom(s)
+		
+                s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,1.0])
 		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
                 getFeaturesFrom(s)
@@ -363,4 +398,3 @@ if (__name__ == "__main__"):
                 ###
                 s = session("p5/alma_rest/1433977560736/")
                 getFeaturesFrom(s)
-		
