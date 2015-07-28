@@ -92,7 +92,7 @@ if __name__ == "__main__":
         clf = svm.SVC(kernel=kernel)
         X,y = takeSample(25)
         validateVector(X)
-        _X,_y = takeSample(20,25)
+        _X,_y = takeSample(25,25)
         Z = clf.fit(X,y)
         y_pred = clf.predict(_X)
         cm = confusion_matrix(_y, y_pred)

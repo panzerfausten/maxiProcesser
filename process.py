@@ -305,7 +305,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=True):
+def getFeaturesFrom(_session,gsr=False,hr=False,ibi=True,temp=False):
             _session.getAnxious()
             _dataAvgBySecHR = _session._dataZEPHYR_HR
             _dataAvgBySecIBI = _session._dataZEPHYR_IBI
