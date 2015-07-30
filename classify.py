@@ -39,13 +39,20 @@ def convertLine(_line):
                 _l.append( float(_line[_x]))
     return _l
 def takeSample(_maxSample,_s=0):
-    _X =      _dataA[_s:_maxSample+_s] + _dataB[_s:_maxSample+_s]
+    _da = []
+    _db = []
+    for _d in _dataA[_s:_maxSample+_s]:
+        _da.append(_d[1])
+    for _d in _dataB[_s:_maxSample+_s]:
+        _db.append(_d[1])
+
+    _X =    _da + _db
     _y =    [0]*_maxSample + [1]*_maxSample
     return _X,_y
 def removeLabel(_data):
     _dataNolabel = []
     for _d in _data:
-        _dataNolabel.append(_d[1:])
+        _dataNolabel.append([_d[0],_d[1:]])
     return _dataNolabel
 def takeSampleFrom(_source,_maxSample,_s=0,):
     if(_source ==0):
@@ -82,19 +89,41 @@ def validateVector(vector):
 def randomiceData(data):
         for d in data:
                 shuffle(d)
-def normalize(data):
+def normalize():
+    _ra = []
+    _rb = []
+    _da = []
+    _db = []
+    _la = len(_dataA)
+    _lb = len(_dataB)
+    _nf = len(_dataA[0])
+    for _d in _dataA:
+        _da.append(_d[1])
+    for _d in _dataB:
+        _db.append(_d[1])
+    print _nf
     min_max_scaler = preprocessing.MinMaxScaler()
-    data = min_max_scaler.fit_transform(data)
-    return data
+    data = min_max_scaler.fit_transform(_da)
+    print data
+    for _x in range(0,len(data)):
+        if(_x < _la):
+            _ra.append([0,data[_x]])
+        else:
+            _rb.append([0,data[_x]])
+
+    return _ra,_rb
 if __name__ == "__main__":
     _file_path = sys.argv[1]
     _dataA,_dataB  = readFile(_file_path)
-    _dataA = normalize(_dataA)
-    _dataB = normalize(_dataB)
+    #_dataA,_dataB  = normalize()
     _dataA = removeLabel(_dataA)
     _dataB = removeLabel(_dataB)
+    #_dataA = normalize(_dataA+_dataB)
+    #_dataB = normalize(_dataB)
     #sys.exit(1)
     randomiceData([_dataA,_dataB])
+    print _dataA[-4]
+    print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
     print "     class 1 available data: %i" %(len(_dataB))

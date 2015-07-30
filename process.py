@@ -332,8 +332,9 @@ def getFeaturesFrom(_session,gsr=False,hr=False,ibi=True,temp=False):
                                     _line += ","+ ",".join(str(_x) for _x in _t)
                                 print _line
                             #print _line
-def getFts(_s):
+def getFts(_s,gsr=True,ibi=False):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
+    _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
     _s = -1
     _features =[]
@@ -343,10 +344,20 @@ def getFts(_s):
                 _segment = _dataGSR[_x-30:_x+30]
                 _s = _x-30
                 _e = _x+30
-                #_dataSR.pop(-1)
-                htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
-                print _dataSR[_z],",".join(map(str,htr.extract()))
+                _lFeatures =[str(_dataSR[_z])]
+                if(gsr):
+                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
+                    for _f in htr.extract():
+                        _lFeatures.append(_f)
+
+                if(ibi):
+                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
+                    for _f in ibife.extract():
+                        _lFeatures.append(_f)
+                _features.append(_lFeatures)
                 break
+    for _f in _features:
+        print ",".join(map(str,_f))
 
 if (__name__ == "__main__"):
                 """
