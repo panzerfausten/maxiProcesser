@@ -46,6 +46,7 @@ class session:
                 self._dataCODIFICATION = None
                 self._dataEEG = None
                 self._dataANXIETY = None
+                self._dataSR = None
 
 		for _f in self._dirList:
 			if "ACC" in _f:
@@ -72,6 +73,8 @@ class session:
 				self._pathEEG = self._path + _f
 			elif "ANXIETY" in _f:
 				self._pathANXIETY = self._path + _f
+			elif "SR" in _f:
+				self._pathSR = self._path + _f
 
 	def readSessionMetadata(self):
 		"""Reads the metadata in session.csv"""
@@ -156,6 +159,8 @@ class session:
 			self._dataEEG = self.readFile(self._pathEEG)
 		if(self._pathANXIETY != None):
 			self._dataANXIETY = self.readFile(self._pathANXIETY)
+		if(self._pathSR != None):
+			self._dataSR = self.readFile(self._pathSR)
 
 	def sanitizeAllData(self):
 		"""Removes breaklines and splits data into positions in the lists"""
@@ -272,6 +277,14 @@ class session:
 					_row[2] = int(_row[2])
 				_splittedData.append( _row)
 			self._dataANXIETY = _splittedData
+		if(self._dataSR != None):
+                        _d = []
+			for _row in self._dataSR:
+			    _row = _row.replace("\n","")
+                            _row = int(_row)
+                            _d.append(_row)
+                        self._dataSR = _d
+                        
 	def normalizeGSR(self):
 		_data_with_timestamps = np.asarray(self._dataGSR)
 			
@@ -354,16 +367,10 @@ class session:
 		_duration = int ( math.ceil(self._duration) )
 		_data = [None] * _duration
 		for _v in data:
-			#print _v[0]
-			#print self._startTime
-			#TODO:DELETE ME ONCE YOU FIX THE APP
 			if (len(str(_v[0])) > 10):
 				_pos = int(math.floor(( int( str(_v[0])[:10]) - self._startTime)))	
 			else:
 				_pos = int(math.floor((_v[0] - self._startTime)))
-			#print "firstdata -> %i"  %(int(math.floor((_v[0]))))
-			#print "startTime-> %i" %(self._startTime)
-			#print "len(data)-> %i" %(len(_data))
 			if(_pos > 1 and _pos < len(_data) -1):
 				if(_data[_pos-1] == None):
 					_data[_pos-1] = []

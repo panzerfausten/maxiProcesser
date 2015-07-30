@@ -9,7 +9,7 @@ class HalfRecoveryTimeDetector:
 		self._data = self.removeNones(_data)
 		self._segment = _segment
 		self._peaks = []
-                self.normalize()
+                #self.normalize()
 		self.detect()
 		self._xlim = None
 	def removeNones(self,_data):
@@ -163,20 +163,24 @@ class HalfRecoveryTimeDetector:
                     break
 	    return _data
         def extract(self):
-	    _data = [0.0,0.0,0.0,0.0,0.0,0.0,0.0]
-            for _peak in self._peaks:
-                    if _peak["peakValue"] != None:
-                        _data[0] += _peak["peakValue"]
-                        _data[1] += _peak["peakAmplitude"]
-                        _data[2] += _peak["risingTimeValue"]
-                    if _peak["halfRecoveryIndex"] !=None:
-                        _data[3] += _peak["halfRecoveryIndex"] - _peak["peakIndex"] 
-                        _data[4] += _peak["halfRecoveryValue"]
-                    if _peak["distanceToPrevPeak"] != None:
-                        _data[5] += _peak["distanceToPrevPeak"]
+            _data = []
+            _data.append(np.mean(self._data))
+            _data.append(len(self._peaks))
+            _data.append(np.std(self._data))
+            _maxP = -1
+            _maxA = -1
+            _avgDr = -1
+            for _x, _p in enumerate(self._peaks):
+                if(_p['peakAmplitude'] > _maxA):
+                    _maxP = _x #calculate the greatest peak
+            if(_maxP != -1):
+                _data.append(self._peaks[_maxP]['peakAmplitude'])
+                _peakEnergySum = 0.5 * self._peaks[_maxP]['peakAmplitude'] * self._peaks[_maxP]['risingTimeIndex']
+                _data.append(_peakEnergySum)
+                _data.append( min(self._data))
+            else:
+                _data.append(0)
+                _data.append(0)
+                _data.append(0)
+            return _data
 
-                    #TODO: How to merge multiple peaks in a single vector?
-            #for _d in _data:
-             #   _d = _d / len(_data)
-            #_data.append(len(_data)
-	    return _data

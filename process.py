@@ -6,6 +6,7 @@ from HalfRecoveryTimeDetector import HalfRecoveryTimeDetector
 from HRFeatureExtractor import HRFeatureExtractor
 from IBIFeatureExtractor import IBIFeatureExtractor
 from TEMPFeatureExtractor import TEMPFeatureExtractor
+from datetime import datetime
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -34,7 +35,7 @@ def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	elif(s._dataSOUNDS !=None):
 		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,sounds=s.toSecSounds(),_xTick=200,_yTick=1)
 	else:
-		m = MyPlotter(_title_raw,min_max_scaler,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
+		m = MyPlotter(_title_raw,_dataToPlot,"Seconds","Value "+u,color='blue',limx=_limx,limy=_limy,_xTick=200,_yTick=1)
         m.plot(_path_raw)
 def plotTEMP(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B0'
@@ -316,38 +317,39 @@ def getFeaturesFrom(_session,gsr=False,hr=False,ibi=True,temp=False):
                     if (_l != -1):
                             extraFeatures = []
                             if(gsr):
-                                if  len(_dataGSR[_s:_e]) > 0:
-                                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
+                                if  len(_dataGSR[_s:_e+6]) > 0:
+                                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e+6])
                                     extraFeatures.append(htr.extract())
-                            if(hr):
-                                _hrToappend = [0.0,0.0] #TODO:FIX THIS HACK PLS
-                                if  len(_dataAvgBySecHR[_s:_e]) > 0:
-                                    hrfe = HRFeatureExtractor(_dataAvgBySecHR[_s:_e])
-                                    _hrToAppend = hrfe.extract()
-                                extraFeatures.append(_hrToAppend)
+                            _line = str(_l)
+
                             if(ibi):
-                                _ibiToAppend = [0.0,0.0,0.0]
-                                if  len(_dataAvgBySecIBI[_s:_e]) > 0:
-                                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
-                                    _ibiToAppend = ibife.extract()
-                                extraFeatures.append(_ibiToAppend)
-                            if(temp):
-                                _tempToAppend = [0.0,0.0]
-                                if  len(_dataAvgBySecTEMP[_s:_e]) > 0:
-                                    tempfe = TEMPFeatureExtractor(_dataAvgBySecTEMP[_s:_e])
-                                    _tempToAppend= tempfe.extract()
-                                extraFeatures.append(_tempToAppend)
+                                if  len(_dataAvgBySecIBI[_s:_e+10]) > 0:
+                                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e+10])
+                                    extraFeatures.append(ibife.extract())
                             _line = str(_l)
                             if( len(extraFeatures) > 0):
                                 for _t in extraFeatures:
                                     _line += ","+ ",".join(str(_x) for _x in _t)
                                 print _line
                             #print _line
+def getFts(_s):
+    _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
+    _dataSR = _s._dataSR
+    _s = -1
+    _features =[]
+    for _z in range(0,len(_dataSR)):
+        for _x,_d in enumerate(reversed(_dataGSR)):
+            if((_x / 60.)  == _z+1.5):
+                _segment = _dataGSR[_x-30:_x+30]
+                _s = _x-30
+                _e = _x+30
+                #_dataSR.pop(-1)
+                htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
+                print _dataSR[_z],",".join(map(str,htr.extract()))
+                break
 
 if (__name__ == "__main__"):
-
-
-
+                """
 		s = session("p6/luis_relax/1433979780288/")
 		plotGSR("p6/luis_relax","luismiguel_relax",s,_limy=[0.0,1.0])
                 htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
@@ -369,12 +371,11 @@ if (__name__ == "__main__"):
 		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_S1_R1_relax_HR",s,_limy=[0,120])
                 getFeaturesFrom(s)
 		s = session("p1/carlos_relax3/1435362269780/")
-		plotGSR("p1/carlos_relax3","carlos_relax_GSR",s,_limy=[0.0,1.0])
+		plotGSR("p1","p1_relax_GSR",s,_limy=[0.0,6])
                 htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
-                htr.plot("p1/carlos_relax3/plots/carlos_relax3_htr",_ylim=[0,1.1])
+                htr.plot("p1/carlos_relax3/plots/carlos_relax3_htr",_ylim=[0,1.3])
 		plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax_HR",s,_limy=[0,120])
                 getFeaturesFrom(s)
-		
                 s = session("p9/sandra_relax/1434150573545/")
 		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,1.0])
 		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
@@ -384,17 +385,21 @@ if (__name__ == "__main__"):
 		plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,1.0])
 		plotHR_ZEPHYR("p9/sandra_relax3","sandra_relax3_HR",s,_limy=[0,120])
                 getFeaturesFrom(s)
-
+                """
                 s = session("p7/alfonso_relax/1434064078558/")
                 plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                getFeaturesFrom(s)
+                getFts(s)
                 ######session2###################
+
+                """
+                s = session("p7/alfonso_relax/1434064078558/")
                 s = session("p7/alfonso_relax2/1434495734670/")
                 getFeaturesFrom(s)
                 s = session("p7/alfonso_relax3/1435275565320/")
                 plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
                 plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
                 getFeaturesFrom(s)
-                ###
+                
                 s = session("p5/alma_rest/1433977560736/")
                 getFeaturesFrom(s)
+                """
