@@ -175,12 +175,18 @@ class HalfRecoveryTimeDetector:
                     _maxP = _x #calculate the greatest peak
             if(_maxP != -1):
                 _data.append(self._peaks[_maxP]['peakAmplitude'])
-                _peakEnergySum = 0.5 * self._peaks[_maxP]['peakAmplitude'] * self._peaks[_maxP]['risingTimeIndex']
+                rise_time =  _maxP - self._peaks[_maxP]["risingTimeIndex"]
+                if (self._peaks[_maxP]["halfRecoveryIndex"] == None):
+                    _htr = 0
+                else:
+                    _htr = self._peaks[_maxP]["halfRecoveryIndex"] - self._peaks[_maxP]["peakIndex"]
+                #_peakEnergySum = 0.5 * self._peaks[_maxP]['peakAmplitude'] * rise_time
                 #_data.append(_peakEnergySum)
-                _data.append( min(self._data))
+                _data.append( np.std(self._data))
+                _data.append( _htr)
             else:
                 _data.append(0)
-                #_data.append(0)
+                _data.append(0)
                 _data.append(0)
             return _data
 

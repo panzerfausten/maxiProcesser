@@ -1,0 +1,497 @@
+#0:00:06.4#Investigador 2: Con unos muchachos...!!!
+#0:00:08.3#Investigador 2: Tienen muchas ganas de jugar con uste.
+#0:00:11.7#Pcd: Yo no quiero jugar
+#0:00:12.2#Investigador 2: Mire coma unas galletitas (Incomprensible)
+#0:00:15.6#Pcd: Ay noo
+#0:00:17.0#Investigador 2:Mire con  el muchacho ese, con el que está sentado ahí en frente con él, cuidado, cuidado
+#0:00:25.1#Participante: Hola
+#0:00:27.0#Pcd: Ay buenos días 
+#0:00:28.4#Participante: Buenos días
+#0:00:27.4# Investigador 2:Mire se llama *****?
+#0:00:29.2# Investigador 2:Y *****? va jugar con uste
+#0:00:31.9# Investigador 2:Y le voy a poner esto de premio cuando
+#0:00:35.6#Investigador 2:Para que pueda estar, toma algo y comiendo, ok...
+#0:00:40.8#Pcd: Pero yo no quiero jugar
+#0:00:42.7#Investigador 2:Pero va jugar poquito, poquito, ok nadamas ... un ratitito
+#0:00:46.0#Pcd:Noo, quién es uste
+#0:00:47.6#Participante: Alfonso
+#0:00:48.3#Pcd:¿Y qué hace aquí?
+#0:00:49.8#Participante:Vine a jugar un rato con usted
+#0:00:51.6#Pcd: No yo no quiero jugar, quién le dijo que yo quería  jugar
+#0:00:55.0#Participante: Yo!! dije aaa voy a jugar un rato
+#0:00:57.5#Pcd:No pero eso no me gusta
+#0:00:59.2#Participante: Vamos a jugar un rato a, hacer este crucecitas
+#0:01:03.5#Pcd:Noo, no me gustan las cruces
+#0:01:06.2#Participante:Hacer moños con estas agujetas
+#0:01:09.1#Pcd: Pos hágalas uste, yo no las voy hacer
+#0:01:12.4#Participante: Le voy a explicar como
+#0:01:13.4#Pcd:Yo voy a tomar mi mi  veneno
+#0:01:15.8#Participante: Le voy a explicar como y ya los dos jugamos 
+#0:01:19.3#Pcd: No no quiero jugar
+#0:01:23.2#Participante: Mire vamos a meter por éste hoyito una... por aquí
+#0:01:34.2#Pcd:¿ Y dónde está mi mamá ?
+#0:01:36.8#Participante:Allá está afuera
+#0:01:37.8#Pcd: Y ¿Antonio?... !!!Antonio!!! ¿a dónde te fuiste?
+#0:01:45.6#Pcd: ¿No sabe dónde está Antonio?
+#0:01:47.6#Participante:Todos estan afuera  ahorita esperando a (incomprensible)  juegue un rato
+#0:01:53.4#Pcd: ¿Que juegue un rato?, pero es que yo no quiero jugar!! quiero ver Antonio, ¿Dónde está Antonio?
+#0:02:00.5# Participante: Está ahí a fuera se me hace
+#0:02:02.6#Pcd: Y ¿mi mamá?
+#0:02:03.4#Participante: Tambien está afuera un rato, esperandola
+#0:02:06.1#Pcd:Yo no veo a nadie
+#0:02:07.9#Participante:No pos están allá esperando a que se  a que juegue un rato también
+#0:02:13.0#Pcd: Uste va jugar yo no
+#0:02:15.2#Participante:Los dos
+#0:02:15.2#Pcd: ¿Quién es uste?
+#0:02:16.8#Participante: Yo soy Alfonso
+#0:02:17.8#Pcd: Y que hace aquí
+#0:02:19.1#Participante:Vine a jugar un rato  con usted
+#0:02:25.5#Pcd:mmm,aaaajjj, noo me duele la cabeza  y no puedo jugar ahora 
+#0:02:30.1#Participante:Incomprensible
+#0:02:30.4#Pcd: Ya te dije que no quería jugar porque me duele la cabeza, quiero ver Antonio
+#0:02:38.2#Participante:Vamos a jugar despacio para que  se tranquilice y  y los dos yo también tenía dolor hace rato y jugando se me quitó
+#0:02:46.5#Pcd: Yo no estoy tranquilisanta
+#0:02:49.7#Participante: No yo tampoco estaba pero quitando se quita el estres y dolor de cabeza
+#0:02:56.1# Pcd: Estrés yo no tengo estrés
+#0:02:58.1#Participante: El dolor de cabeza sí
+#0:02:59.4#Pcd: Sí el dolor de cabeza sí
+#0:03:01.0#Participante:¿Si?
+#0:03:01.5#Pcd:Yo no estoy loca
+#0:03:02.2#Participante:Aaa
+#0:03:03.3#Pcd:Uste dijo que estaba loca
+#0:03:07.1#Participante: Pos vamos a jugar para que se nos quite el dolor de cabeza a los dos
+#0:03:10.0#Pcd:Bueno
+#0:03:10.9#Participante: ¿Si?
+#0:03:12.5#Participante:Incomprensible
+#0:03:12.7#Pcd: Uste va jugar por mi yo no voy a jugar
+#0:03:15.7#Participante:Los dos vamos a jugar juntos
+#0:03:17.0#Pcd: Pero yo quiero ver a mi mamá primero
+#0:03:21.4#Participante: Pues vamos a jugar tantito
+#0:03:26.1#Participante:¿Si?
+#0:03:26.4#Pcd: No se valla comer mis galletas ee
+#0:03:28.5#Participante: Noo, no
+#0:03:29.8#Pcd: ¿Ya comió?
+#0:03:31.1#Participante: Sí ya
+#0:03:32.2#Pcd: ¿Qué comió?
+#0:03:33.2#Participante:Galletas también
+#0:03:36.4#Pcd: Tan malas
+#0:03:39.1#Participante: (Incomprensible)
+#0:03:43.4#Pcd: 1, 2, 3 ya se comió una!! tenía  4
+#0:03:47.3#Participante: Noo
+#0:03:48.0#Pcd:Sí tenía 4 galletas uste comió una
+#0:03:53.5#Pcd: ¿Y de qué se ríe?
+#0:03:54.8#Participante: Noo este yo sonrío
+#0:03:57.9#Vamos hacer una cruz  aquí
+#0:04:00.0#Pcd:Ya le dije que no quiero hacer cruces
+#0:04:04.3#Participante: (Incomprensible) vamos a meter éste aquí
+#0:04:08.0#Pcd:Antonio...!!! ¿a dónde te fuiste?, ¿a dónde se fue Antonio?
+#0:04:13.5#Participante: Ahorita  aquí está a fuera
+#0:04:14.9#Pcd: Nooooo está muy chiquito, nop puede irse a fuera
+#0:04:17.7#Participante: Aaaa entonces lo está cuidando su mamá
+#0:04:19.8#Pcd:No tiene mamá
+#0:04:21.3#Participante: Noo la de usted
+#0:04:21.6#Pcd:Mi mamá no está aquí
+#0:04:25.4#Participante: Noo
+#0:04:26.6#Pcd:Noo mi mamá no está aquí
+#0:04:29.1#Pcd: Él está solo, yo ya me voy a cuidar Antonio
+#0:04:32.3#Participante:Noo lo están cuidando ahí
+#0:04:36.7#Pcd:Es es que no de debe quedarse solo
+#0:04:39.4#Participante:Sí no está solo lo están cuidando
+#0:04:44.6#Participante:Entonces usted va ser así ésta (Incomprensible)
+#0:04:48.8#Pcd:Noo yo no se 
+#0:04:50.6#Participante:Inténtelo y ya ahorita vemos
+#0:04:57.3#Pcd:Noo yo no quiero jugar de ésto, yo quiero jugar... a las bicicletas
+#0:05:04.4#Participante:¿A las bicicletas?
+#0:05:04.7#Pcd:Sí ¿ dónde esta la  bicicleta?
+#0:05:08.2#Participante:Ahí está afuera también
+#0:05:09.8#Pcd:Pos hay que subirnos a las bicicletas e irnos 
+#0:05:13.7#Participante:¿Le gusta andar en bici?
+#0:05:15.0#Pcd:Sí bastante bien y en moto... menos en carro
+#0:05:21.3#Participante:¿En carro noo?
+#0:05:22.0#Pcd:No
+#0:05:22.7#Participante:¿Por qué en carro no?
+#0:05:24.5#Pcd:Porque chocan los carros
+#0:05:26.8#Participante: Vamos intentar este hacer primero esta y ahorita vamos aver si jugamos a otra cosa
+#0:05:31.6#Participante:(Incomprensible) ¿si?
+#0:05:46.0#Pcd:¿Y Antonio pa dónde se fue?
+#0:05:48.9#Participante: Ahorita lo están cuidando
+#0:05:51.3#Pcd: Que mentiroso es si es un bebé 
+#0:05:56.0#Participante:Pues lo andan cuidando para que no se asome
+#0:05:58.7#Pcd: ¿Lo andan todavía?
+#0:06:08.5#Pcd: Yo no se éste juego
+#0:06:14.3#Participante: (Incomprensible) salió muy bien 
+#0:06:15.9#Pcd: No me gusta
+#0:06:20.0#Pcd:No me gusta éste juego
+#0:06:24.2#¿Que no pudo agarrar otra cosa mejor?
+#0:06:27.4#:Participante: Pues este me gusta y pense que le gustaría  usted
+#0:06:30.3#Pcd: Noo no me gusta
+#0:06:33.3#Participante: Pues está bien 
+#0:06:35.2#Participante: Ahora vamos isubs/alfonso_session_2.txtntentar algo diferente ¿si?
+#0:06:40.1# Pcd:Diferente ¿Cómo?
+#0:06:41.6#Participante: Sí ahora (incomprensible)  hoyitos
+#0:06:43.1#Pcd:Noo, yo quiero saber dónde está mi mamá, mamá!!! ¿Pa dónde  te fuiste?!!
+#0:06:49.6#Pcd: ¿ En dónde está mi mamá?
+#0:06:50.9#Participante: Debe estar afuera
+#0:06:52.4#Pcd:¿Cómo no me contesta?
+#0:06:54.0#Participante: Pues que está ocupada, pero ahí la está esperando ahí lo está esperando
+#0:07:06.2#Pcd:¿Uste no se llama Antonio?
+#0:07:08.3#Participante: Noo yo me llamo Alfonso
+#0:07:10.2#Pcd:¿Y por qué no le pusieron Antonio?
+#0:07:12.5#Participante: No se mi mamá me dijo tu vas a ser Alfonso (Incomprensible)
+#0:07:18.0#Pcd:Que malo
+#0:07:18.8#Participante: Sí
+#0:07:23.1#Participante: Entonces vamos hacer...
+#0:07:26.6#Pcd:Uste va ser yo no voy hacer nada
+#0:07:29.5#Participante: Yo lo voy hacer
+#0:07:31.2#Participante: Aquí voy a meter éste.. y aquí
+#0:07:35.9# Pcd:Y luego se mete por acá
+#0:07:36.1#Participante:  Aja (incomprensible) por acá.
+#0:07:41.4#Pcd: Y luego se mete por acá
+#0:07:45.8#Participante: Y ahora el segundo éste se mete por aquí
+#0:07:49.3#Pcd: Noo allí no va
+#0:07:52.1# Pcd: Tampoco
+#0:07:53.0#Participante: Después sale por aquí
+#0:07:54.9#Pcd: Tampoco
+#0:07:55.9# Participante: Y se mete por acá
+#0:07:56.7#Pcd: está mal, lo está haciendo mal, muy mal
+#0:08:01.7#Participante:Así tenemos dos tachitas
+#0:08:05.0#Pcd:¿Y pa qué son las tachas?
+#0:08:08.1#Participante: Nomás...  es para jugar
+#0:08:10.2#Pcd:Entonces yo no quiero jugar
+#0:08:12.9#Pcd: ¿Quién le dijo a uste que yo quiero jugar?
+#0:08:15.3#Participante: Yo.... dije usted quería  jugar
+#0:08:16.5#Pcd: Noo uste se está riendo de mí!!!
+#0:08:19.7# Participante:Noo yo sonrío, ¿usted noo sonríe?
+#0:08:21.8#Pcd: Noo a mí  no me gusta sonreir
+#0:08:24.1#Participante:¿Por qué?
+#0:08:24.8#Porque no, porque no me gusta reirme de la gente
+#0:08:29.2#Pcd: Uste se está riendo de mí
+#0:08:31.0#Participante: Noo
+#0:08:32.0#Pcd:Sí!! y ya se comió mis galletas
+#0:08:34.5#Participante:Noo aquí están suss galletas
+#0:08:36.4#Pcd: Eran cuatro
+#0:08:38.4#Participante: ¿Cuatro?
+#0:08:38.7#Pcd: y tres
+#0:08:40.9#Participante: Yo nomas vi tres cuando llegó
+#0:08:42.9# Pcd:Noo yo traía cuatro galletas
+#0:08:47.5# Pcd: Mamá!! ¿Dónde estás?
+#0:08:49.9#Participante: Ahorita viene a ver lo vamos, intente hacer éste juego que y ahorita lo vamos a llamar,¿ sale?
+#0:08:57.2#Pcd: No porque no ha hido hablar , aquí me van a tener encerrada Ahorita le grito Antonio
+#0:09:03.2# Participante:Nooo vamos a jugar
+#0:09:04.2#Pcd: Noo voy a gritarle Antonio que venga por mí, Antonio venm por mí
+#0:09:10.1#Pcd: Aquí me tienen encerrada jugando yo no quiero jugar
+#0:09:16.3#Pcd: A ver ahorita viene Antonio
+#0:09:19.8#Participante: Sí pero tiene que jugar
+#0:09:21.9#Pcd: Noo no quiero jugar, quién le dijo a uste que quiero jugar
+#0:09:26.3#Participante:Yoo... ¿no quiere jugar?
+#0:09:27.9#Pcd:Noo yo no quiero jugar
+#0:09:30.4#Participante:(Incomprensible)
+#0:09:32.9#Pcd:Ahorita le grito antonio
+#0:09:36.0#Participante: Bueno para que ejercite su mano
+#0:09:39.6#Pcd:  Pero ya no se ejercita porque ya está chueca mire ya tengo laas manos así chuecas, chuecas, ya no, ya no puedo jugar
+#0:09:50.5#Participante: inténtelo un ratito
+#0:09:53.8#Pcd: ¿Inténtelo,? ¿Cómo es eso de inténtelo?
+#0:09:56.8#Participante: Sí trate de meter éste aquí
+#0:10:02.4#Participante: Éste otro por aquí
+#0:10:05.4#Pcd: A que bien, que bien, sígalo haciendo
+#0:10:10.2#Pcd: Que bien
+#0:10:11.3#Participante: A ver hágalo usted
+#0:10:12.9#Noo ya le dije que yo no quiero jugar
+#0:10:17.3#Participante: ¿Noo?
+#0:10:17.6#Pcd:Ssss le voy aventar la tabla y lugo voy a gritar  Antonio
+#0:10:31.2#pcd: Me duele la cabeza porque uste me está poniendo ese juego
+#0:10:36.0#Participante:¿A qué quiere jugar?
+#0:10:37.9#pcd: A las escondidas
+#0:10:39.1#Participante: ¿A las escondidas?
+#0:10:39.8#Pcd: Sí escóndase a tras de aquel garrafón
+#0:10:42.8#Participante: Aja
+#0:10:43.7#Pcd: Y luego sale pa fuera corriendo  a buscar Antonio
+#0:10:49.2#Participante: Y usted 
+#0:10:49.5#Pcd: Corrale pues, corrale, corrale, corrale
+#0:10:53.2#Participante: Y usted que va ser
+#0:10:53.1#Pcd: A pues yo aquí lo voy a estar esperando a ver don...  que horas viene Antonio
+#0:10:59.2# Participante: Pues el chiste que juguemos los dos también
+#0:11:01.7#Pcd:Aaaa pos yo me meto abajo la mesa pero no quepo porque estoy muy gorda
+#0:11:06.5# Pcd: Toy muy gorda!!!!
+#0:11:09.3#Participante: Pues 
+#0:11:10.6#Pcd: Peso, peso 150 kilos 
+#0:11:13.5#Participante: No está gorda!!
+#0:11:14.4#Pcd:Sí estoy gorda!!! peso 150 kilos
+#0:11:18.3#Participante:Noooo
+#0:11:20.5#Participante:Vamos aa... (Incomprensible)
+#0:11:22.2#Pcd: Y uste ¿por qué dice que  no?  si  yo peso 150 kilos
+#0:11:26.4#Participante: Noooo que no está gorda para mí
+#0:11:28.6#Pcd: A pues estoy flaca para uste
+#0:11:30.6#Participante:Sí
+#0:11:30.6#Pcd: Pues no quiero estar flaca. Quiero estar gorda!!!, gorda!!!, gorda!!! 
+#0:11:36.1#Pcd: y más gorda, así, así, así, así  hasta que, hasta que  reviente
+#0:11:42.2#Participante: Más gorda!!!
+#0:11:43.2#Pcd:Más gorda.
+#0:11:45.0#Participante: ¿Le gusta estar gorda?
+#0:11:46.3#Pcd: Sí, voy allegar a pesar 200 kilos
+#0:11:50.9#Pcd: Uste no quiere llegar a pesar eso?
+#0:11:52.5#Participante:Noo yo quiero estár flaco
+#0:11:54.2#Pcd: Noo se ve como calabera
+#0:11:56.4#Participante: ¿Si?
+#0:11:56.8#Sí, noo es mejor estar gordo, gordo, gordo, gordo
+#0:12:02.4#Participante: Vamos a, usted (incomprensible)  y yo el otro, 
+#0:12:04.3#Participante: ¿Qué le parece?
+#0:12:05.8#Pcd: Pues uste dice!!! 
+#0:12:07.7#Participante: A ver yo meto éste aquí y usted agarra la otra punta
+#0:12:11.7#Participante:¿Dónde va la otra punta?
+#0:12:14.8#:Participante: Ahí muy bien, jalelo para acá
+#0:12:19.8#Participante: Ahí está ahora  el otro
+#0:12:27.4#Pcd: Ya me está haciendo jugar
+#0:12:30.8#Participante:Jalelo
+#0:12:34.4#Participante: Muy bien
+#0:12:35.7#Participante: (Risa), ahí está ya quedó apretado
+#0:12:40.6#Participante: A hora va ser un moño
+#0:12:45.0#Pcd:No se dice moño!!! se dice bigote!!!
+#0:12:47.7#Participante:  A un bigote pues, vamos hacer un bigote aquí
+#0:12:51.5#Pcd: Pero, ese,  ese que tiene bigotes no tiene ojos
+#0:12:55.9#Participante: Sí
+#0:12:56.9#Pcd: ¿Y Antonio si tiene ojos ?
+#0:12:58.9#ParticipanteSí
+#0:12:59.6#Pcd:Sí
+#0:13:01.5#Participante: Pues vamos hacer un bigote así
+#0:13:04.4#Pcd: ¿Y qué estas haciendo aquí?
+#0:13:06.1#Participante: Vine a jugar
+#0:13:08.1#Pcd:¿Y quién te invitó?
+#0:13:12.5#Participante:Su mamá
+#0:13:13.8#Pcd:¿ Mi mamá?
+#0:13:14.6#Pcd:Ahorita le hablo a mi mamá. Mamá ven acá por mí!!!
+#0:13:19.7#Pcd: Mamá!!!, hay me pico un animal!!! ssss
+#0:13:24.5#Pcd: Aquí hay animales que pican
+#0:13:32.0#Participante: Entonces, ¿ va hacer el bigote?
+#0:13:34.4# Pcd: Yooo, nooo hágalo uste, yo le dije que yo no quiero jugar esa, esa cosa
+#0:13:40.1#Participante: Los dos estamos  jugando
+#0:13:41.9#Pcd: Pos le toca a uste
+#0:13:44.7#Participante: Ahí va el bigoteeeeee
+#0:13:47.6#Pcd: ¿Y de quién es el bigote?, uste ni biote  tiene....
+#0:13:50.7#Participante: Poquitoooo
+#0:13:51.7#Pcd: Noooo
+#0:13:55.1#Participante: Ahí está el bigote
+#0:13:57.0#Participante: A ver unted hága el bigote
+#0:13:59.9#Pcd: Nooo pues 
+#0:14:05.7#Participante: ¿Lo agarro?, ¿ le ayudooo,  ooo?
+#0:14:10.6#Pcd: Noooo porque no me gusta ésta tabla
+#0:14:13.1#Participante:¿No?
+#0:14:13.8#¿Sabe por qué no me gusta ésta tabla?
+#0:14:15.3#Participante:¿Por qué no le gusta?
+#0:14:15.9#Porque tiene muchos agujeros 
+#0:14:17.9#Participante: Aaaaa
+#0:14:20.8#Participante: uuuuu
+#0:14:20.7#Pcd: Y la tabla no debe de tener agujeros 
+#0:14:24.1#Participante: ¿Ninguno?
+#0:14:24.8#Noo y se amarra así, así, así, así, así y así
+#0:14:34.4#Participante: ¿Y el bigote?
+#0:14:38.4#Pcd: El bigote... pues si no tiene uste, pa qué quiere bigote
+#0:14:42.0#Participante: Pero la tabla sí
+#0:14:44.1#Pcd:(Incomprensible)
+#0:14:50.9#Pcd:  Voy a gritar
+#0:14:53.1#Participante:(Incomprensible)
+#0:14:53.9#Pcd: Nooo voy a gritar
+#0:14:55.6#Participante:¿porqué?
+#0:14:56.7#Pcd: Porque voy a buscar Antonio
+#0:14:58.6#Pcd: Antonio ¿Dónde estas?
+#0:15:03.5#Pcd: Ya
+#0:15:03.9#Participante: Así, muy bien ese bigote eeee
+#0:15:06.2#Pcvd:Noo está feo
+#0:15:07.6#Participante:¿Por qué está feo?
+#0:15:08.7#Participante: Porque ésta no me queda aquí
+#0:15:11.8#Pcd: Ésta esta mas chiquita  que ésta, y esta debería, debería estar pareja
+#0:15:16.2# Pcd: Además eso  no se
+#0:15:18.1#Participante: Sí sabe no más que esta disparejo el bigote
+#0:15:23.4#Pcd:  Y qué está haciendo uste aquí
+#0:15:26.2#Participante: Aquí tratando de jugar
+#0:15:27.9#Participante: Mire ahí está parejo
+#0:15:30.0# Pcd: A pues ahí está bien
+#0:15:31.4#Participante: A ver y ya de ahí...
+#0:15:32.4#Pcd: No pero yo no se 
+#0:15:33.7# Participante: Lo acaba de hacer, a ver  inténtelo
+#0:15:36.2# Pcd: No pos no se sss
+#0:15:52.8#Participante: Muy bien....
+#0:15:56.3#Participante:  Ahora vamos a...
+#0:16:01.9#Pcd: Quiero ir por mi medecina
+#0:16:04.7#Participante: Aquí tiene sus galletitas
+#0:16:06.1# Pcd: Nooo uste ya se las comió
+#0:16:08.4#Participante: Noo ahí quedan tres
+#0:16:09.9#Pcd: Sí pero eran cuatro!!!
+#0:16:12.1#Participante:Pues ya tiene tres.
+#0:16:13.4#Pcd:  Pues uste se comió una
+#0:16:15.1#Participante: Noo no he agarrado ninguna
+#0:16:16.4#Pcd: Sí porque uste dijo que había comido galletas
+#0:16:19.5#Participante: En mi casa!!!
+#0:16:21.5#Pcd: Y ¿Dónde es su casa?
+#0:16:23.3#Participante: En el centro
+#0:16:28.1#Participante: Mire.... vamos a meter éste aquí en el primer hoyito
+#0:16:34.7#Participante:Éste aquí en el seguno hoyito
+#0:16:38.9#Pcd: Está mal
+#0:16:41.9#Participante: ¿Por qué está mal?
+#0:16:43.7#Pcd: Porque ss no se
+#0:16:46.0# Participante: A lo mejor síi está mal...  y de aquí metemos éste lo jalamos
+#0:16:52.6#Participante: Metemos éste otro.... (Incomprensible)
+#0:16:56.5# Participante: Y aquí hacemos  el bigote. Están  parejos
+#0:17:02.6#Participante: Vemos el bigote aquí
+#0:17:05.6#Pcd: Que bonito trabaja uste oiga, sígale,  sígale,  sígale,  sígale,
+#0:17:12.3# Participante: A ver usted
+#0:17:13.4#Pcd: Nooo yo no
+#0:17:14.3#Participante: Usted trabaja bonito también, trabaja bonito también
+#0:17:14.8#Pcd: Nooo uste es el que, el que  está trabajando, sígale, sígale, sígale
+#0:17:19.8# Participante:Yo ahorita me toca verlo austed a ver 
+#0:17:22.4#Pcd:  Porque yo no se, ¿Comó quiere que yo o haga?
+#0:17:24.8#Participante:Yo le voy ayudar... a ver 
+#0:17:27.6#Participante: Entonces quedamos 
+#0:17:29.6#Pcd: ssss
+#0:17:29.6#Participante: Que éste va ir aquí
+#0:17:32.8#Pcd: Yo no se
+#0:17:33.8#Participante: Sí. (Incomprensible)
+#0:17:35.0#Pcd: ssss
+#0:17:37.8#Participante: Aaa lo jalamos 
+#0:17:45.0# Participante: Se va ir pa lla (risa)
+#0:17:46.4# Pcd: Lo jalamos, lo jalamos, lo jalamos
+#0:17:49.0#Participante:  Aaaa  ¿todo?, (risa)
+#0:17:50.5#Pcd: Lo jalamos, verda que lo jalamos!!!
+#0:17:53.0#Participante: Bueno vamos hacerlo otra vez sin jalarlo tanto
+#0:17:58.1#Participante:  Metemos el primero aquí
+#0:18:00.5#Pcd: ¿Dónde estará Antonio?
+#0:18:02.6# Participante:  A de andar allá afuera
+#0:18:06.1#Pcd:¿ Y uste (Incomprensible) Antonio?
+#0:18:08.9# (Incomprensible)
+#0:18:09.2# Pcd: Así no más le gritabaaaa!!! y veníaaaa
+#0:18:13.8#Pcd: Y no vieneeee
+#0:18:19.3#Pcd: ¿Qué está apuntando?,  ¿el nombre de Antonio?
+#0:18:23.5#Participante: Sí
+#0:18:24.9#Pcd:Aaa ¿y el de mi mamá?
+#0:18:27.1#Participante:  ¿Cómo se llama su mamá?
+#0:18:28.5#Pcd: Mi mamá Alonsa
+#0:18:32.2#Participante:  ¿Alonsa?
+#0:18:33.2# Participante: Noo pos yo me llamo alfonso
+#0:18:34.6#Pcd: A pos mi mamá se llama alonsa
+#0:18:36.6#Participante: Aaa  casi igual
+#0:18:38.8#Pcd: Noo, está más bonito el nombre de mi mamá que el suyo
+#0:18:41.7#Participante: Sí  mucho mas bonito
+#0:18:43.0#Pcd:Ummmju
+#0:18:44.8# Participante: Entonces, aquí como habiamos quedado... éste
+#0:18:48.8# Pcd:Como quedó uste
+#0:18:49.5#Participante: Bueno como yo quedé, lo metemos aquí
+#0:18:54.3#Pcd: Sabe queeee, que tengo que ir por mi medecina!!
+#0:18:57.9# Pcd: Y ya me toca, ya me toca mi medecina 
+#0:19:01.6#Pcd: Para hablarle Antonio pa que venga a jugar a las escondidas
+#0:19:06.1#Participante: A aa ahorita vamos... hay que esperarlo un ratito
+#0:19:11.4#Aquí...  y hacemos el bigote
+#0:19:16.7#Pcd: Pos hágalo uste
+#0:19:23.2#Pcd:  Ah quiero a mi mamá
+#0:19:26.1#Pcd: Quiero a mi mamá!!! ya voy a llorar
+#0:19:30.6#Pcd: ¿Quiere que llore?
+#0:19:31.9#Participante: Noo inténte hacer el, la (Incomprensible)  y el bigote
+#0:19:35.7#Pcd: ¿Cuánto me va dar si lo hago?
+#0:19:37.8#Participante: Le voy a dar otra galleta
+#0:19:38.7#Nooo no  quiero galletas
+#0:19:40.2#Participante: ¿Y qué quiere?
+#0:19:41.6#Pcd.Quiero un tequila
+#0:19:43.4# Participante: ¿Un tequila?, abueno pues  primero vamos a a ver si, si puede
+#0:19:48.7#Pcd: Sí voy a poder pero si no me da el tequila ke voy a tirar ésto en la cara
+#0:19:55.1#Pcd: Así es que si no me da el tequila ya sabe a lo que se viene
+#0:19:58.5#Participante: ¿Sí?
+#0:20:08.1#Pcd: Estás riendo, ¿De quién te ries?
+#0:20:10.9#Participante:Noo
+#0:20:11.5# Pcd:¿Del mono?
+#0:20:15.0#Pcd: Se está riendo de uste
+#0:20:17.2#Participante:Noo (Incomprensible)
+#0:20:21.4#Pcd: Nooo uste es bien serio
+#0:20:27.2#Participante:Aaa muy bien
+#0:20:28.7#Pcd: Ya es lo lo único que voy hacer, porque ya no voy hacer nada
+#0:20:35.9#Participante: Le quedó perfecto, ¿ya vió?
+#0:20:37.5#Pcd: Noo
+#0:20:39.6#Participante:Ta muy  bonito
+#0:20:45.8# Participante: Aquí hizo la primera cruz
+#0:20:47.2# Pcd:Voy a gritar
+#0:20:49.4#Pcd: Mamá!! ¿Dónde estas? ven por  mi
+#0:20:53.5#Pcd: No quiere venir 
+#0:20:57.4#Participante: Vamos hacer ahora dos
+#0:20:59.8#Pcd: Pos hágalas uste... amí que me está avisando!!! 
+#0:21:03.6#Participante:  Para queee, para jugar los dos
+#0:21:05.6# Pcd: Noo yo no quiero jugar, yo quiero ver a mi mamá
+#0:21:08.7#Participante: Ahorita lo vamos a ir aver juntos.... a su mamá
+#0:21:12.0#Pcd: Mentiroso
+#0:21:14.0#Participante: Nooo
+#0:21:17.4#Participante: Aquí hacemos la primera... metemos aquí
+#0:21:21.6#Participante:Ésto
+#0:21:21.8#Pcd: Sígale, sígale ,  trabajando, sígale
+#0:21:25.3#Participante:   Sí porque ahorita  usted lo va hacer
+#0:21:26.8#Pcd: Nooo yo no
+#0:21:28.2#Participante:  Sí,  quedamos que uno y uno
+#0:21:29.6#Pcd: Noo no me gusta ese  juego
+#0:21:33.6#Participante:  Y éste otro aquí
+#0:21:40.3#Participante:  Éste aquí
+#0:21:44.2#Pcd: Ya es de noche
+#0:21:47.0#Pcd: Hay que hablarle Antonio
+#0:21:49.2# Participante: Ahorita le hablamos Antonio
+#0:21:52.9#Participante: Pues tenemos una tachita aquí y otra aquí
+#0:21:56.9#Pcd: ¿Y por qué quiere tanta tacha?, con una sobra
+#0:22:01.1#Participante: Pues dos, uno de cada tengo (Incomprensible) dos cada tachita
+#0:22:05.5#Participante: Aquí hay otra 
+#0:22:09.4#Pcd: Aaa eso quiere decir que uste es muy burro, que uste no aprende nada en la escuela
+#0:22:14.6# Participante:  Síiii
+#0:22:15.2#Por eso le hacen dos tachas verdad?
+#0:22:18.0#Pcd:Mmmmju
+#0:22:19.5#Pcd:  No pues yo no quiero hacer esas  tachas porque luego me van a decir que soy burra
+#0:22:23.0#Pcd: Y yo no soy burrra
+#0:22:24.4#Participante: Pues lo va hacer para mí dice que son mías
+#0:22:26.7#Pcd: mmmmm
+#0:22:29.0#Participante: ¿No quiere dos tachitas aquí?? y una quí
+#0:22:34.1#Participante:¿Sí?
+#0:22:34.7#Pcd: Nooo no voy a saber
+#0:22:37.7#Pcd: Sígale, Sígale, uste trabajando, Sígale,  uste, Sígale
+#0:22:40.0#Participante: Inténtelo y donde se atore yo le voy ayudar
+#0:22:43.2#Pcd: No porque estoy comiendo galletas y cuando yo como no me gusta que me hablen
+#0:22:49.3#Participante:  Ni amí
+#0:22:50.4#Pcd: Pos por eso no me hable
+#0:22:52.5#Participante:  No pero estamos jugando
+#0:22:53.2#Pcd: Yo nomás voy a gritarle a mi mamá y Antonio a ver si llegan por mí
+#0:22:57.8#Participante:  Puede comer con una galleta y von la otra estar jugando
+#0:23:00.1#Pcd: Noo
+#0:23:01.5#Participante: (Incomporensible)
+#0:23:04.3#Pcd:(Incomporensible)  Porque la galleta está muy pesada, pesada, pesada
+#0:23:10.8#Pcd: Mire apenas la puedo con dos manos la galleta
+#0:23:13.8#Participante: Aaaa lo puede  (Incomporensible) lo estaba agarrando con una mano
+#0:23:18.0#Pcd: Pues mire esta está  chueca esta mano, y no puede agarrar nada
+#0:23:22.4#Participante: A pues las agujetas si lo puede agarrar
+#0:23:24.4#Pcd: Nooo mmmm
+#0:23:26.5#Participante:Sí claro que sí
+#0:23:34.2# Participante: A ver vamos a intentarlo
+#0:23:37.5# Participante: Donde se atore yo le voy ayudar
+#0:23:39.2# Pcd:No pues es usted el que lo va intentar
+#0:23:42.5#Participante: A ver usted agarra uno y yo uno
+#0:23:45.7#Pcd:  A se me calló
+#0:23:48.9#Pcd:  A se me calló
+#0:23:50.1#Participante: Aaaa
+#0:23:51.7#Participante: Amí también se me calló pero, pero aquí
+#0:24:01.6#Participante:(Incomporensible) 
+#0:24:03.5#Pcd: (Incomporensible) uste
+#0:24:26.3#Participante: Le jaló de más
+#0:24:28.2#Pcd: Nooo, no le jalé de más
+#0:24:30.4#Participante: Bueno vamos a empezar otra ves, desde inicio
+#0:24:35.0#Participante:Primero meta  ese ahí  y yo meto este acá
+#0:24:46.6#Participante: Lo dejamos igual, parejos
+#0:24:49.6#Pcd: Está  muy disparejos
+#0:24:53.9#Ya me quiero ir a tomarme  mis medecina,
+#0:24:57.0#Pcd:entienda  y a buscar Antonio
+#0:24:59.4#Participante: Ahorita vamos a ir
+#0:25:01.1#Aaaa yo voy a ir sola no lo necesito a uste
+#0:25:06.8#Participante: ¿Por qué no quiere que valla con usted?
+#0:25:08.1#Pcd: Porque no quiero que conozca Antonio
+#0:25:12.5#Participante: Bueno pero primero vamos a jugar entonces
+#0:25:18.3#Pcd:Ya jugué dos veces
+#0:25:20.8#Participante: Pero lo dejo caer el chiste
+#0:25:23.8#Pcd:Sí  porque nomás mi mano no pude y la galleta está pesada
+#0:25:28.0# Participante: Bueno ahorita le traen galleta vamos a seguirle jugando 
+#0:25:30.9#Pcd: A pero traigo mis dedos chuecos
+#0:25:33.3#Participante: No importa  yo le ayudo
+#0:25:37.7#Participante: ¿Sí?
+#0:25:38.1#Pcd: Ni ni usted no puede!!
+#0:25:40.2#Participante: Sí
+#0:25:41.2#Pcd: Uste sígale trabajando, sígale trabajando
+#0:25:45.1#Pcd: ¿Quién toca?
+#0:25:46.1#Investigador2: Ya ya ve tocan para ir a darle sus medecinas

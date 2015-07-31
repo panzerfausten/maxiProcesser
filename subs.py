@@ -1,7 +1,9 @@
+import sys
+_input = sys.argv[1] 
 def find_between(s,_s1,_s2):
 	_i1 = s.index("#")
 	_i2 = s[_i1+1:].index("#")
-	return s[_i1+1:_i2].replace("-",""),s[_i2+4:]
+	return s[_i1+1:_i2].replace(".",""),s[_i2+2:]
 def deduct_secs(time,secs=1):
 	_hours,_mins,_secs = time.split(":")
 	_hours = int(_hours)
@@ -17,7 +19,7 @@ def deduct_secs(time,secs=1):
 	_secs = _total_secs
 
 	return "%i:%i:%i" %(_hours,_mins,_secs)
-with open("transcript.txt","r") as _FILE:
+with open(_input,"r") as _FILE:
 	_lines = _FILE.readlines()
 	for _x in range(0,len(_lines) -1):
 		_l = (_lines[_x])

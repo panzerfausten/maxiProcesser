@@ -86,7 +86,7 @@ def randomiceData(data):
 def normalize(_dataA,_dataB):
     x = np.array(_dataA+_dataB)
     _resA = x[:len(_dataA),:]
-    _resB = x[len(_dataB):,:]
+    _resB = x[len(_dataA):,:]
     norm1 = x / np.linalg.norm(x)
     #norm2 = normalize(x[:,np.newaxis], axis=0).ravel()
     return _resA,_resB
@@ -97,10 +97,10 @@ if __name__ == "__main__":
     _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    #randomiceData([_dataA,_dataB])
+    randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training = 10
-    _test = 10
+    _training = 11
+    _test = 11
     #print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
@@ -122,12 +122,11 @@ if __name__ == "__main__":
         print "Recall: %f" %(recall_score(_y,y_pred) *100)
         #print "----CROSS-VALIDATION--"
         #clf = svm.SVC(kernel=kernel)
-        #X,y = takeSample(14)
+        #X,y = takeSample(_training+_test)
         #validateVector(X)
-        #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
+        #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.8, random_state=0)
         #Z = clf.fit(X_train,y_test)
         #y_pred = clf.predict(X_test)
         #scores = cross_validation.cross_val_score(clf, X, y, cv=5)
-        #print scores
         #print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
            #plot(_X,_y,clf)
