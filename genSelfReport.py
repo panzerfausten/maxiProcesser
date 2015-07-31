@@ -1,4 +1,5 @@
 from datetime import datetime
+import traceback
 import time
 import sys
 class SelfReport:
@@ -93,4 +94,4 @@ if __name__ == "__main__":
         _sr.generateSelfReportFile()
     except Exception as e:
         usage()
-        print e
+        traceback.print_exc()

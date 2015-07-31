@@ -6,6 +6,7 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 from sklearn import cross_validation
 from sklearn import preprocessing
+from sklearn.preprocessing import normalize
 import numpy as np
 import matplotlib.pyplot as plt
 def readFile(_F):
@@ -39,38 +40,31 @@ def convertLine(_line):
                 _l.append( float(_line[_x]))
     return _l
 def takeSample(_maxSample,_s=0):
-    _da = []
-    _db = []
-    for _d in _dataA[_s:_maxSample+_s]:
-        _da.append(_d[1])
-    for _d in _dataB[_s:_maxSample+_s]:
-        _db.append(_d[1])
-
-    _X =    _da + _db
+    #at this point, the samples are sorted
+    _nm_A =    _dataA[_s:_maxSample+_s,:] 
+    _nm_B = _dataB[_s:_maxSample+_s,:]
+    _X = []
+    for _x, _nm in enumerate(_nm_A):
+        if(_x <= _maxSample):
+            _X.append(_nm.tolist())
+        else:
+            break
+    #print len(_nm_A.tolist())," ",len(_nm_B.tolist())
+    for _x, _nm in enumerate(_nm_B):
+        if(_x <= _maxSample):
+            _X.append(_nm.tolist())
+        else:
+            break
     _y =    [0]*_maxSample + [1]*_maxSample
     return _X,_y
-def removeLabel(_data):
+def removeLabel(_data,_tag=False):
     _dataNolabel = []
     for _d in _data:
-        _dataNolabel.append([_d[0],_d[1:]])
+        if(_tag):
+            _dataNolabel.append(_d[1:])
+        else:
+            _dataNolabel.append([_d[0],_d[1:]])
     return _dataNolabel
-def takeSampleFrom(_source,_maxSample,_s=0,):
-    if(_source ==0):
-        _X =    _dataA[_s:_maxSample+_s][1:]
-        _y =   [0]*_maxSample
-        return _X,_y
-    if(_source ==1):
-        _X =    _dataB[_s:_maxSample+_s][1:]
-        _y =   [1]*_maxSample
-        return _X,_y
-    if(_source ==2):
-        _X =    _dataC[_s:_maxSample+_s][1:]
-        _y =   [2]*_maxSample
-        return _X,_y
-    if(_source ==3):
-        _X =    _dataD[_s:_maxSample+_s][1:]
-        _y =   [3]*_maxSample
-        return _X,_y
 def plot(_X,_y,_clf):
     _X = np.array(_X)
     plt.scatter(_X[:,2],_X[:,3],c =_y)
@@ -89,52 +83,36 @@ def validateVector(vector):
 def randomiceData(data):
         for d in data:
                 shuffle(d)
-def normalize():
-    _ra = []
-    _rb = []
-    _da = []
-    _db = []
-    _la = len(_dataA)
-    _lb = len(_dataB)
-    _nf = len(_dataA[0])
-    for _d in _dataA:
-        _da.append(_d[1])
-    for _d in _dataB:
-        _db.append(_d[1])
-    print _nf
-    min_max_scaler = preprocessing.MinMaxScaler()
-    data = min_max_scaler.fit_transform(_da)
-    print data
-    for _x in range(0,len(data)):
-        if(_x < _la):
-            _ra.append([0,data[_x]])
-        else:
-            _rb.append([0,data[_x]])
-
-    return _ra,_rb
+def normalize(_dataA,_dataB):
+    x = np.array(_dataA+_dataB)
+    _resA = x[:len(_dataA),:]
+    _resB = x[len(_dataB):,:]
+    norm1 = x / np.linalg.norm(x)
+    #norm2 = normalize(x[:,np.newaxis], axis=0).ravel()
+    return _resA,_resB
 if __name__ == "__main__":
     _file_path = sys.argv[1]
     _dataA,_dataB  = readFile(_file_path)
-    #_dataA,_dataB  = normalize()
-    _dataA = removeLabel(_dataA)
-    _dataB = removeLabel(_dataB)
+    _dataA = removeLabel(_dataA,True)
+    _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    #sys.exit(1)
-    randomiceData([_dataA,_dataB])
-    print _dataA[-4]
-    print _dataB[-4]
+    #randomiceData([_dataA,_dataB])
+    _dataA,_dataB = normalize(_dataA,_dataB)
+    _training = 10
+    _test = 10
+    #print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
     print "     class 1 available data: %i" %(len(_dataB))
     print ""
-    print "     Training elements: %i" %(10)
-    print "     Test elements: %i" %(4)
+    print "     Training elements: %i" %(_training)
+    print "     Test elements: %i" %(_test)
     for i, kernel in enumerate(['linear','rbf','poly']):
          ##individual kernel
         clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(10)
-        _X,_y = takeSample(4,10)
+        X,y = takeSample(_training)
+        _X,_y = takeSample(_test,_training)
         Z = clf.fit(X,y)
         y_pred = clf.predict(_X)
         cm = confusion_matrix(_y, y_pred)
@@ -142,14 +120,14 @@ if __name__ == "__main__":
         print cm
         print "Precision: %f" %(precision_score(_y,y_pred)*100)
         print "Recall: %f" %(recall_score(_y,y_pred) *100)
-        print "----CROSS-VALIDATION--"
-        clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(14)
+        #print "----CROSS-VALIDATION--"
+        #clf = svm.SVC(kernel=kernel)
+        #X,y = takeSample(14)
         #validateVector(X)
-        X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
-        Z = clf.fit(X_train,y_test)
-        y_pred = clf.predict(X_test)
-        scores = cross_validation.cross_val_score(clf, X, y, cv=5)
+        #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
+        #Z = clf.fit(X_train,y_test)
+        #y_pred = clf.predict(X_test)
+        #scores = cross_validation.cross_val_score(clf, X, y, cv=5)
         #print scores
-        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+        #print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
            #plot(_X,_y,clf)

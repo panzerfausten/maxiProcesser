@@ -176,11 +176,11 @@ class HalfRecoveryTimeDetector:
             if(_maxP != -1):
                 _data.append(self._peaks[_maxP]['peakAmplitude'])
                 _peakEnergySum = 0.5 * self._peaks[_maxP]['peakAmplitude'] * self._peaks[_maxP]['risingTimeIndex']
-                _data.append(_peakEnergySum)
+                #_data.append(_peakEnergySum)
                 _data.append( min(self._data))
             else:
                 _data.append(0)
-                _data.append(0)
+                #_data.append(0)
                 _data.append(0)
             return _data
 

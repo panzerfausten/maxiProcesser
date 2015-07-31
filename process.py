@@ -306,7 +306,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFeaturesFrom(_session,gsr=False,hr=False,ibi=True,temp=False):
+def getFeaturesFrom(_session,gsr=True,hr=True,ibi=False,temp=False):
             _session.getAnxious()
             _dataAvgBySecHR = _session._dataZEPHYR_HR
             _dataAvgBySecIBI = _session._dataZEPHYR_IBI
@@ -332,7 +332,7 @@ def getFeaturesFrom(_session,gsr=False,hr=False,ibi=True,temp=False):
                                     _line += ","+ ",".join(str(_x) for _x in _t)
                                 print _line
                             #print _line
-def getFts(_s,gsr=True,ibi=False):
+def getFts(_s,gsr=True,ibi=True):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
@@ -402,10 +402,10 @@ if (__name__ == "__main__"):
                 getFts(s)
                 ######session2###################
 
-                """
                 s = session("p7/alfonso_relax/1434064078558/")
                 s = session("p7/alfonso_relax2/1434495734670/")
-                getFeaturesFrom(s)
+                getFts(s)
+                """
                 s = session("p7/alfonso_relax3/1435275565320/")
                 plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
                 plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
