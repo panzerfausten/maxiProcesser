@@ -1,0 +1,820 @@
+2
+0:00:01,000 --> 0:0:0,000
+Participante: ¿Asii?
+
+3
+0:00:01,000 --> 0:0:4,000
+Pcd: Ujummmm
+
+4
+0:00:05,000 --> 0:0:11,000
+Pcd: Mire otro gato, puros gatos
+
+5
+0:00:12,000 --> 0:0:24,000
+Sí
+
+6
+0:00:25,000 --> 0:0:26,000
+Pcd: Ya sabe dónde fue mi mamá?
+
+7
+0:00:27,000 --> 0:0:28,000
+Participante: (Mueve la cabeza) Nooo
+
+8
+0:00:29,000 --> 0:0:35,000
+Pcd: Pero pus me trajeron por acá para que la viera
+
+9
+0:00:36,000 --> 0:0:43,000
+Pcd: Mire más gatos (deja la carta sobre la mesa)
+
+10
+0:00:44,000 --> 0:0:46,000
+Pcd: ¿Todas éstas tengo que acomodar?
+
+11
+0:00:47,000 --> 0:0:52,000
+Participante:  (Mueve la c abeza)así es, menos estas, traen las instrucciones
+
+12
+0:00:53,000 --> 0:0:55,000
+Pcd:  Éstas son muchas
+
+13
+0:00:56,000 --> 0:1:30,000
+Participante: Pues así es el juego
+
+14
+0:01:31,000 --> 0:1:52,000
+Pcd: Más gatos ve!!!
+
+15
+0:01:53,000 --> 0:1:55,000
+Pcd: ¿De qué se ríe?, se está riendo de mí?
+
+16
+0:01:56,000 --> 0:1:57,000
+Participante:Nooo
+
+17
+0:01:58,000 --> 0:2:1,000
+Pcd: Es que ésto no e gusta
+
+18
+0:02:02,000 --> 0:2:14,000
+ Pcd: Y a uste si le gusta
+
+19
+0:02:15,000 --> 0:2:17,000
+Pcd:  ¿Ya está apuntando lo de mi licencia?
+
+20
+0:02:18,000 --> 0:2:20,000
+Participante:Así es
+
+21
+0:02:21,000 --> 0:2:23,000
+Pcd:  Quiero dos licencia
+
+22
+0:02:24,000 --> 0:3:2,000
+Participante: Incomprensible
+
+23
+0:03:03,000 --> 0:3:10,000
+Participante:Incomprensible, lo estamos organizando por...
+
+24
+0:03:11,000 --> 0:3:14,000
+Pcd: ¿Ésta no va aquí?
+
+25
+0:03:15,000 --> 0:4:43,000
+Participante:  Aja, muy bien 
+
+26
+0:04:44,000 --> 0:4:45,000
+Pcd: Ya me quiero ir
+
+27
+0:04:46,000 --> 0:4:49,000
+Participante: Ya (incomprensible) terminando
+
+28
+0:04:50,000 --> 0:4:51,000
+ Pcd: ¿Si sabe dónde fue mi mamá?
+
+29
+0:04:52,000 --> 0:4:53,000
+Participante: (Muve la cabeza) nooooo
+
+30
+0:04:54,000 --> 0:5:0,000
+Pcd: Pues que mal, debería de saber a donde fue 
+
+31
+0:05:01,000 --> 0:5:2,000
+ Participante: mmmmm
+
+32
+0:05:03,000 --> 0:5:9,000
+Pcd: Ella va a venir por mi, y me va a traer veneno
+
+33
+0:05:10,000 --> 0:5:11,000
+Pcd: ¿Nunca ha visto el veneno?
+
+34
+0:05:12,000 --> 0:5:11,000
+Participante: ¿A mí?
+
+35
+0:05:12,000 --> 0:5:12,000
+Pcd: mmmju
+
+36
+0:05:13,000 --> 0:5:13,000
+Participante: Pues nunca lo he probado
+
+37
+0:05:14,000 --> 0:5:16,000
+Pcd:Sí, si lo ha probado
+
+38
+0:05:17,000 --> 0:5:17,000
+Participante:¿Así?
+
+39
+0:05:18,000 --> 0:5:20,000
+Pcd: Ummmju
+
+40
+0:05:21,000 --> 0:5:24,000
+ Pcd: ¿Sabe que es veneno?
+
+41
+0:05:25,000 --> 0:5:27,000
+Participante:  Ummmmmm
+
+42
+0:05:28,000 --> 0:5:31,000
+Pcd: ¿Apoco no sabe que es veneno?
+
+43
+0:05:32,000 --> 0:5:34,000
+Participante: Síii..., es...  algo (incomprensible)
+
+44
+0:05:35,000 --> 0:5:35,000
+Pcd: ¿Eeeeee?
+
+45
+0:05:36,000 --> 0:5:36,000
+Participante: Risa
+
+46
+0:05:37,000 --> 0:5:38,000
+Pcd: Es que????!!
+
+47
+0:05:39,000 --> 0:5:40,000
+Participante: Es, que es venenoso
+
+48
+0:05:41,000 --> 0:5:45,000
+Pcd: Sí pero a mí me gusta, ahora no me trajeron veneno
+
+49
+0:05:46,000 --> 0:5:47,000
+Pcd: Ayer sí me trajeron veneno
+
+50
+0:05:48,000 --> 0:5:49,000
+Participante:  Ummm
+
+51
+0:05:50,000 --> 0:5:53,000
+Pcd: Todos los días me  dan veneno
+
+52
+0:05:54,000 --> 0:5:54,000
+Pcd: ¿A uste no le dan?
+
+53
+0:05:55,000 --> 0:5:56,000
+Participante:  A lo mejor
+
+54
+0:05:57,000 --> 0:6:1,000
+Participante: Hay que terminar de... ya (incomprensible)
+
+55
+0:06:02,000 --> 0:6:3,000
+Pcd: ¿ Y paqué quiere terminar?
+
+56
+0:06:04,000 --> 0:6:12,000
+Participante:Pues para seguir jugando (incomprensible)
+
+57
+0:06:13,000 --> 0:6:16,000
+Pcd: A ver que va jugar ahora
+
+58
+0:06:17,000 --> 0:6:18,000
+ Pcd:Cartas, ahí está
+
+59
+0:06:19,000 --> 0:6:25,000
+Participante:Aaaah muy bien, eee, ahora lo que vamos hacer es que cada una de las cartitas
+
+60
+0:06:26,000 --> 0:6:29,000
+Participante: Tienen numerto, ve
+
+61
+0:06:30,000 --> 0:6:33,000
+Participante: Hay que acomodarlas por numerito
+
+62
+0:06:34,000 --> 0:6:37,000
+ Pcd: ¿Y por qué es tan mandon y no las acomoda uste?
+
+63
+0:06:38,000 --> 0:6:42,000
+Participante:Porque ese es un juego (incomprensible) usted ver
+
+64
+0:06:43,000 --> 0:6:43,000
+Pcd:posssss
+
+65
+0:06:44,000 --> 0:6:45,000
+ Participante:¿No le gusta jugar?
+
+66
+0:06:46,000 --> 0:6:49,000
+Pcd: Sí pero uste debería ju, acomodarlas
+
+67
+0:06:50,000 --> 0:6:51,000
+Participante: ¿Acomodarlas?
+
+68
+0:06:52,000 --> 0:6:53,000
+Pcd: Noo, ay deje
+
+69
+0:06:54,000 --> 0:6:55,000
+Participante: A bueno
+
+70
+0:06:56,000 --> 0:6:57,000
+Pcd:  ¿Quiere que las acomode?
+
+71
+0:06:58,000 --> 0:6:58,000
+ Participante: A por lo menos
+
+72
+0:06:59,000 --> 0:7:3,000
+Pcd: A bueno, ¿cuántos venenos se toma al día?
+
+73
+0:07:04,000 --> 0:7:7,000
+Participante:Puesss ¿?¿?
+
+74
+0:07:08,000 --> 0:7:11,000
+Pcd:¿Cómo que no sabe?, ¿cuántas cocas al día se toma?
+
+75
+0:07:12,000 --> 0:7:15,000
+Participante: Aaaaaa , Coca!!!! una
+
+76
+0:07:16,000 --> 0:7:17,000
+Pcd: Aaa pos ta tomando veneno
+
+77
+0:07:18,000 --> 0:7:23,000
+Participante: Aaaa
+
+78
+0:07:24,000 --> 0:7:25,000
+Pcd: Ya va puntar diez veneno
+
+79
+0:07:26,000 --> 0:7:32,000
+Participante: Sí , antes de que se me olvide
+
+80
+0:07:33,000 --> 0:7:45,000
+Pcd: Quiere que las acomode, 2, 3, 4 y ésta no trae
+
+81
+0:07:46,000 --> 0:7:57,000
+Pcd: Ésta no trae, tanta
+
+82
+0:07:58,000 --> 0:7:59,000
+ Pcd: (Deja sobre la mesa las cartas)
+
+83
+0:08:00,000 --> 0:8:2,000
+Participante: A ver vamos a checarlo
+
+84
+0:08:03,000 --> 0:8:10,000
+Participante: Diez.., haber sí está bien pero, la idea, la ieda es que 
+
+85
+0:08:11,000 --> 0:8:13,000
+Participante: los numeritos tengan, vayan como (incomprensible)
+
+86
+0:08:14,000 --> 0:8:19,000
+Participante: Sea  el siete, seis y luego el cinco, y aquí no está así
+
+87
+0:08:20,000 --> 0:8:22,000
+Participante: Aquí está el siete, luego el sei, luego el tres
+
+88
+0:08:23,000 --> 0:8:28,000
+Pcd:  El tres?, nooo, el ters va en seguida del cuatro
+
+89
+0:08:29,000 --> 0:8:28,000
+Participante:Ajaaa
+
+90
+0:08:29,000 --> 0:8:35,000
+Pcd:El cinco va aquí, uste las acomodó mal para que me echen la culpa a mí verdad?
+
+91
+0:08:36,000 --> 0:8:37,000
+Participante:Nooooo, estamos jugando
+
+92
+0:08:38,000 --> 0:8:41,000
+Pcd:  Sí, pero uste quiere que me echen la culpa a mí
+
+93
+0:08:42,000 --> 0:8:44,000
+Pcd:  Uste no quiereee
+
+94
+0:08:45,000 --> 0:8:50,000
+Pcd: Y como toma también veneno, pos 
+
+95
+0:08:51,000 --> 0:8:51,000
+Pcd: Ahí está
+
+96
+0:08:52,000 --> 0:9:1,000
+Participante:Ahí esta, no pos estas ya quedaron, a ver ya namás faltanéstas  las otras
+
+97
+0:09:02,000 --> 0:9:6,000
+Pcd:Que no vea porque uste me las acomoda mal y luego dice que yo
+
+98
+0:09:07,000 --> 0:10:3,000
+Participante: risa
+
+99
+0:10:04,000 --> 0:10:5,000
+ (Incomprensible por ambas partes)
+
+100
+0:10:06,000 --> 0:10:11,000
+Participante: Vamos a ver 11, 10, 9, 7
+
+101
+0:10:12,000 --> 0:10:19,000
+Participante:Noo pues, 10, 9, 7
+
+102
+0:10:20,000 --> 0:10:22,000
+Pcd: Pss, ya es hora de que esté aquí mi mamá
+
+103
+0:10:23,000 --> 0:10:24,000
+ Pcd: Yo ya me voy
+
+104
+0:10:25,000 --> 0:10:28,000
+Participante: Nooo, pero todavía no termina de acomodar, estamos jugando muy bien
+
+105
+0:10:29,000 --> 0:10:31,000
+Pcd: ssss
+
+106
+0:10:32,000 --> 0:10:36,000
+Participante: Incomprensible
+
+107
+0:10:37,000 --> 0:11:4,000
+ Pcd: ES que no se
+
+108
+0:11:05,000 --> 0:11:11,000
+Participante: A ver vamos a ver
+
+109
+0:11:12,000 --> 0:11:13,000
+ Participante: Híjole, casi,casi
+
+110
+0:11:14,000 --> 0:11:18,000
+Pcd: ¿No se cansa de estar parado?
+
+111
+0:11:19,000 --> 0:11:20,000
+Pcd: Mira, no me hace caso
+
+112
+0:11:21,000 --> 0:11:22,000
+Participante: Pero aquí estamos jugando
+
+113
+0:11:23,000 --> 0:11:27,000
+Pcd:Nooo, pero es que él tiene que sentarse, y ella también
+
+114
+0:11:28,000 --> 0:11:29,000
+Participante: ¿Si?
+
+115
+0:11:30,000 --> 0:11:29,000
+Pcd: Sí
+
+116
+0:11:30,000 --> 0:11:31,000
+Participante: Pero primero hay  que acomodar las cartas
+
+117
+0:11:32,000 --> 0:11:32,000
+Pcd: Ya están acomodadas
+
+118
+0:11:33,000 --> 0:11:36,000
+Participante: A ver, vamos a revisarlas entonces de una vez
+
+119
+0:11:37,000 --> 0:11:39,000
+Participante: O vamos a pasarnos al siguiente monton 
+
+120
+0:11:40,000 --> 0:11:42,000
+ Pcd: Psss
+
+121
+0:11:43,000 --> 0:11:44,000
+Pcd: Esas ten bien
+
+122
+0:11:45,000 --> 0:11:45,000
+Participante: A ver vamos contar, ok
+
+123
+0:11:46,000 --> 0:11:47,000
+Participante: Uno,
+
+124
+0:11:48,000 --> 0:11:48,000
+Pcd: Dos 
+
+125
+0:11:49,000 --> 0:11:48,000
+Participante:Dos
+
+126
+0:11:49,000 --> 0:11:49,000
+Pcd: Tres
+
+127
+0:11:50,000 --> 0:11:50,000
+Participante: Tres
+
+128
+0:11:51,000 --> 0:11:54,000
+Pcd: Cinco
+
+129
+0:11:55,000 --> 0:11:56,000
+Pcd: Uste, uste, me las cambió
+
+130
+0:11:57,000 --> 0:11:57,000
+Participante: Risa
+
+131
+0:11:58,000 --> 0:12:4,000
+Pcd:Uste me las cambió para que diga que yo las hago mal y luego a mí me catiga
+
+132
+0:12:05,000 --> 0:12:10,000
+Pcd:  Me pega con un palo
+
+133
+0:12:11,000 --> 0:12:13,000
+ Pcd: Si no hago bien las cosas a mí me pega
+
+134
+0:12:14,000 --> 0:12:15,000
+Pcd:  Tenga, paqué no me diga que no
+
+135
+0:12:16,000 --> 0:12:22,000
+Participante: Oook, éstas ya quedaron, yaaa, nadamás faltan éstas dos
+
+136
+0:12:23,000 --> 0:12:23,000
+Participante: Y empezamos otro jueguito
+
+137
+0:12:24,000 --> 0:12:24,000
+Pcd: ¿Otro juego?
+
+138
+0:12:25,000 --> 0:12:26,000
+Participante:  ¿No legusta jugar?
+
+139
+0:12:27,000 --> 0:12:37,000
+Pcd: Noo, a mí me gusta comer
+
+140
+0:12:38,000 --> 0:12:41,000
+ Incomprensible
+
+141
+0:12:42,000 --> 0:12:45,000
+ Pcd: Éste es uno
+
+142
+0:12:46,000 --> 0:12:48,000
+ Pcd: Y éste otro (incomprensible)
+
+143
+0:12:49,000 --> 0:12:50,000
+Pcd: ÉSte es doce
+
+144
+0:12:51,000 --> 0:13:36,000
+Pcd: Éste es diez
+
+145
+0:13:37,000 --> 0:13:37,000
+Pcd: Arregelas!!!
+
+146
+0:13:38,000 --> 0:13:38,000
+Participante: Yooooooo?
+
+147
+0:13:39,000 --> 0:13:40,000
+ Pcd: Síii, pos pa eso le pagan 
+
+148
+0:13:41,000 --> 0:13:46,000
+Participante:  (Risa), no me pagan, pero las tiene que organizar
+
+149
+0:13:47,000 --> 0:13:53,000
+ Osea pues, es un juego,no estamos (incomporensible)
+
+150
+0:13:54,000 --> 0:13:55,000
+Pcd:¿Y quiere que todo haga yo?
+
+151
+0:13:56,000 --> 0:13:56,000
+Participante:Incomprensible
+
+152
+0:13:57,000 --> 0:13:59,000
+ Participante: Uste nomas me mira, tenga (tira las cartas)
+
+153
+0:14:00,000 --> 0:14:5,000
+Participante:A ver ya nadamas falta el último (incomprensible)
+
+154
+0:14:06,000 --> 0:14:6,000
+ Participante: Échelo, ya (incomprensible) nomas mire
+
+155
+0:14:07,000 --> 0:14:41,000
+Pcd: Ya no quiero jugar!!!
+
+156
+0:14:42,000 --> 0:14:44,000
+ Pcd: Tenga, yo ya no voy a jugar (Tira las cartas)
+
+157
+0:14:45,000 --> 0:14:46,000
+Participante: AAA ¿Por qué no?
+
+158
+0:14:47,000 --> 0:14:50,000
+Pcd: Porque no me gustan las cartas
+
+159
+0:14:51,000 --> 0:14:54,000
+Participante: Pero pos tengo 
+
+160
+0:14:55,000 --> 0:15:1,000
+Participante: Incomprensible
+
+161
+0:15:02,000 --> 0:15:12,000
+Participante: Vamos a revisarlas
+
+162
+0:15:13,000 --> 0:15:19,000
+ Participante:Incomprensible (Cuenta las cartas)
+
+163
+0:15:20,000 --> 0:15:21,000
+ Ummm?
+
+164
+0:15:22,000 --> 0:15:22,000
+Participante: Incomprensible
+
+165
+0:15:23,000 --> 0:15:24,000
+Pcd: ¿Qué tiene?
+
+166
+0:15:25,000 --> 0:15:28,000
+Participante:Casi, (Incomprensible)
+
+167
+0:15:29,000 --> 0:15:31,000
+Pcd: A ver uste no sabe contarlas
+
+168
+0:15:32,000 --> 0:15:31,000
+ Participante: A ver vamos
+
+169
+0:15:32,000 --> 0:15:52,000
+Pcd: Por eso no, por eso no aprende
+
+170
+0:15:53,000 --> 0:15:54,000
+Pcd: Nos falta uan acarta
+
+171
+0:15:55,000 --> 0:15:56,000
+Participante:Noo ahí está
+
+172
+0:15:57,000 --> 0:16:0,000
+Pcd: Nooooo, falta el siete
+
+173
+0:16:01,000 --> 0:16:1,000
+Participante: Hay que  buscarlo por ahí
+
+174
+0:16:02,000 --> 0:16:5,000
+Pcd:  Nooo aquí no está
+
+175
+0:16:06,000 --> 0:16:8,000
+Pcd: Mire, mire véalo
+
+176
+0:16:09,000 --> 0:16:9,000
+Participante:  A ver
+
+177
+0:16:10,000 --> 0:16:10,000
+Pcd: Uste lo tiene escondido
+
+178
+0:16:11,000 --> 0:16:12,000
+Participante:  Noo, yo no tengo nada
+
+179
+0:16:13,000 --> 0:16:16,000
+Pcd: Síi, mire vealo, lo  verá que uste lo escondió
+
+180
+0:16:17,000 --> 0:16:20,000
+Participante: Aa, (incomprensible) no diga que no está
+
+181
+0:16:21,000 --> 0:16:24,000
+Pcd:  Noo, mire uno, 
+
+182
+0:16:25,000 --> 0:16:25,000
+Participante: A ver uno 
+
+183
+0:16:26,000 --> 0:16:33,000
+Pcd: Dos, tres, aaaa acá andabas escondido
+
+184
+0:16:34,000 --> 0:16:40,000
+Pcd: Yaa
+
+185
+0:16:41,000 --> 0:16:43,000
+Pcd:  Hora sí
+
+186
+0:16:44,000 --> 0:16:44,000
+Participante: (Incomprensible)
+
+187
+0:16:45,000 --> 0:16:44,000
+Pcd: Sí
+
+188
+0:16:45,000 --> 0:16:50,000
+Participante:A ver uno, tres, dos 
+
+189
+0:16:51,000 --> 0:16:56,000
+ Participante: A ver hay que...., yo digo que ya casi está
+
+190
+0:16:57,000 --> 0:16:57,000
+Pcd:  Te digo que uste la desacomoda
+
+191
+0:16:58,000 --> 0:17:5,000
+Participante: (Risa), yooo, aque hora???
+
+192
+0:17:06,000 --> 0:17:18,000
+Participante: (Incomprensible), 1, 2, 3, 4, 5, 6, 7, ,8, 9, 10, 11, muy bien
+
+193
+0:17:19,000 --> 0:17:20,000
+Pcd: Nooo, no está tan bien
+
+194
+0:17:21,000 --> 0:17:22,000
+Participante: ¿Sii?, a ver vamos a revisar éste otro
+
+195
+0:17:23,000 --> 0:17:24,000
+Participante: Incomprensible
+
+196
+0:17:25,000 --> 0:17:24,000
+Pcd: Eeeeee
+
+197
+0:17:25,000 --> 0:17:27,000
+Participante: (Incomprensible) o vamos a revisar
+
+198
+0:17:28,000 --> 0:17:40,000
+Participante: Eee 11, 10, 9, 8, 7, 6, 5, 4, 3, Esss 1 y 2
+
+199
+0:17:41,000 --> 0:17:40,000
+Participante: Ta bien pero 
+
+200
+0:17:41,000 --> 0:17:58,000
+Pcd: Incomprensible
+
+201
+0:17:59,000 --> 0:18:4,000
+Pcd: No le pusieron azúcar al té
+
+202
+0:18:05,000 --> 0:18:8,000
+Participante: Incomprensible Muy bien, muy rápido
+
+203
+0:18:09,000 --> 0:18:10,000
+Pcd: ¿Ya acabamos?
+
+204
+0:18:11,000 --> 0:18:14,000
+Participante: Emmm creo que ammm
+
+205
+0:18:15,000 --> 0:18:17,000
+Pcd: ¿Ya?
+
+206
+0:18:18,000 --> 0:18:18,000
+Investigador 2: Ya
+

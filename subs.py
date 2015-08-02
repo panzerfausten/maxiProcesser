@@ -3,7 +3,7 @@ _input = sys.argv[1]
 def find_between(s,_s1,_s2):
 	_i1 = s.index("#")
 	_i2 = s[_i1+1:].index("#")
-	return s[_i1+1:_i2].replace(".",""),s[_i2+2:]
+	return s[_i1+1:_i2].replace("-",""),s[_i2+2:]
 def deduct_secs(time,secs=1):
 	_hours,_mins,_secs = time.split(":")
 	_hours = int(_hours)
@@ -26,7 +26,10 @@ with open(_input,"r") as _FILE:
 		_ln = (_lines[_x+1])
 		_start,_text  =  find_between(_l,"#","#")
 		_startn,_textn = find_between(_ln,"#","#")
-		_end = deduct_secs(_startn)
+                try:
+		    _end = deduct_secs(_startn)
+                except:
+                    print _l
 		_x += 1
 		print "%i\n%s,000 --> %s,000\n%s" %(_x+1,_start,_end,_text)
 

@@ -341,22 +341,22 @@ def getFts(_s,path=None,gsr=True,ibi=False):
     for _z in range(0,len(_dataSR)):
         for _x,_d in enumerate(reversed(_dataGSR)):
             if((_x / 60.)  == _z+1.5):
-                for _s in [15,30]:
-                _segment = _dataGSR[_x-30:_x+30]
-                _s = _x-30
-                _e = _x+30
-                _lFeatures =[str(_dataSR[_z])]
-                if(gsr):
-                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
-                    #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
-                    for _f in htr.extract():
-                        _lFeatures.append(_f)
+                for _t in [-15,15]:
+                    _segment = _dataGSR[(_x+_t)-15:(_x+_t)+15]
+                    _s = _x-15
+                    _e = _x+15
+                    _lFeatures =[str(_dataSR[_z])]
+                    if(gsr):
+                        htr = HalfRecoveryTimeDetector(_segment)
+                        #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
+                        for _f in htr.extract():
+                            _lFeatures.append(_f)
 
-                if(ibi):
-                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
-                    for _f in ibife.extract():
-                        _lFeatures.append(_f)
-                _features.append(_lFeatures)
+                    if(ibi):
+                        ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
+                        for _f in ibife.extract():
+                            _lFeatures.append(_f)
+                    _features.append(_lFeatures)
                 break
     for _f in _features:
         print ",".join(map(str,_f))
@@ -402,7 +402,7 @@ if (__name__ == "__main__"):
                 s = session("p7/alfonso_relax/1434064078558/")
                 #plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
                 #getFts(s)
-                getFts(s,"p7/segments/s1/")
+                #getFts(s,"p7/segments/s1/")
                 ######session2###################
 
                 s = session("p7/alfonso_relax2/1434495734670/")
