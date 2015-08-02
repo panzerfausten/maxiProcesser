@@ -102,10 +102,10 @@ if __name__ == "__main__":
     _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    randomiceData([_dataA,_dataB])
+    #randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training = 16
-    _test = 16
+    _training = 34
+    _test = 6
     #print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))

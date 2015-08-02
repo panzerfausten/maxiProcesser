@@ -48,7 +48,7 @@ class SelfReport:
             print "\t".join(map(str, _oLine))+ "\t"
     def toHTime(self,_time):
         _hTime = datetime.fromtimestamp(_time)
-        return str(_hTime.hour) + ":" + str(_hTime.minute)
+        return str(_hTime.hour) + ":" + str(_hTime.minute) + ":" + str(_hTime.second)
     def findDataInTime(self,_time):
         _time = datetime.fromtimestamp(_time)
         _time = _time.replace(second=0)

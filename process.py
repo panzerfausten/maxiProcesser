@@ -332,7 +332,7 @@ def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=False):
                                     _line += ","+ ",".join(str(_x) for _x in _t)
                                 print _line
                             #print _line
-def getFts(_s,path=None,gsr=True,ibi=False):
+def getFts(_s,path=None,gsr=False,ibi=True):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
@@ -406,10 +406,12 @@ if (__name__ == "__main__"):
                 ######session2###################
 
                 s = session("p7/alfonso_relax2/1434495734670/")
-                getFts(s)
+                #getFts(s)
                 #getFts(s,"p7/segments/s2/")
 
                 s = session("p7/alfonso_relax3/1435275565320/")
+                #getFts(s)
+		s = session("p6/luis_relax/1433979780288/")
                 getFts(s)
                 #plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
                 #plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
