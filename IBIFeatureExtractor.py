@@ -5,7 +5,7 @@ class IBIFeatureExtractor:
 		self._data = _data
                 self.cleanData()
                 #self.normalize()
-		self._IBIFeatures = [0.0,0.0,0.0]
+		self._IBIFeatures = [0.0]
 		self._cdata = []
         def cleanData(self):
                 data = []
@@ -17,8 +17,7 @@ class IBIFeatureExtractor:
                 self._data = min_max_scaler.fit_transform(self._data)
 
 	def extract(self):
-		_min = min(self._data)
-		_avg = reduce(lambda x, y: x + y, self._data) / len(self._data)
                 _sd  = numpy.std(self._data)
-		self._IBIFeatures = [_min,_avg,_sd]
+                _avg = numpy.average(self._data)
+		self._IBIFeatures = [min(self._data),_sd,_avg]
 		return self._IBIFeatures

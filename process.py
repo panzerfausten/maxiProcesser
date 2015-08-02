@@ -332,7 +332,7 @@ def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=False):
                                     _line += ","+ ",".join(str(_x) for _x in _t)
                                 print _line
                             #print _line
-def getFts(_s,gsr=True,ibi=False):
+def getFts(_s,path=None,gsr=True,ibi=False):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
@@ -341,12 +341,14 @@ def getFts(_s,gsr=True,ibi=False):
     for _z in range(0,len(_dataSR)):
         for _x,_d in enumerate(reversed(_dataGSR)):
             if((_x / 60.)  == _z+1.5):
+                for _s in [15,30]:
                 _segment = _dataGSR[_x-30:_x+30]
                 _s = _x-30
                 _e = _x+30
                 _lFeatures =[str(_dataSR[_z])]
                 if(gsr):
                     htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e])
+                    #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
                     for _f in htr.extract():
                         _lFeatures.append(_f)
 
@@ -398,17 +400,19 @@ if (__name__ == "__main__"):
                 getFeaturesFrom(s)
                 """
                 s = session("p7/alfonso_relax/1434064078558/")
-                plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                getFts(s)
+                #plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
+                #getFts(s)
+                getFts(s,"p7/segments/s1/")
                 ######session2###################
 
                 s = session("p7/alfonso_relax2/1434495734670/")
                 getFts(s)
+                #getFts(s,"p7/segments/s2/")
 
                 s = session("p7/alfonso_relax3/1435275565320/")
-                plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
-                plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
                 getFts(s)
+                #plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
+                #plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
 
                 """
                 

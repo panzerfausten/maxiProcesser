@@ -90,6 +90,11 @@ def normalize(_dataA,_dataB):
     norm1 = x / np.linalg.norm(x)
     #norm2 = normalize(x[:,np.newaxis], axis=0).ravel()
     return _resA,_resB
+def saveSet(_setA,_setB):
+    with open("optimalSet.csv","w") as _os:
+        for _x,_l in enumerate(_setA):
+            _v = str(_setB[_x])+","+",".join(map(str,(_l)))
+            _os.write(_v+"\n")
 if __name__ == "__main__":
     _file_path = sys.argv[1]
     _dataA,_dataB  = readFile(_file_path)
@@ -99,8 +104,8 @@ if __name__ == "__main__":
     #_dataB = normalize(_dataB)
     randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training = 11
-    _test = 11
+    _training = 25
+    _test = 7
     #print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
@@ -108,23 +113,45 @@ if __name__ == "__main__":
     print ""
     print "     Training elements: %i" %(_training)
     print "     Test elements: %i" %(_test)
-    for i, kernel in enumerate(['linear','rbf','poly']):
-         ##individual kernel
-        clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(_training)
-        _X,_y = takeSample(_test,_training)
-        Z = clf.fit(X,y)
-        y_pred = clf.predict(_X)
-        cm = confusion_matrix(_y, y_pred)
-        print "\n=====KERNEL: %s=====" %(kernel)
-        print cm
-        print "Precision: %f" %(precision_score(_y,y_pred)*100)
-        print "Recall: %f" %(recall_score(_y,y_pred) *100)
+    _rLinear = []
+    _pLinear = []
+    _rRbf = []
+    _pRbf = []
+    for x in range(0,1):
+        for i, kernel in enumerate(['linear','rbf','poly']):
+             ##individual kernel
+            clf = svm.SVC(kernel=kernel)
+            X,y = takeSample(_training)
+            saveSet(X,y)
+            Z = clf.fit(X,y)
+            _X,_y = takeSample(_test,_training)
+            y_pred = clf.predict(_X)
+            cm = confusion_matrix(_y, y_pred)
+            print "\n=====KERNEL: %s=====" %(kernel)
+            print cm
+            _p = precision_score(_y,y_pred)*100
+            _r = recall_score(_y,y_pred) *100
+            print "Precision: %f" %(_p)
+            print "Recall: %f" %(_r)
+
+            if( kernel == 'linear'):
+                _rLinear.append(_r)
+                _pLinear.append(_p)
+            else:
+                _rRbf.append(_r)
+                _pRbf.append(_p)
+        print "======GLOBALS======"
+        print "LINEAR"
+        print "     Precision: %f" %(np.average(_pLinear))
+        print "     Recall: %f" %(np.average(_rLinear))
+        print "RBF"
+        print "     Precision: %f" %(np.average(_pRbf))
+        print "     Recall: %f" %(np.average(_rRbf))
         #print "----CROSS-VALIDATION--"
         #clf = svm.SVC(kernel=kernel)
         #X,y = takeSample(_training+_test)
         #validateVector(X)
-        #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.8, random_state=0)
+        #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
         #Z = clf.fit(X_train,y_test)
         #y_pred = clf.predict(X_test)
         #scores = cross_validation.cross_val_score(clf, X, y, cv=5)

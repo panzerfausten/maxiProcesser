@@ -105,12 +105,12 @@ class HalfRecoveryTimeDetector:
                 major_ticks = np.arange(0, len(self._data), _xTick)                                              
                 minor_ticks = np.arange(0, len(self._data), _xMinorTick)     
 
-                major_ticks_y = np.arange(0, 1.1, 0.2)                                              
-                minor_ticks_y = np.arange(0, 1.1, 0.1)     
+                #major_ticks_y = np.arange(0, 1.1, 0.2)                                              
+                #minor_ticks_y = np.arange(0, 1.1, 0.1)     
                 ax.set_xticks(major_ticks)                                                       
                 ax.set_xticks(minor_ticks, minor=True)                                           
-                ax.set_yticks(major_ticks_y)                                                       
-                ax.set_yticks(minor_ticks_y, minor=True)                                           
+                #ax.set_yticks(major_ticks_y)                                                       
+                #ax.set_yticks(minor_ticks_y, minor=True)                                           
 
                 # and a corresponding grid                                                       
                 
@@ -164,29 +164,45 @@ class HalfRecoveryTimeDetector:
 	    return _data
         def extract(self):
             _data = []
-            _data.append(np.mean(self._data))
-            _data.append(len(self._peaks))
-            _data.append(np.std(self._data))
-            _maxP = -1
-            _maxA = -1
-            _avgDr = -1
+            _maxP = None
+            _avgPeakDistance = 0.0
+            _avgPeakAmplitude = 0.0
+            _avgPeakDistances = []
+            _avgPeakAmplitudes = []
+            _avgPeakAmplitudes_t = []
+            _recoveryTimes = []
+            _avgTimeToRecover = 0.0
+            #peaks greater than a threshold
+            _t = 0.2
             for _x, _p in enumerate(self._peaks):
-                if(_p['peakAmplitude'] > _maxA):
-                    _maxP = _x #calculate the greatest peak
-            if(_maxP != -1):
-                _data.append(self._peaks[_maxP]['peakAmplitude'])
-                rise_time =  _maxP - self._peaks[_maxP]["risingTimeIndex"]
-                if (self._peaks[_maxP]["halfRecoveryIndex"] == None):
-                    _htr = 0
-                else:
-                    _htr = self._peaks[_maxP]["halfRecoveryIndex"] - self._peaks[_maxP]["peakIndex"]
-                #_peakEnergySum = 0.5 * self._peaks[_maxP]['peakAmplitude'] * rise_time
-                #_data.append(_peakEnergySum)
-                _data.append( np.std(self._data))
-                _data.append( _htr)
+                _avgPeakAmplitudes.append( float(_p['peakAmplitude']))
+                if (float(_p['peakAmplitude']) > _t):
+                    _avgPeakAmplitudes_t.append( float(_p['peakAmplitude']))
+
+                if(_x > 0 and _x < len(self._peaks) ):
+                    _avgPeakDistances.append(int(_p["distanceToPrevPeak"]))
+                if(_p["halfRecoveryIndex"] != None):
+                    _recoveryTimes.append( _p["halfRecoveryIndex"] - _p['peakIndex'])
+
+            #if(len(_avgPeakAmplitudes_t) > 0):
+            #    _data.append(np.average(_avgPeakAmplitudes))
+            #else:
+            #    _data.append(0)
+            _data.append(np.average(self._data))
+            if (len(_avgPeakAmplitudes) > 0):
+               _data.append(max(_avgPeakAmplitudes))
             else:
                 _data.append(0)
+
+            if (len(_avgPeakAmplitudes) > 0):
+                _avgPeakAmplitude= np.average(_avgPeakAmplitudes)
+                _data.append(_avgPeakAmplitude)
+            else:
                 _data.append(0)
+            if (len(_recoveryTimes) > 0):
+                _avgTimeToRecover = np.average(_recoveryTimes)
+                _data.append(_avgTimeToRecover)
+            else:
                 _data.append(0)
             return _data
 
