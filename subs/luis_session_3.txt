@@ -1,0 +1,602 @@
+#0:00:04.0#Pcd: Si pero por qué me traen aquí?	-
+#0:00:06.3#Investigador 2: La traemos para que juegue un rato	-
+#0:00:08.5#Pcd: No pero es que yo no quiero jugar	-
+#0:00:10.6#Investigador 2: Pero ess ???????!!!!, ?????!!, a usted le gusta jugar con ??????	-
+#0:00:14.4#Pcd: Incomprensible	-
+#0:00:16.8#Participante: Pero como!!!!	-
+#0:00:17.7#Pcd: Noooo	-
+#0:00:19.1#Participante: Por que no?	1
+#0:00:19.8#Pcd: Porque no me gusta jugar 	1
+#0:00:22.8#Pcd:  Porque me dieron una nieve, pa que  viniera paca, pero ya me la comi	1
+#0:00:28.9#Participante:  Mmmmmmmm	1
+#0:00:29.2#Pcd: Incomprensible	1
+#0:00:31.5#Participante:  Entonces, vamos a jugar?	1
+#0:00:33.7#Pcd: Noo, porque  no me gusta	1
+#0:00:36.1# Participante: No le gusta?	1
+#0:00:36.8#Pcd: Noo eso noooo, no trae otra cosa pa jugar?	1
+#0:00:40.7#Participante: Pero esta es la que vamos a hacer	1
+#0:00:43.1#Pcd: possssssss	1
+#0:00:43.9#Participante: A lo mejor viendo le gusta	1
+#0:00:47.4#Participante: Lo que se va hacer es que con esta tableta	1
+#0:00:50.8#Pcd: Si pero esa tableta no me gusta 	1
+#0:00:54.4#Participante:Pues  Es una tablita con  huequitos	1
+#0:00:56.7#Pcd: No porque me duele aqui (Toca sus hombros )	1
+#0:01:00.3#Participante: Pero la tablita (Incomprensible)	1
+#0:01:00.4#Pcd: Si, esta pesada y no la puedo  cargar	2
+#0:01:05.0#Participante: Noooo, ahorita (Incomprensible)	2
+#0:01:08.0#Pcd: Pesa 3 kilos 	2
+#0:01:10.7#Participante: Eeee, pues no. Ni la mitad de eso	2
+#0:01:16.0#Pcd: Noo. si	2
+#0:01:16.3#Participante: Lo que se va hacer, meter la cuerdita en los hoyitos 	2
+#0:01:20.2#Pcd: Noo, eso no me gusta, yo no quiero jugar eso 	2
+#0:01:25.5#Participante:  Y.....	2
+#0:01:26.0#Pcd: Quiero jugar a las escondidas	2
+#0:01:28.9#Participante: Perooooo,  a las escondidas jugamos después, mejor (incomprensible)	2
+#0:01:32.6#Pcd: si pero 	2
+#0:01:34.3#Nooo, no le pongo atención	2
+#0:01:36.4#Participante: (Se admira ) por qué no?	2
+#0:01:37.1#Pcd: Porque no, porque quiero jugra a las escondidas	-
+#0:01:40.7#Participante: Si pero (incomprensible)	-
+#0:01:41.9#Pcd: Aaa a la traes, tu la traes yo la traigo	-
+#0:01:45.7#Participante: si este, ahora  (incompresible)	-
+#0:01:51.0#Pcd: Nooo, yo no lo voy hacer, yo no lo voy hacer, porque yo quiero jugar a las escondidas	-
+#0:01:59.1#Participante: Al rato, primero así	-
+#0:02:02.7#Pcd: Pos sígalo haciendo	1
+#0:02:04.0#Participante:  Uno y dos 	1
+#0:02:05.1#Participante:  Yo ya hice!!, sigue usted.	1
+#0:02:06.4# Pcd: No pos no miré, no miré porque estaba entretenida viendo mi galleta	1
+#0:02:12.3#Pcd: Tengo una galleta aquí 	1
+#0:02:12.9#Participante:  Aaaa	1
+#0:02:14.6#Participante: Pero...	1
+#0:02:15.2#Pcd: Me lo voy a comer	1
+#0:02:17.5#Participante: Entonces 	1
+#0:02:17.6#Pcd: Pero no quiero, no quiero jugar, quién le dijo que queria jugar?	1
+#0:02:21.8#Participante: mmmmm	1
+#0:02:22.5#Pcd: eee?	1
+#0:02:23.4#Participante: Pues a mi me dijeron que quería jugar	1
+#0:02:25.9#Pcd: Nooo, es que me trajeron paca y me dieron un nieve pero yo no quiero una nieve 	1
+#0:02:31.1#Participante:  Pero.... ya se la comió	1
+#0:02:31.7#Pcd: Nooo, no quiero	1
+#0:02:33.3#Pcd: Pues ya me la comí pero yo creí que iba a jugar de otra forma	1
+#0:02:38.1#Participante: Aaaa	1
+#0:02:38.2#Pcd: No así	1
+#0:02:40.5#Participante: Pues, que se le va  hacer	1
+#0:02:43.0#Pcd:  Pues, que se le va  hacer, pues que no quiero 	1
+#0:02:45.9#Pcd: Haber hágalo uste	1
+#0:02:48.6#Participante: Otra vez ???	1
+#0:02:49.1#Pcd:  Otra vez 	1
+#0:02:49.4#Participante: Pero lo va hacer usted después 	1
+#0:02:51.2#Pcd: Pues si puedo si, si no, no. 	1
+#0:02:53.1#Participante: Pues 	2
+#0:02:53.4#Pcd: Porque la tabla pesa mucho y yo me canso 	2
+#0:02:55.8#Pcd: Me canso y me duele aquí (toca sus hombros )	2
+#0:02:57.7#aaaaaaa	2
+#0:03:00.2#Pcd:   sssss Ayyy	2
+#0:03:00.9#Participante: Entonces es así	2
+#0:03:02.4# Pcd: Ya sabe pa donde fue mi mamá?	2
+#0:03:05.5#Participante: Sss no se!!!!!	2
+#0:03:09.1#Pcd: No pos uste ya la hizo pero yo no la quiro hacer 	2
+#0:03:14.0#Participante: Esta bien fácil	2
+#0:03:15.3#Pcd: Pues  si, yo no digo que no, pero la tabla esta bien pesasda mire	2
+#0:03:19.5#Participante: Incomprensible	2
+#0:03:21.3# Ya me lastimó el dedo!! Ayyy!!! aquí me duele mire porque la tabla está  pesada, pesada, pesada	2
+#0:03:28.2# Participante: Incomprensible	2
+#0:03:29.1#Pxcd: Si, si esta pesada, muy pesada esta la tabla	2
+#0:03:35.6#Pcd: Y yo no quiero hacer eso	2
+#0:03:38.6#Participante:  No?	1
+#0:03:39.0#Pcd: No, no se ve bonito, uste no sabe, pero yo si se	1
+#0:03:47.4# Participante: mmmmm	1
+#0:03:48.7# Pcd: Yo si se jugar pero uste no sabe	1
+#0:03:54.2#pcd: Un mushasho que vino aquí me enseñoo hacer eso, por eso no me gusta la tabla 	1
+#0:04:01.3#Pcd: Y luego aquí, mire le hizo esto	1
+#0:04:06.7#Pcd: Y luego este es un viejo bigotón vee	1
+#0:04:12.5#Participante: Oooooo	1
+#0:04:13.4#Pcd: Que yo si se hacer mejor que uste, eso de la cruz no sirve	1
+#0:04:19.2#Participante: No?	1
+#0:04:19.5#Pcd: No, no sirve	1
+#0:04:21.6#Participante: Mmmmmm	1
+#0:04:23.0#Pcd: Quiero irme con mi mamá ya	3
+#0:04:25.7# Pcd: Porque ya me comí  la nieve	3
+#0:04:27.9#Participante:  Peroooo, vamos a jugar no?	3
+#0:04:30.3#Pcd:  Pues ya le jugué mejor yo	3
+#0:04:32.4#Participante:Nada!!!!!	3
+#0:04:33.8#Pcd: Nooo, no, no	3
+#0:04:36.6#Pcd: ¿En dónde está mi mamá?	3
+#0:04:38.1#Participante:  No se 	3
+#0:04:39.7#Pcd: Como que no sabe	3
+#0:04:41.6#Pcd: Tiene que saber en donde fue	3
+#0:04:43.8#Participante: Donde esta mi mama?	3
+#0:04:44.9#Pcd:En donde?	3
+#0:04:45.8#Participante: Uste no sabe donde fue la mia	2
+#0:04:47.1#Pcd: Si se 	2
+#0:04:47.7# Participante: Poco yo voy  a saber donde está la suya 	2
+#0:04:48.9#Pcd: Si se que esta siendo la suya	2
+#0:04:51.3#Participante:  En dónde esta?	2
+#0:04:52.3#Pcd: Eeeeeee?	2
+#0:04:53.2#Participante: En dónde esta?	2
+#0:04:54.1# Pcd: En su casa cocinando para cuando uste llegue darle comida	2
+#0:04:56.9#Participante: Aaaaa	2
+#0:04:57.9#Pcd: Ve que yo si se	2
+#0:04:58.8#Participante: Yo, yo ni  estaba enterado de eso 	2
+#0:05:01.6#Pcd:No?, o no le da comida su mamá?	2
+#0:05:04.7#Participante:  Nooo, me dice que me la haga yo 	2
+#0:05:07.5# Pcd: No a pues que mala mamá tiene 	2
+#0:05:09.7#Participante: Si verdad	2
+#0:05:10.4#Pcd: Noo, la mía si me da comida,  y mucha comida, mucha comida 	2
+#0:05:16.4#Participante:  Bueno, ahorita 	2
+#0:05:17.9#Pcd:  O esta trabajando?	2
+#0:05:19.8#Pcd:  Pa pagar su escuela verdad?, está trabajando	2
+#0:05:22.4#Participante: A lo mejor, es que no la veo muy  seguido	2
+#0:05:26.0#Pcd:  Como que no la ve?	2
+#0:05:27.6#Participante: Noooo	2
+#0:05:28.3# Pcd: Pos que está ciego?	2
+#0:05:30.3#Participante: ( Risa)	2
+#0:05:31.9#Pcd: Eeeee, de qué se rie?	2
+#0:05:33.9#Participante:  De que no estoy siego!!!	2
+#0:05:34.5#Pcd: Se ríe de mí?, 	2
+#0:05:36.4#Participante: Nooo	2
+#0:05:37.2#Pcd:  Entonces?, como dice que, yo si veo a mi mamá diario!	2
+#0:05:40.8#Participante: Aaaaa, pero pos la mía noo	2
+#0:05:44.6# Pcd: Pos que malo está, ta muy malo, muy malo	2
+#0:05:50.7#Participante: creo quee si... ahora (incomprensible)	2
+#0:05:53.9#Pcd:  Y que está haciendo uste aquí? a ver 	2
+#0:05:56.9#Participante:  Yoo	2
+#0:05:57.4#Pcd: Si 	2
+#0:05:57.9#Participante: Vine a jugar con usted, hacer crucecitas	2
+#0:05:59.9#Pcd: No pero, no debe jugar	2
+#0:06:03.0#Pcd:  Porque esta no es mi casa	2
+#0:06:05.1#Nooo?	2
+#0:06:05.3#Pcd: No.	2
+#0:06:06.3#Entonces de quién es?	2
+#0:06:07.2#Pcd:  pues no se, aquí me traen a jugar y no se que, que me traen haciendo   aquí	2
+#0:06:11.6#Participante: Aa, poos si la traen a jugar, vamos a jugar	2
+#0:06:14.5#Pcd: No, pero no quiero jugar 	2
+#0:06:16.9#Participante: A mí también  me invitaron a jugar 	2
+#0:06:19.2#Pcd: No pero  no le dieron nieve y a mí si me dieron 	2
+#0:06:22.7#Participante: aaa, ahorita a lo mejor me dan cuando me valla, a lo mejor nos dan una a cada quien 	2
+#0:06:27.7#Participante: Mire (incomprenseible)	2
+#0:06:28.8#Pcd: ¿Y eso que es?	2
+#0:06:30.3#Participante: Incomprensible	2
+#0:06:31.2#Pcd: Ta feo	2
+#0:06:33.4#pcd: Tan feas, tan feas,  muy feas estan 	2
+#0:06:31.2#Participante: Incomprensible	2
+#0:06:37.2#Pcd: Ay"!!, Antonio, ¿Dónde esstá Antonio?	3
+#0:06:40.0#Participante:  (Risa), No se.	3
+#0:06:41.2#pcd: ¿Como que no sabe?	3
+#0:06:43.0#Pcd: Tiene que  saber dónde está Antonio	3
+#0:06:46.3#Participante:  Es que no se.	3
+#0:06:47.4#Pcd: Uste nada sabe!!!	3
+#0:06:49.2#Pcd:  Le voy a poner en lugar de Luis, "No se"	3
+#0:06:52.0#Participante: Risa	2
+#0:06:53.9#Pcd: Uste es el no se!!	2
+#0:06:55.2# Participante: Haber vamos a 	2
+#0:06:56.1#Pcd: Ahora yo también voy  decir "No se"	2
+#0:06:58.5#Participante: (Risa) incomprensible	2
+#0:06:59.0#Pcd:No se, no se, mi mamá quiero ver a mi mamá primero y ya luego me pongo a jugar	2
+#0:07:06.1#Participante:  Híjole, esso va estar díficil	2
+#0:07:08.3#pcd:  ¿Por qué ?	2
+#0:07:09.2#Participante:  Porque no se donde está	2
+#0:07:10.6#Pcd: Mmmm pos que malo	2
+#0:07:12.5#Pcd: Ta muy malo eso que no sepa donde está mi mamá	2
+#0:07:17.1#Pcd: SAbe que quiero, mi medecina	2
+#0:07:19.9#Participante: AAa	2
+#0:07:20.0#Pcd: Ya me quiero irme  a tomar mi medecina	2
+#0:07:22.7#Participante: Pues (incomprensible)   ya no falta mucho, nomás ahora que terminemos de jugra se ,lo dan	2
+#0:07:29.2#Pcd: Ayyy!! me duele el brazo	2
+#0:07:32.3#Pcd: Ta muy pesada la tabla 	2
+#0:07:35.5#Pcd:  Uyyy no, está pesadisima	2
+#0:07:42.6#pcd: (se queja de dolor)	2
+#0:07:46.1#Pcd:  Oiga "no se"	2
+#0:07:49.0#Pcd:  A qué, a qué	2
+#0:07:50.0#Participante: Incomprensible	2
+#0:07:54.1#Eeeeee?	2
+#0:07:54.8#Participante: Es que yo me llamo Luis	2
+#0:07:56.3# Nooooo, uste se llama "no se"	2
+#0:07:59.1#Pcd: Todos dicen no se 	2
+#0:08:01.5#Pcd:  Pues yo tampoco no se	2
+#0:08:03.9#Pcd:  Co...	2
+#0:08:04.0#Participante: Es que me hace preguntas muy díificiles	2
+#0:08:05.9#Pcd:  ¿Cómo voy a  hacer ésto si no se?, haber no se, ¿voy bien?	3
+#0:08:15.0# Participante: Va bien	3
+#0:08:16.9#Pcd: Pero ya es el último juego que juego porque ya me quiero ir	3
+#0:08:20.5# Participante: Pero si acabamos de empezar	3
+#0:08:21.6#Pcd: Noooooo, ya llevo 4	3
+#0:08:24.5#Participante:Pero son muy poquitos	2
+#0:08:25.8#Pcd: Nooo, ya llevo muchos	2
+#0:08:27.7#Pcd:Ahí está	2
+#0:08:29.2#Participante: A ver	2
+#0:08:29.7#pcd: A ver no se	2
+#0:08:30.3#Participante:Quedó muy bien	2
+#0:08:31.4# Pcd: Noo, ni tan bien	2
+#0:08:33.1#Pcd: Ta  visco?	2
+#0:08:34.9#Participante: Aaa siiii	2
+#0:08:37.4#Pcd:  Si que?	2
+#0:08:38.5#Participante: Que si está  visco	2
+#0:08:40.1#Aaaa pa que vea	2
+#0:08:42.4#Participante: Bueno ahora vamos a ponerlo más díficil a ver si se hace  más entretenido el jugo	2
+#0:08:47.1#pcd: Nooo, ese juego no me gusta	3
+#0:08:49.6#Pcd: pero ya me quiero ir	3
+#0:08:51.9#Pcd: ¿Dónde está mi mamá?	3
+#0:08:54.6# Ee, haber voy a gritarle Antonio	3
+#0:08:58.8#Participante: Noooo, no le grite	3
+#0:08:59.8#Pcd: Antonio!!!, ¿me oyes?	3
+#0:09:03.0#Participante:  Risa	3
+#0:09:02.9#Pcd: ¿Cómo que no le grite?, pos si pa eso se me hizo la voz pa,  gritar	3
+#0:09:08.3#Participante:Noooo	3
+#0:09:09.7#Pcd: Y quiero gritarle Antonio porque quiero ir a bailar	3
+#0:09:12.9#Participante: Aaa y ¿Antonio es bailarin?	3
+#0:09:15.3#pcd: Eeee?	3
+#0:09:15.8#Participante: ¿Es bailarin?	3
+#0:09:16.6# pcd: Sí, baila	2
+#0:09:19.6#Pcd: Yo le enseñé a bailar	2
+#0:09:19.5#Participante: Bueno 	2
+#0:09:21.0#Participante:Ahora vamos 	2
+#0:09:22.1#Pcd: Ayyy, no me está doliendo aquí	2
+#0:09:24.1#Participante: (Risa)	2
+#0:09:25.4#pcd: Ayyys	2
+#0:09:26.4#Participante: Vamos hacer dos o tres	2
+#0:09:29.4#Pcd: ¿Va ser qué?	2
+#0:09:30.9#Participante: Otra vez dos cruces, pero estas cruces van a estar más juntas	2
+#0:09:36.3#Participante: Así mire	2
+#0:09:36.6#Pcd:¿Porque van a estar más juntas?	1
+#0:09:38.3#Participante: Para ser un poquito más (incomprensible)	1
+#0:09:40.7#Participante: Luego 	1
+#0:09:40.9#Pcd:¿Pero tiene moño?	1
+#0:09:43.0#Participante: Para que se vea más bonito	1
+#0:09:44.5#Pcd: Nooooo, se mira feo de todas maneras	1
+#0:09:47.6#pcd: Ponga música	1
+#0:09:50.0#Participante: ¿Música?	1
+#0:09:53.1#Participante: Pues no  tengo música	1
+#0:09:54.7#Pcd: Y porque 	1
+#0:09:54.8#Participante:¿ Música de cuál le gusta?	1
+#0:09:57.5#Pcd: Todas la música me gusta	1
+#0:10:00.6#Participante: Entonces que, ¿Hacer la primera cruz? (incomprensible)	1
+#0:10:03.6#Pcd: Nooo, no se 	1
+#0:10:05.7#Participante: Pues por eso	1
+#0:10:06.8#pcd: Pues no, no se	1
+#0:10:08.5#Participante: Échele un ojo y (incomprensible)	1
+#0:10:11.1# Pcd: Quiero irme con mi mamá le digo, que no oye?	1
+#0:10:16.8#Pcd: Que está sordo?	1
+#0:10:19.9#Participante:  Noo, yo no quiero jugar	1
+#0:10:21.8#Participante: ¿Por qué nooo?	1
+#0:10:22.2#Pcd:Porque mi mamá me está esperando	2
+#0:10:25.5#Participante:  Mire	2
+#0:10:25.6#pcd: Y Antonio también porque vamos a salir 	2
+#0:10:29.3#Participante: Si	2
+#0:10:29.5#Pcd: No se porque me trajeron pa ca	2
+#0:10:32.6#Pcd: Y paque me trajeron	2
+#0:10:34.6#Participante: Ya que tenemos las dos crucecitas  le vamos hacer (incomprensible)	2
+#0:10:37.2#Pcd: No se 	2
+#0:10:40.1#Participante: Así como las de hacer rato 	2
+#0:10:41.6#pcd: Aaaaaa, porque esa me la aprendí de un muchasho que vino y me enseñó de eso	2
+#0:10:46.1#Participante: ¿Y no era yo?	2
+#0:10:46.6#Pcd: No	2
+#0:10:47.5#Participante:Incomprensible	2
+#0:10:48.2#Pcd:  Tú no. Porque tú te llamas no se	2
+#0:10:50.9#Participante: Aaa yo era Luis	2
+#0:10:52.2#Pcd: Era Luis	2
+#0:10:53.2#Participante: Aaaaaa	2
+#0:10:54.6# Pcd: No me trajeron ni mi té, ¿dónde está mi té?	2
+#0:10:57.7#Participante: Así (incomprensible)	2
+#0:11:00.2#Participante: Creo que a usted le queda mejor que a mí	2
+#0:11:02.9#Pcd: Amí me quedan  viscos	2
+#0:11:05.5#Participante: (incomprensible)A ver 	2
+#0:11:08.3#Pcd: Ayy, me siento mal	2
+#0:11:10.6#Pcd: Me tiene que llevar con el doctor  ahorita	2
+#0:11:14.3#Participante: Ya después de jugar ¿no?	2
+#0:11:15.8#Pcd: Noo, ya porque me voy a sentir muy mal,mal, mal	2
+#0:11:21.5#Pcd: Zzzzz, ayyyyy	2
+#0:11:23.6#Pcd: Ayyyzzz	2
+#0:11:24.5#Participante:Incomprensible	2
+#0:11:26.1#Pcd:¿Y qué quiere que haga?	2
+#0:11:27.5#Participante:Incomprensible	2
+#0:11:27.9#Pcd: Aaa pues , ¿me pongo a brincar con la cuerda?	2
+#0:11:30.6#Participante: Nooo, está muy chiquita paras brincar	2
+#0:11:31.9#Pcd:Sí, con ésta brinco	2
+#0:11:32.5#Participante:(incomprensible)	2
+#0:11:34.2#Pcd:mire, mire  le hago así, así, y luego brinco (toma la cuerda y simula brincar)	2
+#0:11:37.9#Participante: Risa	2
+#0:11:38.8#Pcd: Y   luego le hago así Y luego brinco	2
+#0:11:41.8#Pcd: uste no sabe jugar 	2
+#0:11:43.8#Participante:  aaaaa	2
+#0:11:44.8# Pcd: Uste no sabe brincar	2
+#0:11:47.3#Participante: Mmmmmmm no	2
+#0:11:48.7# Pcd: No se	2
+#0:11:49.4#Participante:  Por eso no se 	2
+#0:11:50.6#Pcd: Pues sí,  por eso se llama no se 	2
+#0:11:56.5#Pcd: Ta pesada la, la, la tabla	2
+#0:12:01.4#Pcd: Muy pesada, le voy a decir a, Antonio que  me puso a cargar una tabla muy  pesada	2
+#0:12:09.3#Pcd: Que me lastimé el brazo 	2
+#0:12:13.1#Participante:  No	2
+#0:12:12.9#Pcd: Sí, porque no se, no sabe	2
+#0:12:16.8#Pcd: Alguien viene 	2
+#0:12:19.8#Pcd: Alguien tocó!!!	2
+#0:12:21.0#Participante:  Es el aire	2
+#0:12:22.5#Pcd: No, no está siendo aigre	2
+#0:12:30.3#pcd: qzzzz, ya me quiero ir	3
+#0:12:32.2#Pcd: Yo no se que estoy haciendo aquí!!!!	3
+#0:12:35.2#Participante:  Estamos  jugando 	3
+#0:12:36.1#Pcd: Noooo, yo no estoy jugando, 	3
+#0:12:38.7#Pcd: Oiii	3
+#0:12:42.0#pcd: Los perros ladran	3
+#0:12:45.1#Pcd: Ya se va mi mamá ya me voy con ella	3
+#0:12:48.4#Participante:  Noo, no se va ir 	3
+#0:12:49.5#pcd: Sí, ya se va ir,  y me va dejar aquí solo con  ustedes 	2
+#0:12:54.4#Participante:   Pero pos nos 	2
+#0:12:55.8#Pcd: Y ustedes son malos, muy malos, malos	2
+#0:12:59.4#Participante: ¿Desde cuándo?	2
+#0:13:01.2#Pcd: Eeee?	2
+#0:13:02.3#Participante:  Pero me invitaron a jugar con usted	2
+#0:13:04.4#pcd: Pero yo no quiero jugar	2
+#0:13:09.3#Pcd: Ya ve, ya supe	2
+#0:13:12.2#Participante:  ¿Si?	2
+#0:13:12.8#Pcd: Yo me voy a llamar, ya supe y us	2
+#0:13:15.5#Participante:  Y yo me voy a llamar, no se  (risa)	2
+ #0:13:17.0#pcd: Ok, yo ya supe	2
+#0:13:19.2#Pcd: Ahora no voy a ser --???????eee	2
+#0:13:22.0#Participante:  Va ser....	2
+#0:13:23.1#Pcd: Ya supe 	2
+#0:13:23.5#Participante: Ya supe, aaaaaa	2
+#0:13:24.7#Pcd: Ok	2
+#0:13:25.5# Participante:  Muy bien 	2
+#0:13:26.5#pcd: Yo me llamo ya supe	2
+#0:13:29.1#Pcd: Y ya nomás estas voy a jugar porque me duelen mis dedos	2
+#0:13:32.7#Pcd: Mire éste dedo se me está saliendo	2
+#0:13:36.8# Pcd: Y la tabla está muy pesada, mire apenas la puedo	2
+#0:13:41.6#Pcd: Ya se fue mi mamá, mamá ven por mí!!!!	3
+#0:13:46.4#Pcd: Ya no quiero jugar!!!!	3
+#0:13:49.2#Pcd: Ya no quiero jugar. Tenga 	3
+#0:13:51.0#Pcd:Ooooo,  Le quedó muy bien 	3
+#0:13:53.0# Participante: Incomprensible	3
+#0:13:53.4#pcd: Ya ve ya supe, ya supe 	3
+#0:13:59.6#Pcd:(Estira su cuerpo aún sentada) Todo me duele, todo me duele, todo me duele	3
+#0:14:03.9#Pcd: Ayyyyy	3
+#0:14:06.3#Participante: Incomprensible	3
+#0:14:07.0#Pcd: Todavía me duele	3
+#0:14:11.1#Pcd: Oye mejor me llamo "mw duele", nooo, mejor ya supe	3
+#0:14:14.8#Participante: Sí , ya supe está mejor 	3
+#0:14:17.0#pcd: Sí	3
+#0:14:18.2#Pcd: Ya no voy a jufar eeee	3
+#0:14:19.9#Participante: Incomprensible	3
+#0:14:21.1#pcd: Porque ya me voy, ya me voy 	3
+#0:14:22.4#Participante: Noooo, no se valla	3
+#0:14:24.6#Pcd: ¿Cómo que....	2
+#0:14:25.2#Participante: Si se va con quién voy a jugar?	2
+#0:14:26.8#pcd: Pues juegue con, con , quien con...	2
+#0:14:29.9#Participante:Es que me  invitaron a jugar con used	2
+#0:14:31.8# Pcd: Noooo, no, aquí hay quien juegue 	2
+#0:14:34.6#Participante: Pero con usted es (Incomprensible)	2
+#0:14:35.5# Pcd: Noo, no porque amí me duele la pansa	2
+#0:14:39.0#Participante: Perooo	2
+#0:14:39.3#Pcd: Y me hizo dño  el raspado	2
+#0:14:41.3#Participante: Es que los otros están muy serios no quieren  jugar	2
+#0:14:44.7#Pcd:Si quieren jugar porque ya saban que no se, y  ya supe si saben	2
+#0:14:51.6#Pcd: Esa ya la se, ya supe 	2
+#0:14:53.8#Participante: ¿Asi?	2
+#0:14:54.3#Pcd: Sí, ya supe	2
+#0:14:56.1#Participante: Incomprensible	2
+#0:14:56.7#Pcd: Sí. Pero yo ya me quiero ir	3
+#0:14:59.5# Participante: Incomprensible	3
+#0:15:00.1#Pcd: Oiga, oye, oye  ayyy, ya me voy porque los pájaros se están comiendo	3
+#0:15:06.1# Participante: Noo espérese	2
+#0:15:06.7#Pcd: El gato se están comiendo mis pollos, ya me voy	2
+#0:15:09.9#Participante:  Nooooo,	2
+#0:15:11.2#Participante:  Si no hay gatos aquí (incomprensible)	2
+#0:15:11.4#Pcd: Sí hay muchos gatos allá atrás	2
+#0:15:14.1#Pcd: Se está comiendo. Oye el pollo está pillando 	2
+#0:15:18.3#Pcd: Oilo	2
+#0:15:18.4#Participante:  Aaaaa	2
+#0:15:19.4#pcd:  Oilo nomás	2
+#0:15:20.9#Pero los pollos ni pillean, los pollitos sí	2
+#0:15:24.3#Pcd: Sí ese está chiquito como yo	2
+#0:15:28.1#Participante:  ¿Así?	2
+#0:15:28.4#Pcd: Sí	3
+#0:15:30.3#Pcd: Oilo, me está llamando que me  valla, yo ya me voy	3
+#0:15:34.1#Participante:  Noo, no se valla	3
+#0:15:35.2#pcd: Ya me voy porque tengo que ir a, ir a salvar ese pollo	3
+#0:15:40.2#Participante:  ¿A salvarlo del gato?	3
+#0:15:41.6#Pcd: Sí, el gato se lo quiere comer	2
+#0:15:44.4#Participante:  Nooo (incomprensible) el gato, nomás  el pollo	2
+#0:15:48.7#pcd: El polllo y el gato	2
+#0:15:49.3#  Participante:  (incomprensible) el pollo porque está muy feliz	2
+#0:15:50.7#Pcd: El gato se lo quiere comer	2
+#0:15:52.8#Participante:  Sí pues sí, no cree	2
+#0:15:55.1#Pcd:Sí  yo si creo	2
+#0:15:56.7#Participante:  A ver es que creo que aquí lo que tiene que hacer es una x porque yo no se(incomprensible)	2
+#0:16:02.5#Pcd:  yo no quiero, pues si ya se que uste no sabe 	2
+#0:16:05.8#Participante:risila  (Incomprensible)	2
+#0:16:08.0#Pcd: Sí. no se 	2
+#0:16:09.4#Participante:  Era una  x, (incomprensible) otra x	2
+#0:16:12.6#Pcd: Ayyy paque quiere tanta?, no se	2
+#0:16:15.9#Pcd: Pues así es, ¿ no?	2
+#0:16:18.3#Pcd:Noooo,  Es de otro modo mire 	2
+#0:16:21.4#Participante:  A ver, primero vamos a ver si sale este 	2
+#0:16:24.9#Pcd: Nooo, no eso no sirve	2
+#0:16:27.5#Pcd: Eso no sirve!!, cuando venga a jugar traigase una pelota	2
+#0:16:31.8#Participante: Aaaa	2
+#0:16:32.6#pcd: O un bat!!!	2
+#0:16:34.4#Pcd: Pa jugar Béisbol	2
+#0:16:36.6#Participante:  Hay pa la otra a ver 	2
+#0:16:38.7#Pcd: Nooo, no, no 	2
+#0:16:39.4#Participante:  A mire queda una x atrás	2
+#0:16:41.5#Pcd:  Y pa..	2
+#0:16:41.8#Participante:  y una x adelante	2
+#0:16:43.0#Pcd: Y pa que quiere tanta x	2
+#0:16:45.7#Pcd: Nooo, no, no mi, el gato se comió mi pollo	2
+#0:16:50.0#Pcd: Yo ya me voy	2
+#0:16:51.1#Participante:  Nooo, no ay se (incomprensible) aaa a lo mejor (incomprensible) el gato	3
+#0:16:57.6#Pcd: ¿Dónde está?, ahí está, ahí está, no yo ya me voy	3
+#0:17:02.1#Participante:   Noo, no espérese 	3
+#0:17:02.8#Pcd: Ya me voy porque tengo que tomarme mi medecina 	3
+#0:17:04.9#Participante:  Ya sigue usted	3
+#0:17:06.0#Pcd: Nooo ps ya no quiero jugar	3
+#0:17:08.4#Participante:  ¿Por qué no ?	3
+#0:17:08.8#Pcd: Porque ya me voy a tomar mi medicamento	3
+#0:17:11.6#Participante:  Ahotita ya casi 	3
+#0:17:12.3#pcd: Ya, ya casi es hora	3
+#0:17:13.5#Participante:  Todavía nos falta	3
+#0:17:14.7#Pcd: No, ya mero, ya mero	3
+#0:17:17.0#Pcd: Ya	3
+#0:17:18.4#Pcd: No se 	3
+#0:17:19.9#Participante:  Yo (incomprensible)	3
+#0:17:21.7#Participante:  Incomprensible	2
+#0:17:22.9#Pcd:Eee,  Que?	2
+#0:17:23.5#Participante: Que usted si sabe, yo no se 	-
+#0:17:25.8#Pcd: No supe, pero yo no se, yo no se, porque esto no me gusta jugar	-
+#0:17:30.6#Pcd: Le digo que con esto brincamos al lazo	-
+#0:17:33.5#Pcd: Tú le das de allá y yo le doy de aquí	-
+#0:17:36.8#Participante:  Y ya??	-
+#0:17:37.4#Pcd: Y listo, vamonos a brincar 	-
+#0:17:39.4#Participante: Otrooo noo?, yo le estoy dando aquí usted le está dando allá, falta uno 	-
+#0:17:43.1# Pcd:  A yo puedo brincar, yo puedo brincar	-
+#0:17:46.5# Participante: Mire entonces falta otro que la detenga allá	-
+#0:17:49.2#Pcd: Nooo, no paque, con este solo tengo mire, ya ves	-
+#0:17:53.8#Participante:Aaaaaa, pero ()	-
+#0:17:57.0#Pcd: ¿Cuáles cruces?	-
+#0:17:58.1#Participante: Las...	2
+#0:18:03.3#Pcd: Se están comiendo mis pollos	2
+#0:18:06.7#Pcd: Ahorita, háblale a mi hermano don pedro	2
+#0:18:10.8#Pcd: Don pedro se están  comiendo los pollos!!	2
+#0:18:14.3#pcd: Antonio se están comiendo los pollos	2
+#0:18:18.8#Pcd: Ush, uste quiere que se los coman paque le den verda	2
+#0:18:22.7#Pcd:Uste le gusta el pollo verda	2
+#0:18:25.1#Participante: Sí	2
+#0:18:26.1#Pcd: Pos a mí noo.	2
+#0:18:31.2#Pcd: Noo ya me voy porque me duele la cabeza	2
+#0:18:34.4#Participante: Offfff, pero primero hay que terminar de jugar 	2
+#0:18:38.9#Pcd: _Noooo, ésto es bien fácil	2
+#0:18:41.3#Participante: ¿Así?	2
+#0:18:42.4#Pcd: sí por eso yo me puse ya supe	2
+#0:18:46.5#Participante: Y eso?	2
+#0:18:47.2#Pcd:Sí, uste no sabe 	2
+#0:18:51.0#Participante: Nooo, pues no 	2
+#0:18:57.7#Pcd:Oii no más, ta llorando del pollito	2
+#0:19:02.9#Pcd: Oiii nomás	2
+#0:19:05.0# Participante: ¿Sí?	2
+#0:19:05.0#pcd: Sí	3
+#0:19:09.7#Pcd: Ya me quiero ir	3
+#0:19:11.7#Participante:Pero	3
+#0:19:12.7#Pcd: A mí casa, esta no es mí casa	3
+#0:19:16.0#Participante: Así, se me olvida a veces 	3
+#0:19:19.1#Pcd:  Te digo que tú todo se te olvida	3
+#0:19:21.4#Participante: Sí, es que yo no se 	3
+#0:19:23.3#Pcd: Se te va olvidar la novia	2
+#0:19:25.9#Participante: Uuu, sí	2
+#0:19:26.3#Pcd: Sí	2
+#0:19:28.0#Participante: Incomprensible	2
+#0:19:30.7#Pcd: Ahí está ya, es la última que fue	2
+#0:19:33.7#Participante: Noo, pero porque la última	2
+#0:19:35.1# Pcd: Sí, porque ya me quiero ir	3
+#0:19:37.5#Pcd: Ya me quiero ir	3
+#0:19:37.9#Participante: Noo, vamos hacer otra con un moño	2
+#0:19:41.1#Pcd: Noo, ya no, ya no quiero moños ni quiero cruces 	1
+#0:19:44.4#Participante: ¿Por qué no?	1
+#0:19:45.0#Pcd: Porque no, no se 	1
+#0:19:47.6#Participante: A ver esta, está  fácil	1
+#0:19:50.0#Pcd: Noo, no quiero que esté fácil	1
+#0:19:52.0#Participante: Bueno, vamos a ver si puedo hacerlo más difícil	1
+#0:19:54.4#Pcd:Nooo, tampoco	1
+#0:19:55.9#Participante: Tampoco díficil	1
+#0:19:57.6#pcd: Nooo	1
+#0:19:58.1#Participante: Fácil?	1
+#0:19:58.6#Pcd: Noo, ya me quiero ir	1
+#0:20:01.0#Participante: ¿A dónde?, ¿Al baile?	1
+#0:20:01.9#Pcd: Pos pa mi casa	1
+#0:20:04.3#Participante: Aaaa	1
+#0:20:04.8#Pcd: Porque va venir Antonio a llevarme a bailar 	1
+#0:20:07.6#pcd: Y, y  va venir David	2
+#0:20:11.4#Pcd:  ¿Por qué no ta llamas David en lugar de  Luis?	2
+#0:20:14.8#Participante: Pues  es que así me puso mi mamá, dijo que estaba bien Luis 	2
+#0:20:18.0#Pcd: Nooo, ta feo eso nombre dile a tu mamá	2
+#0:20:21.6#Participante: Pero como	2
+#0:20:22.3#pcd: Sí ta muy  feo	2
+#0:20:23.7#Participante: Se va poner triste  si le....	3
+#0:20:25.2#Pcd: Nooo, no, no ,no. Ya me quiero ir	3
+#0:20:29.4#Pcd: Ésta no es mi casa, ¿que estoy  haciendo aquí?, aver dime	3
+#0:20:33.0#pcd: Vamos a jugar 	3
+#0:20:34.3#Pcd: Pero yo no quiero jugar 	3
+#0:20:36.2#Participante: ¿Por qué no?	3
+#0:20:37.2#Pcd: Porque me comí la nieve y me hizo daño	2
+#0:20:40.2#Participante: Pero ahorita 	2
+#0:20:42.1#Pcd: Uuyyy no	2
+#0:20:42.3#Participante: ... Vamos  a jugar	2
+#0:20:44.1#Pcd: Voy a bomitar	2
+#0:20:46.0#Participante: Noooo, las bomitas no me gustan	2
+#0:20:49.0#Pcd: Mmmm?	2
+#0:20:50.1#Participante: Las bomitas no me gustan 	2
+#0:20:51.5#Pcd: Uu, pos Ni a mí tampoco pero es que comí muchas nieves 	2
+#0:20:56.2#Pcd: Mucha nieve comí	2
+#0:20:59.3#Participante: (incomprensible)	2
+#0:21:04.8#Pcd: Noo, no se	2
+#0:21:06.3#Participante:Sí uste me enseño que este era su   gran bigotón	2
+#0:21:09.7#pcd: Noo, no se 	2
+#0:21:10.7#Participante: Sí	2
+#0:21:13.5#Pcd: Me calló mal la nieve, ya me voy	3
+#0:21:16.4#Participante:Nooo,	3
+#0:21:16.9#Pcd: Tengo que comerme esa galleta 	3
+#0:21:19.5#Participante: Ya se que  es de usted	3
+#0:21:20.9#Pcd: Y tienen que traerme mi té	3
+#0:21:23.0#Participante: Pero la galleta se lo va a comer aquí	3
+#0:21:24.6#Pcd: Noo, tengo que comermelo allá porque quiero que me den agua	3
+#0:21:32.1#Pcd: Ya me voy!!!!	1
+#0:21:33.5#Participante: Nooo	1
+#0:21:34.5#Pcd: Ya no quiero jugar 	1
+#0:21:36.0#Participante: Aaaaa	1
+#0:21:36.1#Pcd: Te voy aventar la tabla!!!	2
+#0:21:37.6#Participante: Nooo	2
+#0:21:38.4#Pcd: Y así por la cabeza te la voy aventar	2
+#0:21:40.0#Participante: Noooo	2
+#0:21:40.9#Que te salga así  mire 	2
+#0:21:42.9#Pcd: Así	2
+#0:21:44.0#Participante: Noooo (risa)	2
+#0:21:44.5#Participante: Ta muy pesada esa tabla	2
+#0:21:45.8#Pcd: Sí  de verdad	2
+#0:21:46.4#Participante: Esa tabla pesa como tres  kilos  (risa)	2
+#0:21:47.7#Pcd: Verdad que sí está pesada y así me quieres poner a trabajar a mí	2
+#0:21:51.7#Pcd: A noooo verda	2
+#0:21:53.2#Participante: No pues  (incomprensible)	2
+#0:21:54.1#Pcd:  Sí te la voy aventar	2
+#0:21:55.3#Pcd: Noo, no 	2
+#0:21:57.0#Pcd:Nooo, no quieres que te la aviente ?	2
+#0:21:58.6# Participante:(Mueve la cabeza en expresion negativa)	2
+#0:21:59.4#Pcd: Sí te la aviento pa que no, y se quebre la tabla	2
+#0:22:03.0#Participante: Noo	2
+#0:22:03.9#Pcd: que se haga en tres pedasos 	2
+#0:22:07.7#Participante: Porque (incomprensible) mejor haga (incomprensible)	2
+#0:22:14.1#Pcd: ¿Qué me dijiste?	2
+#0:22:19.2#Participante: A ver si hace (incomprensible)	2
+#0:22:21.6#Pcd:  Nooo , pos no se	2
+#0:22:24.8#Pcd: No se, ya me quiero ir, vámonos pa mi casa	2
+#0:22:29.4#Participante: Que hay allá  en su casa?	2
+#0:22:31.2#Pcd: Baile	2
+#0:22:33.0#Participante: ¿Así?	2
+#0:22:33.5# Pcd: Sí	2
+#0:22:35.3#Participante: Pues ya ahorita terminando de jugar no?	2
+#0:22:37.5#Pcd: Nooo, no, yo ya me quiero ir 	3
+#0:22:41.8#Pcd: Ya me quiero ir 	3
+#0:22:45.7#Pcd: Ya, ya me voy??	3
+#0:22:49.6#Pcd: ¿Dónde está mi mamá?	3
+#0:22:51.9#Pcd: Pa empezar, si no está allí, no me puedo quedar sola	3
+#0:23:00.1#Participante: Mmm, (incomprensible)	3
+#0:23:02.7#Pcd:Eeeee?	1
+#0:23:04.8#Participante: No se ni dónde está mi mamá	1
+#0:23:09.1#Pcd:Pos ni yo  se dónde está la mía	1
+#0:23:13.7#Participante: Es un problema (incomprensible) y lugo hay que buscarlas	1
+#0:23:19.3#Pcd: Hay que ir a buscarla, ya me cansé de estar aquí	1
+#0:23:23.4#Pcd: Ya me voy, ya me voy 	1
+#0:23:27.4#Participante:  Nooo, pero necesita jugar muy bien	1
+#0:23:30.9#Pcd: Nooo, no estamos jugando bien	1
+#0:23:51.0#Nooo,  ya no, ya no supe, ya no quiero	1
+#0:23:56.3#Participante:   No le va intentar otra veZ?	1
+#0:23:57.8#Pcd:   Nooo, porque no se 	1
+#0:23:59.6# Participante:  No?	1
+#0:24:00.0#Pcd: No	1
+#0:24:00.5#Participante:   Le vuelvo a otra vez a  explicar? ok.	1
+#0:24:03.7#Participante:    Incomprensible	1
+#0:24:04.9#Pcd: Y me quiero ir, ya me voy  	3
+#0:24:06.1#Participante: Nooo	3
+#0:24:06.6# Pcd: Mamá, ¿dónde estás?, mamá	3
+#0:24:11.3#Participante: Incomprensible	3
+#0:24:13.1#Pcd: Noooo, quiero ver a, aaa,  quiero ver Antonio, ¿dónde está Antonio?	3
+#0:24:19.8#Participante:  A ver vamos hacer primero una línea así	3
+#0:24:25.5#Pcd: Yo no quiero hacer líneas, ya me voy a tomarme mi medecina, porque me duele la cabeza	1

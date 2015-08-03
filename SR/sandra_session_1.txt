@@ -1,0 +1,449 @@
+ #00:00:07-3# Investigador 2: Mire le presento a una amiga, ella se llama *****?
+ #00:00:10-0# pcd: ****?
+ #00:00:12-4# Investigador 2: Y ella es otra amiga pero ella va a jugar al ratito con usted
+ #00:00:14-0# pcd: Yo me llamo ****
+ #00:00:16-2# participante2: Hola, mucho gusto.
+ #00:00:20-6# (incomprehensible) 
+ #00:00:26-7# pcd: Yo me quería sentar allí.
+ #00:00:28-3# Investigador 2: Aquí está bien, aquí está bien
+ #00:00:42-1# participante: Vamos a empezar a jugar un juego de cartas, ¿si?
+ #00:00:45-2# pcd: A usted le gustan las barajas?
+ #00:00:47-1# participante: No, no son barajas. Son letras.
+ #00:00:48-9# pcd: Ahh..
+ #00:00:49-8# participante: Es que.. quiero jugar un juego de palabras y quiero que usted me ayude.
+ #00:00:53-6# pcd: Ahh bueno
+ #00:00:54-3# participante:  Si?
+ #00:00:54-8# pcd: Yo le voy a ayudar, yo no lo voy a hacer, verdad?
+ #00:00:57-3# participante: Bien, que le parece… que yo acomodo las letras acá, y usted las acomoda aquí.
+ #00:01:04-9# participante: Usted me pone palabras que usted conozca.
+ #00:01:07-4# Sí? Bien. Que le parece si…
+ #00:01:10-7# pcd: Y si no me acuerdo?
+ #00:01:12-3# participante: No importa, continuamos con otra palabra. ¿Si?
+ #00:01:19-2#  participante: Entonces, con estas mire, aquí hay muchas y repetidas. Formeme palabras que usted conozca y las vamos poniendo de este lado.
+ #00:01:29-0# participante: ¿Si?. Yo ocupo llenar bastante aquí. Ese es mi juego pero voy a llenar muchos de este lado. ¿Si?
+ #00:01:36-7# participante: A ver, ¿cómo qué palabra se acuerda?
+ #00:01:39-1# pcd: Yo las voy a poner
+ #00:01:40-9#  participante: Okay.
+ #00:01:42-3# pcd: Usted las va a leer.
+ #00:01:43-4# participante: Ajá.
+ #00:01:48-8#  participante: Hongos…
+ #00:01:56-4# participante: ujum..
+ #00:02:01-5# pcd: Y.. no va a caer.
+ #00:02:02-7# participante: No importa, lo acomodamos. Y de todas maneras yo lo voy a acomodar de este lado. ¿Si?
+ #00:02:14-9# pcd: Es que necesitamos una mesa mas grande, 
+ #00:02:17-2# participante: y….
+ #00:02:17-9# Esta está muy chiquita.
+ #00:02:19-8# participante: Hmm.. si. Pero ahorita es la que tenemos aquí. Así que vamos a tener que hacerlo aquí.
+ #00:02:27-5# pcd: Es donde yo cocino.
+ #00:02:29-6# participante: Guaaa.. y sabe otra, otra palabra? De ahí de donde usted..
+ #00:02:35-2# pcd: (incomprehensible) .. le toca a usted
+ #00:02:36-7# participante: Ahh.. me toca a mí? A mire, a mi. Lo que a mi me toca hacer es acomodarlo acá bien bonito.
+ #00:02:41-3# pcd: oy.. a usted no le va a tocar nada!
+ #00:02:42-3# participante: *Risa*. Si, me va a tocar acomodarlo. 
+ #00:02:46-6# participante: Y muy derechito. Si lo acomodo chueco no se va a poder. ¿si?
+ #00:02:49-2# pcd: No va a caer ahí.
+ #00:02:51-2# participante: Si mire, (incomprehensible) 
+ #00:02:53-2# pcd: No cabe.
+ #00:02:55-2#  participante: Lo podemos poner mas para acá. 
+ #00:03:05-1# participante: Y si cupo. Ahí está.
+ #00:03:07-3# pcd: ¿Y pa’ qué quiere tanta letra?
+ #00:03:09-0# participante: ¡Ah.. es que me gustan las palabras!
+ #00:03:12-9# participante: Las ocupo. Me gustan las palabras. 
+ #00:03:15-2# participante: Mucho. Y quiero que usted me enseñe las que usted conoce.
+ #00:03:20-2# pcd:  Ay. Yo no conozco.
+ #00:03:22-8# participante: ¿Qué otras palabras?
+ #00:03:23-1# pcd: No se yo ya.
+ #00:03:24-9# participante: A ver. Recuerde una palabra. La que usted quiera.
+ #00:03:29-0# pcd: Ahh.. ya se que voy a poner.
+ #00:03:46-0# pcd: Esta es una palabra bonita. Es ella.
+ #00:03:49-6# participante: ¡Oooh!!
+ #00:03:57-1# pcd: Así.
+ #00:03:58-7# participante: ¿Lupe? ¿Nada mas así?
+ #00:04:00-6# pcd: No. Guadalupe.
+ #00:04:02-4# participante: Como usted quiera.
+ #00:04:03-1# pcd: No, mejor nada mas así por que está (incomprehensible) 
+ #00:04:05-9# participante: *Risa*
+ #00:04:06-9# participante: Otra que conozca.
+ #00:04:09-8# participante: Cualquier otra que conozca. Vamos a acomodar acá.
+ #00:04:13-9# participante: ¿Qué otra? Hay muchas palabras.
+ #00:04:16-8# pcd: Pero me debería de haber traído un periódico. 
+ #00:04:20-0# participante: ¡Pero las que usted se acuerde!
+ #00:04:21-6#  pcd: No pues no me acuerdo de nada.
+ #00:04:24-5# participante: A ver, de lo que ve aquí, ¿de que palabra se acuerda? 
+ #00:04:27-1#  pcd: Pues me acuerdo de ella.
+ #00:04:28-5# participante: Ahh… ¿y que mas? ¡Hay muchas cosas mas!
+ #00:04:30-5# pcd: Ahh.. Mateo.
+ #00:04:31-6#  participante: Hmm.
+ #00:04:35-0# pcd: No me las esconda.
+ #00:04:37-2#  participante: No se las escondo *risilla*
+ #00:04:46-1# pcd: Es que necesitamos otra mesa mas grande.
+ #00:04:49-1# participante: Hm.. y si las voy acomodando…
+ #00:04:55-3# pcd: No pues tiene que hacer estas pa’ acá así.
+ #00:04:57-4# participante: Ahh okay, esta las hacemos para acá.
+ #00:04:59-7# participante: Peroo.. se van a esconder poquito.
+ #00:05:05-9# participante: Así nada mas?
+ #00:05:07-4# pcd: No, así. Tienen nuevas, teles.
+ #00:05:11-2# participante: Puras cortitas me va a decir.
+ #00:05:13-2# pcd: Sí. una televisión, llega hasta allá.
+ #00:05:17-1# participante: Hmm.. ¿y la quiere terminar?
+ #00:05:19-8# pcd: Si. ¿cuál es la v?
+ #00:05:27-3# participante: ¿La cuál? 
+ #00:05:27-7# pcd: La v.
+ #00:05:28-8# participante:  Ahh a ver, vamos a acordarnos. Hay que moverle aquí a las letritas…
+ #00:05:31-8# pcd: No pues yo no se.
+ #00:05:34-5# participante: Ahh vamos a acordarnos.
+ #00:05:36-1# participante: No se acuerda de un nombre mas chiquito que le pusieron a la tele?
+ #00:05:39-8# pcd: Tele.
+ #00:05:40-8# participante: Ajá,  un nombre mas chiquito.
+ #00:05:43-1# pcd: Mas chiquito? No.
+ #00:05:45-0# participante: ¿No?
+ #00:05:45-4# pcd: ¿Usted si se acuerda? A ver, dígamelo.
+ #00:05:47-9# participante: A ver, ahí está la letra aquí. Ándele. 
+ #00:05:52-5# participante: Y no le tuve que decir.
+ #00:05:55-6# participante: L.. que mas le queda?
+ #00:05:59-2# participante: Mi.. ajá muy bien.
+ #00:06:06-1# participante: El..
+ #00:06:11-9# participante: Hay que mover las letras para acordarnos cuales otras son.
+ #00:06:16-5# pcd:  Oye.. ¿usted sabe donde está mi mamá?
+ #00:06:22-0# participante: Ah… no.
+ #00:06:24-5# pcd: Yo me quiero ir con ella ya.
+ #00:06:25-5# participante: ¿Si?
+ #00:06:26-5# pcd: si, porque no me gusta esto. Está muy feo.
+ #00:06:29-8# participante:  ¿Las letras? ¿están feas?
+ #00:06:31-1# pcd: Si.
+ #00:06:31-9# participante: Pero están bonitas.
+ #00:06:33-8# pcd: Una así… 
+ #00:06:39-4# pcd: otra así…
+ #00:06:43-4# participante: Ah mire. Las está guardando ahí (incomprehensible) 
+ #00:06:48-0# 
+ #00:06:54-9# participante: A ver.. le falta algo?
+ #00:06:55-6# pcd: No.
+ #00:06:57-3# participante: La leemos?
+ #00:06:58-5# pcd: Si. Pues a usted le toca. A mi no.
+ #00:07:00-7# participante: Te… le… vi…?
+ #00:07:05-8# (incomprehensible) 
+ #00:07:11-5# participante: Debe de haber otra.
+ #00:07:13-2# pcd: No hablen, que me reborujan.
+ #00:07:16-4# participante: *Risitas*. Y usted donde la había escondido?
+ #00:07:22-0# participante: Ahh muy bien. Guaau. Hizo tres palabras.
+ #00:07:31-7# participante: Guau. Ahora, otra que se sepa.
+ #00:07:33-3# pcd: No pues no me se ninguna.
+ #00:07:36-1# participante: Otra no se sabe? A ver, de las cosas que ve aquí. ¿Qué mas hay?
+ #00:07:39-3# pcd: Voy a poner su saco.
+ #00:07:41-0# participante: Ahh..
+ #00:07:43-7# pcd: Ahh no, aretes no trae.
+ #00:07:46-5# participante: *Niega con la cabeza*
+ #00:07:47-6# pcd: Por qué no trae aretes?
+ #00:07:49-4# participante: Porque tengo las orejas chiquitas.
+ #00:07:51-2# pcd: Aay yo porque las tengo grandotas.
+ #00:07:52-5# participante: *Risilla* No. 
+ #00:07:57-1# participante: A ver, vamos a buscar entonces otra palabra.
+ #00:08:02-8# participante: pss….
+ #00:08:06-2# pcd: No, no hay eses.
+ #00:08:07-6# participante: Si.. eses busque. Busque. Aquí tenemos muchas letras repetidas.
+ #00:08:17-5# pcd: Que palabra va a poner?
+ #00:08:23-3# participante: *Risilla*
+ #00:08:25-4# pcd: Sí?
+ #00:08:25-1# *Risilla*
+ #00:08:27-2# pcd: No se vale?
+ #00:08:29-3# participante: Pues lo que quiera.
+ #00:08:31-1# pcd: Voy a poner.. Que.
+ #00:08:34-9# pcd: Si… Usted no diga que no. Usted diga que si
+ #00:08:43-0# pcd: Usted tiene novio?
+ #00:08:45-9# pcd: aquí voy a poner el nombre de su novio.
+ #00:08:48-8# participante: Ahh..
+ #00:08:51-2# participante: No, ahorita no tengo novio.
+ #00:08:53-7# pcd: No pues que malo.
+ #00:08:54-5# participante: Ya se.
+ #00:08:56-0# pcd: No eso si es malo, yo si tengo novio.
+ #00:08:58-2# participante: ¿sí?
+ #00:08:59-3# pcd: Y nació en 1910.
+ #00:09:04-8# participante: En serio?
+ #00:09:04-9# pcd: si.
+ #00:09:05-0# pcd: Y usted por qué no tiene novio?
+ #00:09:10-5# participante: Ahh.. eh?
+ #00:09:13-0# participante: Por que no.. ahorita no. Ahorita estoy en la escuela.
+ #00:09:16-6# participante: Y pa’ qué estudia tanto? Si se va a acabar el mundo.
+ #00:09:23-5# participante: Qué?
+ #00:09:25-6# pcd: ¿No cree que se va a acabar?
+ #00:09:26-7# participante: Si, si se va a acabar pero… si todavía no se acaba?
+ #00:09:29-5# pcd: Aay *****, (incomprehensible) esta S.
+ #00:09:35-4# pcd: Ay, ¿Qué dice?
+ #00:09:36-5# participante: A ver, que dice? Vamos a leerlo?
+ #00:09:40-0# participante: ¿Como se pronuncia?
+ #00:09:40-8# pcd: Chico?
+ #00:09:41-2# participante:  Ajá.
+ #00:09:44-3# pcd: Ahh como?
+ #00:09:46-0# participante: Creo que era su chico.
+ #00:09:47-0# participante: A ver..
+ #00:09:48-9# pcd: No.. porque (incomprehensible) 
+ #00:09:51-4# participante: Ahh.. ya no estaba chico.
+ #00:09:53-4# pcd: Ya estaba viejo.
+  #00:09:54-3# participante: Ahh.. entonces? Como se pone eso?
+ #00:10:16-0# pcd: ay no, no yo no se.
+ #00:10:19-3# participante: ¿Qué mas nos falta ahí? que era lo que iba a poner?
+  #00:10:22-0# pcd: Una ¨b¨
+ #00:10:30-6# pcd: Es que estas son letras mayúsculas.
+ #00:10:32-9# participante: ujum. Y cual es la ¨B¨ que ocupa para ahí?
+ #00:10:36-1# pcd: Esta.
+ #00:10:37-9# participante: Se acuerda que es esta?
+ #00:10:39-2# pcd: Si, yo la vi.
+ #00:10:44-0# pcd: Oiga, usted dijo que las iba a hacer.
+ #00:10:46-3# participante: Yo las estoy acomodando acá mire, las tengo bien acomodaditas.
+ #00:10:50-2# participante: Para que usted le siga... traba.. las siga... poniendo de aquel lado.
+ #00:11:00-6# participante:  ujum.
+ #00:11:10-8# pcd: ¿Qué dice?
+ #00:11:12-2# participante: A ver, vamos a leerlo juntas.
+ #00:11:15-2# participante: Uno, dos, tres.
+ #00:11:16-6# pcd: Jo.. Jóven.
+ #00:11:17-1# participante: Ahh muy bien. (risilla)
+ #00:11:21-4# participante: A ver, otra, otra y (incomprehensible) cual.
+ #00:11:24-5# pcd: Ya son muchas.
+  #00:11:25-8# participante: Uhh toda.. todavia no son muchas.
+ #00:11:33-8# participante: Vamos a tomar estas para acá mire, si?
+ #00:11:37-3#  participante: Es que usted me las está enseñando. Y me las estoy aprendiendo porque muchas no me las se.
+ #00:11:42-2# pcd: Pues si, tiene que saberselas porque...
+ #00:11:49-9# pcd:  ¿Y usted por qué se sentó ahí?
+ #00:11:53-6# pcd: Siéntese en una silla. Ahí está cansado.
+ #00:11:59-0# pcd: Mira no contesta, está mudo.
+ #00:12:01-2# participante: (risilla) Es que el quire que jugamos con el juego, quiere ver cuantas palabras hacemos. 
+ #00:12:07-1# pcd: Está mudo, está mudo.
+ #00:12:10-2# participante: (Traga saliva)
+ #00:12:12-4# participante: Que mas? Cual es la otra (incomprehensible)  o que ha visto aquí o que ha visto.
+ #00:12:17-1# pcd: Pues aquí no veo nada.
+ #00:12:18-8# participante: ¿No? ¿Nada al rededor?
+ #00:12:22-1# pcd: Pues nomás sentados, otros parados, otros sentados. Usted sentada.
+ #00:12:26-8# participante: Pero que mas cosas vemos?
+ #00:12:28-7# pcd: Yo sentada.
+ #00:12:32-4# pcd: Voy a poner sentada.
+ #00:12:33-6# participante: Ahh bueno.
+ #00:12:35-0# participante: Vamos a buscar una "S"
+ #00:12:37-2# pcd: Aquí está una "C"
+ #00:12:39-1# participante: Va con eso, sentado?
+ #00:12:40-8# pcd: Si, con esta "S".
+ #00:12:42-9# participante: Ahh esta es la "S"?
+ #00:12:44-5# pcd: Si, es donde se pone "carro" no?
+ #00:12:47-6# participante: Ahh pero.. Sentado va con "C" o con "S"?
+ #00:12:53-3# pcd: Con "S".
+ #00:12:55-0# participante: Pero esta es la "S"?
+ #00:12:56-7# pcd: No pues, voy a poner carro.
+ #00:12:58-5# participante: Ah okay (risilla)
+ #00:13:00-3# pcd: Si porque..
+ #00:13:05-4# participante:  Ahh
+ #00:13:08-1# participante: 
+ #00:13:13-6# pcd: Así?
+ #00:13:14-7# participante: Ah.. Aquí que dice?
+ #00:13:16-5# pcd: Carro.
+ #00:13:17-6# participante: Carro, segura?
+ #00:13:19-4# pcd: No.
+ #00:13:19-9# participante: A ver, que dice aquí?
+ #00:13:20-9# pcd: Carro
+ #00:13:21-8# participante: Ca.. Como?
+ #00:13:22-0# pcd: Carro?
+ #00:13:24-2# participante: Y otro "rr"
+ #00:13:26-0# pcd: Le falta otra R?
+ #00:13:27-0# participante: Ahhh
+ #00:13:29-3# pcd: Lleva "RR"?
+ #00:13:31-1# pcd: Si?
+ #00:13:35-1# participante: A ver, pronunciela usted. A ver, así como dice?
+ #00:13:39-4# pcd: Aquí está otra, mire.
+ #00:13:43-6# participante: A ver, ahora si que dice?
+ #00:13:44-9# pcd: Carro.
+ #00:13:46-6# participante: Y así?
+ #00:13:48-5# pcd: Caro.
+ #00:13:51-7# (habla bajo) Ya se paró
+ #00:13:56-2# participante: Ya se paró. Hm. Es que quiere ver que.. está ansioso porque hagamos mas palabras.
+ #00:14:02-6# participante: A ver, cual otra nos sabemos?
+ #00:14:05-3# pcd: Cual otra? Pues usted, ahora le toca a usted. Yo ya me quiero ir con mi mamá oiga.
+ #00:14:10-5# participante: Segura? No.. no le está gustando hacer palabras? Estamos acordándonos de muchas cosas.
+ #00:14:16-6# pcd: No...
+ #00:14:17-0# participante: Se acordaba de esto?
+ #00:14:18-9# pcd: Mire, tengo que irme a tomarme mi medicina. Y tengo que ir a ver a mi mamá a ver donde anda.
+ #00:14:25-0# pcd: Y tengo que ir, y tengo que ir.
+ #00:14:29-8# pcd: Usted no sabe donde anda, verdad?
+ #00:14:31-1# participante: No..
+ #00:14:33-8# participante: Vam.. Creo que va a regresar mas tarde.
+ #00:14:37-1# pcd: La vamos a poner a barrer.. parece callejera.
+ #00:14:43-7# participante: Qué vamos a escribir ahora?
+ #00:14:47-2# pcd: Ps... vamos a poner a mi mamá a barrer. No le estoy diciendo?
+ #00:14:50-4# participante: Ah.. (risilla) okay..
+ #00:14:53-4# pcd: Ps... se fue de callejera
+ #00:15:10-7# participante: Voy a hacer esto pa' acá que yo tengo muchas aquí
+ #00:15:18-2# pcd: Ahí dice barrer, no?
+ #00:15:19-7# participante: A ver, vamos a pronunciar:
+ #00:15:21-0#  participante: Ba...
+ #00:15:24-2# pcd: Rrer.
+ #00:15:26-0# participante: Rrer.. Nada mas. Si se acuerda?
+ #00:15:29-7# pcd: Si, pues es barrer.
+ #00:15:30-8# participante: Ah..
+ #00:15:31-5# pcd: Usted no sabe barrer?
+ #00:15:33-3# participante: Poquito.
+ #00:15:34-2# pcd: Yo no.
+ #00:15:35-0# participante: No?
+ #00:15:37-3# participante: Otra palabra,que le parece? Si?
+ #00:15:39-8# pcd: Si, pues aquí me tienen. Y usted ni hace nada.
+ #00:15:43-6# participante: Si mire, que le parece si la voy haciendo bonchecitos. Y la voy haciendo mas para acá.
+ #00:15:48-1# participante: Todas pegaditas. Si?. Esto es lo que me va a tocar hacer a mi. Otra.
+ #00:16:20-0# pcd: Las está desbaratando?
+ #00:16:21-5# participante: No, las estoy haciendo, las estoy haciendo mas para acá.
+ #00:16:23-5# pcd: Noo. Ya desbarató una.
+ #00:16:25-3# participante: No aquí está, aquí está nada mas que la voy a dejar para la televisión, para que nos quepa mas de este lado. ¿Sí?
+ #00:16:31-3# pcd: Si, pero pues de todas maneras. Me va echar esas otras para que las acomode.
+ #00:16:36-8# participante: No pero para haga mas letras y tengas mas letras.
+ #00:16:40-4# pcd: No quiero tener tantas porque ya me cansé.
+ #00:16:43-5# participante: Pero, no acompletamos. Sí? Poquitas mas. Las otras ya me las aprendí
+ #00:16:48-4# participante: Ya se como se escriben y ya las vi.
+  #00:16:55-3# pcd: Aqui tengo unos chiquitos
+ #00:17:06-8# pcd: Búsqueme una "T".
+ #00:17:08-6# participante: Una T? Vamos a buscar una T entonces.
+ #00:17:11-0# pcd: Usted solita (incomprehensible) 
+ #00:17:13-5# participante: Ahh mire (incomprehensible) 
+ #00:17:15-7# pcd: Usted todo me manda a mi, usted no quiere hacer nada.
+ #00:17:19-8# participante: Pero ese es el chiste, es como estamos jugando. Así es el juego.
+ #00:17:32-4# participante: Hmm..."Tierra"
+ #00:17:36-9# pcd: Así va?
+ #00:17:38-2# participante: A ver, pues hay que leerlo.
+ #00:17:40-8# pcd: "Ti", "e", "rra".
+ #00:17:43-7# participante: Muy bien.
+ #00:17:45-4# pcd: Usted de donde es?
+ #00:17:46-8# participante: De aquí de la tierra.
+ #00:17:48-5# pcd: No.
+ #00:17:49-2# participante: (risilla)
+ #00:17:50-8# participante:  De aquí de Ensenada.
+ #00:17:53-3# pcd: Ay que fea está Ensenada verdad?
+ #00:17:55-4# participante: No le gusta?
+ #00:17:56-3# pcd: No, está fea.
+ #00:17:57-1# hm... Que le parece si escribimos al.. bue.. pero, mas bien, algo que sea de Ensenada.
+ #00:18:03-5# pcd: De Ensenada..
+ #00:18:04-7# participante: Qué tiene Ensenada? De Ensenada no, otra palabra
+ #00:18:11-2# pcd: Qué? Como de que?
+ #00:18:12-5# participante: Pues algo que tenga Ensenada.
+ #00:18:13-5# pcd: Pescado.
+ #00:18:16-6# participante: Ensenada ya se la dije.
+ #00:18:19-4# pcd: Si pero.. es bueno que usted me diga porque usted nada mas me pone a trabajar.
+ #00:18:25-0# participante: No, estamos buscando palabras.
+ #00:18:28-7# pcd: No, yo quiero irme con mi mamá.
+ #00:18:40-2# pcd: No hay "E".
+ #00:18:42-7# participante: Pues busque una "E". Ahh muy bien.
+ #00:18:52-5# pcd: Pes.
+ #00:19:06-5# pcd: Pesca.
+  #00:19:08-3# participante: Ajam.
+ #00:19:10-3#  (incomprehensible) 
+ #00:19:28-5# pcd: Ya se cansó, ya se sentó pero no se quire sentar en una silla. No se sienta en una silla.
+ #00:19:45-5# participante: A ver, de que otra cosa nos acordamos?
+ #00:19:48-0# pcd: De (incomprehensible) 
+ #00:20:09-5# pcd: Ya hice muchas.
+ #00:20:11-1# participante: Nos faltan unas poquitas, ya. Es que yo estoy aprendiendo de aquí las palabras.
+ #00:20:19-4# pcd: Ahí está.
+ #00:20:21-0# participante: Por ejemplo.
+ #00:20:24-3# participante: Muy bien. De qué otra cosa se acuerda?
+ #00:20:28-1# pcd: Hmm no, ahorita no me acuerdo de nada.
+ #00:20:31-4# participante: A ver, de las palabras que están aquí, que otras cosas se puede acordar?
+ #00:20:36-9# participante: A ver, de este..
+ #00:20:38-4# pcd: Ah ya se. Ya se cual poner.
+ #00:20:55-6# pcd: No me trajeron mi té verdad?
+ #00:20:58-1# Investigador 2: En un ratito mas (incomprehensible) para que le hagan su té.
+ #00:21:03-9# Investigador 2: Ahorita que termine su juego.
+ #00:21:06-1# participante: Pues es que este juego está muy feo.
+ #00:21:10-7# Investigador 2: Ya casi acaba.
+ #00:21:32-0# participante: Ok.
+ #00:21:33-1# pcd: Ya me (incomprehensible)  de la tele.
+ #00:21:35-3# participante: hmmm.
+ #00:21:36-4# pcd: Si, ya se, que me está poniendo mas y mas.
+ #00:21:42-4# pcd: Y dice que si, verdad?
+ #00:21:44-5# participante: Es que me las estoy aprendiendo.
+ #00:21:50-5# pcd: Usted es feliz?
+ #00:21:51-8# participante: Yo si.
+ #00:21:53-5# pcd: Pues yo no.
+ #00:21:54-4# No?
+ #00:21:55-1# pcd: No, porque me ponen a jugar esto.
+ #00:22:00-5# participante: Así se escribe feliz?
+ #00:22:03-8# pcd: Feliz... si, así se escribe.
+ #00:22:04-8# participante: Ahí cuando mirabas "Feliz" en los letreros, ahí en los letreros.
+ #00:22:10-5# pcd: Fe...li..z. (s)
+ #00:22:13-5# participante: Si? Así se acuerda?
+ #00:22:15-2# pcd: Si, por que le falta una letra?
+ #00:22:17-6# participante: No. Así, así suena. Pero no le falta, no, así va escrito?
+ #00:22:22-2# pcd: Pues no me acuerdo, y usted?
+ #00:22:25-9# participante: Así suena.
+ #00:22:26-9# pcd: si?
+ #00:22:27-6# participante: si.
+ #00:22:28-2# pcd: O no sabe escribir? Yo no se escribir
+ #00:22:34-0# participante: No? Pero sabe acomodar las letras, y sabe como va.
+ #00:22:36-8# pcd: Pero usted está yendo a la escuela y a mi no me quieren llevar.
+ #00:22:40-5# participante: Hmm.. okay. De que otra palabra se acuerda? 
+ #00:22:43-6# participante: A ver, con esas que están aquí u otras que usted se acuerde
+ #00:23:30-8# pcd: Qué dice allí?
+ #00:23:32-4# participante:  A ver, vamos a los dos. "E"...
+ #00:23:45-3# pcd: Ya ve? Ya se están cayendo.
+ #00:23:50-9# pcd: No, no la hayo.
+ #00:23:52-4# participante: A ver, vamos a buscarlo juntas.
+ #00:23:55-4# pcd: No, pues hago otra.
+ #00:23:57-8# participante: A ver, (incomprehensible) si debe de estar la letra.
+ #00:24:01-2# participante: Ahi yo la estoy viendo (incomprehensible) .
+ #00:24:04-7# participante: Ah..
+ #00:24:09-2# pcd: Si usted si sabe, pero me pone a mi que las haga.
+ #00:24:13-0# participante: Es que estamos aprendiendo juntas.
+ #00:24:20-5# pcd: Ya se las voy a desbaratar todas.
+ #00:24:23-3# participante: Las desbaratamos y hacemos mas?
+ #00:24:24-9# pcd: No, ya no quiero hacer mas.
+ #00:24:25-9# participante: Y si hacemos nada mas ahí, lo que queda ahí. ¿Si?
+ #00:24:29-7# pcd: Si...
+ #00:24:33-4# pcd: Mire usted dice que las desbaratamos y hacemos mas. Como usted no las va a hacer!.
+ #00:24:39-0# participante: (risilla) La estamos haciendo, yo estoy aprendiendo.
+ #00:24:47-5# pcd: Ya llegó mi mamá? Nadie contesta...
+ #00:24:56-2# pcd: Oy, los pájaros. Ya empezaron a cantar. Los oye?
+ #00:25:01-5# participante: Si.
+ #00:25:07-4# pcd: Tiene sueño?
+ #00:25:08-5# participante: No. Respiré profundo.
+ #00:25:11-3# pcd: Es que si tiene (incomprehensible). Estás respirando tanto.
+ #00:25:19-5# pcd: Ahí está.
+ #00:25:20-6# participante: Aaay. Qué dice aquí?
+ #00:25:24-1# pcd: Pues que no sabe leer?
+ #00:25:25-5# participante: Pero para que me ayude, yo lo estoy viendo con mi cabeza al revés.
+ #00:25:29-3# pcd: México.
+ #00:25:30-3# participante: Ahh bueno. Otra? Yo como me llamo?
+ #00:25:35-8# pcd: Se llama... Sandra.
+ #00:25:39-3# participante: Ujum. A ver, vamos a buscar otra palabra.
+ #00:25:43-0# pcd: Su nombre?
+ #00:25:43-8# participante: Cual nombre? No, no. Con mi nombre no. Otra.
+ #00:25:49-6# pcd: Yo se que está feo, el mio también está feo.
+ #00:25:56-3# pcd: Si, porque María. Hay muchas Marías, y luego las oaxaquitas casi todas se llaman María como yo.
+ #00:26:05-2# pcd: Sí. Así es que.. pero yo no soy oaxaquita.
+ #00:26:09-3# participante: A ver, otra palabra.
+ #00:26:24-0# participante: Cual vamos a escribir ahora?
+ #00:26:32-4# pcd: Ya me quiero ir. Es que tengo que tomarme mi medecina que sabe amarga.
+ #00:26:46-2# pcd: Este es mi sol.
+ #00:26:47-4# participante: Oh, este es un sol.
+ #00:26:48-7# pcd: Sí.
+ #00:26:49-7# participante: Y nos cabe otra ahi. A ver otra
+ #00:26:55-7# participante: Tenemos aquí otras. Todavía nos quedan letras.
+ #00:27:00-1# pcd: ¿Cómo se llama el?
+ #00:27:03-2# participante: A.. el.. no.. Darién.
+ #00:27:05-4# pcd: Dariel?
+ #00:27:06-9# participante: Darién.
+ #00:27:11-7# pcd: *mumbling*
+ #00:27:34-1# pcd: Ya puse Tierra.
+ #00:27:40-2# participante: A ver, otra palabra que se acuerde.
+ #00:27:43-0# pcd: No pues aquí ya no hay. Puras "A".
+ #00:27:45-7# participante: A ver, nos vamos a acordar de otra palabra, hay muchas letras todavía. Nos alcanzan para mas.
+ #00:27:49-8# pcd: Si, pero.. me deberían de traer un periódico.
+ #00:27:53-9# participante: A ver, de lo que hay aquí, de lo que ve aquí. De que mas se acuerda?
+ #00:28:02-7# pcd: Si.. si.. si.. pues de una silla pero no hay mas.
+ #00:28:05-9# participante: A ver, vamos a buscar a ver.
+ #00:28:08-7# pcd: Aquí está una silla.
+ #00:28:14-2# pcd: La silla lleva? Si. Lleva doble "L"?
+ #00:28:18-2# participante: A ver, vamos.
+ #00:28:20-7# pcd: O lleva sencilla?
+ #00:28:24-6# participante: Si fuera sencilla, que diría?
+ #00:28:26-7# pcd: Pues.. pues no se que diría.
+ #00:28:29-6# participante:  A ver, vamos a ver ahorita.
+ #00:28:32-4# pcd:No, no entiendo.
+ #00:28:39-4# participante: Aquí vamos a revolver estas para encontrar unas letras.
+ #00:28:44-8# pcd: Pues yo ya me cansé oiga. Y usted ya está desbaratando todo para que haga mas. Yo no hago mas.
+ #00:28:51-9# participante: Una mas aquí nos cabe mire, una.
+ #00:28:54-6# participante: Y ya no lo voy a mover para arriba.
+ #00:28:56-5# pcd: Si, pero usted está desbarate y desbarate.
+ #00:28:58-4# participante: Ah no, pero es para que tengamos mas letras porque ya nos hacían falta.
+ #00:29:02-6# pcd: Si, pero.. dije.. dice.. siga haciendo mas. Y usted no hace nada!.
+ #00:29:06-7# participante: Si las acomodé.

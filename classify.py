@@ -102,10 +102,12 @@ if __name__ == "__main__":
     _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    #randomiceData([_dataA,_dataB])
+    randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training = 34
-    _test = 6
+    print _dataA[0]
+    print _dataB[0]
+    _training = 110
+    _test = 48
     #print _dataB[-4]
     print "Data: %s" % (_file_path)
     print "     class 0 available data: %i" %(len(_dataA))
@@ -117,35 +119,40 @@ if __name__ == "__main__":
     _pLinear = []
     _rRbf = []
     _pRbf = []
-    for i, kernel in enumerate(['linear','rbf']):
-         ##individual kernel
-        clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(_training)
-        #saveSet(X,y)
-        Z = clf.fit(X,y)
-        _X,_y = takeSample(_test,_training)
-        y_pred = clf.predict(_X)
-        cm = confusion_matrix(_y, y_pred)
-        print "\n=====KERNEL: %s=====" %(kernel)
-        print cm
-        _p = precision_score(_y,y_pred)*100
-        _r = recall_score(_y,y_pred) *100
-        print "Precision: %f" %(_p)
-        print "Recall: %f" %(_r)
+    for _runs in range(1,2):
+        for i, kernel in enumerate(['linear','rbf','poly']):
+             ##individual kernel
+            clf = svm.SVC(kernel=kernel)
+            X,y = takeSample(_training)
+            Z = clf.fit(X,y)
+            _X,_y = takeSample(_test,_training)
+            y_pred = clf.predict(_X)
+            saveSet(X+_X,y+_y)
+            cm = confusion_matrix(_y, y_pred)
+            print "\n=====KERNEL: %s=====" %(kernel)
+            print cm
+            _p = precision_score(_y,y_pred)*100
+            _r = recall_score(_y,y_pred) *100
+            print "Precision: %f" %(_p)
+            print "Recall: %f" %(_r)
 
-        if( kernel == 'linear'):
-            _rLinear.append(_r)
-            _pLinear.append(_p)
-        else:
-            _rRbf.append(_r)
-            _pRbf.append(_p)
-        print "----CROSS-VALIDATION--"
-        clf = svm.SVC(kernel=kernel)
-        X,y = takeSample(_training+_test)
-        validateVector(X)
-        X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
-        Z = clf.fit(X_train,y_test)
-        y_pred = clf.predict(X_test)
-        scores = cross_validation.cross_val_score(clf, X, y, cv=5)
-        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
-           #plot(_X,_y,clf)
+            if( kernel == 'linear'):
+                _rLinear.append(_r)
+                _pLinear.append(_p)
+            else:
+                _rRbf.append(_r)
+                _pRbf.append(_p)
+            #print "----CROSS-VALIDATION--"
+            #clf = svm.SVC(kernel=kernel)
+            #X,y = takeSample(_training+_test)
+            #validateVector(X)
+            #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
+            #Z = clf.fit(X_train,y_test)
+            #y_pred = clf.predict(X_test)
+            #scores = cross_validation.cross_val_score(clf, X, y, cv=5)
+            #print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+            #plot(_X,_y,clf)
+            #if(_p < 60.0 and kernel =='poly'):
+            #   print "Precision decayed below 60.0 after %i runs" %(_runs)
+            #    break
+

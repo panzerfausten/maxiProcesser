@@ -188,17 +188,18 @@ class HalfRecoveryTimeDetector:
             #    _data.append(np.average(_avgPeakAmplitudes))
             #else:
             #    _data.append(0)
-            _data.append(np.average(self._data))
+            #_data.append(np.average(self._data))
             if (len(_avgPeakAmplitudes) > 0):
                _data.append(max(_avgPeakAmplitudes))
+               _data.append(min(_avgPeakAmplitudes))
+               _data.append(np.mean(_avgPeakAmplitudes))
+               _data.append(np.var(_avgPeakAmplitudes))
             else:
+                _data.append(0)
+                _data.append(0)
+                _data.append(0)
                 _data.append(0)
 
-            if (len(_avgPeakAmplitudes) > 0):
-                _avgPeakAmplitude= np.average(_avgPeakAmplitudes)
-                _data.append(_avgPeakAmplitude)
-            else:
-                _data.append(0)
             if (len(_recoveryTimes) > 0):
                 _avgTimeToRecover = np.average(_recoveryTimes)
                 _data.append(_avgTimeToRecover)

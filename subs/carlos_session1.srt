@@ -1,0 +1,1216 @@
+2
+00:04:32,000 --> 0:4:34,000
+# participante: ok
+
+3
+00:04:35,000 --> 0:4:35,000
+# participante: ok
+
+4
+00:04:36,000 --> 0:4:40,000
+# participante: Entonces, este es un juego de nudos.. de agujetas
+
+5
+00:04:41,000 --> 0:4:46,000
+# participante: Entonces ehh yo le voy a enseñar un nudo, una secuencia. Y usted lo va a repetir. sí?
+
+6
+00:04:47,000 --> 0:4:47,000
+# participante: si?
+
+7
+00:04:48,000 --> 0:4:48,000
+# participante: ok.
+
+8
+00:04:49,000 --> 0:4:50,000
+# pcd: Y si se me olvida le vuelvo a preguntar?
+
+9
+00:04:51,000 --> 0:4:51,000
+# participante: Si *voz quebrada*
+
+10
+00:04:52,000 --> 0:4:53,000
+# participante: Claro que si, no se preocupe.
+
+11
+00:04:54,000 --> 0:5:3,000
+# participante: Entonces, el primero que vamos a hacer es.. Vamos a hacer una X. ay.
+
+12
+00:05:04,000 --> 0:5:9,000
+# participante: Entonces...
+
+13
+00:05:10,000 --> 0:5:32,000
+# participante: Vamos a hacer, una X así. ok?
+
+14
+00:05:33,000 --> 0:5:35,000
+# participante: Ok. Perfecto.
+
+15
+00:05:36,000 --> 0:5:41,000
+# participante: Ahora.. vamos a volver a hacerla.
+
+16
+00:05:42,000 --> 0:5:48,000
+# participante: Pero esta vez sin agujeta aquí vamos a meterla así.
+
+17
+00:05:49,000 --> 0:6:33,000
+# participante: Y ya que tenemos las las dos, los dos lados iguales, vamos a hacer la misma X. Sí?
+
+18
+00:06:34,000 --> 0:6:36,000
+# participante: Ok.. ahh perfecto.
+
+19
+00:06:37,000 --> 0:6:42,000
+# participante: A ver.. ahora.. vamos a cambiarlo un poco.
+
+20
+00:06:43,000 --> 0:6:56,000
+# participante: Vamos a.. volver a hacer la misma.. X. Pero le vamos a agregar una.. una.. un. un.. movimiento mas.
+
+21
+00:06:57,000 --> 0:7:10,000
+# participante: Entonces.. armamos la X...
+
+22
+00:07:11,000 --> 0:7:19,000
+# participante: Y.. esos que están del otro lado, los vamos a pasar por aquí, para que queden como unos bigotes.
+
+23
+00:07:20,000 --> 0:7:29,000
+# participante: Entonces tenemos aquí la X, y aquí quedan los dos bigotes.
+
+24
+00:07:30,000 --> 0:8:3,000
+# participante: A ver..
+
+25
+00:08:04,000 --> 0:8:10,000
+# participante: A ver... aah! está bien, perfecto. ay, vamos muy rápido eh. A ver..
+
+26
+00:08:11,000 --> 0:8:21,000
+# participante: Ahora, vamos a hacer el mismo, pero empezando de cero. Vamos a meter aquí las agujetas..
+
+27
+00:08:22,000 --> 0:8:31,000
+# participante: ..y volvemos a hacer la X...
+
+28
+00:08:32,000 --> 0:8:37,000
+# participante: ..y, volvemos a sacar los bigotes en los hoyos de abajo.
+
+29
+00:08:38,000 --> 0:8:39,000
+# pcd: Están mejor en los de arriba.
+
+30
+00:08:40,000 --> 0:8:42,000
+# participante: En los de arriba? Ahh okay.
+
+31
+00:08:43,000 --> 0:8:43,000
+# pcd: Ahí se ve feo en los de abajo.
+
+32
+00:08:44,000 --> 0:8:53,000
+# participante: Ah perfecto, a ver.
+
+33
+00:08:54,000 --> 0:8:56,000
+# participante: Que bueno que me dice, porque yo de acá atrás no alcanzo a ver *rissilla*
+
+34
+00:08:57,000 --> 0:8:58,000
+# participante: Ah no si, pues a ver.
+
+35
+00:08:59,000 --> 0:8:59,000
+# pcd: Aquí tiene la boca...
+
+36
+00:09:00,000 --> 0:9:0,000
+# participante: Ajá.
+
+37
+00:09:01,000 --> 0:9:1,000
+# pcd: Aquí están los bigotes.
+
+38
+00:09:02,000 --> 0:9:2,000
+# participante: Ahh si si.
+
+39
+00:09:03,000 --> 0:9:4,000
+# pcd: Aquí está la boca.
+
+40
+00:09:05,000 --> 0:9:6,000
+# participante: Ay, deveras, no me había dado cuenta.
+
+41
+00:09:07,000 --> 0:9:6,000
+# pcd: Usted no?
+
+42
+00:09:07,000 --> 0:9:7,000
+# participante: Ajá..
+
+43
+00:09:08,000 --> 0:9:8,000
+# pcd: Pues yo si.
+
+44
+00:09:09,000 --> 0:9:9,000
+# participante: *risilla*
+
+45
+00:09:10,000 --> 0:9:11,000
+# pcd: Entonces.. lo hago, otra vez?
+
+46
+00:09:12,000 --> 0:9:14,000
+# participante: Sí.
+
+47
+00:09:15,000 --> 0:9:16,000
+# pcd: Lo desbarato todo para que no se me olvide.
+
+48
+00:09:17,000 --> 0:9:23,000
+# participante: *risilla*, okay, perfecto.
+
+49
+00:09:24,000 --> 0:9:26,000
+# pcd: Si, porque si lo pone acá abajo no tiene boca.
+
+50
+00:09:27,000 --> 0:9:30,000
+# participante: Ah no pues si.
+
+51
+00:09:31,000 --> 0:9:39,000
+# participante: Que observadora *risilla*
+
+52
+00:09:40,000 --> 0:9:41,000
+# pcd: No me trajeron té, ahora?
+
+53
+00:09:42,000 --> 0:9:46,000
+# Investigador 2: No, ahorita le hablo a su hermana para ver si le manda a traer un tecito. ok?
+
+54
+00:09:47,000 --> 0:9:56,000
+# pcd: Si.. porque si no..
+
+55
+00:09:57,000 --> 0:10:1,000
+# pcd: Este bigote quedó mas largo que el otro. Mire.
+
+56
+00:10:02,000 --> 0:10:4,000
+# participante: Ah, okay. Lo quiere arreglar o lo dejamos así?
+
+57
+00:10:05,000 --> 0:10:6,000
+# pcd: Pues es que se ve feo así.
+
+58
+00:10:07,000 --> 0:10:15,000
+# participante: Ah pues si quiere.. jálele poquito de un lado.. para que.. para que quede.
+
+59
+00:10:16,000 --> 0:10:18,000
+# pcd: No se oyen cantar los pájaros, verdad?
+
+60
+00:10:19,000 --> 0:10:28,000
+# participante: No, es que ahorita.. creo que ya es de la tarde. Entonces.. ya han de estar en sus nidos.
+
+61
+00:10:29,000 --> 0:10:47,000
+# pcd: *Mumbling*
+
+62
+00:10:48,000 --> 0:10:55,000
+# participante: Ahí ya están parejitos..
+
+63
+00:10:56,000 --> 0:11:0,000
+# pcd: Ahora si..
+
+64
+00:11:01,000 --> 0:11:16,000
+# pcd: *Mumbling*
+
+65
+00:11:17,000 --> 0:11:17,000
+# participante: Ahora si quedaron parejitos verdad?
+
+66
+00:11:18,000 --> 0:11:18,000
+# pcd: Si. Si quedaron.
+
+67
+00:11:19,000 --> 0:11:21,000
+# participante: Ahh perfecto.
+
+68
+00:11:22,000 --> 0:11:26,000
+# participante: A ver.. ahora.. vamos a hacer otro..
+
+69
+00:11:27,000 --> 0:11:35,000
+# participante: Ahora, vamos a hacer, otra vez. Otra vez vamos a hacer la X.
+
+70
+00:11:36,000 --> 0:11:37,000
+# pcd: Y pa' que quiere tantas X's?
+
+71
+00:11:38,000 --> 0:11:41,000
+# participante: Ah. pues porque.. son bonitas. *risilla*
+
+72
+00:11:42,000 --> 0:11:42,000
+# participante: Son simétricas..
+
+73
+00:11:43,000 --> 0:11:44,000
+# pcd: Ahh.. bueno.
+
+74
+00:11:45,000 --> 0:11:59,000
+# participante: Y.. ahora, vamos a..  en esa parte.. Lo sacamos y en vez de que sea un bigote así suelto, vamos  a, hacer un moño.
+
+75
+00:12:00,000 --> 0:12:9,000
+# participante: Entonces, vamos a hacer aquí un nudo, como si fuera, mas o menos de los zapatos, entonces, hacemos este cruce...
+
+76
+00:12:10,000 --> 0:12:15,000
+# participante: Y.. jalamos, las orejitas. Y te queda, un bigote de?
+
+77
+00:12:16,000 --> 0:12:16,000
+# pcd: De moño.
+
+78
+00:12:17,000 --> 0:12:27,000
+# participante: De moño, ok. Entonces, ahora le toca a usted.
+
+79
+00:12:28,000 --> 0:12:28,000
+# pcd: (incomprehensible) de moño..
+
+80
+00:12:29,000 --> 0:13:9,000
+# participante: Si.
+
+81
+00:13:10,000 --> 0:13:16,000
+# Investigador 2: Ahi vengo, eh. Voy a ver si está su té.
+
+82
+00:13:17,000 --> 0:13:21,000
+# pcd: Quiero veneno.. no quiero té.
+
+83
+00:13:22,000 --> 0:13:23,000
+# participante: *risilla nerviosa*
+
+84
+00:13:24,000 --> 0:13:28,000
+# pcd: Sabía que la coca es veneno? si es veneno.
+
+85
+00:13:29,000 --> 0:13:30,000
+# participante: *sigh*
+
+86
+00:13:31,000 --> 0:13:34,000
+# participante: Ah mire, le quedó el moño mejor que a mi. *risita*
+
+87
+00:13:35,000 --> 0:13:36,000
+# pcd: Está chueco.
+
+88
+00:13:37,000 --> 0:13:39,000
+# participante: Si, pero a mi me salió peor. Lo quiere enderezar o así lo dejamos?
+
+89
+00:13:40,000 --> 0:13:40,000
+# pcd: Noo no, así lo dejamos.
+
+90
+00:13:41,000 --> 0:13:45,000
+# participante: Mnee.
+
+91
+00:13:46,000 --> 0:13:47,000
+# participante: Perfecto. Entonces ahora..
+
+92
+00:13:48,000 --> 0:13:50,000
+# pcd: Y donde está mi mamá?
+
+93
+00:13:51,000 --> 0:13:52,000
+# participante: Este.. no se, creo que salió.
+
+94
+00:13:53,000 --> 0:13:53,000
+# pcd: Sí?
+
+95
+00:13:54,000 --> 0:13:54,000
+# participante: Si.
+
+96
+00:13:55,000 --> 0:13:58,000
+# pcd: Ay pues.. ya se ha tardado.
+
+97
+00:13:59,000 --> 0:14:2,000
+# participante: No no no no vi cuando salió pero si. Si está fuera.
+
+98
+00:14:03,000 --> 0:14:5,000
+# pcd: Ahorita que venga la muchacha, que me diga donde está.
+
+99
+00:14:06,000 --> 0:14:8,000
+# participante: Ah okay, ahorita le preguntamos.
+
+100
+00:14:09,000 --> 0:14:14,000
+# participante: Ok, entonces, ahora vamos a volver a hacer la misma carita, pero, empezando de cero.
+
+101
+00:14:15,000 --> 0:14:18,000
+# participante: Vamos a...
+
+102
+00:14:19,000 --> 0:14:19,000
+# participante: Poner aquí..
+
+103
+00:14:20,000 --> 0:14:21,000
+# participante: Ay..
+
+104
+00:14:22,000 --> 0:14:33,000
+# participante: A, volver a hacer la X...
+
+105
+00:14:34,000 --> 0:14:42,000
+# participante: Entonces ahí, hacemos la X. Y..
+
+106
+00:14:43,000 --> 0:14:49,000
+# participante: Volvemos a.. aquí, a hacer un bigote de moño.
+
+107
+00:14:50,000 --> 0:14:52,000
+# pcd: Y por qué quiere tanto bigote de moño?
+
+108
+00:14:53,000 --> 0:14:55,000
+# participante: Pues porque le gustan los bigotes.
+
+109
+00:14:56,000 --> 0:14:4,000
+# pcd: A mi no.
+
+110
+00:14:5,000 --> 0:14:59,000
+3#  participante: No? cómo que no?
+
+111
+00:15:00,000 --> 0:15:1,000
+# pcd: No. A los hombres si, pero a mi no.
+
+112
+00:15:02,000 --> 0:15:6,000
+# participante: No pues este... a esta tablita si le gustan los bigotes.
+
+113
+00:15:07,000 --> 0:15:9,000
+# participante: Así se acomoda.
+
+114
+00:15:10,000 --> 0:15:14,000
+# participante: A ver, señora, le toca a usted.
+
+115
+00:15:15,000 --> 0:15:33,000
+# participante: Si quiere ahorita hacemos uno sin bigote.
+
+116
+00:15:34,000 --> 0:15:41,000
+# pcd: Y usted que mira?eh? No sabe donde está mi mamá?
+
+117
+00:15:42,000 --> 0:15:43,000
+# pcd: Nomás está mirando, y no me dice...
+
+118
+00:15:44,000 --> 0:15:45,000
+# participante: *risilla*
+
+119
+00:15:46,000 --> 0:15:49,000
+# participante: Es que está mirando porque no está jugando.
+
+120
+00:15:50,000 --> 0:15:52,000
+# pcd: Pues yo no, no no lo vamos a invitar.
+
+121
+00:15:53,000 --> 0:16:28,000
+# participante: Ah no, el se va a quedar aquí.
+
+122
+00:16:29,000 --> 0:16:30,000
+# pcd: Se están tardando con mi té.
+
+123
+00:16:31,000 --> 0:16:31,000
+# participante: Si verdad?
+
+124
+00:16:32,000 --> 0:16:37,000
+# pcd: Sí.
+
+125
+00:16:38,000 --> 0:16:44,000
+# participante: (incomprehensible) esta muchacha. Luego se tarda, no?
+
+126
+00:16:45,000 --> 0:16:49,000
+# participante: A ver.. ahh okay.. ahí está.
+
+127
+00:16:50,000 --> 0:16:57,000
+# participante: Ahora, ya me dijo que no le gustan mucho las X, pero aquí a la tabla le gustan mucho las X.
+
+128
+00:16:58,000 --> 0:17:6,000
+# participante: Entonces, ahora, la figura que vamos a hacer, son dos X.
+
+129
+00:17:07,000 --> 0:17:8,000
+# participante: Vamos a..
+
+130
+00:17:09,000 --> 0:17:11,000
+# pcd: No podemos hacer 3?
+
+131
+00:17:12,000 --> 0:17:16,000
+# participante: Este.. ahorita hacemos 3, claro que si. 
+
+132
+00:17:17,000 --> 0:17:24,000
+# participante:  Nada mas que primero es el uno, luego es el dos. Entonces primero ahorita vamos a hacer.. dos.
+
+133
+00:17:25,000 --> 0:17:24,000
+# participante: ok?
+
+134
+00:17:25,000 --> 0:17:32,000
+#  pcd: ajam.
+
+135
+00:17:33,000 --> 0:17:39,000
+# participante: Y aquí.. cruzamos..
+
+136
+00:17:40,000 --> 0:17:41,000
+# participante: Y ahí está. Dos X.
+
+137
+00:17:42,000 --> 0:17:41,000
+# pcd: Dos X.
+
+138
+00:17:42,000 --> 0:17:59,000
+# participante: Perfecto, a ver ahora.. le toca a usted.
+
+139
+00:18:00,000 --> 0:18:2,000
+# pcd: Ya me quiero ir a mi casa. 
+
+140
+00:18:03,000 --> 0:18:3,000
+# participante: Ay apoco..
+
+141
+00:18:04,000 --> 0:18:5,000
+# pcd: Esta no es mi casa!
+
+142
+00:18:06,000 --> 0:18:11,000
+# participante: Ah pues en un ratito, ahorita ya casi.
+
+143
+00:18:12,000 --> 0:18:14,000
+# pcd: Y mi mamá donde está? Usted si sabe donde está.
+
+144
+00:18:15,000 --> 0:18:20,000
+# participante: Noo.. yo no se. Salió, eso me dijeron.
+
+145
+00:18:21,000 --> 0:18:22,000
+# pcd: Que mamá tan vaga..
+
+146
+00:18:23,000 --> 0:18:45,000
+# participante: Si verdad, y no nos llevan.
+
+147
+00:18:46,000 --> 0:18:49,000
+# pcd: Donde está mi mamá?
+
+148
+00:18:50,000 --> 0:18:54,000
+# Investigador 2: Esto me lo dio su hermano.. me dijo que..
+
+149
+00:18:55,000 --> 0:19:5,000
+# Investigador 2: Me dijo que era.. (incomprehensible) 
+
+150
+00:19:06,000 --> 0:19:9,000
+# pcd: Está ahí en el carro, mi mamá donde está?
+
+151
+00:19:10,000 --> 0:19:11,000
+# Investigador 2: Ah.. yo creo que ahorita va a venir.
+
+152
+00:19:12,000 --> 0:19:12,000
+# pcd: Ah bueno, si.
+
+153
+00:19:13,000 --> 0:19:15,000
+# Investigador 2: ujum, ahorita va a venir.
+
+154
+00:19:16,000 --> 0:19:32,000
+# participante: Bueno ahora, vamos a volver a hacer, las mismas dos X, pero.. desde el principio.
+
+155
+00:19:33,000 --> 0:19:33,000
+# pcd:  No tiene azúcar este te.
+
+156
+00:19:34,000 --> 0:19:40,000
+# Investigador 2: No? así me lo dieron, ahorita voy a preguntarles que.. que pongan azúcar
+
+157
+00:19:41,000 --> 0:19:57,000
+# participante: Entonces ahora.. vamos aquí, a hacer otra vez de cero, las dos X. Y ahorita, hacemos, las 3 X que me pidió. Le parece?
+
+158
+00:19:58,000 --> 0:20:5,000
+# pcd: Pues si, pero es que ya son muchas X. Y usted no sabe hacer mas que eso? Usted debería de saber otras X.
+
+159
+00:20:06,000 --> 0:20:10,000
+# participante: No pues ahorita vamos a... por pasos.
+
+160
+00:20:11,000 --> 0:20:14,000
+# pcd: Yo voy a hacer.. tres X.
+
+161
+00:20:15,000 --> 0:20:17,000
+# participante: Ah pues ahorita me enseña como hacer tres equis.
+
+162
+00:20:18,000 --> 0:20:37,000
+# participante: Pero primero, hace las dos equis que le acabo de enseñar. Le parece?
+
+163
+00:20:38,000 --> 0:20:40,000
+# pcd: Usted ya se volvió puras equis.
+
+164
+00:20:41,000 --> 0:20:44,000
+# participante: *risilla* ah si verdad. Que aburrido.
+
+165
+00:20:45,000 --> 0:20:50,000
+# pcd: si está aburrido, ese perro también está aburrido. 
+
+166
+00:20:51,000 --> 0:20:55,000
+# pcd: Uy.. quiere comerse a alguien.
+
+167
+00:20:56,000 --> 0:21:0,000
+# participante: *risilla*
+
+168
+00:21:1,000 --> 0:21:12,000
+1# pcd: El otro ya se durmió?
+
+169
+00:21:13,000 --> 0:21:17,000
+# Investigador 2: No... el está revisando unas cosas que trajo.
+
+170
+00:21:18,000 --> 0:21:21,000
+# pcd: *sigh*, aquí se duerme uno con tanta equis.
+
+171
+00:21:22,000 --> 0:21:27,000
+# pcd: Ya no hago mas equis. Ya me cansé, quiero a mi mamá.
+
+172
+00:21:28,000 --> 0:21:2,000
+# Investigador 2: Ahorita viene, fue a un mandado.
+
+173
+00:21:3,000 --> 0:21:34,000
+6# participante: ok.. le quedó muy bonitas sus equis..eh.
+
+174
+00:21:35,000 --> 0:21:37,000
+# pcd: Están muy feas.
+
+175
+00:21:38,000 --> 0:21:47,000
+# participante: Bueno, ahora, lo que vamos a hacer, va a hacer... va a hacer, a ver déjeme (incomprehensible). 
+
+176
+00:21:48,000 --> 0:22:4,000
+# participante: Okay, entonces.. vamos a hacer... unas redes así. Y después va a salir aquí..
+
+177
+00:22:05,000 --> 0:22:9,000
+# participante: Y.. le parece si hacemos un moño aquí?
+
+178
+00:22:10,000 --> 0:22:11,000
+# pcd: Hmm.. si. Póngaselo.
+
+179
+00:22:12,000 --> 0:22:16,000
+# participante: Ah okay, perfecto..
+
+180
+00:22:17,000 --> 0:22:20,000
+# pcd: Va a quedar igual de feo.
+
+181
+00:22:21,000 --> 0:22:25,000
+# participante: Pero ya no va a haber equis.
+
+182
+00:22:26,000 --> 0:22:27,000
+# participante: Ahí está, entonces dos rayitas así..
+
+183
+00:22:28,000 --> 0:22:29,000
+# pcd: Dos ojos, el bigote y la boca.
+
+184
+00:22:30,000 --> 0:22:33,000
+# participante: Exactamente, usted si sabe.
+
+185
+00:22:34,000 --> 0:22:34,000
+# participante: Ahí está.
+
+186
+00:22:35,000 --> 0:22:36,000
+# pcd: Está mejor.
+
+187
+00:22:37,000 --> 0:23:52,000
+# participante: Ok.. a ver.
+
+188
+00:23:53,000 --> 0:23:53,000
+# participante:  A ver...
+
+189
+00:23:54,000 --> 0:23:55,000
+# pcd: Ya me quiero ir.
+
+190
+00:23:56,000 --> 0:23:58,000
+# pcd: Ustedes tardan mucho pa' jugar.
+
+191
+00:23:59,000 --> 0:24:4,000
+# participante: *risilla* Es que estamos aprendiendo a jugar juntos.
+
+192
+00:24:05,000 --> 0:24:7,000
+# pcd: No quiere? Sabe muy feo.
+
+193
+00:24:08,000 --> 0:24:10,000
+# participante: *risilla* No, no gracias.
+
+194
+00:24:11,000 --> 0:24:10,000
+# pcd: Ah ese..
+
+195
+00:24:11,000 --> 0:24:16,000
+# participante: Yo hace rato también comí.
+
+196
+00:24:17,000 --> 0:24:22,000
+# participante: Muy bien. Ahora.. vamos a..
+
+197
+00:24:23,000 --> 0:24:34,000
+# participante: A hacer otro, pero de cero.. Entonces.. emparejemos aquí las agujetas..
+
+198
+00:24:35,000 --> 0:24:52,000
+# participante: Y vamos a hacer aquí.. estos ojos, en forma así de rayitas... y..
+
+199
+00:24:53,000 --> 0:24:57,000
+# participante: ..aquí, vamos a hacer otro moño.
+
+200
+00:24:58,000 --> 0:24:59,000
+# pcd: Puros moños sabe hacer usted.
+
+201
+00:25:00,000 --> 0:25:2,000
+# participante: Pues si.. los moños son bonitos.
+
+202
+00:25:03,000 --> 0:25:4,000
+# pcd: No, también están feos.
+
+203
+00:25:05,000 --> 0:25:5,000
+# participante: Apoco?
+
+204
+00:25:06,000 --> 0:25:10,000
+# pcd: Si no.. no sirven esos moños.
+
+205
+00:25:11,000 --> 0:25:13,000
+# participante: No si.. vea, quedó guapo el muñeco.
+
+206
+00:25:14,000 --> 0:25:17,000
+# participante: Nomás que ahora.. le toca a usted.
+
+207
+00:25:18,000 --> 0:25:20,000
+# pcd: No, yo ya me quiero ir.
+
+208
+00:25:21,000 --> 0:26:40,000
+# participante: Ahorita en un ratito. Ya no falta mucho.
+
+209
+00:26:41,000 --> 0:26:42,000
+# pcd: Se me olvidó.
+
+210
+00:26:43,000 --> 0:26:47,000
+# participante: A ver.. a ver, ahorita corregimos.
+
+211
+00:26:48,000 --> 0:26:51,000
+# participante: Entonces...
+
+212
+00:26:52,000 --> 0:27:20,000
+# participante: Nada mas, vamos a regresar aquí. Y aquí, hay que hacer un moño.
+
+213
+00:27:21,000 --> 0:27:37,000
+# pcd: *Mumbling*
+
+214
+00:27:38,000 --> 0:27:40,000
+# pcd: *Dificultad para hacer la tarea*
+
+215
+00:27:41,000 --> 0:27:42,000
+# pcd: Es que era una equis aquí.
+
+216
+00:27:43,000 --> 0:27:46,000
+# participante: No... pero así debe de ser, bonito para ya no hacer equis.
+
+217
+00:27:47,000 --> 0:27:52,000
+# pcd: No, se ve fea.
+
+218
+00:27:53,000 --> 0:27:56,000
+# participante: Okay, ahorita hacemos uno.. distinto.
+
+219
+00:27:57,000 --> 0:28:0,000
+# pcd: Ya con esta tabla no se puede hacer nada.
+
+220
+00:28:01,000 --> 0:28:5,000
+# participante: Naa.. ahorita va a ver. Nos vamos a poner creativos.
+
+221
+00:28:06,000 --> 0:28:15,000
+# participante: Okay.. ahora... va a hacer atado así. Horizontal...
+
+222
+00:28:16,000 --> 0:28:21,000
+# participante: Y vamos a.. hacer como una figura un poco diferente.
+
+223
+00:28:22,000 --> 0:28:26,000
+# participante: Tenemos aquí la raya.. Entonces, de este lado..
+
+224
+00:28:27,000 --> 0:28:30,000
+# participante: Pasamos por el borde..
+
+225
+00:28:31,000 --> 0:28:34,000
+# participante: Del otro lado también.
+
+226
+00:28:35,000 --> 0:28:36,000
+# participante: Y...
+
+227
+00:28:37,000 --> 0:28:45,000
+# participante: Pasamos por acá.
+
+228
+00:28:46,000 --> 0:28:46,000
+# participante: Sí?
+
+229
+00:28:47,000 --> 0:28:49,000
+# pcd: Si.. está mas feo.. pero pues nimodo.
+
+230
+00:28:50,000 --> 0:28:55,000
+# participante: Si.. ya se, es que es feo verdad?
+
+231
+00:28:56,000 --> 0:28:57,000
+# participante: A ver..
+
+232
+00:28:58,000 --> 0:29:39,000
+# participante: Ahí está la tabla.
+
+233
+00:29:40,000 --> 0:29:50,000
+# participante: mmjm.
+
+234
+00:29:51,000 --> 0:29:53,000
+# pcd: ya llegó mi mamá?
+
+235
+00:29:54,000 --> 0:29:55,000
+# pcd: Donde está mi mamá?
+
+236
+00:29:56,000 --> 0:29:57,000
+# participante: Hm... no se.. salió.
+
+237
+00:29:58,000 --> 0:29:59,000
+# pcd: Y pa' donde salió?
+
+238
+00:30:00,000 --> 0:30:1,000
+# participante: Ay ni idea.
+
+239
+00:30:02,000 --> 0:30:5,000
+# pcd: Usted tiene saber, usted me tiene haciendo figuritas.
+
+240
+00:30:06,000 --> 0:30:9,000
+# participante: No pero a mi yo nomas sé, yo nomás se las figuritas.
+
+241
+00:30:10,000 --> 0:30:17,000
+# participante: A mi no me dijeron a donde fué.
+
+242
+00:30:18,000 --> 0:30:25,000
+# participante: Muy bien, ahora..  vamos a hacer..
+
+243
+00:30:26,000 --> 0:30:27,000
+# participante: Aquí así.. una pirámide.
+
+244
+00:30:28,000 --> 0:30:33,000
+# pcd: Y que es eso?
+
+245
+00:30:34,000 --> 0:30:42,000
+# participante: Es como.. un triángulo como si fuera una figura así. Mas o menos.
+
+246
+00:30:43,000 --> 0:30:43,000
+# pcd: y va a ser una casa?
+
+247
+00:30:44,000 --> 0:30:48,000
+# participante: Sí. Esta es la, la parte del techo de la casa.
+
+248
+00:30:49,000 --> 0:30:49,000
+# pcd: Ah bueno.
+
+249
+00:30:50,000 --> 0:30:54,000
+# participante: Vamos a hacerle así.
+
+250
+00:30:55,000 --> 0:30:56,000
+# participante: A ver..
+
+251
+00:30:57,000 --> 0:31:1,000
+# pcd: (incomprehensible) 
+
+252
+00:31:02,000 --> 0:31:5,000
+# pcd: Vamos a hacer una casa.. está bien.
+
+253
+00:31:06,000 --> 0:30:59,000
+# pcd: Usted es albañil ?
+
+254
+00:31:0,000 --> 0:31:9,000
+6# participante: Este... no.
+
+255
+00:31:10,000 --> 0:31:10,000
+# pcd: No pues que malo.
+
+256
+00:31:11,000 --> 0:31:11,000
+# participante: *risilla*
+
+257
+00:31:12,000 --> 0:31:13,000
+# pcd: Usted no va a poder hacer la casa.
+
+258
+00:31:14,000 --> 0:31:27,000
+# participante: No no no.. eso ya.. le toca a otra persona.
+
+259
+00:31:28,000 --> 0:31:33,000
+# pcd: Usted se.. (incomprehensible) 
+
+260
+00:31:34,000 --> 0:31:35,000
+# pcd: Muy mal.
+
+261
+00:31:36,000 --> 0:31:36,000
+# participante: *risilla*
+
+262
+00:31:37,000 --> 0:31:42,000
+# pcd: Ese té sabe malo.
+
+263
+00:31:43,000 --> 0:31:46,000
+# participante: A ver, ahí está, perfecto.
+
+264
+00:31:47,000 --> 0:31:52,000
+# participante: Muy bien, ahora, vamos a hacer.. un barquito.
+
+265
+00:31:53,000 --> 0:31:54,000
+# pcd: Y se va a pasear en el?
+
+266
+00:31:55,000 --> 0:31:55,000
+# participante: Mande?
+
+267
+00:31:56,000 --> 0:31:56,000
+# pcd:  se va a pasear en el?
+
+268
+00:31:57,000 --> 0:31:58,000
+# participante: Tal vez.
+
+269
+00:31:59,000 --> 0:32:4,000
+# pcd: Usted es marinero?
+
+270
+00:32:05,000 --> 0:32:7,000
+# participante: De vez en cuando voy al mar.
+
+271
+00:32:08,000 --> 0:32:10,000
+# pcd: Pero el mar es bien malo.
+
+272
+00:32:11,000 --> 0:32:12,000
+# participante: Pues si, pero también es muy bonito.
+
+273
+00:32:13,000 --> 0:32:14,000
+# pcd: No..
+
+274
+00:32:15,000 --> 0:32:15,000
+# participante: No le gusta el mar?
+
+275
+00:32:16,000 --> 0:32:22,000
+# pcd: No porque... hace unas olas grandes.
+
+276
+00:32:23,000 --> 0:32:26,000
+# participante: Aquí...
+
+277
+00:32:27,000 --> 0:32:29,000
+# pcd: Y a Juanito se lo comió el mar.
+
+278
+00:32:30,000 --> 0:32:30,000
+# participante: Apoco?
+
+279
+00:32:31,000 --> 0:32:32,000
+# pcd: Si, a Juanito se lo comió el mar.
+
+280
+00:32:33,000 --> 0:32:45,000
+# participante: Mire entonces tenemos aquí. Este así y, para trabar el barquito aquí.. lo cerramos.
+
+281
+00:32:46,000 --> 0:32:46,000
+# participante: Ya cerró aquí. Si?
+
+282
+00:32:47,000 --> 0:32:47,000
+# pcd: ujum.
+
+283
+00:32:48,000 --> 0:32:54,000
+# participante: Ok, entonces... ahora..
+
+284
+00:32:55,000 --> 0:33:1,000
+# participante: Le toca a usted.
+
+285
+00:33:02,000 --> 0:33:5,000
+# participante:  Ya vamos a acabar.
+
+286
+00:33:06,000 --> 0:33:13,000
+# pcd: No pues usted se tarda mucho y mi mamá no llega
+
+287
+00:33:14,000 --> 0:33:17,000
+# pcd: Y tiene que venir por mi por que esta no es mi casa.
+
+288
+00:33:18,000 --> 0:33:20,000
+# pcd: Es suya? es suya?
+
+289
+00:33:21,000 --> 0:33:23,000
+# participante: Este.. no, no es mía.
+
+290
+00:33:24,000 --> 0:33:25,000
+# pcd: Ni su casa es tampoco?
+
+291
+00:33:26,000 --> 0:33:26,000
+# participante: A mi me invitaron.
+
+292
+00:33:27,000 --> 0:33:29,000
+# pcd: No pues que bueno que no me gusta.
+
+293
+00:33:30,000 --> 0:33:30,000
+# participante: Si.. verdad?
+
+294
+00:33:31,000 --> 0:33:35,000
+# pcd: Si.. (incomprehensible) 
+
+295
+00:33:36,000 --> 0:33:39,000
+# pcd: *mumbling*
+
+296
+00:33:40,000 --> 0:33:42,000
+# pcd: Usted también está tomando té malo?
+
+297
+00:33:43,000 --> 0:33:57,000
+# participante: Este.. si.. también, también, no le pusieron azúcar.
+
+298
+00:33:58,000 --> 0:34:12,000
+# pcd: asi..
+
+299
+00:34:13,000 --> 0:34:13,000
+# pcd: ahí está..
+
+300
+00:34:14,000 --> 0:34:16,000
+# participante: A ver, aahh ahí está, perfecto.
+
+301
+00:34:17,000 --> 0:34:19,000
+# participante: Y, ya fue la última figura.
+
+302
+00:34:20,000 --> 0:34:20,000
+# pcd: A que bueno, porque ya me quiero ir.
+
+303
+00:34:21,000 --> 0:34:23,000
+# participante: Si.
+
+304
+00:34:24,000 --> 0:34:24,000
+# participante: Ya estaba cansada, verdad?
+
+305
+00:34:25,000 --> 0:34:27,000
+# pcd: Es que esos.. están feos.
+

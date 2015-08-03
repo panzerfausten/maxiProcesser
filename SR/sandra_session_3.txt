@@ -1,0 +1,589 @@
+#0:00:01.2# Investigado r2: Pero no pasa nada
+#0:00:03.1# Pcd: Pero es que yo no quiero ir porque no me han dado de comer
+#0:00:05.7# Investigador 2:¿ No le han dado de comer? pero si ya le dieron su aguita quiere decir que ya!!
+#0:00:11.3#Participante: Hola señora ******?
+#0:00:12.2# Investigador 2: ¿Se acuerda de de mi amiga?
+#0:00:14.2# Pcd: Noo no se quién sea
+#0:00:15.4# Investigador 2: *****? ella se llama *****? ujumm
+#0:00:18.9# Pcd:  Y ni se quién sean ellos
+#0:00:20.4# Investigador 2: Ah ellos están ahí nada más, no les haga caso
+#0:00:23.7#(Incomprensible)
+#0:00:26.7# Pcd: Quiero ir a comer
+#0:00:27.2# Investigador 2: Ahorita va ir a comer
+#0:00:28.7# Pcd: Noo yo no hago nada si no me llevan a comer
+#0:00:31.5# Investigador 2: ¿En serio?
+#0:00:32.4# Pcd: Mamá!!!!
+#0:00:33.2# Investigador 2: Ahorita viene (incomporensible)
+#0:00:37.2# Participante: Hola señora ******? ¿Cómo está?
+#0:00:39.0# Pcd: Mal,  mal porque no me dan de comer
+#0:00:41.2#Participante: Pero ya le dieron de comer
+#0:00:42.7# Pcd: Noo no me han dado!!
+#0:00:44.1#Participante: Síiiiiiiii
+#0:00:44.5#Pcd:¿ Y uste que está haciendo aquí?
+#0:00:46.1#Participante: Pos venimos a jugar con uste
+#0:00:47.4#Pcd: No pero yo no quiero jugar
+#0:00:49.2# Participante: Ujjjjjmmmm ¿No quiere jugar?
+#0:00:50.1# Pcd: No yo  no quiero juga
+#0:00:51.5#Participante: ¿En serio?
+#0:00:52.3#Pcd: Noo 
+#0:00:53.1#Participante: Mire
+#0:00:53.8#Pcd: quiero irme a mi casa
+#0:00:55.2#Pcd: ¿Mi mamá dónde está?
+#0:00:57.0#Participante: Vamos a jugar
+#0:00:59.3#Participante: Salió
+#0:00:59.4#Pcd: Sí salio pero no me dejó la comida¡¡¡
+#0:01:01.7# Pcd: Desde ayer no me dan comida
+#0:01:03.6#Participante:  Noo, sí, sí le dieron 
+#0:01:04.8#Pcd: Noo no me dieron comida  ayer
+#0:01:06.6#Participante: Sí le dieron
+#0:01:07.5#Pcd: Ni me dieron cena tampoco
+#0:01:09.6#Pcd: Nomás me tienen con pura agua y el agua no me gusta ya
+#0:01:12.7#Participante: Nooo sí
+#0:01:13.7#Pcd: Noo
+#0:01:15.2#Participante: ¿Y no le gusta el agua?
+#0:01:18.9#Pcd: Tengo que tomarmela para que se me quite el hambre
+#0:01:23.2#Pcd: M e voy a comer un pollo entero
+#0:01:25.5# Participante: Ajjjjjjj, cuando terminemos de jugar se come un pollo entero
+#0:01:27.9#Pcd: Nooo, pero orita ya, ya
+#0:01:29.4#Participante:Pero no está listo
+#0:01:30.6# Pcd: No pues, pues ya quiero que esté listo
+#0:01:32.4#Participante:  Está crudo
+#0:01:34.6# Pcd: Bueno ¿y por qué no lo cose rápido?
+#0:01:36.5#Participante: Porque no se puede hacer tan rápido
+#0:01:38.2#Pcd: No pues yo quiero irme a mi casa
+#0:01:40.2#Participante:Incomprensible
+#0:01:40.6#Pcd: Mamá, mamá dónde estás
+#0:01:42.8#Participante:Incomprensible
+#0:01:42.9#Pcd: Noo yo ya me voy
+#0:01:44.2# Participante: AA no señora  (incomprensible) vamos a jugar aquí
+#0:01:46.4# Pcd: Nooo pero no quiero jugar (Tira los botones) y esto amí, no quiero jugar
+#0:01:51.0#Participante: ummmm uooooooo
+#0:01:53.0# Incomprensible
+#0:01:52.7#Participante: Ándele
+#0:01:53.4#Pcd: Nooooo
+#0:01:54.0#Participante: Vamos a jugar (Incomprensible)
+#0:01:55.1#Pcd: No quiero jugar ya le dije!!!, quiero comer
+#0:01:58.3#Participante: Vamos a comer después, yo la acompaño
+#0:02:01.5# Pcd: No pero
+#0:02:01.8#Participante: ¿Sí?
+#0:02:02.3#Pcd: No hay nada en la casa, mi mamá salió
+#0:02:05.2#Participante: Noo, por eso, fue atraer el gas para cocinar el pollo ¿si?
+#0:02:08.8#Pcd: ¿El gas?, y paqué  usan el gas?
+#0:02:10.7#Participante: Para calentar la mida
+#0:02:11.9#Pcd: No aquí en esta casa no se usa gas
+#0:02:14.1#Participante:Sí  (Incomprensible)
+#0:02:15.5#Pcd: Se usa leña
+#0:02:16.8#Participante:Noo es que trajeron estufa
+#0:02:18.5#Pcd: No hay estufa
+#0:02:19.8#Participante:Siii
+#0:02:20.3#Pcd: Hay una de esa con piedras asi y luego cocinan así ponen la leña
+#0:02:26.7#Pcd: Siii uste no sabe eso verdad, que aquí no hay estufa
+#0:02:30.7# Participante: Entonces nos van a traer el pollo
+#0:02:33.1#Pcd: ¿El pollo?
+#0:02:33.6#Participante:Rostizado
+#0:02:35.0#Pcd: Bueno
+#0:02:36.2#Participante:Sí
+#0:02:37.4#Puess no, no quiero, no  quiero mi mamá
+#0:02:39.3#Participante: Pero si no no nos van a dar pollo si no jugamos
+#0:02:41.4#Pcd: ¿Mi mamá dónde está?
+#0:02:43.0#Participante:  Salió por 
+#0:02:43.9#Pcd: Nooo no. Quiero a mi mamá, quiero a mi mamá.....
+#0:02:45.6# Pcd: Y quiero comer, quiero comer...
+#0:02:49.1#Participante: Van a van al ratito van a traer el pollo ¿Si?
+#0:02:51.4#Pcd: No no,  quiero pollo
+#0:02:52.4#Participante: Ahora que se le antoja?
+#0:02:53.3#Pcd: No pos nada
+#0:02:55.7#Participante: A entonces no tiene hamnbre
+#0:02:56.2#(Incomprensible)
+#0:02:56.6#Pcd: Tengo hambre, tengo hambre, desde ayer no me dan comida
+#0:02:59.6#Participante: Pero nos vamos a comer el pollo
+#0:03:01.3#Pcd: Nooo pollo no quiero
+#0:03:02.9#Participante: ¿Entonces que?
+#0:03:03.8#Pcd:Quiero chuletas de borrego, con salsa verde o con salsa roja
+#0:03:09.6#Pcd: Pero no quiero come pollo, no me gusta el pollo
+#0:03:12.2#Participante: Jugamos y le doy las chuletas de borrego  en salsa verde
+#0:03:16.5#Pcd: ¿ Y dónde están?
+#0:03:17.7#Participante: Ahh (Incomprensible)
+#0:03:18.3# Pcd: Enseñelas primero
+#0:03:18.3#Participante: Hablo por teléfono para que las traigan
+#0:03:21.8#Pcd:¿Si?
+#0:03:21.8#Participante:Sí
+#0:03:23.0#Pcd: Mamá!!!!, mamá, ya me van a dar de comer!!!
+#0:03:26.9#Pcd: No no me quieren dar, no me quieren dar de comer,
+#0:03:29.3#Participante: Sí, sí le voy a dar
+#0:03:29.6# Pcd: Noo, mi mamá no me quiere dar  comida
+#0:03:32.2#Participante:Sí, sí, le, yo se  le voy a dar la comida, después de jugar éste juego
+#0:03:36.9# Pcd: Pero no se jugar
+#0:03:38.0#Participante:Ah pero yo le voy a enseñar
+#0:03:39.4#Pcd: Nooo, pero yo no quiero jugar, ¿cuál es el problema?
+#0:03:41.8#Participante: Pero está bien facil!!!
+#0:03:43.4#Pcd: Nooo pues no quiero 
+#0:03:44.7#Participante:Mire lo que está bien fácil es acomodar las fichitas así
+#0:03:47.7# Participante: Y entre más rápido llenamos las hojitas   más rápido nos vamos a ir a comer las chuletas
+#0:03:50.2#Pcd: Noo, no quiero, no quiero, no quiero, juegue uste, juegue uste (tira las fichitas)
+#0:03:53.3#Pcd: Tenga juegue uste,  (incomprensible)
+#0:03:55.8# Participante:(Se admira y suspira) Vamos  a jugar
+#0:03:58.3#Pcd: Noo no quiero
+#0:03:58.9#Participante:Vamos a formar  a las fichitas en éste orden
+#0:04:01.4#Pcd: Noo no quiero
+#0:04:02.2#Participante: Una rosita, una verde
+#0:04:05.0#Pcd: Una anaranjada y una café
+#0:04:08.5#Participante: Ahí está  eee ándele
+#0:04:11.0#Participante: ¿Ahora cuál sigue?
+#0:04:12.6# Pcd: La roja.
+#0:04:13.7#Participante:A ver vamos a ponerla
+#0:04:15.8# Pcd: Ya se le calló el papel, ese, que trae ese papel mugrosso
+#0:04:19.0#Pcd:  ¿Por qué no lo lava?
+#0:04:20.7#Participante:Ya está limpio!!! hasta traía una florecita mire
+#0:04:23.4# Pcd:Noo, ta mugroso
+#0:04:25.8#Participante: Noo,  está limpio
+#0:04:27.4#Pcd: Y luego uste también anda bien mugrosa, ¿Por qué no se baña?
+#0:04:30.8#Participante:  (risa) Sí me bañé (risa)
+#0:04:32.6#Pcd: Noo, no se baña 
+#0:04:33.7#Participante:Sí, si, si me bañé
+#0:04:34.5#Pcd: Noo, no se baña, este quiere decirme que sí pero no
+#0:04:38.0#Participante: Sí, sí me bañé
+#0:04:38.4#Pcd: Noo, no,  quiero, quiero comer, quiero comer
+#0:04:42.1#Participante: ¿Cuál (incomprensible)  sigue?
+#0:04:46.4#Pcd:  Uste lo va ser por mí y luego yo  hago la otra
+#0:04:49.3#Participante: Pues yo ya hice, ésta, éste, ést  y éste
+#0:04:51.5#Pcd: Pues sigale haciendo
+#0:04:52.9#Participante: ¿Cuál sigue?
+#0:04:54.0# Pcd: Pues uste sabe que es  lo que va ser 
+#0:04:56.4#Pcd: yo que voy a saber
+#0:04:57.6#Participante: A ver ¿Qué color sigue?, rosita
+#0:05:00.3#Pcd: No es rosa!!! es rojo!!!!
+#0:05:02.0#Participante:Aaaa buenooo, rojo, verde
+#0:05:06.3# ¿Ese es verede?
+#0:05:07.4#Pcd:Nooo, es azul
+#0:05:09.8#Participante: Aaa ok 
+#0:05:10.9#Participante:   Entonces rojo, 
+#0:05:14.3#Mire ve ese papel se cae, porque está lleno de mugre
+#0:05:18.3# No es que es la pelusita, mire
+#0:05:20.8#Pcd: AAAA
+#0:05:20.8#Participante:  Es la pelusita de la chamarra
+#0:05:22.9#Pcd: Aaaa yo creía que era mugre
+#0:05:24.3#Participante: (Incomprensible)
+#0:05:27.0# Participante:  Ok mire
+#0:05:28.7#Pcd: Nooo se vuelve a caer,  póngaselo en la cabeza
+#0:05:31.1#Participante: : Aaaa aquí (incomprensible)
+#0:05:34.3#Participante:  Oki, oki, entonces es, rojo, verd, azu, azul, rojo, azul
+#0:05:42.7#Participante:  ¿Cuál sigue?
+#0:05:43.7#Pcd: El rojo
+#0:05:44.5#Participante:  A ok vamos a, seguimos con el rojo
+#0:05:46.8# Pcd: No pero yo ya me quiero ir.¿ Mamá dónde estás?
+#0:05:49.8#Participante:  Vamos a (incomprensible)
+#0:05:50.1#Pcd:  Porque no me quieren dar de comer aquí!!!!
+#0:05:52.4#Participante:  Ahorita vamos a (incomporensible)
+#0:05:53.8# Pcd: Bueno ¿Y que están haciendo aquí si no hay comida, no hay nada!! no hay estufa
+#0:05:57.9#Participante: Pues yo vengo a pasar un ratito con usted
+#0:06:00.3#No pero yo no quiero jugar
+#0:06:02.1#Participante:  Pero yo quiero pasar un ratito con usted
+#0:06:04.8#Pcd:  Nooo, pues no quiero
+#0:06:06.5#Participante:  Mire ahora, rojo, azul, rojo, azul, rojo, ¿cuál sigue?
+#0:06:14.8#Pcd:  Rojo!!!
+#0:06:15.8#Participante:¿  Rojo? ¿ después del rojo sigue el rojo?
+#0:06:17.7#Pcd: Síii
+#0:06:18.7#Participante:¿En serio?, a ver vamos a ponerlo a ver si es cierto
+#0:06:22.1#Participante:¿A ver se parecen?
+#0:06:24.0#Pcd:  Sí se parece a ese
+#0:06:25.0#Participante:¡¡¡¡¡¡¡Aaaaaajjjj!!!!
+#0:06:26.1#Participante:A éste?
+#0:06:27.5#Pcd:  Nooo
+#0:06:28.3#Participante: A ok entonces ¿ cuál sigue?
+#0:06:29.8#Pcd: Pos póngalo uste porque yo ya no quiero (Tira las fichitas)
+#0:06:32.8#Pcd: (Incomprensible)
+#0:06:32.2#Participante: A ver vamos a (inccomprensible), es que estamos jugando las dos
+#0:06:34.7#Participante: Usted me está enseñando los colores 
+#0:06:36.8#Pcd:  Nooo, pero yo no quiero 
+#0:06:39.0# Pcd: Yo no quiero, mi mamá, mamá!!! traigame de comer
+#0:06:43.0#Pcd:  No me dieron de comer ahora
+#0:06:46.3#Participante: Cuál sigue?
+#0:06:46.7#Ni ayer
+#0:06:50.1#Pcd: Ya dos días sin comer
+#0:06:52.1#Participante: Ajjjjjjjj, válgame Dios, no puedo ser que sea tanto
+#0:06:55.0#Pcd: Ya
+#0:06:55.7#Participante:  ¿Dos días sin comer?
+#0:06:56.8# Pcd: Sí
+#0:06:58.7#Participante: Suspira
+#0:06:59.3#Pcd: Por esono  quiero jugar
+#0:07:00.8# Participante:¿Y que comió ayer?
+#0:07:02.1#Pcd: Nada!! agua!!!
+#0:07:03.9#Participante:¿Nada?
+#0:07:04.6#Pcd: Agua, pura agua, pura agua, me dan 
+#0:07:07.4#Participante:¿En serio?
+#0:07:08.1#Pcd: Sí  por esoe estoy tan flaca 
+#0:07:10.3#Participante: (Suspira)
+#0:07:11.6#Pcd: Toy flaca, flaca, flaca
+#0:07:15.3#Participante: ¿ Y agua de que le dan?, ¿agua natural? o aguaaaa...
+#0:07:18.3#Pcd: Agua de esa(Señala el vaso con agua)
+#0:07:20.1#Participante: Aaaaaaa ¿Y sin sabor?
+#0:07:22.2#Pcd: Nooo, no  sabe a  nada
+#0:07:24.3#Pcd: Yo quiero un chocolate un milkiway
+#0:07:27.1#Participante: Aaa no quiere nada
+#0:07:29.5#Pcd: ¿Por qué  no quiero nada?
+#0:07:31.0#Participante: No quiere  ni un, quiere un,me refiero osea lo que me refiero
+#0:07:33.2#Participante: es que los  milkiway están caros 
+#0:07:35.5#Pcd: Y qué tiene!!!! pa esotiene uste dinero
+#0:07:38.8#Participante: Ahhhh para eso tengo yo dinero!!!
+#0:07:40.7#Pcd:Sí páque me lo compre
+#0:07:43.6#Participante: Aaaa ahora resulta, no quiere jugar conmigo
+#0:07:44.9# Pcd: Nooo pues entonces no juego
+#0:07:47.3#Participante:  Aaa bueno
+#0:07:47.9#Pcd:mss no me lo quiere comprar 
+#0:07:50.0#Participante:(Suspira) Pero usted según no quería jugar conmigo
+#0:07:53.5#Pcd:  No, pero nos toy jugando
+#0:07:55.1#Participante:Nooo pero
+#0:07:55.9#Pcd: Nomás toy viendo que está mugrosa que no se ha bañado
+#0:07:58.7#(Risa)
+#0:07:59.2#Participante:Sí me bañé
+#0:08:00.5#Pcd: Nooo, no y ellos también tan  mugrosos
+#0:08:05.2#Participante: Incomprensible
+#0:08:05.7#Bueno yo ya me quiero ir
+#0:08:07.4#Participante:  ¿Pos no quiere milkiway pues??
+#0:08:09.2#Pcd: Pues sí pero no está aquí el milkiway
+#0:08:11.4#Participante: AAA pero iva jugar, iva, ¿cómo se dice?
+#0:08:13.7#Pcd:  (Incomprensible)
+#0:08:15.3#Pcd: Nooo ya no quiero  jugar (Desacomoda las fichas)
+#0:08:16.1#Participante: Hay nononon nono (Incomprensible)
+#0:08:17.4#Pcd:  No ya no quiero jugar!!
+#0:08:17.9# (Incomprensible) su milkiwey no va a llegar
+#0:08:20.0#No pos que no llegue ya, 
+#0:08:21.5#Participante:Nooo
+#0:08:22.0#Pcd: Ya no quiero jugar, tenga
+#0:08:23.3#Participante: Ni las chuletas, ni las pizas ni el polllo, nada nos va llegar
+#0:08:27.2#Pcd:  No pos que bueno 
+#0:08:28.7#Participante:Y ni las sodas
+#0:08:29.6#Pcd: Me voy a morir de hambre
+#0:08:31.4#Participante:Ayyy no, no se va morir de hambre
+#0:08:32.7#Pcd: Sí sí me voy a morir
+#0:08:36.1#Participante: Como se va a moriri de hambre!!!
+#0:08:38.3#Pcd:  No, no quiero jugar, ya 
+#0:08:39.8#Participante: (incomprensible)¿ una florecita?
+#0:08:41.5#Pcd:Ya, ya me voy 
+#0:08:42.3#Participante: Mire
+#0:08:43.5#Pcd: Haga dos uste
+#0:08:45.1#Participante:Mira vamos hacer uno primero
+#0:08:50.7#Pcd:Oye el perrro tiene hambre como yo, por eso ladra
+#0:08:53.8#Pcd: Yo también voy a ladrar, guao, guao, guao (Ladra como perro)
+#0:08:57.5#Pcd: Porque tengo hambre, el perro tiene hambre
+#0:09:01.4#Participante:  ¿Si?
+#0:09:01.8#Pcd: Sí, por eso está, guao, guao, guao,
+#0:09:05.1#Participante:No pero el perro ya comió
+#0:09:06.4# Pcd: No pos yo no he comido por eso voy hacer como el perro
+#0:09:11.4# Participante: ¿Eso a que parece?
+#0:09:13.6#Pcd:Pues   el, se par, se parece a uste
+#0:09:15.6#Participante: ¿En serio?
+#0:09:16.5#Pcd: Sí
+#0:09:17.4#Participante: A ok  ¿y si hacemos varios de éstos?
+#0:09:19.9#Pcd: Nooo,  quiero hacer flores
+#0:09:21.7#Participante: Ahhhh  flores vamos a 
+#0:09:22.8#Pcd:  Quiero hacer flores
+#0:09:24.4#Participante: Mire ya vió como
+#0:09:25.2#Pcd:  Ya me quiero ir porque el se está riendo de mí , èl se está riendo
+#0:09:31.3#Pcd: Quiero irme con mi mamá, mamá dónde estás?
+#0:09:33.4#Participante:¿ Y no quería hacer flores,  y no quería hacer flores?
+#0:09:36.2#Pcd: No, pero no así
+#0:09:37.6#Participante: Entonces como aver muéstreme como quería hacerlo bien
+#0:09:48.7#Pcd: Nooo, ya me quiero ir, no me quiero entretener
+#0:09:52.6#Participante:Ajjjjjj, mire que bonita
+#0:09:56.4#Pcd: Oie el perro está como yo,yo  voy hacer como el perro páque me den comida
+#0:10:06.8#Pcd: Ese es una flor
+#0:10:08.2#Participante:  ¿Ese es una flor?
+#0:10:09.0#Pcd: Sí
+#0:10:09.7#Participante:Si pero ¿y tiene hojas verdes, y  azules?
+#0:10:12.8#Pcd: Síiiii
+#0:10:13.8#Participante: ¿Si?
+#0:10:14.4# Pcd: Sií Sí  tiene hojas azules
+#0:10:15.9#Participante: ¿Y me puede hacer otra igual?
+#0:10:17.7#Pcd:Nooo
+#0:10:18.7#Participante: Otra o quiero que me haga (incomprensible)
+#0:10:19.8#Pcd: No porque tengo tengo hambre, ya le dije que tengo mucha hambre
+#0:10:23.2#Participante: Le dije que vamos a traer chuletas
+#0:10:26.9#Pcd: ¿Chuletas?
+#0:10:27.7#Participante:Chuletas.
+#0:10:28.9#Participante:Pero si me hace varias como estas
+#0:10:31.3#Pcd: Como esa noooo porque esa está fea
+#0:10:32.7#Participante: A (incomprensible)
+#0:10:33.9#Participante: Pero si me hace una igualita a todas la que va hacer, a la 
+#0:10:36.7# Participante: Mire no, me tiene que hacer de èstas 
+#0:10:39.7#Pcd: Me desvararto la mía, ¿Por qué me desvarato la mía?
+#0:10:41.5#Participante: Ah noo, porque tiene que ser igualita a ésta
+#0:10:43.6#Pcd: Nooo, pos yo no quiero que sean igualitas que esas
+#0:10:45.9#Participante: Pero es que tienen, para que nos salgan las chuletas tienen que ser igualitas a
+#0:10:49.2#Pcd:Ya se me olvidó
+#0:10:50.6#Participante: Expresión (ajjjj)
+#0:10:51.8#Pcd: Ya se me olvidó, no se!!!!
+#0:10:53.3# Participante:Nooo, a ver vamos a ver, ¿Qué color es éste?
+#0:10:56.0#Pcd: Rojo!!!
+#0:10:57.8#Participante: A  Vamos a poner a ver el rojo, ¿Cuál es el rojo?
+#0:11:00.3#Pcd:  Éste, (Toma la ficha)
+#0:11:01.0#Participante: Ahhh ese es el rojo
+#0:11:05.7#Participante: Ese es el rojo, a ver vamos a poner el rojo, el primer rojo
+#0:11:09.8# Participante:Ahora, ¿Cuál sigue?
+#0:11:12.9# Noo pero 
+#0:11:13.2#Participante:AAahhh
+#0:11:14.8# Pcd: Yo quiero, yo quiero comer, tengo hambre
+#0:11:17.6#Participante:Ajáaaa
+#0:11:18.9#Pcd: Mucha hambre
+#0:11:20.5#Participante: Ajáaa
+#0:11:20.9# Pcd: Yo ya me voy
+#0:11:21.6#Participante:Nooo pero 
+#0:11:21.8#Pcd: Bye (Se levanta para irse)
+#0:11:22.4#Participante: Vamos a seguir jugando
+#0:11:22.9# Pcd: Bye
+#0:11:23.5#Participante: Le pongo otra figura
+#0:11:25.3#Pcd: Nooo.  Esa está bonita
+#0:11:26.9#Participante: Ahhh ok, bueno pues entonces me tiene  que ayudar hacer esta
+#0:11:30.5#Pcd: ¿Cuántas hojas tiene?
+#0:11:32.1#Participante:   Seis!!!
+#0:11:33.4#Pcd:  Nooo. Quiero que tenga ocho
+#0:11:35.1#Participante:  Pero no le caben ocho
+#0:11:36.9#Pcd:Pues que malo verdad!!!
+#0:11:38.3#Participante:  Síiii, tienen que ser seis
+#0:11:40.1#Pcd:  Noooo, ya me quiero ir 
+#0:11:41.7#Participante:  No nos van a traer ni milkiway, ni la chuleta
+#0:11:42.8#Pcd: Nooo
+#0:11:50.9# Pcd: Mire   me va crecer así la pansa, de tanta agua que me dan y no me dan comida
+#0:11:56.5# Participante:  ¿En serio?
+#0:11:57.0#Pcd: Quiero comer
+#0:11:58.3#Participante:  ¿En serio?
+#0:11:58.8#Pcd: Síiii
+#0:11:59.6#Participante: Mire, vamos hacer otra figurita tan fácil, ésta que está aquí
+#0:12:03.5#Pcd: Noooo, esa está fea
+#0:12:04.6#Participante:Aaa pero es la que tenemos que hacer
+#0:12:06.5#Pcd: Noooo
+#0:12:07.0#Participante: Síiii
+#0:12:07.7#Pcd: Nooo 
+#0:12:07.9#Participante ¿Ésta que color es? 
+#0:12:08.6#Pcd: Ya le dije que nooo, ¿que no entiende?
+#0:12:10.1#Participante:Ésta vamos hacer
+#0:12:11.3#Pcd: Nooo 
+#0:12:11.7#Participante: Ésta 
+#0:12:12.5#Pcd: Noo, ya le dije que no!!, yo voy hacer flores
+#0:12:15.6#Pcd: Uste haga esas, uste le gusta esa
+#0:12:17.6# Participante: Pero si no, no nos van  a traer la chuleta
+#0:12:19.6#Pcd:¿Qué le hace?
+#0:12:20.8#Participante: Aaah, entonces no tiene hambre
+#0:12:22.2# Pcd: Yo voy a....
+#0:12:22.5#Pcd: Síii, tengo mucha hambre, ahorita empiezo a gritarle a mi mamá
+#0:12:26.6# Pcd: Yo voy hacer flores
+#0:12:28.0#Participante: Y cuantos, ¿y las flores cuantos hojitas tenía?
+#0:12:31.6#Pcd:  Ocho!!
+#0:12:32.7#Participante: ¿Ocho?
+#0:12:33.4#Pcd: Sí
+#0:12:33.5#Participante:  Pero no le caben ocho mire
+#0:12:34.3#Pcd: Síii, si le caben ocho, ahí tiene ocho
+#0:12:38.7#Pcd: Mmm ve tiene ocho...
+#0:12:40.8#Participante:  A ver haga otra igual a  ver
+#0:12:42.6#Pcd: Noo, ¿y por qué me quiere que haga otro igual ?
+#0:12:44.6#Participante:  Pues para que sea un ramo de flores
+#0:12:47.8#Pcd: Aaah pero pues ésta tenía que estar acá
+#0:12:52.3#Participante: Incomprensible
+#0:12:53.0# Pcd: Oii nomás, oii, se están comiendo mis pollos ve!!!
+#0:12:58.2#Participante:¿Se están comiendo sus pollos?
+#0:12:59.5#Pcd: Síiii, allá anda, ya mi mamá, gritando que se comen mis pollos
+#0:13:07.3#Pcd: Tengo hambre, tengo mucha hambre
+#0:13:12.3#Pcd: Mamá!!!, ven por mí, aquí me tienen encerrada y no me quieren dar comida
+#0:13:19.6#Pcd: Mamá!!!
+#0:13:21.2#Participante: Nooo, no la tenemos  encerrada, vamos a comer al ratito
+#0:13:23.1#Pcd: Síiii
+#0:13:24.1#Participante: Pero es que ya fueron por la comida
+#0:13:26.1#Pcd: Me tiene encerrada uste 
+#0:13:28.0#Participante:Nooooo (Con admiración)
+#0:13:28.8#Pcd: Síiiiii
+#0:13:30.0#Participante: Ok
+#0:13:33.3#Participante: Acomodelos para que quepa esto más (incomprensible)
+#0:13:37.3#Pcd: Uste no sabe lo que yo estoy haciendo 
+#0:13:39.7#Participante: Pos son flores
+#0:13:41.1#Pcd: Noooo, no son flores
+#0:13:43.0#Participante: Aaah, entonces ¿cómo se llaman estas?
+#0:13:45.2#Pcd: Palos... es un palo verde
+#0:13:51.0#Pcd: Verde, verde, mamá, ven por mí, ye me quiero ir
+#0:13:56.0#Participante:Ok
+#0:13:56.7#Pcd: Ya me voy
+#0:13:58.4#Pcd: Dígame adiós porque ya me voy
+#0:14:00.7#Pcd:  Ya llegó la comida, o le voy hablar a mi mamá
+#0:14:03.5#Participante: No, pero trajeron la comida, hasta que lo que...
+#0:14:06.7#Pcd: Sí, pues yo solita estoy haciendo lo que yo quiera, no lo que uste quiera
+#0:14:11.2#Participante:  Por eso pero no tiene que hacer eso
+#0:14:13.9#Pcd:Aaa, pero ya acabé de hacer eso
+#0:14:13.9#Participante: (En señas, pide la intervención del investigador 2)
+#0:14:18.3#Pcd: Ve
+#0:14:18.6# Investigador 2:  A ver, a ver, vamos a ver
+#0:14:21.9#Investigador 2: Mire que bien lo está haciendo
+#0:14:23.0#Pcd: Páque vea
+#0:14:24.2#Investigador2: Pero mire, mire, fíjese, vamos agarrar, vamos a poner
+#0:14:28.5#Pcd:  Noo, no quiero agarrar nada
+#0:14:30.6#Pcd: Usted también no venga de metiche
+#0:14:32.2#Investigador 2: Aquí  así, mire que bobito se ven
+#0:14:35.8#Pcd: Ésta se ve feo
+#0:14:37.7#Investigador 2: ¿En serio?
+#0:14:38.5#Pcd: Sí, se ve feo
+#0:14:38.9#Investigador 2:¿ Y si lo ponemos al reves?
+#0:14:40.5#Pcd: Ésto se ve bonito
+#0:14:42.5#Investigador 2: ¿ En serio?
+#0:14:43.1#Pcd: Sí
+#0:14:44.3#Investigador 2: A ver, a ver y ésto se parce a ésto?
+#0:14:45.9#Pcd: Nooo, no, ya me hizo enojar usted también , ya váyase, ya no hago nada  (Des acomoda las fichas de la hoja de manera agresiva)
+#0:14:51.4#Investigador 2: Mire, vamos agarrar, vamos a tranquilizarnos y vamos a poner unas
+#0:14:58.1# Investigador 2: Rojas, osea una hilera roja y una hilera verde,¿que le parece?
+#0:15:01.4#Pcd:  ¿Una hilera roja y otra de verde?
+#0:15:04.4#Investigador 2:Incomprensible
+#0:15:05.8#Pcd: Pcd:  Mire ve, que mensa es uste, ya se le cayeron
+#0:15:08.0#Investigador 2: Sí, híjole, mire que mensa soy, ¿verdad?
+#0:15:10.7#Pcd: Sí, ve, ve
+#0:15:12.5#Investigador 2:A ver ayúdeme, porque soy bien mensa
+#0:15:14.9#Investigador 2: haber ayúdeme, ayúdeme con las rojas y luego me pone unas hileras verdes así... ok..
+#0:15:18.8#Pcd: Sí, pero yo no quiero hacer eso
+#0:15:20.7#Investigador 2: Nadamás termine eso y nos vamos por su medicina, ¿ok?
+#0:15:22.9#Pcd:  ok. Porque si no ya me,¿ ya me está mi comida?
+#0:15:26.1# Investigador 2: Sí ya va estar su comida, ahorita vamos a ir con lupita, ¿ok?
+#0:15:28.7#Pcd: Ok Lupita!!!!!!!
+#0:15:29.8# Investigador 2: A ver ahorita, va a terminar todo ésto y luego va terminar una hilera hacia abajo
+#0:15:36.5#Pcd: A ver, a ve, ya por su culpa me regañaron
+#0:15:40.6#Pcd: Uste tiene la culpa porque fue de chismosa... ¿verda?
+#0:15:45.2#Participante: Nooo
+#0:15:46.2#Pcd:¿Cómo que nooo?, se está  poniendo roja uste,
+#0:15:49.3#Participante: ¿Si?
+#0:15:49.8#Pcd: Porque fue de mi tontera a decirlrle que no quiero hacer las cosas
+#0:15:54.1#Pcd: Y después aquí me tienen todo el día encerrada
+#0:15:57.4#Pcd: Ve es su culpaaa, es su culpa i (Señala de manera agresiva al participante)
+#0:16:00.4#Pcd: Sii, me van encerrar todo el día  por su culpa
+#0:16:03.9#Pcd: Ahora tengo que hacer  éste cochinero que no me gusta, ve
+#0:16:09.8#Pcd:  Apoco uste le gusta hacer eso que me pusieron hacer
+#0:16:12.0#Participante:  Sí, está padre, por esas hileritas
+#0:16:14.0#Pcd: Nooo, amí no me gusta
+#0:16:15.5#Participante:  A ok, lo vamos a terminar y ya!!! ¿si?
+#0:16:18.9# Pcd: Sí yo había hecho dos flores, bien bonitas 
+#0:16:22.2#Participante: Al rato, ahorita hacemos las flores y ya!!!
+#0:16:23.6#Pcd: Una, una azusena y una... un girasol
+#0:16:29.1#Pcd: Hay se lo pongo ahí, páque se enoje ella, ya ve ya me vió
+#0:16:31.6# Nooo, pero que color sigue!!!
+#0:16:32.7#Pcd: Ya me va regañar
+#0:16:34.4#Participante:Pero que color....
+#0:16:35.0#Pcd: Quiero que se enoje ella otra vez
+#0:16:37.0#Participante: Noo, porque nos van a poner hacer más
+#0:16:39.4#Pcd: Noooo, pero no quiero 
+#0:16:41.1#Participante: A ok, ahí  está bien, así sí está bien
+#0:16:44.7#Pcd: ¿Y usted no pudo?
+#0:16:46.9#Participante:  Yo ya lo hice hace rato
+#0:16:48.4#Participante: A mí me tenía hace rato haciendo eso
+#0:16:51.2# Pcd: Oye el pollo se lo anda comiendo el gato
+#0:16:55.1#Pcd:  Ya  me voy poque si no el gato se come el  pollo
+#0:16:59.8#Pcd: Y ya no puedo
+#0:17:01.4#Participante: Si todavía nos falta
+#0:17:02.9#Pcd:  Ya me dolieron las manos 
+#0:17:06.7#Pcd:  Ya no puedo!!!
+#0:17:08.6#Pcd: Ya no quiero verlos
+#0:17:12.9#Pcd: Ya no quiero
+#0:17:16.2#Pcd: Oye el pollito me dice que no haga nada
+#0:17:19.3#Pcd: Que ésto es puro cochinero, dice el pollito
+#0:17:22.0#Participante: Nooo, no es cochinero éste juego
+#0:17:23.7#Pcd: El pollito dice que ésto no es juego
+#0:17:26.5#Pcd: Nomás, nomás es para hacerme renegar
+#0:17:33.2#Pcd: Ve ya terminé
+#0:17:37.4#Participante: Pero todavía faltan el verde ¿nooo?
+#0:17:40.8#Pcd:¿Ya?
+#0:17:41.4#Participante: Ok, ahora sigue ésta hilera 
+#0:17:43.8#Participante:(Incomprensible)
+#0:17:44.3#Pcd: ¿Por qué no lo hace uste?, yo ya hice 
+#0:17:45.3#Participante: (Incomprensible)
+#0:17:46.4#Pcd: Noooo, yo ya hice ésta, hágala uste
+#0:17:49.4#Participante: Noo porque ésta
+#0:17:50.4#(Incomprensible)
+#0:17:51.5#Pcd: Noo yo ya no hago más
+#0:17:52.1#Participante: Mire, vamos hacer ésta aquí mire, usted (Incomprensible)
+#0:17:54.7#Pcd:Ándele, Ándele, muévale, muévale
+#0:17:56.2#Participante: (Incomprensible) y una verde
+#0:17:57.6#Pcd: Y rápido, rápido, hagala como yo la hice
+#0:18:00.3#Participante: Ahora toca una rosita aquí, enséñeme, ayúdeme
+#0:18:03.5#Participante: Si yo no se, me tiene que ayudar 
+#0:18:05.1#Pcd: Nooo,pero uste no sabe
+#0:18:06.7#Participante: ¿Si?, ok a ver, ¿cuál sigue?
+#0:18:08.9#Pcd: Yo ya me quiero ir 
+#0:18:10.4#Participante: Ahora toca una verde, va ser una 
+#0:18:12.2#Pcd: Nooo, toca una roja
+#0:18:14.0#Participante:  Noo, esa no es unaaa, ¿aquí que seigue, seguiría?
+#0:18:17.3# Pcd: Así
+#0:18:18.6#Participante: Nooo
+#0:18:19.1#Pcd: Así
+#0:18:19.3#Participante: No está bien
+#0:18:20.2#Pcd: Sí está bien , sí está bien
+#0:18:21.0#Participante: Noooo
+#0:18:21.3#Pcd:Sí está bien
+#0:18:21.9#Participante:Nooo, bueno si está bien pero se me antoja aquí mejor una azul, ¿si?
+#0:18:28.0#Pcd: No son azules
+#0:18:28.5#Participante: Ándele(Comportamiento agresivo)
+#0:18:29.5#Participante: Aaaa ¿qué de color son?
+#0:18:31.9#Pcd:  ¿Qué no mira?(Comportamiento agresivo)
+#0:18:33.4#Participante: No me tiene que decir
+#0:18:35.1#Pcd:  Nooo, que no mira
+#0:18:36.4#Participante: Uso lentes mire
+#0:18:37.9# Pcd: Pues yo también uso lentes 
+#0:18:38.1#Participante: ¿Entonces que color es?
+#0:18:40.2# Pcd: Y yo sí miro
+#0:18:41.5#Participante:¿Yque color es?
+#0:18:42.7#Pcd: Que no las mira!!!! son verdes (Comportamiento agresivo)
+#0:18:45.2# Participante: Verdes, a ok.
+#0:18:46.5#Pcd: Pues usted dice que son azules 
+#0:18:48.4#Participante: Son verdes. (grita)
+#0:18:49.1#Pcd: ¿Y ésta de color es?
+#0:18:51.1#Participante: Rosita.
+#0:18:52.0#Pcd: Nooooo
+#0:18:52.1#Pcd:Noooo
+#0:18:52.9#Participante: Roja.
+#0:18:53.8#Pcd:  Eso.
+#0:18:55.4#Participante: Aaa ok. Ahora  sigue (incomprensible)
+#0:18:58.8#Pcd: ¿Paqué la quitó?
+#0:18:59.0#Participante:  OOO muy bonita
+#0:19:00.3#Pcd: ¿Paqué la quitó?
+#0:19:01.1# Participante: A ver la pongo otra vess,  ¿dónde va?
+#0:19:02.8#Pcd: Pues uste póngala donde yo la tenía
+#0:19:05.1#Participante: Acá
+#0:19:06.3#Pcd: Noooo, no la tenía
+#0:19:07.2#Participante:  Ahí estaba
+#0:19:07.6#Pcd: Noo, no la tenía ahí
+#0:19:09.3#Participante: (Risilla) (incomprensible) ¿unas de qué color?
+#0:19:11.5#Pcd: Nooo , yo no la tenía ahí
+#0:19:13.1# Pcd: Póngame la mía donde yo la tenía
+#0:19:21.2#Participante:  (Coloca la ficha)
+#0:19:20.9#Participante:  Ahora sigue unaaaa, ah, muy bien
+#0:19:24.0#Pcd: Ve que aquí la tenía y uste  la echó para allá
+#0:19:25.3#Participante:  ¿Ahí la tenía?
+#0:19:26.6#Pcd: Sí uste la echó para allá
+#0:19:27.0#Participante:  Ahhh ok, ¿a ver cuál sigue?
+#0:19:31.2#Participante:   Ahh pero nos toca poner una verde, una verde
+#0:19:33.3#Pcd :Uste no sabe, uste no sabe por eso quiero hacerlo yo, poruqe quiero terminar pronto
+#0:19:33.8#Participante:  Incomprensible
+#0:19:38.2#Participante:  Ok pero es primero (Incomprensible)
+#0:19:38.7#Pcd:  Porque nomás este voy hacer y ya no hago nada, ya no hago nada!!!!!
+#0:19:43.2#Nomás  eso voy hacer y ya no hago nada
+#0:19:45.5#Participante:  ¿Cuál sigue?
+#0:19:46.5#Pcd: Quiero irme a comer, mi mamaá ¿dónde está?
+#0:19:48.4#Participante:  Ahorita va haber comida ¿si?
+#0:19:52.1#Pcd: Ándele, ya me quiero ir
+#0:20:02.8#Pcd: Ya me quiero ir
+#0:20:06.2#Participante: Pero nos toca poner verdes también, eso
+#0:20:08.7#Pcd: O uste lo está haciendo o yo lo estoy haciendo
+#0:20:11.2#Participante:Las dos estamos jugando
+#0:20:12.6#Pcd:Nooo
+#0:20:13.1#Participante:Pero yo (Incomprensible)
+#0:20:13.8# Pcd:Yo loy hacer como yo quiera, no como uste queiera
+#0:20:17.1#Participante: Nooo, lo tiene que hacer como yo  porque ahorita en el juego yo soy la que ,  la que 
+#0:20:20.7#Pcd: Noooo pos 
+#0:20:21.2#Participante: La que iba  decir
+#0:20:22.3#Participante: Eso fue e lo que quedamos
+#0:20:23.6#Pcd: Uste lo que va hacer es lo que sigue, yo ya no más voy a etrminar ésto y ya no juego
+#0:20:29.0#Pcd: Ya me voy porque voy a 
+#0:20:30.5#Participante: ¿Y ya no vamos hacer las florecitas?
+#0:20:31.9#Pcd: Noooo, tampoco ya no quiero hacer flores
+#0:20:35.5#Pcd: Ya, ya no quiero hacer nada, que no oyó
+#0:20:39.5#Pcd: O está sorda
+#0:20:42.3#Pcd: ¿ Por qué tiene los ojos así?, ¿quiere llorar? yo si voy a llorar
+#0:20:46.9#Pcd: Porque me quieren pegar, ya me pegaron 
+#0:20:49.1#Pcd: Mire, todo lo que me hicieron, mire, mire ve, uste me pegó, si me pegó verdad
+#0:20:57.5#Participante:Yo nooo
+#0:20:58.8#Pcd: Sí
+#0:20:59.6#Participante:A bueno yo sí
+#0:21:01.7#Ya terminé, Ahora yo

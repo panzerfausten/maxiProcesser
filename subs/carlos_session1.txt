@@ -1,0 +1,305 @@
+ #00:04:32-0# participante: ok
+ #00:04:35-0# participante: ok
+ #00:04:36-4# participante: Entonces, este es un juego de nudos.. de agujetas
+ #00:04:41-4# participante: Entonces ehh yo le voy a enseñar un nudo, una secuencia. Y usted lo va a repetir. sí?
+ #00:04:47-0# participante: si?
+ #00:04:48-2# participante: ok.
+ #00:04:49-3# pcd: Y si se me olvida le vuelvo a preguntar?
+ #00:04:51-2# participante: Si *voz quebrada*
+ #00:04:52-1# participante: Claro que si, no se preocupe.
+ #00:04:54-8# participante: Entonces, el primero que vamos a hacer es.. Vamos a hacer una X. ay.
+ #00:05:04-1# participante: Entonces...
+ #00:05:10-5# participante: Vamos a hacer, una X así. ok?
+ #00:05:33-6# participante: Ok. Perfecto.
+ #00:05:36-3# participante: Ahora.. vamos a volver a hacerla.
+ #00:05:42-0# participante: Pero esta vez sin agujeta aquí vamos a meterla así.
+ #00:05:49-2# participante: Y ya que tenemos las las dos, los dos lados iguales, vamos a hacer la misma X. Sí?
+ #00:06:34-6# participante: Ok.. ahh perfecto.
+ #00:06:37-8# participante: A ver.. ahora.. vamos a cambiarlo un poco.
+ #00:06:43-7# participante: Vamos a.. volver a hacer la misma.. X. Pero le vamos a agregar una.. una.. un. un.. movimiento mas.
+ #00:06:57-9# participante: Entonces.. armamos la X...
+ #00:07:11-4# participante: Y.. esos que están del otro lado, los vamos a pasar por aquí, para que queden como unos bigotes.
+ #00:07:20-9# participante: Entonces tenemos aquí la X, y aquí quedan los dos bigotes.
+ #00:07:30-5# participante: A ver..
+ #00:08:04-5# participante: A ver... aah! está bien, perfecto. ay, vamos muy rápido eh. A ver..
+ #00:08:11-9# participante: Ahora, vamos a hacer el mismo, pero empezando de cero. Vamos a meter aquí las agujetas..
+ #00:08:22-4# participante: ..y volvemos a hacer la X...
+ #00:08:32-2# participante: ..y, volvemos a sacar los bigotes en los hoyos de abajo.
+ #00:08:38-5# pcd: Están mejor en los de arriba.
+ #00:08:40-4# participante: En los de arriba? Ahh okay.
+ #00:08:43-0# pcd: Ahí se ve feo en los de abajo.
+ #00:08:44-9# participante: Ah perfecto, a ver.
+ #00:08:54-6# participante: Que bueno que me dice, porque yo de acá atrás no alcanzo a ver *rissilla*
+ #00:08:57-3# participante: Ah no si, pues a ver.
+ #00:08:59-7# pcd: Aquí tiene la boca...
+ #00:09:00-6# participante: Ajá.
+ #00:09:01-0# pcd: Aquí están los bigotes.
+ #00:09:02-8# participante: Ahh si si.
+ #00:09:03-8# pcd: Aquí está la boca.
+ #00:09:05-0# participante: Ay, deveras, no me había dado cuenta.
+ #00:09:07-2# pcd: Usted no?
+ #00:09:07-8# participante: Ajá..
+ #00:09:08-2# pcd: Pues yo si.
+ #00:09:09-3# participante: *risilla*
+ #00:09:10-5# pcd: Entonces.. lo hago, otra vez?
+ #00:09:12-3# participante: Sí.
+ #00:09:15-9# pcd: Lo desbarato todo para que no se me olvide.
+ #00:09:17-6# participante: *risilla*, okay, perfecto.
+ #00:09:24-5# pcd: Si, porque si lo pone acá abajo no tiene boca.
+ #00:09:27-2# participante: Ah no pues si.
+ #00:09:31-8# participante: Que observadora *risilla*
+ #00:09:40-6# pcd: No me trajeron té, ahora?
+ #00:09:42-1# Investigador 2: No, ahorita le hablo a su hermana para ver si le manda a traer un tecito. ok?
+ #00:09:47-9# pcd: Si.. porque si no..
+ #00:09:57-6# pcd: Este bigote quedó mas largo que el otro. Mire.
+ #00:10:02-0# participante: Ah, okay. Lo quiere arreglar o lo dejamos así?
+ #00:10:05-2# pcd: Pues es que se ve feo así.
+ #00:10:07-8# participante: Ah pues si quiere.. jálele poquito de un lado.. para que.. para que quede.
+ #00:10:16-7# pcd: No se oyen cantar los pájaros, verdad?
+ #00:10:19-8# participante: No, es que ahorita.. creo que ya es de la tarde. Entonces.. ya han de estar en sus nidos.
+ #00:10:29-4# pcd: *Mumbling*
+ #00:10:48-9# participante: Ahí ya están parejitos..
+ #00:10:56-3# pcd: Ahora si..
+ #00:11:01-6# pcd: *Mumbling*
+ #00:11:17-1# participante: Ahora si quedaron parejitos verdad?
+ #00:11:18-4# pcd: Si. Si quedaron.
+ #00:11:19-6# participante: Ahh perfecto.
+ #00:11:22-4# participante: A ver.. ahora.. vamos a hacer otro..
+ #00:11:27-5# participante: Ahora, vamos a hacer, otra vez. Otra vez vamos a hacer la X.
+ #00:11:36-1# pcd: Y pa' que quiere tantas X's?
+ #00:11:38-7# participante: Ah. pues porque.. son bonitas. *risilla*
+ #00:11:42-3# participante: Son simétricas..
+ #00:11:43-8# pcd: Ahh.. bueno.
+ #00:11:45-7# participante: Y.. ahora, vamos a..  en esa parte.. Lo sacamos y en vez de que sea un bigote así suelto, vamos  a, hacer un moño.
+ #00:12:00-6# participante: Entonces, vamos a hacer aquí un nudo, como si fuera, mas o menos de los zapatos, entonces, hacemos este cruce...
+ #00:12:10-0# participante: Y.. jalamos, las orejitas. Y te queda, un bigote de?
+ #00:12:16-8# pcd: De moño.
+ #00:12:17-3# participante: De moño, ok. Entonces, ahora le toca a usted.
+ #00:12:28-5# pcd: (incomprehensible) de moño..
+ #00:12:29-3# participante: Si.
+ #00:13:10-0# Investigador 2: Ahi vengo, eh. Voy a ver si está su té.
+ #00:13:17-1# pcd: Quiero veneno.. no quiero té.
+ #00:13:22-1# participante: *risilla nerviosa*
+ #00:13:24-7# pcd: Sabía que la coca es veneno? si es veneno.
+ #00:13:29-9# participante: *sigh*
+ #00:13:31-6# participante: Ah mire, le quedó el moño mejor que a mi. *risita*
+ #00:13:35-1# pcd: Está chueco.
+ #00:13:37-1# participante: Si, pero a mi me salió peor. Lo quiere enderezar o así lo dejamos?
+ #00:13:40-1# pcd: Noo no, así lo dejamos.
+ #00:13:41-1# participante: Mnee.
+ #00:13:46-7# participante: Perfecto. Entonces ahora..
+ #00:13:48-7# pcd: Y donde está mi mamá?
+ #00:13:51-1# participante: Este.. no se, creo que salió.
+ #00:13:53-5# pcd: Sí?
+ #00:13:54-1# participante: Si.
+ #00:13:55-5# pcd: Ay pues.. ya se ha tardado.
+ #00:13:59-4# participante: No no no no vi cuando salió pero si. Si está fuera.
+ #00:14:03-7# pcd: Ahorita que venga la muchacha, que me diga donde está.
+ #00:14:06-4# participante: Ah okay, ahorita le preguntamos.
+ #00:14:09-6# participante: Ok, entonces, ahora vamos a volver a hacer la misma carita, pero, empezando de cero.
+ #00:14:15-4# participante: Vamos a...
+ #00:14:19-3# participante: Poner aquí..
+ #00:14:20-9# participante: Ay..
+ #00:14:22-5# participante: A, volver a hacer la X...
+ #00:14:34-3# participante: Entonces ahí, hacemos la X. Y..
+ #00:14:43-1# participante: Volvemos a.. aquí, a hacer un bigote de moño.
+ #00:14:50-9# pcd: Y por qué quiere tanto bigote de moño?
+ #00:14:53-8# participante: Pues porque le gustan los bigotes.
+ #00:14:56-0# pcd: A mi no.
+  #00:14:58-3#  participante: No? cómo que no?
+ #00:15:00-0# pcd: No. A los hombres si, pero a mi no.
+ #00:15:02-4# participante: No pues este... a esta tablita si le gustan los bigotes.
+ #00:15:07-1# participante: Así se acomoda.
+ #00:15:10-3# participante: A ver, señora, le toca a usted.
+ #00:15:15-3# participante: Si quiere ahorita hacemos uno sin bigote.
+ #00:15:34-1# pcd: Y usted que mira?eh? No sabe donde está mi mamá?
+ #00:15:42-9# pcd: Nomás está mirando, y no me dice...
+ #00:15:44-5# participante: *risilla*
+ #00:15:46-7# participante: Es que está mirando porque no está jugando.
+ #00:15:50-7# pcd: Pues yo no, no no lo vamos a invitar.
+ #00:15:53-6# participante: Ah no, el se va a quedar aquí.
+ #00:16:29-7# pcd: Se están tardando con mi té.
+ #00:16:31-8# participante: Si verdad?
+ #00:16:32-7# pcd: Sí.
+ #00:16:38-7# participante: (incomprehensible) esta muchacha. Luego se tarda, no?
+ #00:16:45-8# participante: A ver.. ahh okay.. ahí está.
+ #00:16:50-2# participante: Ahora, ya me dijo que no le gustan mucho las X, pero aquí a la tabla le gustan mucho las X.
+ #00:16:58-8# participante: Entonces, ahora, la figura que vamos a hacer, son dos X.
+ #00:17:07-3# participante: Vamos a..
+ #00:17:09-4# pcd: No podemos hacer 3?
+ #00:17:12-2# participante: Este.. ahorita hacemos 3, claro que si. 
+ #00:17:17-7# participante:  Nada mas que primero es el uno, luego es el dos. Entonces primero ahorita vamos a hacer.. dos.
+ #00:17:25-1# participante: ok?
+ #00:17:25-7#  pcd: ajam.
+ #00:17:33-2# participante: Y aquí.. cruzamos..
+ #00:17:40-2# participante: Y ahí está. Dos X.
+ #00:17:42-4# pcd: Dos X.
+ #00:17:42-8# participante: Perfecto, a ver ahora.. le toca a usted.
+ #00:18:00-8# pcd: Ya me quiero ir a mi casa. 
+ #00:18:03-9# participante: Ay apoco..
+ #00:18:04-3# pcd: Esta no es mi casa!
+ #00:18:06-3# participante: Ah pues en un ratito, ahorita ya casi.
+ #00:18:12-3# pcd: Y mi mamá donde está? Usted si sabe donde está.
+ #00:18:15-9# participante: Noo.. yo no se. Salió, eso me dijeron.
+ #00:18:21-6# pcd: Que mamá tan vaga..
+ #00:18:23-0# participante: Si verdad, y no nos llevan.
+ #00:18:46-7# pcd: Donde está mi mamá?
+ #00:18:50-1# Investigador 2: Esto me lo dio su hermano.. me dijo que..
+ #00:18:55-0# Investigador 2: Me dijo que era.. (incomprehensible) 
+ #00:19:06-4# pcd: Está ahí en el carro, mi mamá donde está?
+ #00:19:10-2# Investigador 2: Ah.. yo creo que ahorita va a venir.
+ #00:19:12-7# pcd: Ah bueno, si.
+ #00:19:13-8# Investigador 2: ujum, ahorita va a venir.
+ #00:19:16-5# participante: Bueno ahora, vamos a volver a hacer, las mismas dos X, pero.. desde el principio.
+ #00:19:33-5# pcd:  No tiene azúcar este te.
+ #00:19:34-8# Investigador 2: No? así me lo dieron, ahorita voy a preguntarles que.. que pongan azúcar
+ #00:19:41-1# participante: Entonces ahora.. vamos aquí, a hacer otra vez de cero, las dos X. Y ahorita, hacemos, las 3 X que me pidió. Le parece?
+ #00:19:58-4# pcd: Pues si, pero es que ya son muchas X. Y usted no sabe hacer mas que eso? Usted debería de saber otras X.
+ #00:20:06-6# participante: No pues ahorita vamos a... por pasos.
+ #00:20:11-1# pcd: Yo voy a hacer.. tres X.
+ #00:20:15-0# participante: Ah pues ahorita me enseña como hacer tres equis.
+ #00:20:18-6# participante: Pero primero, hace las dos equis que le acabo de enseñar. Le parece?
+ #00:20:38-2# pcd: Usted ya se volvió puras equis.
+ #00:20:41-0# participante: *risilla* ah si verdad. Que aburrido.
+ #00:20:45-4# pcd: si está aburrido, ese perro también está aburrido. 
+ #00:20:51-8# pcd: Uy.. quiere comerse a alguien.
+ #00:20:56-8# participante: *risilla*
+  #00:21:11-1# pcd: El otro ya se durmió?
+ #00:21:13-6# Investigador 2: No... el está revisando unas cosas que trajo.
+ #00:21:18-3# pcd: *sigh*, aquí se duerme uno con tanta equis.
+ #00:21:22-9# pcd: Ya no hago mas equis. Ya me cansé, quiero a mi mamá.
+ #00:21:28-3# Investigador 2: Ahorita viene, fue a un mandado.
+  #00:21:31-6# participante: ok.. le quedó muy bonitas sus equis..eh.
+ #00:21:35-2# pcd: Están muy feas.
+ #00:21:38-1# participante: Bueno, ahora, lo que vamos a hacer, va a hacer... va a hacer, a ver déjeme (incomprehensible). 
+ #00:21:48-2# participante: Okay, entonces.. vamos a hacer... unas redes así. Y después va a salir aquí..
+ #00:22:05-7# participante: Y.. le parece si hacemos un moño aquí?
+ #00:22:10-4# pcd: Hmm.. si. Póngaselo.
+ #00:22:12-4# participante: Ah okay, perfecto..
+ #00:22:17-5# pcd: Va a quedar igual de feo.
+ #00:22:21-0# participante: Pero ya no va a haber equis.
+ #00:22:26-0# participante: Ahí está, entonces dos rayitas así..
+ #00:22:28-2# pcd: Dos ojos, el bigote y la boca.
+ #00:22:30-8# participante: Exactamente, usted si sabe.
+ #00:22:34-3# participante: Ahí está.
+ #00:22:35-3# pcd: Está mejor.
+ #00:22:37-5# participante: Ok.. a ver.
+ #00:23:53-9# participante:  A ver...
+ #00:23:54-3# pcd: Ya me quiero ir.
+ #00:23:56-9# pcd: Ustedes tardan mucho pa' jugar.
+ #00:23:59-6# participante: *risilla* Es que estamos aprendiendo a jugar juntos.
+ #00:24:05-9# pcd: No quiere? Sabe muy feo.
+ #00:24:08-6# participante: *risilla* No, no gracias.
+ #00:24:11-3# pcd: Ah ese..
+ #00:24:11-6# participante: Yo hace rato también comí.
+ #00:24:17-2# participante: Muy bien. Ahora.. vamos a..
+ #00:24:23-7# participante: A hacer otro, pero de cero.. Entonces.. emparejemos aquí las agujetas..
+ #00:24:35-2# participante: Y vamos a hacer aquí.. estos ojos, en forma así de rayitas... y..
+ #00:24:53-7# participante: ..aquí, vamos a hacer otro moño.
+ #00:24:58-4# pcd: Puros moños sabe hacer usted.
+ #00:25:00-8# participante: Pues si.. los moños son bonitos.
+ #00:25:03-3# pcd: No, también están feos.
+ #00:25:05-0# participante: Apoco?
+ #00:25:06-1# pcd: Si no.. no sirven esos moños.
+ #00:25:11-2# participante: No si.. vea, quedó guapo el muñeco.
+ #00:25:14-0# participante: Nomás que ahora.. le toca a usted.
+ #00:25:18-0# pcd: No, yo ya me quiero ir.
+ #00:25:21-2# participante: Ahorita en un ratito. Ya no falta mucho.
+ #00:26:41-9# pcd: Se me olvidó.
+ #00:26:43-2# participante: A ver.. a ver, ahorita corregimos.
+ #00:26:48-6# participante: Entonces...
+ #00:26:52-5# participante: Nada mas, vamos a regresar aquí. Y aquí, hay que hacer un moño.
+ #00:27:21-8# pcd: *Mumbling*
+ #00:27:38-0# pcd: *Dificultad para hacer la tarea*
+ #00:27:41-4# pcd: Es que era una equis aquí.
+ #00:27:43-8# participante: No... pero así debe de ser, bonito para ya no hacer equis.
+ #00:27:47-8# pcd: No, se ve fea.
+ #00:27:53-9# participante: Okay, ahorita hacemos uno.. distinto.
+ #00:27:57-6# pcd: Ya con esta tabla no se puede hacer nada.
+ #00:28:01-0# participante: Naa.. ahorita va a ver. Nos vamos a poner creativos.
+ #00:28:06-6# participante: Okay.. ahora... va a hacer atado así. Horizontal...
+ #00:28:16-7# participante: Y vamos a.. hacer como una figura un poco diferente.
+ #00:28:22-3# participante: Tenemos aquí la raya.. Entonces, de este lado..
+ #00:28:27-3# participante: Pasamos por el borde..
+ #00:28:31-0# participante: Del otro lado también.
+ #00:28:35-0# participante: Y...
+ #00:28:37-5# participante: Pasamos por acá.
+ #00:28:46-1# participante: Sí?
+ #00:28:47-6# pcd: Si.. está mas feo.. pero pues nimodo.
+ #00:28:50-6# participante: Si.. ya se, es que es feo verdad?
+ #00:28:56-5# participante: A ver..
+ #00:28:58-4# participante: Ahí está la tabla.
+ #00:29:40-4# participante: mmjm.
+ #00:29:51-4# pcd: ya llegó mi mamá?
+ #00:29:54-4# pcd: Donde está mi mamá?
+ #00:29:56-1# participante: Hm... no se.. salió.
+ #00:29:58-6# pcd: Y pa' donde salió?
+ #00:30:00-3# participante: Ay ni idea.
+ #00:30:02-2# pcd: Usted tiene saber, usted me tiene haciendo figuritas.
+ #00:30:06-7# participante: No pero a mi yo nomas sé, yo nomás se las figuritas.
+ #00:30:10-9# participante: A mi no me dijeron a donde fué.
+ #00:30:18-7# participante: Muy bien, ahora..  vamos a hacer..
+ #00:30:26-2# participante: Aquí así.. una pirámide.
+ #00:30:28-8# pcd: Y que es eso?
+ #00:30:34-0# participante: Es como.. un triángulo como si fuera una figura así. Mas o menos.
+ #00:30:43-5# pcd: y va a ser una casa?
+ #00:30:44-9# participante: Sí. Esta es la, la parte del techo de la casa.
+ #00:30:49-2# pcd: Ah bueno.
+ #00:30:50-5# participante: Vamos a hacerle así.
+ #00:30:55-6# participante: A ver..
+ #00:30:57-6# pcd: (incomprehensible) 
+ #00:31:02-6# pcd: Vamos a hacer una casa.. está bien.
+ #00:31:06-9# pcd: Usted es albañil ?
+  #00:31:08-6# participante: Este... no.
+ #00:31:10-2# pcd: No pues que malo.
+ #00:31:11-4# participante: *risilla*
+ #00:31:12-4# pcd: Usted no va a poder hacer la casa.
+ #00:31:14-0# participante: No no no.. eso ya.. le toca a otra persona.
+ #00:31:28-3# pcd: Usted se.. (incomprehensible) 
+ #00:31:34-0# pcd: Muy mal.
+ #00:31:36-5# participante: *risilla*
+ #00:31:37-5# pcd: Ese té sabe malo.
+ #00:31:43-8# participante: A ver, ahí está, perfecto.
+ #00:31:47-1# participante: Muy bien, ahora, vamos a hacer.. un barquito.
+ #00:31:53-6# pcd: Y se va a pasear en el?
+ #00:31:55-3# participante: Mande?
+ #00:31:56-1# pcd:  se va a pasear en el?
+ #00:31:57-5# participante: Tal vez.
+ #00:31:59-9# pcd: Usted es marinero?
+ #00:32:05-8# participante: De vez en cuando voy al mar.
+ #00:32:08-8# pcd: Pero el mar es bien malo.
+ #00:32:11-7# participante: Pues si, pero también es muy bonito.
+ #00:32:13-9# pcd: No..
+ #00:32:15-1# participante: No le gusta el mar?
+ #00:32:16-8# pcd: No porque... hace unas olas grandes.
+ #00:32:23-6# participante: Aquí...
+ #00:32:27-5# pcd: Y a Juanito se lo comió el mar.
+ #00:32:30-2# participante: Apoco?
+ #00:32:31-1# pcd: Si, a Juanito se lo comió el mar.
+ #00:32:33-2# participante: Mire entonces tenemos aquí. Este así y, para trabar el barquito aquí.. lo cerramos.
+ #00:32:46-6# participante: Ya cerró aquí. Si?
+ #00:32:47-9# pcd: ujum.
+ #00:32:48-6# participante: Ok, entonces... ahora..
+ #00:32:55-0# participante: Le toca a usted.
+ #00:33:02-6# participante:  Ya vamos a acabar.
+ #00:33:06-1# pcd: No pues usted se tarda mucho y mi mamá no llega
+ #00:33:14-2# pcd: Y tiene que venir por mi por que esta no es mi casa.
+ #00:33:18-9# pcd: Es suya? es suya?
+ #00:33:21-8# participante: Este.. no, no es mía.
+ #00:33:24-7# pcd: Ni su casa es tampoco?
+ #00:33:26-2# participante: A mi me invitaron.
+ #00:33:27-9# pcd: No pues que bueno que no me gusta.
+ #00:33:30-0# participante: Si.. verdad?
+ #00:33:31-2# pcd: Si.. (incomprehensible) 
+ #00:33:36-3# pcd: *mumbling*
+ #00:33:40-4# pcd: Usted también está tomando té malo?
+ #00:33:43-0# participante: Este.. si.. también, también, no le pusieron azúcar.
+ #00:33:58-6# pcd: asi..
+ #00:34:13-0# pcd: ahí está..
+ #00:34:14-6# participante: A ver, aahh ahí está, perfecto.
+ #00:34:17-9# participante: Y, ya fue la última figura.
+ #00:34:20-2# pcd: A que bueno, porque ya me quiero ir.
+ #00:34:21-1# participante: Si.
+ #00:34:24-2# participante: Ya estaba cansada, verdad?
+ #00:34:25-9# pcd: Es que esos.. están feos.
+ #00:34:28-7# pcd: Si verdad? Lo bueno es que ya se acabó.

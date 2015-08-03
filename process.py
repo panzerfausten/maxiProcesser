@@ -147,6 +147,13 @@ def plotIBI_ZEPHYR(subject,test,session, sounds = [],_limx=None,_limy=None,group
                 m = MyPlotter(_title_raw,_data_to_norm,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,xTick=200,_yTick=1.0,_yTickMinor=0.1)
 
         m.plot(_path_raw)
+
+def plotIBI_ZEPHYR2(subject,_data,_path ,_limx=None,_limy=None):
+        _d = _data
+        _title_raw = "IBI"
+        _path_raw = _path
+        m = MyPlotter(_title_raw,_data,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=1.0)
+        m.plot(_path_raw)
 def plotEEG1(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -306,32 +313,6 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFeaturesFrom(_session,gsr=True,hr=True,ibi=True,temp=False):
-            _session.getAnxious()
-            _dataAvgBySecHR = _session._dataZEPHYR_HR
-            _dataAvgBySecIBI = _session._dataZEPHYR_IBI
-            _dataAvgBySecTEMP = _session._dataTEMP
-            _dataGSR = _session.groupBySec(_session._dataGSR,True,False)
-            for seg in s._dataANXIETYRANGES:
-                    _s,_e,_l = seg
-                    if (_l != -1):
-                            extraFeatures = []
-                            if(gsr):
-                                if  len(_dataGSR[_s:_e+6]) > 0:
-                                    htr = HalfRecoveryTimeDetector(_dataGSR[_s:_e+6])
-                                    extraFeatures.append(htr.extract())
-                            _line = str(_l)
-
-                            if(ibi):
-                                if  len(_dataAvgBySecIBI[_s:_e+10]) > 0:
-                                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e+10])
-                                    extraFeatures.append(ibife.extract())
-                            _line = str(_l)
-                            if( len(extraFeatures) > 0):
-                                for _t in extraFeatures:
-                                    _line += ","+ ",".join(str(_x) for _x in _t)
-                                print _line
-                            #print _line
 def getFts(_s,path=None,gsr=False,ibi=True):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
@@ -341,22 +322,35 @@ def getFts(_s,path=None,gsr=False,ibi=True):
     for _z in range(0,len(_dataSR)):
         for _x,_d in enumerate(reversed(_dataGSR)):
             if((_x / 60.)  == _z+1.5):
-                for _t in [-15,15]:
-                    _segment = _dataGSR[(_x+_t)-15:(_x+_t)+15]
-                    _s = _x-15
-                    _e = _x+15
-                    _lFeatures =[str(_dataSR[_z])]
-                    if(gsr):
-                        htr = HalfRecoveryTimeDetector(_segment)
-                        #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
-                        for _f in htr.extract():
-                            _lFeatures.append(_f)
-
-                    if(ibi):
-                        ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_s:_e])
-                        for _f in ibife.extract():
-                            _lFeatures.append(_f)
-                    _features.append(_lFeatures)
+                _tag = str(_dataSR[_z])
+                _segmentNumber = _z
+                _s1Features =[str(_dataSR[_z])]
+                _s2Features =[str(_dataSR[_z])]
+                _segment1 = _dataGSR[_x-30:_x]
+                _segment2 = _dataGSR[_x:_x+30]
+                _s = _x-30
+                _e = _x
+                _s2 = _x
+                _e2 = _x+30
+                if(gsr):
+                    htr = HalfRecoveryTimeDetector(_segment1)
+                    #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
+                    for _f in htr.extract():
+                        _s1Features.append(_f)
+                    htr = HalfRecoveryTimeDetector(_segment2)
+                    for _f in htr.extract():
+                        _s2Features.append(_f)
+                if(ibi):
+                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x-30:_x])
+                    _path = "plots/ibi_%s_%i" %(_tag,_segmentNumber)
+                    for _f in ibife.extract():
+                        _s1Features.append(_f)
+                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x:_x+30])
+                    #ibife.plot("plots/ibi_%s_%i" %(_tag,_segmentNumber))
+                    for _f in ibife.extract():
+                        _s2Features.append(_f)
+                _features.append(_s1Features)
+                _features.append(_s2Features)
                 break
     for _f in _features:
         print ",".join(map(str,_f))
@@ -401,20 +395,31 @@ if (__name__ == "__main__"):
                 """
                 s = session("p7/alfonso_relax/1434064078558/")
                 #plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                #getFts(s)
-                #getFts(s,"p7/segments/s1/")
+                getFts(s)
                 ######session2###################
 
                 s = session("p7/alfonso_relax2/1434495734670/")
-                #getFts(s)
-                #getFts(s,"p7/segments/s2/")
+                getFts(s)
 
                 s = session("p7/alfonso_relax3/1435275565320/")
-                #getFts(s)
+                getFts(s)
+
+		s = session("p6/luis_relax3/1435273024530/")
+                getFts(s)
 		s = session("p6/luis_relax/1433979780288/")
                 getFts(s)
-                #plotGSR("p7/alfonso_relax3","alfonso_relax3_GSR",s,_limy=[0.0,20.0])
-                #plotHR_ZEPHYR("p7/alfonso_relax3","alfonso_relax3_HR",s,_limy=[0,120])
+		s = session("p6/luismiguel_relax2/1434671046538/")
+                getFts(s)
+
+		s = session("p1/carlos_S1_R1/1433807211979/")
+                getFts(s)# No es muy claro cuando hay ansiedad
+		s = session("p1/carlos_relax3/1435362269780/")
+                getFts(s)
+
+                s = session("p9/sandra_relax/1434150573545/")
+                getFts(s)
+		s = session("p9/sandra_relax3/1435619278734/")
+                getFts(s)
 
                 """
                 

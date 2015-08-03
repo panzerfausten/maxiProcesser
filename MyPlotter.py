@@ -43,18 +43,17 @@ class MyPlotter:
                     #ax.set_yticks(major_ticks_y)                
                     #ax.set_yticks(minor_ticks_y, minor=True)                 
           
-
-
-		if (self._session._dataANXIETYRANGES != None):
-			for _i,_c in enumerate(self._session._dataANXIETYRANGES):
-				if(_c[2] == 0):
-					ax.axvspan(_c[0],_c[1],color="green",alpha=1)
-				if(_c[2] == 1):
-					ax.axvspan(_c[0],_c[1],color="yellow",alpha=1)
-				if(_c[2] == 2):
-					ax.axvspan(_c[0],_c[1],color="orange",alpha=1)
-				if(_c[2] == 3):
-					ax.axvspan(_c[0],_c[1],color="red",alpha=1)
+                if(self._session !=None):
+                    if (self._session._dataANXIETYRANGES != None):
+                            for _i,_c in enumerate(self._session._dataANXIETYRANGES):
+                                    if(_c[2] == 0):
+                                            ax.axvspan(_c[0],_c[1],color="green",alpha=1)
+                                    if(_c[2] == 1):
+                                            ax.axvspan(_c[0],_c[1],color="yellow",alpha=1)
+                                    if(_c[2] == 2):
+                                            ax.axvspan(_c[0],_c[1],color="orange",alpha=1)
+                                    if(_c[2] == 3):
+                                            ax.axvspan(_c[0],_c[1],color="red",alpha=1)
 		if (self.sounds != None):
 			for _s in self.sounds:
 				try:

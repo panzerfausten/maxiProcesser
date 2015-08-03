@@ -1,0 +1,2352 @@
+2
+0:00:01,000 --> 0:0:2,000
+ Investigado r2: Pero no pasa nada
+
+3
+0:00:03,000 --> 0:0:4,000
+ Pcd: Pero es que yo no quiero ir porque no me han dado de comer
+
+4
+0:00:05,000 --> 0:0:10,000
+ Investigador 2:¿ No le han dado de comer? pero si ya le dieron su aguita quiere decir que ya!!
+
+5
+0:00:11,000 --> 0:0:11,000
+Participante: Hola señora ******?
+
+6
+0:00:12,000 --> 0:0:13,000
+ Investigador 2: ¿Se acuerda de de mi amiga?
+
+7
+0:00:14,000 --> 0:0:14,000
+ Pcd: Noo no se quién sea
+
+8
+0:00:15,000 --> 0:0:17,000
+ Investigador 2: *****? ella se llama *****? ujumm
+
+9
+0:00:18,000 --> 0:0:19,000
+ Pcd:  Y ni se quién sean ellos
+
+10
+0:00:20,000 --> 0:0:22,000
+ Investigador 2: Ah ellos están ahí nada más, no les haga caso
+
+11
+0:00:23,000 --> 0:0:25,000
+(Incomprensible)
+
+12
+0:00:26,000 --> 0:0:26,000
+ Pcd: Quiero ir a comer
+
+13
+0:00:27,000 --> 0:0:27,000
+ Investigador 2: Ahorita va ir a comer
+
+14
+0:00:28,000 --> 0:0:30,000
+ Pcd: Noo yo no hago nada si no me llevan a comer
+
+15
+0:00:31,000 --> 0:0:31,000
+ Investigador 2: ¿En serio?
+
+16
+0:00:32,000 --> 0:0:32,000
+ Pcd: Mamá!!!!
+
+17
+0:00:33,000 --> 0:0:36,000
+ Investigador 2: Ahorita viene (incomporensible)
+
+18
+0:00:37,000 --> 0:0:38,000
+ Participante: Hola señora ******? ¿Cómo está?
+
+19
+0:00:39,000 --> 0:0:40,000
+ Pcd: Mal,  mal porque no me dan de comer
+
+20
+0:00:41,000 --> 0:0:41,000
+Participante: Pero ya le dieron de comer
+
+21
+0:00:42,000 --> 0:0:43,000
+ Pcd: Noo no me han dado!!
+
+22
+0:00:44,000 --> 0:0:43,000
+Participante: Síiiiiiiii
+
+23
+0:00:44,000 --> 0:0:45,000
+Pcd:¿ Y uste que está haciendo aquí?
+
+24
+0:00:46,000 --> 0:0:46,000
+Participante: Pos venimos a jugar con uste
+
+25
+0:00:47,000 --> 0:0:48,000
+Pcd: No pero yo no quiero jugar
+
+26
+0:00:49,000 --> 0:0:49,000
+ Participante: Ujjjjjmmmm ¿No quiere jugar?
+
+27
+0:00:50,000 --> 0:0:50,000
+ Pcd: No yo  no quiero juga
+
+28
+0:00:51,000 --> 0:0:51,000
+Participante: ¿En serio?
+
+29
+0:00:52,000 --> 0:0:52,000
+Pcd: Noo 
+
+30
+0:00:53,000 --> 0:0:52,000
+Participante: Mire
+
+31
+0:00:53,000 --> 0:0:54,000
+Pcd: quiero irme a mi casa
+
+32
+0:00:55,000 --> 0:0:56,000
+Pcd: ¿Mi mamá dónde está?
+
+33
+0:00:57,000 --> 0:0:58,000
+Participante: Vamos a jugar
+
+34
+0:00:59,000 --> 0:0:58,000
+Participante: Salió
+
+35
+0:00:59,000 --> 0:1:0,000
+Pcd: Sí salio pero no me dejó la comida¡¡¡
+
+36
+0:01:01,000 --> 0:1:2,000
+ Pcd: Desde ayer no me dan comida
+
+37
+0:01:03,000 --> 0:1:3,000
+Participante:  Noo, sí, sí le dieron 
+
+38
+0:01:04,000 --> 0:1:5,000
+Pcd: Noo no me dieron comida  ayer
+
+39
+0:01:06,000 --> 0:1:6,000
+Participante: Sí le dieron
+
+40
+0:01:07,000 --> 0:1:8,000
+Pcd: Ni me dieron cena tampoco
+
+41
+0:01:09,000 --> 0:1:11,000
+Pcd: Nomás me tienen con pura agua y el agua no me gusta ya
+
+42
+0:01:12,000 --> 0:1:12,000
+Participante: Nooo sí
+
+43
+0:01:13,000 --> 0:1:14,000
+Pcd: Noo
+
+44
+0:01:15,000 --> 0:1:17,000
+Participante: ¿Y no le gusta el agua?
+
+45
+0:01:18,000 --> 0:1:22,000
+Pcd: Tengo que tomarmela para que se me quite el hambre
+
+46
+0:01:23,000 --> 0:1:24,000
+Pcd: M e voy a comer un pollo entero
+
+47
+0:01:25,000 --> 0:1:26,000
+ Participante: Ajjjjjjj, cuando terminemos de jugar se come un pollo entero
+
+48
+0:01:27,000 --> 0:1:28,000
+Pcd: Nooo, pero orita ya, ya
+
+49
+0:01:29,000 --> 0:1:29,000
+Participante:Pero no está listo
+
+50
+0:01:30,000 --> 0:1:31,000
+ Pcd: No pues, pues ya quiero que esté listo
+
+51
+0:01:32,000 --> 0:1:33,000
+Participante:  Está crudo
+
+52
+0:01:34,000 --> 0:1:35,000
+ Pcd: Bueno ¿y por qué no lo cose rápido?
+
+53
+0:01:36,000 --> 0:1:37,000
+Participante: Porque no se puede hacer tan rápido
+
+54
+0:01:38,000 --> 0:1:39,000
+Pcd: No pues yo quiero irme a mi casa
+
+55
+0:01:40,000 --> 0:1:39,000
+Participante:Incomprensible
+
+56
+0:01:40,000 --> 0:1:41,000
+Pcd: Mamá, mamá dónde estás
+
+57
+0:01:42,000 --> 0:1:41,000
+Participante:Incomprensible
+
+58
+0:01:42,000 --> 0:1:43,000
+Pcd: Noo yo ya me voy
+
+59
+0:01:44,000 --> 0:1:45,000
+ Participante: AA no señora  (incomprensible) vamos a jugar aquí
+
+60
+0:01:46,000 --> 0:1:50,000
+ Pcd: Nooo pero no quiero jugar (Tira los botones) y esto amí, no quiero jugar
+
+61
+0:01:51,000 --> 0:1:52,000
+Participante: ummmm uooooooo
+
+62
+0:01:53,000 --> 0:1:51,000
+ Incomprensible
+
+63
+0:01:52,000 --> 0:1:52,000
+Participante: Ándele
+
+64
+0:01:53,000 --> 0:1:53,000
+Pcd: Nooooo
+
+65
+0:01:54,000 --> 0:1:54,000
+Participante: Vamos a jugar (Incomprensible)
+
+66
+0:01:55,000 --> 0:1:57,000
+Pcd: No quiero jugar ya le dije!!!, quiero comer
+
+67
+0:01:58,000 --> 0:2:0,000
+Participante: Vamos a comer después, yo la acompaño
+
+68
+0:02:01,000 --> 0:2:0,000
+ Pcd: No pero
+
+69
+0:02:01,000 --> 0:2:1,000
+Participante: ¿Sí?
+
+70
+0:02:02,000 --> 0:2:4,000
+Pcd: No hay nada en la casa, mi mamá salió
+
+71
+0:02:05,000 --> 0:2:7,000
+Participante: Noo, por eso, fue atraer el gas para cocinar el pollo ¿si?
+
+72
+0:02:08,000 --> 0:2:9,000
+Pcd: ¿El gas?, y paqué  usan el gas?
+
+73
+0:02:10,000 --> 0:2:10,000
+Participante: Para calentar la mida
+
+74
+0:02:11,000 --> 0:2:13,000
+Pcd: No aquí en esta casa no se usa gas
+
+75
+0:02:14,000 --> 0:2:14,000
+Participante:Sí  (Incomprensible)
+
+76
+0:02:15,000 --> 0:2:15,000
+Pcd: Se usa leña
+
+77
+0:02:16,000 --> 0:2:17,000
+Participante:Noo es que trajeron estufa
+
+78
+0:02:18,000 --> 0:2:18,000
+Pcd: No hay estufa
+
+79
+0:02:19,000 --> 0:2:19,000
+Participante:Siii
+
+80
+0:02:20,000 --> 0:2:25,000
+Pcd: Hay una de esa con piedras asi y luego cocinan así ponen la leña
+
+81
+0:02:26,000 --> 0:2:29,000
+Pcd: Siii uste no sabe eso verdad, que aquí no hay estufa
+
+82
+0:02:30,000 --> 0:2:32,000
+ Participante: Entonces nos van a traer el pollo
+
+83
+0:02:33,000 --> 0:2:32,000
+Pcd: ¿El pollo?
+
+84
+0:02:33,000 --> 0:2:34,000
+Participante:Rostizado
+
+85
+0:02:35,000 --> 0:2:35,000
+Pcd: Bueno
+
+86
+0:02:36,000 --> 0:2:36,000
+Participante:Sí
+
+87
+0:02:37,000 --> 0:2:38,000
+Puess no, no quiero, no  quiero mi mamá
+
+88
+0:02:39,000 --> 0:2:40,000
+Participante: Pero si no no nos van a dar pollo si no jugamos
+
+89
+0:02:41,000 --> 0:2:42,000
+Pcd: ¿Mi mamá dónde está?
+
+90
+0:02:43,000 --> 0:2:42,000
+Participante:  Salió por 
+
+91
+0:02:43,000 --> 0:2:44,000
+Pcd: Nooo no. Quiero a mi mamá, quiero a mi mamá.....
+
+92
+0:02:45,000 --> 0:2:48,000
+ Pcd: Y quiero comer, quiero comer...
+
+93
+0:02:49,000 --> 0:2:50,000
+Participante: Van a van al ratito van a traer el pollo ¿Si?
+
+94
+0:02:51,000 --> 0:2:51,000
+Pcd: No no,  quiero pollo
+
+95
+0:02:52,000 --> 0:2:52,000
+Participante: Ahora que se le antoja?
+
+96
+0:02:53,000 --> 0:2:54,000
+Pcd: No pos nada
+
+97
+0:02:55,000 --> 0:2:55,000
+Participante: A entonces no tiene hamnbre
+
+98
+0:02:56,000 --> 0:2:55,000
+(Incomprensible)
+
+99
+0:02:56,000 --> 0:2:58,000
+Pcd: Tengo hambre, tengo hambre, desde ayer no me dan comida
+
+100
+0:02:59,000 --> 0:3:0,000
+Participante: Pero nos vamos a comer el pollo
+
+101
+0:03:01,000 --> 0:3:1,000
+Pcd: Nooo pollo no quiero
+
+102
+0:03:02,000 --> 0:3:2,000
+Participante: ¿Entonces que?
+
+103
+0:03:03,000 --> 0:3:8,000
+Pcd:Quiero chuletas de borrego, con salsa verde o con salsa roja
+
+104
+0:03:09,000 --> 0:3:11,000
+Pcd: Pero no quiero come pollo, no me gusta el pollo
+
+105
+0:03:12,000 --> 0:3:15,000
+Participante: Jugamos y le doy las chuletas de borrego  en salsa verde
+
+106
+0:03:16,000 --> 0:3:16,000
+Pcd: ¿ Y dónde están?
+
+107
+0:03:17,000 --> 0:3:17,000
+Participante: Ahh (Incomprensible)
+
+108
+0:03:18,000 --> 0:3:17,000
+ Pcd: Enseñelas primero
+
+109
+0:03:18,000 --> 0:3:20,000
+Participante: Hablo por teléfono para que las traigan
+
+110
+0:03:21,000 --> 0:3:20,000
+Pcd:¿Si?
+
+111
+0:03:21,000 --> 0:3:22,000
+Participante:Sí
+
+112
+0:03:23,000 --> 0:3:25,000
+Pcd: Mamá!!!!, mamá, ya me van a dar de comer!!!
+
+113
+0:03:26,000 --> 0:3:28,000
+Pcd: No no me quieren dar, no me quieren dar de comer,
+
+114
+0:03:29,000 --> 0:3:28,000
+Participante: Sí, sí le voy a dar
+
+115
+0:03:29,000 --> 0:3:31,000
+ Pcd: Noo, mi mamá no me quiere dar  comida
+
+116
+0:03:32,000 --> 0:3:35,000
+Participante:Sí, sí, le, yo se  le voy a dar la comida, después de jugar éste juego
+
+117
+0:03:36,000 --> 0:3:37,000
+ Pcd: Pero no se jugar
+
+118
+0:03:38,000 --> 0:3:38,000
+Participante:Ah pero yo le voy a enseñar
+
+119
+0:03:39,000 --> 0:3:40,000
+Pcd: Nooo, pero yo no quiero jugar, ¿cuál es el problema?
+
+120
+0:03:41,000 --> 0:3:42,000
+Participante: Pero está bien facil!!!
+
+121
+0:03:43,000 --> 0:3:43,000
+Pcd: Nooo pues no quiero 
+
+122
+0:03:44,000 --> 0:3:46,000
+Participante:Mire lo que está bien fácil es acomodar las fichitas así
+
+123
+0:03:47,000 --> 0:3:49,000
+ Participante: Y entre más rápido llenamos las hojitas   más rápido nos vamos a ir a comer las chuletas
+
+124
+0:03:50,000 --> 0:3:52,000
+Pcd: Noo, no quiero, no quiero, no quiero, juegue uste, juegue uste (tira las fichitas)
+
+125
+0:03:53,000 --> 0:3:54,000
+Pcd: Tenga juegue uste,  (incomprensible)
+
+126
+0:03:55,000 --> 0:3:57,000
+ Participante:(Se admira y suspira) Vamos  a jugar
+
+127
+0:03:58,000 --> 0:3:57,000
+Pcd: Noo no quiero
+
+128
+0:03:58,000 --> 0:4:0,000
+Participante:Vamos a formar  a las fichitas en éste orden
+
+129
+0:04:01,000 --> 0:4:1,000
+Pcd: Noo no quiero
+
+130
+0:04:02,000 --> 0:4:4,000
+Participante: Una rosita, una verde
+
+131
+0:04:05,000 --> 0:4:7,000
+Pcd: Una anaranjada y una café
+
+132
+0:04:08,000 --> 0:4:10,000
+Participante: Ahí está  eee ándele
+
+133
+0:04:11,000 --> 0:4:11,000
+Participante: ¿Ahora cuál sigue?
+
+134
+0:04:12,000 --> 0:4:12,000
+ Pcd: La roja.
+
+135
+0:04:13,000 --> 0:4:14,000
+Participante:A ver vamos a ponerla
+
+136
+0:04:15,000 --> 0:4:18,000
+ Pcd: Ya se le calló el papel, ese, que trae ese papel mugrosso
+
+137
+0:04:19,000 --> 0:4:19,000
+Pcd:  ¿Por qué no lo lava?
+
+138
+0:04:20,000 --> 0:4:22,000
+Participante:Ya está limpio!!! hasta traía una florecita mire
+
+139
+0:04:23,000 --> 0:4:24,000
+ Pcd:Noo, ta mugroso
+
+140
+0:04:25,000 --> 0:4:26,000
+Participante: Noo,  está limpio
+
+141
+0:04:27,000 --> 0:4:29,000
+Pcd: Y luego uste también anda bien mugrosa, ¿Por qué no se baña?
+
+142
+0:04:30,000 --> 0:4:31,000
+Participante:  (risa) Sí me bañé (risa)
+
+143
+0:04:32,000 --> 0:4:32,000
+Pcd: Noo, no se baña 
+
+144
+0:04:33,000 --> 0:4:33,000
+Participante:Sí, si, si me bañé
+
+145
+0:04:34,000 --> 0:4:37,000
+Pcd: Noo, no se baña, este quiere decirme que sí pero no
+
+146
+0:04:38,000 --> 0:4:37,000
+Participante: Sí, sí me bañé
+
+147
+0:04:38,000 --> 0:4:41,000
+Pcd: Noo, no,  quiero, quiero comer, quiero comer
+
+148
+0:04:42,000 --> 0:4:45,000
+Participante: ¿Cuál (incomprensible)  sigue?
+
+149
+0:04:46,000 --> 0:4:48,000
+Pcd:  Uste lo va ser por mí y luego yo  hago la otra
+
+150
+0:04:49,000 --> 0:4:50,000
+Participante: Pues yo ya hice, ésta, éste, ést  y éste
+
+151
+0:04:51,000 --> 0:4:51,000
+Pcd: Pues sigale haciendo
+
+152
+0:04:52,000 --> 0:4:53,000
+Participante: ¿Cuál sigue?
+
+153
+0:04:54,000 --> 0:4:55,000
+ Pcd: Pues uste sabe que es  lo que va ser 
+
+154
+0:04:56,000 --> 0:4:56,000
+Pcd: yo que voy a saber
+
+155
+0:04:57,000 --> 0:4:59,000
+Participante: A ver ¿Qué color sigue?, rosita
+
+156
+0:05:00,000 --> 0:5:1,000
+Pcd: No es rosa!!! es rojo!!!!
+
+157
+0:05:02,000 --> 0:5:5,000
+Participante:Aaaa buenooo, rojo, verde
+
+158
+0:05:06,000 --> 0:5:6,000
+ ¿Ese es verede?
+
+159
+0:05:07,000 --> 0:5:8,000
+Pcd:Nooo, es azul
+
+160
+0:05:09,000 --> 0:5:9,000
+Participante: Aaa ok 
+
+161
+0:05:10,000 --> 0:5:13,000
+Participante:   Entonces rojo, 
+
+162
+0:05:14,000 --> 0:5:17,000
+Mire ve ese papel se cae, porque está lleno de mugre
+
+163
+0:05:18,000 --> 0:5:19,000
+ No es que es la pelusita, mire
+
+164
+0:05:20,000 --> 0:5:19,000
+Pcd: AAAA
+
+165
+0:05:20,000 --> 0:5:21,000
+Participante:  Es la pelusita de la chamarra
+
+166
+0:05:22,000 --> 0:5:23,000
+Pcd: Aaaa yo creía que era mugre
+
+167
+0:05:24,000 --> 0:5:26,000
+Participante: (Incomprensible)
+
+168
+0:05:27,000 --> 0:5:27,000
+ Participante:  Ok mire
+
+169
+0:05:28,000 --> 0:5:30,000
+Pcd: Nooo se vuelve a caer,  póngaselo en la cabeza
+
+170
+0:05:31,000 --> 0:5:33,000
+Participante: : Aaaa aquí (incomprensible)
+
+171
+0:05:34,000 --> 0:5:41,000
+Participante:  Oki, oki, entonces es, rojo, verd, azu, azul, rojo, azul
+
+172
+0:05:42,000 --> 0:5:42,000
+Participante:  ¿Cuál sigue?
+
+173
+0:05:43,000 --> 0:5:43,000
+Pcd: El rojo
+
+174
+0:05:44,000 --> 0:5:45,000
+Participante:  A ok vamos a, seguimos con el rojo
+
+175
+0:05:46,000 --> 0:5:48,000
+ Pcd: No pero yo ya me quiero ir.¿ Mamá dónde estás?
+
+176
+0:05:49,000 --> 0:5:49,000
+Participante:  Vamos a (incomprensible)
+
+177
+0:05:50,000 --> 0:5:51,000
+Pcd:  Porque no me quieren dar de comer aquí!!!!
+
+178
+0:05:52,000 --> 0:5:52,000
+Participante:  Ahorita vamos a (incomporensible)
+
+179
+0:05:53,000 --> 0:5:56,000
+ Pcd: Bueno ¿Y que están haciendo aquí si no hay comida, no hay nada!! no hay estufa
+
+180
+0:05:57,000 --> 0:5:59,000
+Participante: Pues yo vengo a pasar un ratito con usted
+
+181
+0:06:00,000 --> 0:6:1,000
+No pero yo no quiero jugar
+
+182
+0:06:02,000 --> 0:6:3,000
+Participante:  Pero yo quiero pasar un ratito con usted
+
+183
+0:06:04,000 --> 0:6:5,000
+Pcd:  Nooo, pues no quiero
+
+184
+0:06:06,000 --> 0:6:13,000
+Participante:  Mire ahora, rojo, azul, rojo, azul, rojo, ¿cuál sigue?
+
+185
+0:06:14,000 --> 0:6:14,000
+Pcd:  Rojo!!!
+
+186
+0:06:15,000 --> 0:6:16,000
+Participante:¿  Rojo? ¿ después del rojo sigue el rojo?
+
+187
+0:06:17,000 --> 0:6:17,000
+Pcd: Síii
+
+188
+0:06:18,000 --> 0:6:21,000
+Participante:¿En serio?, a ver vamos a ponerlo a ver si es cierto
+
+189
+0:06:22,000 --> 0:6:23,000
+Participante:¿A ver se parecen?
+
+190
+0:06:24,000 --> 0:6:24,000
+Pcd:  Sí se parece a ese
+
+191
+0:06:25,000 --> 0:6:25,000
+Participante:¡¡¡¡¡¡¡Aaaaaajjjj!!!!
+
+192
+0:06:26,000 --> 0:6:26,000
+Participante:A éste?
+
+193
+0:06:27,000 --> 0:6:27,000
+Pcd:  Nooo
+
+194
+0:06:28,000 --> 0:6:28,000
+Participante: A ok entonces ¿ cuál sigue?
+
+195
+0:06:29,000 --> 0:6:31,000
+Pcd: Pos póngalo uste porque yo ya no quiero (Tira las fichitas)
+
+196
+0:06:32,000 --> 0:6:31,000
+Pcd: (Incomprensible)
+
+197
+0:06:32,000 --> 0:6:33,000
+Participante: A ver vamos a (inccomprensible), es que estamos jugando las dos
+
+198
+0:06:34,000 --> 0:6:35,000
+Participante: Usted me está enseñando los colores 
+
+199
+0:06:36,000 --> 0:6:38,000
+Pcd:  Nooo, pero yo no quiero 
+
+200
+0:06:39,000 --> 0:6:42,000
+ Pcd: Yo no quiero, mi mamá, mamá!!! traigame de comer
+
+201
+0:06:43,000 --> 0:6:45,000
+Pcd:  No me dieron de comer ahora
+
+202
+0:06:46,000 --> 0:6:45,000
+Participante: Cuál sigue?
+
+203
+0:06:46,000 --> 0:6:49,000
+Ni ayer
+
+204
+0:06:50,000 --> 0:6:51,000
+Pcd: Ya dos días sin comer
+
+205
+0:06:52,000 --> 0:6:54,000
+Participante: Ajjjjjjjj, válgame Dios, no puedo ser que sea tanto
+
+206
+0:06:55,000 --> 0:6:54,000
+Pcd: Ya
+
+207
+0:06:55,000 --> 0:6:55,000
+Participante:  ¿Dos días sin comer?
+
+208
+0:06:56,000 --> 0:6:57,000
+ Pcd: Sí
+
+209
+0:06:58,000 --> 0:6:58,000
+Participante: Suspira
+
+210
+0:06:59,000 --> 0:6:59,000
+Pcd: Por esono  quiero jugar
+
+211
+0:07:00,000 --> 0:7:1,000
+ Participante:¿Y que comió ayer?
+
+212
+0:07:02,000 --> 0:7:2,000
+Pcd: Nada!! agua!!!
+
+213
+0:07:03,000 --> 0:7:3,000
+Participante:¿Nada?
+
+214
+0:07:04,000 --> 0:7:6,000
+Pcd: Agua, pura agua, pura agua, me dan 
+
+215
+0:07:07,000 --> 0:7:7,000
+Participante:¿En serio?
+
+216
+0:07:08,000 --> 0:7:9,000
+Pcd: Sí  por esoe estoy tan flaca 
+
+217
+0:07:10,000 --> 0:7:10,000
+Participante: (Suspira)
+
+218
+0:07:11,000 --> 0:7:14,000
+Pcd: Toy flaca, flaca, flaca
+
+219
+0:07:15,000 --> 0:7:17,000
+Participante: ¿ Y agua de que le dan?, ¿agua natural? o aguaaaa...
+
+220
+0:07:18,000 --> 0:7:19,000
+Pcd: Agua de esa(Señala el vaso con agua)
+
+221
+0:07:20,000 --> 0:7:21,000
+Participante: Aaaaaaa ¿Y sin sabor?
+
+222
+0:07:22,000 --> 0:7:23,000
+Pcd: Nooo, no  sabe a  nada
+
+223
+0:07:24,000 --> 0:7:26,000
+Pcd: Yo quiero un chocolate un milkiway
+
+224
+0:07:27,000 --> 0:7:28,000
+Participante: Aaa no quiere nada
+
+225
+0:07:29,000 --> 0:7:30,000
+Pcd: ¿Por qué  no quiero nada?
+
+226
+0:07:31,000 --> 0:7:32,000
+Participante: No quiere  ni un, quiere un,me refiero osea lo que me refiero
+
+227
+0:07:33,000 --> 0:7:34,000
+Participante: es que los  milkiway están caros 
+
+228
+0:07:35,000 --> 0:7:37,000
+Pcd: Y qué tiene!!!! pa esotiene uste dinero
+
+229
+0:07:38,000 --> 0:7:39,000
+Participante: Ahhhh para eso tengo yo dinero!!!
+
+230
+0:07:40,000 --> 0:7:42,000
+Pcd:Sí páque me lo compre
+
+231
+0:07:43,000 --> 0:7:43,000
+Participante: Aaaa ahora resulta, no quiere jugar conmigo
+
+232
+0:07:44,000 --> 0:7:46,000
+ Pcd: Nooo pues entonces no juego
+
+233
+0:07:47,000 --> 0:7:46,000
+Participante:  Aaa bueno
+
+234
+0:07:47,000 --> 0:7:49,000
+Pcd:mss no me lo quiere comprar 
+
+235
+0:07:50,000 --> 0:7:52,000
+Participante:(Suspira) Pero usted según no quería jugar conmigo
+
+236
+0:07:53,000 --> 0:7:54,000
+Pcd:  No, pero nos toy jugando
+
+237
+0:07:55,000 --> 0:7:54,000
+Participante:Nooo pero
+
+238
+0:07:55,000 --> 0:7:57,000
+Pcd: Nomás toy viendo que está mugrosa que no se ha bañado
+
+239
+0:07:58,000 --> 0:7:58,000
+(Risa)
+
+240
+0:07:59,000 --> 0:7:59,000
+Participante:Sí me bañé
+
+241
+0:08:00,000 --> 0:8:4,000
+Pcd: Nooo, no y ellos también tan  mugrosos
+
+242
+0:08:05,000 --> 0:8:4,000
+Participante: Incomprensible
+
+243
+0:08:05,000 --> 0:8:6,000
+Bueno yo ya me quiero ir
+
+244
+0:08:07,000 --> 0:8:8,000
+Participante:  ¿Pos no quiere milkiway pues??
+
+245
+0:08:09,000 --> 0:8:10,000
+Pcd: Pues sí pero no está aquí el milkiway
+
+246
+0:08:11,000 --> 0:8:12,000
+Participante: AAA pero iva jugar, iva, ¿cómo se dice?
+
+247
+0:08:13,000 --> 0:8:14,000
+Pcd:  (Incomprensible)
+
+248
+0:08:15,000 --> 0:8:15,000
+Pcd: Nooo ya no quiero  jugar (Desacomoda las fichas)
+
+249
+0:08:16,000 --> 0:8:16,000
+Participante: Hay nononon nono (Incomprensible)
+
+250
+0:08:17,000 --> 0:8:16,000
+Pcd:  No ya no quiero jugar!!
+
+251
+0:08:17,000 --> 0:8:19,000
+ (Incomprensible) su milkiwey no va a llegar
+
+252
+0:08:20,000 --> 0:8:20,000
+No pos que no llegue ya, 
+
+253
+0:08:21,000 --> 0:8:21,000
+Participante:Nooo
+
+254
+0:08:22,000 --> 0:8:22,000
+Pcd: Ya no quiero jugar, tenga
+
+255
+0:08:23,000 --> 0:8:26,000
+Participante: Ni las chuletas, ni las pizas ni el polllo, nada nos va llegar
+
+256
+0:08:27,000 --> 0:8:27,000
+Pcd:  No pos que bueno 
+
+257
+0:08:28,000 --> 0:8:28,000
+Participante:Y ni las sodas
+
+258
+0:08:29,000 --> 0:8:30,000
+Pcd: Me voy a morir de hambre
+
+259
+0:08:31,000 --> 0:8:31,000
+Participante:Ayyy no, no se va morir de hambre
+
+260
+0:08:32,000 --> 0:8:35,000
+Pcd: Sí sí me voy a morir
+
+261
+0:08:36,000 --> 0:8:37,000
+Participante: Como se va a moriri de hambre!!!
+
+262
+0:08:38,000 --> 0:8:38,000
+Pcd:  No, no quiero jugar, ya 
+
+263
+0:08:39,000 --> 0:8:40,000
+Participante: (incomprensible)¿ una florecita?
+
+264
+0:08:41,000 --> 0:8:41,000
+Pcd:Ya, ya me voy 
+
+265
+0:08:42,000 --> 0:8:42,000
+Participante: Mire
+
+266
+0:08:43,000 --> 0:8:44,000
+Pcd: Haga dos uste
+
+267
+0:08:45,000 --> 0:8:49,000
+Participante:Mira vamos hacer uno primero
+
+268
+0:08:50,000 --> 0:8:52,000
+Pcd:Oye el perrro tiene hambre como yo, por eso ladra
+
+269
+0:08:53,000 --> 0:8:56,000
+Pcd: Yo también voy a ladrar, guao, guao, guao (Ladra como perro)
+
+270
+0:08:57,000 --> 0:9:0,000
+Pcd: Porque tengo hambre, el perro tiene hambre
+
+271
+0:09:01,000 --> 0:9:0,000
+Participante:  ¿Si?
+
+272
+0:09:01,000 --> 0:9:4,000
+Pcd: Sí, por eso está, guao, guao, guao,
+
+273
+0:09:05,000 --> 0:9:5,000
+Participante:No pero el perro ya comió
+
+274
+0:09:06,000 --> 0:9:10,000
+ Pcd: No pos yo no he comido por eso voy hacer como el perro
+
+275
+0:09:11,000 --> 0:9:12,000
+ Participante: ¿Eso a que parece?
+
+276
+0:09:13,000 --> 0:9:14,000
+Pcd:Pues   el, se par, se parece a uste
+
+277
+0:09:15,000 --> 0:9:15,000
+Participante: ¿En serio?
+
+278
+0:09:16,000 --> 0:9:16,000
+Pcd: Sí
+
+279
+0:09:17,000 --> 0:9:18,000
+Participante: A ok  ¿y si hacemos varios de éstos?
+
+280
+0:09:19,000 --> 0:9:20,000
+Pcd: Nooo,  quiero hacer flores
+
+281
+0:09:21,000 --> 0:9:21,000
+Participante: Ahhhh  flores vamos a 
+
+282
+0:09:22,000 --> 0:9:23,000
+Pcd:  Quiero hacer flores
+
+283
+0:09:24,000 --> 0:9:24,000
+Participante: Mire ya vió como
+
+284
+0:09:25,000 --> 0:9:30,000
+Pcd:  Ya me quiero ir porque el se está riendo de mí , èl se está riendo
+
+285
+0:09:31,000 --> 0:9:32,000
+Pcd: Quiero irme con mi mamá, mamá dónde estás?
+
+286
+0:09:33,000 --> 0:9:35,000
+Participante:¿ Y no quería hacer flores,  y no quería hacer flores?
+
+287
+0:09:36,000 --> 0:9:36,000
+Pcd: No, pero no así
+
+288
+0:09:37,000 --> 0:9:47,000
+Participante: Entonces como aver muéstreme como quería hacerlo bien
+
+289
+0:09:48,000 --> 0:9:51,000
+Pcd: Nooo, ya me quiero ir, no me quiero entretener
+
+290
+0:09:52,000 --> 0:9:55,000
+Participante:Ajjjjjj, mire que bonita
+
+291
+0:09:56,000 --> 0:10:5,000
+Pcd: Oie el perro está como yo,yo  voy hacer como el perro páque me den comida
+
+292
+0:10:06,000 --> 0:10:7,000
+Pcd: Ese es una flor
+
+293
+0:10:08,000 --> 0:10:8,000
+Participante:  ¿Ese es una flor?
+
+294
+0:10:09,000 --> 0:10:8,000
+Pcd: Sí
+
+295
+0:10:09,000 --> 0:10:11,000
+Participante:Si pero ¿y tiene hojas verdes, y  azules?
+
+296
+0:10:12,000 --> 0:10:12,000
+Pcd: Síiiii
+
+297
+0:10:13,000 --> 0:10:13,000
+Participante: ¿Si?
+
+298
+0:10:14,000 --> 0:10:14,000
+ Pcd: Sií Sí  tiene hojas azules
+
+299
+0:10:15,000 --> 0:10:16,000
+Participante: ¿Y me puede hacer otra igual?
+
+300
+0:10:17,000 --> 0:10:17,000
+Pcd:Nooo
+
+301
+0:10:18,000 --> 0:10:18,000
+Participante: Otra o quiero que me haga (incomprensible)
+
+302
+0:10:19,000 --> 0:10:22,000
+Pcd: No porque tengo tengo hambre, ya le dije que tengo mucha hambre
+
+303
+0:10:23,000 --> 0:10:25,000
+Participante: Le dije que vamos a traer chuletas
+
+304
+0:10:26,000 --> 0:10:26,000
+Pcd: ¿Chuletas?
+
+305
+0:10:27,000 --> 0:10:27,000
+Participante:Chuletas.
+
+306
+0:10:28,000 --> 0:10:30,000
+Participante:Pero si me hace varias como estas
+
+307
+0:10:31,000 --> 0:10:31,000
+Pcd: Como esa noooo porque esa está fea
+
+308
+0:10:32,000 --> 0:10:32,000
+Participante: A (incomprensible)
+
+309
+0:10:33,000 --> 0:10:35,000
+Participante: Pero si me hace una igualita a todas la que va hacer, a la 
+
+310
+0:10:36,000 --> 0:10:38,000
+ Participante: Mire no, me tiene que hacer de èstas 
+
+311
+0:10:39,000 --> 0:10:40,000
+Pcd: Me desvararto la mía, ¿Por qué me desvarato la mía?
+
+312
+0:10:41,000 --> 0:10:42,000
+Participante: Ah noo, porque tiene que ser igualita a ésta
+
+313
+0:10:43,000 --> 0:10:44,000
+Pcd: Nooo, pos yo no quiero que sean igualitas que esas
+
+314
+0:10:45,000 --> 0:10:48,000
+Participante: Pero es que tienen, para que nos salgan las chuletas tienen que ser igualitas a
+
+315
+0:10:49,000 --> 0:10:49,000
+Pcd:Ya se me olvidó
+
+316
+0:10:50,000 --> 0:10:50,000
+Participante: Expresión (ajjjj)
+
+317
+0:10:51,000 --> 0:10:52,000
+Pcd: Ya se me olvidó, no se!!!!
+
+318
+0:10:53,000 --> 0:10:55,000
+ Participante:Nooo, a ver vamos a ver, ¿Qué color es éste?
+
+319
+0:10:56,000 --> 0:10:56,000
+Pcd: Rojo!!!
+
+320
+0:10:57,000 --> 0:10:59,000
+Participante: A  Vamos a poner a ver el rojo, ¿Cuál es el rojo?
+
+321
+0:11:00,000 --> 0:11:0,000
+Pcd:  Éste, (Toma la ficha)
+
+322
+0:11:01,000 --> 0:11:4,000
+Participante: Ahhh ese es el rojo
+
+323
+0:11:05,000 --> 0:11:8,000
+Participante: Ese es el rojo, a ver vamos a poner el rojo, el primer rojo
+
+324
+0:11:09,000 --> 0:11:11,000
+ Participante:Ahora, ¿Cuál sigue?
+
+325
+0:11:12,000 --> 0:11:12,000
+ Noo pero 
+
+326
+0:11:13,000 --> 0:11:13,000
+Participante:AAahhh
+
+327
+0:11:14,000 --> 0:11:16,000
+ Pcd: Yo quiero, yo quiero comer, tengo hambre
+
+328
+0:11:17,000 --> 0:11:17,000
+Participante:Ajáaaa
+
+329
+0:11:18,000 --> 0:11:19,000
+Pcd: Mucha hambre
+
+330
+0:11:20,000 --> 0:11:19,000
+Participante: Ajáaa
+
+331
+0:11:20,000 --> 0:11:20,000
+ Pcd: Yo ya me voy
+
+332
+0:11:21,000 --> 0:11:20,000
+Participante:Nooo pero 
+
+333
+0:11:21,000 --> 0:11:21,000
+Pcd: Bye (Se levanta para irse)
+
+334
+0:11:22,000 --> 0:11:21,000
+Participante: Vamos a seguir jugando
+
+335
+0:11:22,000 --> 0:11:22,000
+ Pcd: Bye
+
+336
+0:11:23,000 --> 0:11:24,000
+Participante: Le pongo otra figura
+
+337
+0:11:25,000 --> 0:11:25,000
+Pcd: Nooo.  Esa está bonita
+
+338
+0:11:26,000 --> 0:11:29,000
+Participante: Ahhh ok, bueno pues entonces me tiene  que ayudar hacer esta
+
+339
+0:11:30,000 --> 0:11:31,000
+Pcd: ¿Cuántas hojas tiene?
+
+340
+0:11:32,000 --> 0:11:32,000
+Participante:   Seis!!!
+
+341
+0:11:33,000 --> 0:11:34,000
+Pcd:  Nooo. Quiero que tenga ocho
+
+342
+0:11:35,000 --> 0:11:35,000
+Participante:  Pero no le caben ocho
+
+343
+0:11:36,000 --> 0:11:37,000
+Pcd:Pues que malo verdad!!!
+
+344
+0:11:38,000 --> 0:11:39,000
+Participante:  Síiii, tienen que ser seis
+
+345
+0:11:40,000 --> 0:11:40,000
+Pcd:  Noooo, ya me quiero ir 
+
+346
+0:11:41,000 --> 0:11:41,000
+Participante:  No nos van a traer ni milkiway, ni la chuleta
+
+347
+0:11:42,000 --> 0:11:49,000
+Pcd: Nooo
+
+348
+0:11:50,000 --> 0:11:55,000
+ Pcd: Mire   me va crecer así la pansa, de tanta agua que me dan y no me dan comida
+
+349
+0:11:56,000 --> 0:11:56,000
+ Participante:  ¿En serio?
+
+350
+0:11:57,000 --> 0:11:57,000
+Pcd: Quiero comer
+
+351
+0:11:58,000 --> 0:11:57,000
+Participante:  ¿En serio?
+
+352
+0:11:58,000 --> 0:11:58,000
+Pcd: Síiii
+
+353
+0:11:59,000 --> 0:12:2,000
+Participante: Mire, vamos hacer otra figurita tan fácil, ésta que está aquí
+
+354
+0:12:03,000 --> 0:12:3,000
+Pcd: Noooo, esa está fea
+
+355
+0:12:04,000 --> 0:12:5,000
+Participante:Aaa pero es la que tenemos que hacer
+
+356
+0:12:06,000 --> 0:12:6,000
+Pcd: Noooo
+
+357
+0:12:07,000 --> 0:12:6,000
+Participante: Síiii
+
+358
+0:12:07,000 --> 0:12:6,000
+Pcd: Nooo 
+
+359
+0:12:07,000 --> 0:12:7,000
+Participante ¿Ésta que color es? 
+
+360
+0:12:08,000 --> 0:12:9,000
+Pcd: Ya le dije que nooo, ¿que no entiende?
+
+361
+0:12:10,000 --> 0:12:10,000
+Participante:Ésta vamos hacer
+
+362
+0:12:11,000 --> 0:12:10,000
+Pcd: Nooo 
+
+363
+0:12:11,000 --> 0:12:11,000
+Participante: Ésta 
+
+364
+0:12:12,000 --> 0:12:14,000
+Pcd: Noo, ya le dije que no!!, yo voy hacer flores
+
+365
+0:12:15,000 --> 0:12:16,000
+Pcd: Uste haga esas, uste le gusta esa
+
+366
+0:12:17,000 --> 0:12:18,000
+ Participante: Pero si no, no nos van  a traer la chuleta
+
+367
+0:12:19,000 --> 0:12:19,000
+Pcd:¿Qué le hace?
+
+368
+0:12:20,000 --> 0:12:21,000
+Participante: Aaah, entonces no tiene hambre
+
+369
+0:12:22,000 --> 0:12:21,000
+ Pcd: Yo voy a....
+
+370
+0:12:22,000 --> 0:12:25,000
+Pcd: Síii, tengo mucha hambre, ahorita empiezo a gritarle a mi mamá
+
+371
+0:12:26,000 --> 0:12:27,000
+ Pcd: Yo voy hacer flores
+
+372
+0:12:28,000 --> 0:12:30,000
+Participante: Y cuantos, ¿y las flores cuantos hojitas tenía?
+
+373
+0:12:31,000 --> 0:12:31,000
+Pcd:  Ocho!!
+
+374
+0:12:32,000 --> 0:12:32,000
+Participante: ¿Ocho?
+
+375
+0:12:33,000 --> 0:12:32,000
+Pcd: Sí
+
+376
+0:12:33,000 --> 0:12:33,000
+Participante:  Pero no le caben ocho mire
+
+377
+0:12:34,000 --> 0:12:37,000
+Pcd: Síii, si le caben ocho, ahí tiene ocho
+
+378
+0:12:38,000 --> 0:12:39,000
+Pcd: Mmm ve tiene ocho...
+
+379
+0:12:40,000 --> 0:12:41,000
+Participante:  A ver haga otra igual a  ver
+
+380
+0:12:42,000 --> 0:12:43,000
+Pcd: Noo, ¿y por qué me quiere que haga otro igual ?
+
+381
+0:12:44,000 --> 0:12:46,000
+Participante:  Pues para que sea un ramo de flores
+
+382
+0:12:47,000 --> 0:12:51,000
+Pcd: Aaah pero pues ésta tenía que estar acá
+
+383
+0:12:52,000 --> 0:12:52,000
+Participante: Incomprensible
+
+384
+0:12:53,000 --> 0:12:57,000
+ Pcd: Oii nomás, oii, se están comiendo mis pollos ve!!!
+
+385
+0:12:58,000 --> 0:12:58,000
+Participante:¿Se están comiendo sus pollos?
+
+386
+0:12:59,000 --> 0:13:6,000
+Pcd: Síiii, allá anda, ya mi mamá, gritando que se comen mis pollos
+
+387
+0:13:07,000 --> 0:13:11,000
+Pcd: Tengo hambre, tengo mucha hambre
+
+388
+0:13:12,000 --> 0:13:18,000
+Pcd: Mamá!!!, ven por mí, aquí me tienen encerrada y no me quieren dar comida
+
+389
+0:13:19,000 --> 0:13:20,000
+Pcd: Mamá!!!
+
+390
+0:13:21,000 --> 0:13:22,000
+Participante: Nooo, no la tenemos  encerrada, vamos a comer al ratito
+
+391
+0:13:23,000 --> 0:13:23,000
+Pcd: Síiii
+
+392
+0:13:24,000 --> 0:13:25,000
+Participante: Pero es que ya fueron por la comida
+
+393
+0:13:26,000 --> 0:13:27,000
+Pcd: Me tiene encerrada uste 
+
+394
+0:13:28,000 --> 0:13:27,000
+Participante:Nooooo (Con admiración)
+
+395
+0:13:28,000 --> 0:13:29,000
+Pcd: Síiiiii
+
+396
+0:13:30,000 --> 0:13:32,000
+Participante: Ok
+
+397
+0:13:33,000 --> 0:13:36,000
+Participante: Acomodelos para que quepa esto más (incomprensible)
+
+398
+0:13:37,000 --> 0:13:38,000
+Pcd: Uste no sabe lo que yo estoy haciendo 
+
+399
+0:13:39,000 --> 0:13:40,000
+Participante: Pos son flores
+
+400
+0:13:41,000 --> 0:13:42,000
+Pcd: Noooo, no son flores
+
+401
+0:13:43,000 --> 0:13:44,000
+Participante: Aaah, entonces ¿cómo se llaman estas?
+
+402
+0:13:45,000 --> 0:13:50,000
+Pcd: Palos... es un palo verde
+
+403
+0:13:51,000 --> 0:13:55,000
+Pcd: Verde, verde, mamá, ven por mí, ye me quiero ir
+
+404
+0:13:56,000 --> 0:13:55,000
+Participante:Ok
+
+405
+0:13:56,000 --> 0:13:57,000
+Pcd: Ya me voy
+
+406
+0:13:58,000 --> 0:13:59,000
+Pcd: Dígame adiós porque ya me voy
+
+407
+0:14:00,000 --> 0:14:2,000
+Pcd:  Ya llegó la comida, o le voy hablar a mi mamá
+
+408
+0:14:03,000 --> 0:14:5,000
+Participante: No, pero trajeron la comida, hasta que lo que...
+
+409
+0:14:06,000 --> 0:14:10,000
+Pcd: Sí, pues yo solita estoy haciendo lo que yo quiera, no lo que uste quiera
+
+410
+0:14:11,000 --> 0:14:12,000
+Participante:  Por eso pero no tiene que hacer eso
+
+411
+0:14:13,000 --> 0:14:12,000
+Pcd:Aaa, pero ya acabé de hacer eso
+
+412
+0:14:13,000 --> 0:14:17,000
+Participante: (En señas, pide la intervención del investigador 2)
+
+413
+0:14:18,000 --> 0:14:17,000
+Pcd: Ve
+
+414
+0:14:18,000 --> 0:14:20,000
+ Investigador 2:  A ver, a ver, vamos a ver
+
+415
+0:14:21,000 --> 0:14:22,000
+Investigador 2: Mire que bien lo está haciendo
+
+416
+0:14:23,000 --> 0:14:23,000
+Pcd: Páque vea
+
+417
+0:14:24,000 --> 0:14:27,000
+Investigador2: Pero mire, mire, fíjese, vamos agarrar, vamos a poner
+
+418
+0:14:28,000 --> 0:14:29,000
+Pcd:  Noo, no quiero agarrar nada
+
+419
+0:14:30,000 --> 0:14:31,000
+Pcd: Usted también no venga de metiche
+
+420
+0:14:32,000 --> 0:14:34,000
+Investigador 2: Aquí  así, mire que bobito se ven
+
+421
+0:14:35,000 --> 0:14:36,000
+Pcd: Ésta se ve feo
+
+422
+0:14:37,000 --> 0:14:37,000
+Investigador 2: ¿En serio?
+
+423
+0:14:38,000 --> 0:14:37,000
+Pcd: Sí, se ve feo
+
+424
+0:14:38,000 --> 0:14:39,000
+Investigador 2:¿ Y si lo ponemos al reves?
+
+425
+0:14:40,000 --> 0:14:41,000
+Pcd: Ésto se ve bonito
+
+426
+0:14:42,000 --> 0:14:42,000
+Investigador 2: ¿ En serio?
+
+427
+0:14:43,000 --> 0:14:43,000
+Pcd: Sí
+
+428
+0:14:44,000 --> 0:14:44,000
+Investigador 2: A ver, a ver y ésto se parce a ésto?
+
+429
+0:14:45,000 --> 0:14:50,000
+Pcd: Nooo, no, ya me hizo enojar usted también , ya váyase, ya no hago nada  (Des acomoda las fichas de la hoja de manera agresiva)
+
+430
+0:14:51,000 --> 0:14:57,000
+Investigador 2: Mire, vamos agarrar, vamos a tranquilizarnos y vamos a poner unas
+
+431
+0:14:58,000 --> 0:15:0,000
+ Investigador 2: Rojas, osea una hilera roja y una hilera verde,¿que le parece?
+
+432
+0:15:01,000 --> 0:15:3,000
+Pcd:  ¿Una hilera roja y otra de verde?
+
+433
+0:15:04,000 --> 0:15:4,000
+Investigador 2:Incomprensible
+
+434
+0:15:05,000 --> 0:15:7,000
+Pcd: Pcd:  Mire ve, que mensa es uste, ya se le cayeron
+
+435
+0:15:08,000 --> 0:15:9,000
+Investigador 2: Sí, híjole, mire que mensa soy, ¿verdad?
+
+436
+0:15:10,000 --> 0:15:11,000
+Pcd: Sí, ve, ve
+
+437
+0:15:12,000 --> 0:15:13,000
+Investigador 2:A ver ayúdeme, porque soy bien mensa
+
+438
+0:15:14,000 --> 0:15:17,000
+Investigador 2: haber ayúdeme, ayúdeme con las rojas y luego me pone unas hileras verdes así... ok..
+
+439
+0:15:18,000 --> 0:15:19,000
+Pcd: Sí, pero yo no quiero hacer eso
+
+440
+0:15:20,000 --> 0:15:21,000
+Investigador 2: Nadamás termine eso y nos vamos por su medicina, ¿ok?
+
+441
+0:15:22,000 --> 0:15:25,000
+Pcd:  ok. Porque si no ya me,¿ ya me está mi comida?
+
+442
+0:15:26,000 --> 0:15:27,000
+ Investigador 2: Sí ya va estar su comida, ahorita vamos a ir con lupita, ¿ok?
+
+443
+0:15:28,000 --> 0:15:28,000
+Pcd: Ok Lupita!!!!!!!
+
+444
+0:15:29,000 --> 0:15:35,000
+ Investigador 2: A ver ahorita, va a terminar todo ésto y luego va terminar una hilera hacia abajo
+
+445
+0:15:36,000 --> 0:15:39,000
+Pcd: A ver, a ve, ya por su culpa me regañaron
+
+446
+0:15:40,000 --> 0:15:44,000
+Pcd: Uste tiene la culpa porque fue de chismosa... ¿verda?
+
+447
+0:15:45,000 --> 0:15:45,000
+Participante: Nooo
+
+448
+0:15:46,000 --> 0:15:48,000
+Pcd:¿Cómo que nooo?, se está  poniendo roja uste,
+
+449
+0:15:49,000 --> 0:15:48,000
+Participante: ¿Si?
+
+450
+0:15:49,000 --> 0:15:53,000
+Pcd: Porque fue de mi tontera a decirlrle que no quiero hacer las cosas
+
+451
+0:15:54,000 --> 0:15:56,000
+Pcd: Y después aquí me tienen todo el día encerrada
+
+452
+0:15:57,000 --> 0:15:59,000
+Pcd: Ve es su culpaaa, es su culpa i (Señala de manera agresiva al participante)
+
+453
+0:16:00,000 --> 0:16:2,000
+Pcd: Sii, me van encerrar todo el día  por su culpa
+
+454
+0:16:03,000 --> 0:16:8,000
+Pcd: Ahora tengo que hacer  éste cochinero que no me gusta, ve
+
+455
+0:16:09,000 --> 0:16:11,000
+Pcd:  Apoco uste le gusta hacer eso que me pusieron hacer
+
+456
+0:16:12,000 --> 0:16:13,000
+Participante:  Sí, está padre, por esas hileritas
+
+457
+0:16:14,000 --> 0:16:14,000
+Pcd: Nooo, amí no me gusta
+
+458
+0:16:15,000 --> 0:16:17,000
+Participante:  A ok, lo vamos a terminar y ya!!! ¿si?
+
+459
+0:16:18,000 --> 0:16:21,000
+ Pcd: Sí yo había hecho dos flores, bien bonitas 
+
+460
+0:16:22,000 --> 0:16:22,000
+Participante: Al rato, ahorita hacemos las flores y ya!!!
+
+461
+0:16:23,000 --> 0:16:28,000
+Pcd: Una, una azusena y una... un girasol
+
+462
+0:16:29,000 --> 0:16:30,000
+Pcd: Hay se lo pongo ahí, páque se enoje ella, ya ve ya me vió
+
+463
+0:16:31,000 --> 0:16:31,000
+ Nooo, pero que color sigue!!!
+
+464
+0:16:32,000 --> 0:16:33,000
+Pcd: Ya me va regañar
+
+465
+0:16:34,000 --> 0:16:34,000
+Participante:Pero que color....
+
+466
+0:16:35,000 --> 0:16:36,000
+Pcd: Quiero que se enoje ella otra vez
+
+467
+0:16:37,000 --> 0:16:38,000
+Participante: Noo, porque nos van a poner hacer más
+
+468
+0:16:39,000 --> 0:16:40,000
+Pcd: Noooo, pero no quiero 
+
+469
+0:16:41,000 --> 0:16:43,000
+Participante: A ok, ahí  está bien, así sí está bien
+
+470
+0:16:44,000 --> 0:16:45,000
+Pcd: ¿Y usted no pudo?
+
+471
+0:16:46,000 --> 0:16:47,000
+Participante:  Yo ya lo hice hace rato
+
+472
+0:16:48,000 --> 0:16:50,000
+Participante: A mí me tenía hace rato haciendo eso
+
+473
+0:16:51,000 --> 0:16:54,000
+ Pcd: Oye el pollo se lo anda comiendo el gato
+
+474
+0:16:55,000 --> 0:16:58,000
+Pcd:  Ya  me voy poque si no el gato se come el  pollo
+
+475
+0:16:59,000 --> 0:17:0,000
+Pcd: Y ya no puedo
+
+476
+0:17:01,000 --> 0:17:1,000
+Participante: Si todavía nos falta
+
+477
+0:17:02,000 --> 0:17:5,000
+Pcd:  Ya me dolieron las manos 
+
+478
+0:17:06,000 --> 0:17:7,000
+Pcd:  Ya no puedo!!!
+
+479
+0:17:08,000 --> 0:17:11,000
+Pcd: Ya no quiero verlos
+
+480
+0:17:12,000 --> 0:17:15,000
+Pcd: Ya no quiero
+
+481
+0:17:16,000 --> 0:17:18,000
+Pcd: Oye el pollito me dice que no haga nada
+
+482
+0:17:19,000 --> 0:17:21,000
+Pcd: Que ésto es puro cochinero, dice el pollito
+
+483
+0:17:22,000 --> 0:17:22,000
+Participante: Nooo, no es cochinero éste juego
+
+484
+0:17:23,000 --> 0:17:25,000
+Pcd: El pollito dice que ésto no es juego
+
+485
+0:17:26,000 --> 0:17:32,000
+Pcd: Nomás, nomás es para hacerme renegar
+
+486
+0:17:33,000 --> 0:17:36,000
+Pcd: Ve ya terminé
+
+487
+0:17:37,000 --> 0:17:39,000
+Participante: Pero todavía faltan el verde ¿nooo?
+
+488
+0:17:40,000 --> 0:17:40,000
+Pcd:¿Ya?
+
+489
+0:17:41,000 --> 0:17:42,000
+Participante: Ok, ahora sigue ésta hilera 
+
+490
+0:17:43,000 --> 0:17:43,000
+Participante:(Incomprensible)
+
+491
+0:17:44,000 --> 0:17:44,000
+Pcd: ¿Por qué no lo hace uste?, yo ya hice 
+
+492
+0:17:45,000 --> 0:17:45,000
+Participante: (Incomprensible)
+
+493
+0:17:46,000 --> 0:17:48,000
+Pcd: Noooo, yo ya hice ésta, hágala uste
+
+494
+0:17:49,000 --> 0:17:49,000
+Participante: Noo porque ésta
+
+495
+0:17:50,000 --> 0:17:50,000
+(Incomprensible)
+
+496
+0:17:51,000 --> 0:17:51,000
+Pcd: Noo yo ya no hago más
+
+497
+0:17:52,000 --> 0:17:53,000
+Participante: Mire, vamos hacer ésta aquí mire, usted (Incomprensible)
+
+498
+0:17:54,000 --> 0:17:55,000
+Pcd:Ándele, Ándele, muévale, muévale
+
+499
+0:17:56,000 --> 0:17:56,000
+Participante: (Incomprensible) y una verde
+
+500
+0:17:57,000 --> 0:17:59,000
+Pcd: Y rápido, rápido, hagala como yo la hice
+
+501
+0:18:00,000 --> 0:18:2,000
+Participante: Ahora toca una rosita aquí, enséñeme, ayúdeme
+
+502
+0:18:03,000 --> 0:18:4,000
+Participante: Si yo no se, me tiene que ayudar 
+
+503
+0:18:05,000 --> 0:18:5,000
+Pcd: Nooo,pero uste no sabe
+
+504
+0:18:06,000 --> 0:18:7,000
+Participante: ¿Si?, ok a ver, ¿cuál sigue?
+
+505
+0:18:08,000 --> 0:18:9,000
+Pcd: Yo ya me quiero ir 
+
+506
+0:18:10,000 --> 0:18:11,000
+Participante: Ahora toca una verde, va ser una 
+
+507
+0:18:12,000 --> 0:18:13,000
+Pcd: Nooo, toca una roja
+
+508
+0:18:14,000 --> 0:18:16,000
+Participante:  Noo, esa no es unaaa, ¿aquí que seigue, seguiría?
+
+509
+0:18:17,000 --> 0:18:17,000
+ Pcd: Así
+
+510
+0:18:18,000 --> 0:18:18,000
+Participante: Nooo
+
+511
+0:18:19,000 --> 0:18:18,000
+Pcd: Así
+
+512
+0:18:19,000 --> 0:18:19,000
+Participante: No está bien
+
+513
+0:18:20,000 --> 0:18:20,000
+Pcd: Sí está bien , sí está bien
+
+514
+0:18:21,000 --> 0:18:20,000
+Participante: Noooo
+
+515
+0:18:21,000 --> 0:18:20,000
+Pcd:Sí está bien
+
+516
+0:18:21,000 --> 0:18:27,000
+Participante:Nooo, bueno si está bien pero se me antoja aquí mejor una azul, ¿si?
+
+517
+0:18:28,000 --> 0:18:27,000
+Pcd: No son azules
+
+518
+0:18:28,000 --> 0:18:28,000
+Participante: Ándele(Comportamiento agresivo)
+
+519
+0:18:29,000 --> 0:18:30,000
+Participante: Aaaa ¿qué de color son?
+
+520
+0:18:31,000 --> 0:18:32,000
+Pcd:  ¿Qué no mira?(Comportamiento agresivo)
+
+521
+0:18:33,000 --> 0:18:34,000
+Participante: No me tiene que decir
+
+522
+0:18:35,000 --> 0:18:35,000
+Pcd:  Nooo, que no mira
+
+523
+0:18:36,000 --> 0:18:36,000
+Participante: Uso lentes mire
+
+524
+0:18:37,000 --> 0:18:37,000
+ Pcd: Pues yo también uso lentes 
+
+525
+0:18:38,000 --> 0:18:39,000
+Participante: ¿Entonces que color es?
+
+526
+0:18:40,000 --> 0:18:40,000
+ Pcd: Y yo sí miro
+
+527
+0:18:41,000 --> 0:18:41,000
+Participante:¿Yque color es?
+
+528
+0:18:42,000 --> 0:18:44,000
+Pcd: Que no las mira!!!! son verdes (Comportamiento agresivo)
+
+529
+0:18:45,000 --> 0:18:45,000
+ Participante: Verdes, a ok.
+
+530
+0:18:46,000 --> 0:18:47,000
+Pcd: Pues usted dice que son azules 
+
+531
+0:18:48,000 --> 0:18:48,000
+Participante: Son verdes. (grita)
+
+532
+0:18:49,000 --> 0:18:50,000
+Pcd: ¿Y ésta de color es?
+
+533
+0:18:51,000 --> 0:18:51,000
+Participante: Rosita.
+
+534
+0:18:52,000 --> 0:18:51,000
+Pcd: Nooooo
+
+535
+0:18:52,000 --> 0:18:51,000
+Pcd:Noooo
+
+536
+0:18:52,000 --> 0:18:52,000
+Participante: Roja.
+
+537
+0:18:53,000 --> 0:18:54,000
+Pcd:  Eso.
+
+538
+0:18:55,000 --> 0:18:57,000
+Participante: Aaa ok. Ahora  sigue (incomprensible)
+
+539
+0:18:58,000 --> 0:18:58,000
+Pcd: ¿Paqué la quitó?
+
+540
+0:18:59,000 --> 0:18:59,000
+Participante:  OOO muy bonita
+
+541
+0:19:00,000 --> 0:19:0,000
+Pcd: ¿Paqué la quitó?
+
+542
+0:19:01,000 --> 0:19:1,000
+ Participante: A ver la pongo otra vess,  ¿dónde va?
+
+543
+0:19:02,000 --> 0:19:4,000
+Pcd: Pues uste póngala donde yo la tenía
+
+544
+0:19:05,000 --> 0:19:5,000
+Participante: Acá
+
+545
+0:19:06,000 --> 0:19:6,000
+Pcd: Noooo, no la tenía
+
+546
+0:19:07,000 --> 0:19:6,000
+Participante:  Ahí estaba
+
+547
+0:19:07,000 --> 0:19:8,000
+Pcd: Noo, no la tenía ahí
+
+548
+0:19:09,000 --> 0:19:10,000
+Participante: (Risilla) (incomprensible) ¿unas de qué color?
+
+549
+0:19:11,000 --> 0:19:12,000
+Pcd: Nooo , yo no la tenía ahí
+
+550
+0:19:13,000 --> 0:19:20,000
+ Pcd: Póngame la mía donde yo la tenía
+
+551
+0:19:21,000 --> 0:19:19,000
+Participante:  (Coloca la ficha)
+
+552
+0:19:20,000 --> 0:19:23,000
+Participante:  Ahora sigue unaaaa, ah, muy bien
+
+553
+0:19:24,000 --> 0:19:24,000
+Pcd: Ve que aquí la tenía y uste  la echó para allá
+
+554
+0:19:25,000 --> 0:19:25,000
+Participante:  ¿Ahí la tenía?
+
+555
+0:19:26,000 --> 0:19:26,000
+Pcd: Sí uste la echó para allá
+
+556
+0:19:27,000 --> 0:19:30,000
+Participante:  Ahhh ok, ¿a ver cuál sigue?
+
+557
+0:19:31,000 --> 0:19:32,000
+Participante:   Ahh pero nos toca poner una verde, una verde
+
+558
+0:19:33,000 --> 0:19:32,000
+Pcd :Uste no sabe, uste no sabe por eso quiero hacerlo yo, poruqe quiero terminar pronto
+
+559
+0:19:33,000 --> 0:19:37,000
+Participante:  Incomprensible
+
+560
+0:19:38,000 --> 0:19:37,000
+Participante:  Ok pero es primero (Incomprensible)
+
+561
+0:19:38,000 --> 0:19:42,000
+Pcd:  Porque nomás este voy hacer y ya no hago nada, ya no hago nada!!!!!
+
+562
+0:19:43,000 --> 0:19:44,000
+Nomás  eso voy hacer y ya no hago nada
+
+563
+0:19:45,000 --> 0:19:45,000
+Participante:  ¿Cuál sigue?
+
+564
+0:19:46,000 --> 0:19:47,000
+Pcd: Quiero irme a comer, mi mamaá ¿dónde está?
+
+565
+0:19:48,000 --> 0:19:51,000
+Participante:  Ahorita va haber comida ¿si?
+
+566
+0:19:52,000 --> 0:20:1,000
+Pcd: Ándele, ya me quiero ir
+
+567
+0:20:02,000 --> 0:20:5,000
+Pcd: Ya me quiero ir
+
+568
+0:20:06,000 --> 0:20:7,000
+Participante: Pero nos toca poner verdes también, eso
+
+569
+0:20:08,000 --> 0:20:10,000
+Pcd: O uste lo está haciendo o yo lo estoy haciendo
+
+570
+0:20:11,000 --> 0:20:11,000
+Participante:Las dos estamos jugando
+
+571
+0:20:12,000 --> 0:20:12,000
+Pcd:Nooo
+
+572
+0:20:13,000 --> 0:20:12,000
+Participante:Pero yo (Incomprensible)
+
+573
+0:20:13,000 --> 0:20:16,000
+ Pcd:Yo loy hacer como yo quiera, no como uste queiera
+
+574
+0:20:17,000 --> 0:20:19,000
+Participante: Nooo, lo tiene que hacer como yo  porque ahorita en el juego yo soy la que ,  la que 
+
+575
+0:20:20,000 --> 0:20:20,000
+Pcd: Noooo pos 
+
+576
+0:20:21,000 --> 0:20:21,000
+Participante: La que iba  decir
+
+577
+0:20:22,000 --> 0:20:22,000
+Participante: Eso fue e lo que quedamos
+
+578
+0:20:23,000 --> 0:20:28,000
+Pcd: Uste lo que va hacer es lo que sigue, yo ya no más voy a etrminar ésto y ya no juego
+
+579
+0:20:29,000 --> 0:20:29,000
+Pcd: Ya me voy porque voy a 
+
+580
+0:20:30,000 --> 0:20:30,000
+Participante: ¿Y ya no vamos hacer las florecitas?
+
+581
+0:20:31,000 --> 0:20:34,000
+Pcd: Noooo, tampoco ya no quiero hacer flores
+
+582
+0:20:35,000 --> 0:20:38,000
+Pcd: Ya, ya no quiero hacer nada, que no oyó
+
+583
+0:20:39,000 --> 0:20:41,000
+Pcd: O está sorda
+
+584
+0:20:42,000 --> 0:20:45,000
+Pcd: ¿ Por qué tiene los ojos así?, ¿quiere llorar? yo si voy a llorar
+
+585
+0:20:46,000 --> 0:20:48,000
+Pcd: Porque me quieren pegar, ya me pegaron 
+
+586
+0:20:49,000 --> 0:20:56,000
+Pcd: Mire, todo lo que me hicieron, mire, mire ve, uste me pegó, si me pegó verdad
+
+587
+0:20:57,000 --> 0:20:57,000
+Participante:Yo nooo
+
+588
+0:20:58,000 --> 0:20:58,000
+Pcd: Sí
+
+589
+0:20:59,000 --> 0:21:0,000
+Participante:A bueno yo sí
+
