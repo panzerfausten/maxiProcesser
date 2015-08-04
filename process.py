@@ -7,6 +7,8 @@ from HRFeatureExtractor import HRFeatureExtractor
 from IBIFeatureExtractor import IBIFeatureExtractor
 from TEMPFeatureExtractor import TEMPFeatureExtractor
 from datetime import datetime
+import sys
+import traceback
 def plotGSR(subject,test,session,_limx=None,_limy=None,_groupBySec=True):
 	u = u'\u00B5'
         s = session
@@ -313,7 +315,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFts(_s,path=None,gsr=False,ibi=True):
+def getFts(_s,path=None,gsr=None,ibi=None):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
@@ -354,75 +356,113 @@ def getFts(_s,path=None,gsr=False,ibi=True):
                 break
     for _f in _features:
         print ",".join(map(str,_f))
-
+def getSessions(_sessions):
+    _sessionsRtr = []
+    for _s in _sessions:
+        if(_s == "p1"):
+            s = session("p1/carlos_S1_R1/1433807211979/")
+            _sessionsRtr.append(s)
+            s = session("p1/carlos_relax3/1435362269780/")
+            _sessionsRtr.append(s)
+        if(_s == "p1s1"):
+            s = session("p1/carlos_S1_R1/1433807211979/")
+            _sessionsRtr.append(s)
+        if(_s == "p1s3"):
+            s = session("p1/carlos_relax3/1435362269780/")
+            _sessionsRtr.append(s)
+        if(_s == "p6"):
+            s = session("p6/luis_relax/1433979780288/")
+            _sessionsRtr.append(s)
+            s = session("p6/luismiguel_relax2/1434671046538/")
+            _sessionsRtr.append(s)
+            s = session("p6/luis_relax3/1435273024530/")
+            _sessionsRtr.append(s)
+        if(_s =="p6s1"):
+            s = session("p6/luis_relax/1433979780288/")
+            _sessionsRtr.append(s)
+        if(_s =="p6s2"):
+            s = session("p6/luismiguel_relax2/1434671046538/")
+            _sessionsRtr.append(s)
+        if(_s =="p6s3"):
+            s = session("p6/luis_relax3/1435273024530/")
+            _sessionsRtr.append(s)
+        if(_s == "p7"):
+            s = session("p7/alfonso_relax/1434064078558/")
+            _sessionsRtr.append(s)
+            s = session("p7/alfonso_relax2/1434495734670/")
+            _sessionsRtr.append(s)
+            s = session("p7/alfonso_relax3/1435275565320/")
+            _sessionsRtr.append(s)
+        if(_s == "p7s1"):
+            s = session("p7/alfonso_relax/1434064078558/")
+            _sessionsRtr.append(s)
+        if(_s == "p7s2"):
+            s = session("p7/alfonso_relax2/1434495734670/")
+            _sessionsRtr.append(s)
+        if(_s == "p7s3"):
+            s = session("p7/alfonso_relax3/1435275565320/")
+            _sessionsRtr.append(s)
+        if(_s == "p9"):
+            s = session("p9/sandra_relax/1434150573545/")
+            _sessionsRtr.append(s)
+            s = session("p9/sandra_relax3/1435619278734/")
+            _sessionsRtr.append(s)
+        if(_s == "p9s1"):
+            s = session("p9/sandra_relax/1434150573545/")
+            _sessionsRtr.append(s)
+        if(_s == "p9s2"):
+            s = session("p9/sandra_relax3/1435619278734/")
+            _sessionsRtr.append(s)
+    return _sessionsRtr
 if (__name__ == "__main__"):
-                """
-		s = session("p6/luis_relax/1433979780288/")
-		plotGSR("p6/luis_relax","luismiguel_relax",s,_limy=[0.0,1.0])
-                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
-                htr.plot("p6/luis_relax",_ylim=[0,1.1])
-		plotHR_ZEPHYR("p6/luis_relax","luismiguel_relax_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
+    """
+    s = session("p6/luis_relax/1433979780288/")
+    plotGSR("p6/luis_relax","luismiguel_relax",s,_limy=[0.0,1.0])
+    htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+    htr.plot("p6/luis_relax",_ylim=[0,1.1])
+    plotHR_ZEPHYR("p6/luis_relax","luismiguel_relax_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
 
-		s = session("p6/luismiguel_relax2/1434671046538/")
-		plotGSR("p6/luismiguel_relax2","luismiguel_relax2",s,_limy=[0.0,1.0])
-                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
-                htr.plot("p6/luismiguel_relax2",_ylim=[0,1.1])
-		plotHR_ZEPHYR("p6/luismiguel_relax2","luismiguel_relax2_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
+    s = session("p6/luismiguel_relax2/1434671046538/")
+    plotGSR("p6/luismiguel_relax2","luismiguel_relax2",s,_limy=[0.0,1.0])
+    htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+    htr.plot("p6/luismiguel_relax2",_ylim=[0,1.1])
+    plotHR_ZEPHYR("p6/luismiguel_relax2","luismiguel_relax2_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
 
-		s = session("p1/carlos_S1_R1/1433807211979/")
-		plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,1.0])
-                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
-                htr.plot("p1/carlos_S1_R1/plots/carlos_S1_R1_htr",_ylim=[0,1.1])
-		plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_S1_R1_relax_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
-		s = session("p1/carlos_relax3/1435362269780/")
-		plotGSR("p1","p1_relax_GSR",s,_limy=[0.0,6])
-                htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
-                htr.plot("p1/carlos_relax3/plots/carlos_relax3_htr",_ylim=[0,1.3])
-		plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
-                s = session("p9/sandra_relax/1434150573545/")
-		plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,1.0])
-		plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
+    s = session("p1/carlos_S1_R1/1433807211979/")
+    plotGSR("p1/carlos_S1_R1","carlos_S1_R1",s,_limy=[0.0,1.0])
+    htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+    htr.plot("p1/carlos_S1_R1/plots/carlos_S1_R1_htr",_ylim=[0,1.1])
+    plotHR_ZEPHYR("p1/carlos_S1_R1","carlos_S1_R1_relax_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
+    s = session("p1/carlos_relax3/1435362269780/")
+    plotGSR("p1","p1_relax_GSR",s,_limy=[0.0,6])
+    htr = HalfRecoveryTimeDetector(s.groupBySec(s._dataGSR,True,False))
+    htr.plot("p1/carlos_relax3/plots/carlos_relax3_htr",_ylim=[0,1.3])
+    plotHR_ZEPHYR("p1/carlos_relax3","carlos_relax_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
+    s = session("p9/sandra_relax/1434150573545/")
+    plotGSR("p9/sandra_relax","sandra_relax_GSR",s,_limy=[0.0,1.0])
+    plotHR_ZEPHYR("p9/sandra_relax","sandra_relax_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
 
-		s = session("p9/sandra_relax3/1435619278734/")
-		plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,1.0])
-		plotHR_ZEPHYR("p9/sandra_relax3","sandra_relax3_HR",s,_limy=[0,120])
-                getFeaturesFrom(s)
-                """
-                s = session("p7/alfonso_relax/1434064078558/")
-                #plotGSR("p7/alfonso_relax","alfonso_relax_GSR",s,_limy=[0.0,20.0])
-                getFts(s)
-                ######session2###################
-
-                s = session("p7/alfonso_relax2/1434495734670/")
-                getFts(s)
-
-                s = session("p7/alfonso_relax3/1435275565320/")
-                getFts(s)
-
-		s = session("p6/luis_relax3/1435273024530/")
-                getFts(s)
-		s = session("p6/luis_relax/1433979780288/")
-                getFts(s)
-		s = session("p6/luismiguel_relax2/1434671046538/")
-                getFts(s)
-
-		s = session("p1/carlos_S1_R1/1433807211979/")
-                getFts(s)# No es muy claro cuando hay ansiedad
-		s = session("p1/carlos_relax3/1435362269780/")
-                getFts(s)
-
-                s = session("p9/sandra_relax/1434150573545/")
-                getFts(s)
-		s = session("p9/sandra_relax3/1435619278734/")
-                getFts(s)
-
-                """
-                
-                s = session("p5/alma_rest/1433977560736/")
-                getFeaturesFrom(s)
-                """
+    s = session("p9/sandra_relax3/1435619278734/")
+    plotGSR("p9/sandra_relax3","sandra_relax3_GSR",s,_limy=[0.0,1.0])
+    plotHR_ZEPHYR("p9/sandra_relax3","sandra_relax3_HR",s,_limy=[0,120])
+    getFeaturesFrom(s)
+    s = session("p5/alma_rest/1433977560736/")
+    getFeaturesFrom(s)
+    """
+    _data = sys.argv[1]
+    _signals = sys.argv[2]
+    _data = _data.split(",")
+    _signals = _signals.split(",")
+    _getGSR = False
+    _getIBI = False
+    if("gsr" in _signals):
+        _getGSR = True
+    if("ibi" in _signals):
+        _getIBI = True
+    for _s in getSessions(_data):
+        getFts(_s,gsr=_getGSR,ibi=_getIBI)

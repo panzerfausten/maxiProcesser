@@ -95,30 +95,46 @@ def saveSet(_setA,_setB):
         for _x,_l in enumerate(_setA):
             _v = str(_setB[_x])+","+",".join(map(str,(_l)))
             _os.write(_v+"\n")
+def calcProportion(_p=.8):
+    _lenA = len(_dataA)
+    _lenB = len(_dataB)
+    if(_lenA <= _lenB):
+        _training = int(_lenA*_p)
+        _testing  = _lenA - _training
+    else:
+        _training = int(_lenB*_p)
+        _testing  = _lenB - _training
+    return _training,_testing
 if __name__ == "__main__":
     _file_path = sys.argv[1]
+    _csv = False
+    try:
+        _csvRequest = sys.argv[2]
+        if("csv" in _csvRequest):
+            _csv = True
+    except:
+            pass
     _dataA,_dataB  = readFile(_file_path)
     _dataA = removeLabel(_dataA,True)
     _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    randomiceData([_dataA,_dataB])
+    #randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    print _dataA[0]
-    print _dataB[0]
-    _training = 110
-    _test = 48
-    #print _dataB[-4]
-    print "Data: %s" % (_file_path)
-    print "     class 0 available data: %i" %(len(_dataA))
-    print "     class 1 available data: %i" %(len(_dataB))
-    print ""
-    print "     Training elements: %i" %(_training)
-    print "     Test elements: %i" %(_test)
+    _training,_test = calcProportion(.8)
+    if not _csv:
+        print "Data: %s" % (_file_path)
+        print "     class 0 available data: %i" %(len(_dataA))
+        print "     class 1 available data: %i" %(len(_dataB))
+        print ""
+        print "     Training elements: %i" %(_training)
+        print "     Test elements: %i" %(_test)
     _rLinear = []
     _pLinear = []
     _rRbf = []
     _pRbf = []
+    _rPoly = []
+    _pPoly = []
     for _runs in range(1,2):
         for i, kernel in enumerate(['linear','rbf','poly']):
              ##individual kernel
@@ -129,19 +145,33 @@ if __name__ == "__main__":
             y_pred = clf.predict(_X)
             saveSet(X+_X,y+_y)
             cm = confusion_matrix(_y, y_pred)
-            print "\n=====KERNEL: %s=====" %(kernel)
-            print cm
             _p = precision_score(_y,y_pred)*100
             _r = recall_score(_y,y_pred) *100
-            print "Precision: %f" %(_p)
-            print "Recall: %f" %(_r)
+            if not _csv:
+                print "\n=====KERNEL: %s=====" %(kernel)
+                print cm
+                print "Precision: %f" %(_p)
+                print "Recall: %f" %(_r)
 
             if( kernel == 'linear'):
                 _rLinear.append(_r)
                 _pLinear.append(_p)
-            else:
+            if( kernel == 'rbf'):
                 _rRbf.append(_r)
                 _pRbf.append(_p)
+            if( kernel == 'poly'):
+                _rPoly.append(_r)
+                _pPoly.append(_p)
+    if not _csv:
+        print ""
+        print "LINEAR P:",np.average(_pLinear)
+        print "LINEAR R:",np.average(_rLinear)
+        print "RBF P:",np.average(_pRbf)
+        print "RBF R:",np.average(_rRbf)
+        print "POLY P:",np.average(_pPoly)
+        print "POLY R:",np.average(_rPoly)
+    else:
+        print "%.2f" % np.average(_pLinear),",","%.2f"%np.average(_rLinear),",","%.2f"%np.average(_pRbf),",","%.2f"%np.average(_rRbf),",","%.2f"%np.average(_pPoly),",","%.2f"%np.average(_rPoly)
             #print "----CROSS-VALIDATION--"
             #clf = svm.SVC(kernel=kernel)
             #X,y = takeSample(_training+_test)
@@ -153,6 +183,6 @@ if __name__ == "__main__":
             #print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
             #plot(_X,_y,clf)
             #if(_p < 60.0 and kernel =='poly'):
-            #   print "Precision decayed below 60.0 after %i runs" %(_runs)
+            #  print "Precision decayed below 60.0 after %i runs" %(_runs)
             #    break
 
