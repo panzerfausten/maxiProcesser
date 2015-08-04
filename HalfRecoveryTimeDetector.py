@@ -91,7 +91,7 @@ class HalfRecoveryTimeDetector:
 					
 		else:
 			raise Exception("You must to call detect() first")
-	def plot(self,figname,_ylim=None,_xlim=None,_xTick=200,_xMinorTick=100):
+	def plot(self,figname,_ylim=None,_xlim=None,_xTick=1,_xMinorTick=1):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
 		plt.grid(True)

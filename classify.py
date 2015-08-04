@@ -119,9 +119,9 @@ if __name__ == "__main__":
     _dataB = removeLabel(_dataB,True)
     #_dataA = normalize(_dataA+_dataB)
     #_dataB = normalize(_dataB)
-    #randomiceData([_dataA,_dataB])
+    randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training,_test = calcProportion(.8)
+    _training,_test = calcProportion(.7)
     if not _csv:
         print "Data: %s" % (_file_path)
         print "     class 0 available data: %i" %(len(_dataA))
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     _pRbf = []
     _rPoly = []
     _pPoly = []
-    for _runs in range(1,2):
+    for _runs in range(1,100):
         for i, kernel in enumerate(['linear','rbf','poly']):
              ##individual kernel
             clf = svm.SVC(kernel=kernel)
@@ -171,7 +171,7 @@ if __name__ == "__main__":
         print "POLY P:",np.average(_pPoly)
         print "POLY R:",np.average(_rPoly)
     else:
-        print "%.2f" % np.average(_pLinear),",","%.2f"%np.average(_rLinear),",","%.2f"%np.average(_pRbf),",","%.2f"%np.average(_rRbf),",","%.2f"%np.average(_pPoly),",","%.2f"%np.average(_rPoly)
+        print "%.2f" % np.average(_pLinear),",","%.2f"%np.average(_rLinear),",","%.2f"%np.average(_pRbf),",","%.2f"%np.average(_rRbf),",","%.2f"%np.average(_pPoly),",","%.2f"%np.average(_rPoly)+","+str(_training)+","+str(_test)
             #print "----CROSS-VALIDATION--"
             #clf = svm.SVC(kernel=kernel)
             #X,y = takeSample(_training+_test)

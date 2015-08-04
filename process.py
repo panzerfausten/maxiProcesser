@@ -315,7 +315,7 @@ def generateAlbumScript(subjects):
 
 		_album.write(" okular albumGSR.pdf\n")\
 
-def getFts(_s,path=None,gsr=None,ibi=None):
+def getFts(_s,plot=False,gsr=None,ibi=None):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
     _dataAvgBySecIBI = _s._dataZEPHYR_IBI
     _dataSR = _s._dataSR
@@ -336,19 +336,27 @@ def getFts(_s,path=None,gsr=None,ibi=None):
                 _e2 = _x+30
                 if(gsr):
                     htr = HalfRecoveryTimeDetector(_segment1)
-                    #htr.plot(path+"GSR_"+str(_dataSR[_z])+"_"+str(_z),_ylim=[0,20],_xTick=2)
+                    if(plot):
+                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_1",_ylim=[1,2],_xTick=2)
                     for _f in htr.extract():
                         _s1Features.append(_f)
                     htr = HalfRecoveryTimeDetector(_segment2)
+                    if(plot):
+                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_2",_ylim=[1,2],_xTick=2)
                     for _f in htr.extract():
                         _s2Features.append(_f)
+
                 if(ibi):
                     ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x-30:_x])
-                    _path = "plots/ibi_%s_%i" %(_tag,_segmentNumber)
+                    if(plot):
+                        _path = "plots/ibi_%s_%i_1" %(_tag,_segmentNumber)
+                        ibife.plot(_path)
                     for _f in ibife.extract():
                         _s1Features.append(_f)
                     ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x:_x+30])
-                    #ibife.plot("plots/ibi_%s_%i" %(_tag,_segmentNumber))
+                    if(plot):
+                        _path = "plots/ibi_%s_%i_2" %(_tag,_segmentNumber)
+                        ibife.plot(_path)
                     for _f in ibife.extract():
                         _s2Features.append(_f)
                 _features.append(_s1Features)
@@ -359,6 +367,27 @@ def getFts(_s,path=None,gsr=None,ibi=None):
 def getSessions(_sessions):
     _sessionsRtr = []
     for _s in _sessions:
+        if(_s == "all"):
+            s = session("p1/carlos_S1_R1/1433807211979/")
+            _sessionsRtr.append(s)
+            s = session("p1/carlos_relax3/1435362269780/")
+            _sessionsRtr.append(s)
+            s = session("p6/luis_relax/1433979780288/")
+            _sessionsRtr.append(s)
+            s = session("p6/luismiguel_relax2/1434671046538/")
+            _sessionsRtr.append(s)
+            s = session("p6/luis_relax3/1435273024530/")
+            _sessionsRtr.append(s)
+            s = session("p7/alfonso_relax/1434064078558/")
+            _sessionsRtr.append(s)
+            s = session("p7/alfonso_relax2/1434495734670/")
+            _sessionsRtr.append(s)
+            s = session("p7/alfonso_relax3/1435275565320/")
+            _sessionsRtr.append(s)
+            s = session("p9/sandra_relax/1434150573545/")
+            _sessionsRtr.append(s)
+            s = session("p9/sandra_relax3/1435619278734/")
+            _sessionsRtr.append(s)
         if(_s == "p1"):
             s = session("p1/carlos_S1_R1/1433807211979/")
             _sessionsRtr.append(s)
@@ -410,7 +439,7 @@ def getSessions(_sessions):
         if(_s == "p9s1"):
             s = session("p9/sandra_relax/1434150573545/")
             _sessionsRtr.append(s)
-        if(_s == "p9s2"):
+        if(_s == "p9s3"):
             s = session("p9/sandra_relax3/1435619278734/")
             _sessionsRtr.append(s)
     return _sessionsRtr
@@ -465,4 +494,4 @@ if (__name__ == "__main__"):
     if("ibi" in _signals):
         _getIBI = True
     for _s in getSessions(_data):
-        getFts(_s,gsr=_getGSR,ibi=_getIBI)
+        getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)

@@ -33,5 +33,5 @@ class IBIFeatureExtractor:
         def plot(self,_path ,_limx=None,_limy=None):
                 _title_raw = "IBI"
                 _path_raw = _path
-                m = MyPlotter(_title_raw,self._data,"Seconds","Value (seconds) ",limx=_limx,limy=_limy,_xTick=200,_yTick=1.0)
+                m = MyPlotter(_title_raw,self._data,"Seconds","Value (seconds) ",limx=_limx,limy=[0,1],_xTick=2,_yTick=1.0)
                 m.plot(_path_raw)

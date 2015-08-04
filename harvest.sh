@@ -10,7 +10,7 @@ python process.py p1 ibi > p1_ibi.csv
 python process.py p6 ibi > p6_ibi.csv
 python process.py p7 ibi > p7_ibi.csv
 python process.py p9 ibi > p9_ibi.csv
-echo "SUBJECT,SIGNAL,PRECISION,RECALL,PRECISION,RECALL,PRECISION,RECALL" > results.csv
+echo "SUBJECT,SIGNAL,PRECISION,RECALL,PRECISION,RECALL,PRECISION,RECALL,TRAINING_SAMPLES,TEST_SAMPLES" > results.csv
 python classify.py p1.csv >> results.csv csv
 python classify.py p1_gsr.csv >> results.csv csv
 python classify.py p1_ibi.csv >> results.csv csv
