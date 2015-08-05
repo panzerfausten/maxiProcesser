@@ -31,13 +31,12 @@ class IBIFeatureExtractor:
                 _sdsd = numpy.std(_succ_diffs)
 		self._IBIFeatures = [_min,_avg,_sd]
 		return self._IBIFeatures
-        def plot(self,_path ,_limx=None,_limy=None,_session=None,_xTick=200,_xMinorTick=100):
+        def plot(self,_path ,_limx=None,_limy=None,_session=None,_xTick=2,_xMinorTick=1):
                 _title_raw = "IBI"
                 _path_raw = _path
                 fig, ax = plt.subplots()
                 index = numpy.arange(len (self._data))
                 plt.grid(True)
-                plt.plot(self._data) #plot the processed data
 
                 major_ticks = numpy.arange(0, len(self._data), _xTick)
                 minor_ticks = numpy.arange(0, len(self._data), _xMinorTick)
@@ -47,7 +46,9 @@ class IBIFeatureExtractor:
                 # or if you want differnet settings for the grids:                               
                 ax.grid(which='minor', alpha=0.2)
                 ax.grid(which='major', alpha=0.5)
-
+                if (_limy == None):
+                        _limy = [0,1.1]
+                plt.ylim(_limy)
                 #major_ticks_y = np.arange(0, 1.1, 0.2)                                              
                 #minor_ticks_y = np.arange(0, 1.1, 0.1)     
                 ax.set_xticks(major_ticks)
@@ -56,6 +57,7 @@ class IBIFeatureExtractor:
                 ax.set_ylabel("Seconds")
                 ax.set_xlabel("Seconds")
                 ax.set_title("IBI values")
+                plt.plot(self._data,color="red") #plot the processed data
 
                 if(_session != None):
                     if (_session._SRRanges != None):

@@ -1,3 +1,6 @@
+rm p*.csv
+rm p*_???.csv
+rm results.csv
 python process.py p1 gsr,ibi > p1.csv
 python process.py p6 gsr,ibi > p6.csv
 python process.py p7 gsr,ibi > p7.csv

@@ -337,12 +337,12 @@ def getFts(_s,plot=False,gsr=None,ibi=None):
                 if(gsr):
                     htr = HalfRecoveryTimeDetector(_segment1)
                     if(plot):
-                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_1",_ylim=[1,2],_xTick=2)
+                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_1",_ylim=[0,15],_xTick=2)
                     for _f in htr.extract():
                         _s1Features.append(_f)
                     htr = HalfRecoveryTimeDetector(_segment2)
                     if(plot):
-                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_2",_ylim=[1,2],_xTick=2)
+                        htr.plot("plots/GSR_"+str(_dataSR[_z])+"_"+str(_z)+"_2",_ylim=[0,15],_xTick=2)
                     for _f in htr.extract():
                         _s2Features.append(_f)
 
@@ -351,7 +351,7 @@ def getFts(_s,plot=False,gsr=None,ibi=None):
                         ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x-30:_x])
                         if(plot):
                             _path = "plots/ibi_%s_%i_1" %(_tag,_segmentNumber)
-                            ibife.plot(_path)
+                            ibife.plot(_path,_limy=[0.0,1.1])
                         for _f in ibife.extract():
                             _s1Features.append(_f)
                     except:
@@ -362,7 +362,7 @@ def getFts(_s,plot=False,gsr=None,ibi=None):
                         ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x:_x+30])
                         if(plot):
                             _path = "plots/ibi_%s_%i_2" %(_tag,_segmentNumber)
-                            ibife.plot(_path)
+                            ibife.plot(_path,_limy=[0.0,1.1])
                         for _f in ibife.extract():
                             _s2Features.append(_f)
                     except:
@@ -511,5 +511,5 @@ if (__name__ == "__main__"):
     if("ibi" in _signals):
         _getIBI = True
     for _s in getSessions(_data):
-        #getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)
-        plotSessionSR(_s,"plotSR.png")
+        getFts(_s,plot=True,gsr=_getGSR,ibi=_getIBI)
+        #plotSessionSR(_s,"plotSR.png")

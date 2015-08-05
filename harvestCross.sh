@@ -1,3 +1,8 @@
+rm p*.csv
+rm p*_???,csv
+rm test.csv
+rm training.csv
+rm resultsCross.csv
 ##GET ALL THE DATA
 python process.py p1 gsr,ibi > p1.csv
 python process.py p6 gsr,ibi > p6.csv
