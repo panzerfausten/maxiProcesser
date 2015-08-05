@@ -121,7 +121,7 @@ if __name__ == "__main__":
     #_dataB = normalize(_dataB)
     randomiceData([_dataA,_dataB])
     _dataA,_dataB = normalize(_dataA,_dataB)
-    _training,_test = calcProportion(.7)
+    _training,_test = calcProportion(.8)
     if not _csv:
         print "Data: %s" % (_file_path)
         print "     class 0 available data: %i" %(len(_dataA))

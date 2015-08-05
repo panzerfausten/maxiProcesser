@@ -91,7 +91,7 @@ class HalfRecoveryTimeDetector:
 					
 		else:
 			raise Exception("You must to call detect() first")
-	def plot(self,figname,_ylim=None,_xlim=None,_xTick=1,_xMinorTick=1):
+	def plot(self,figname,_ylim=None,_xlim=None,_xTick=1,_xMinorTick=1,_session=None):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
 		plt.grid(True)
@@ -143,6 +143,18 @@ class HalfRecoveryTimeDetector:
 		plt.plot(_risingsToPlotX,_risingsToPlotY,  color='y',marker="o",markersize=5,linestyle='None')
 		#overplot the hrt
 		plt.plot(_hrtToPlotX,_hrtToPlotY, color='m',marker="x",markersize=5,linestyle='None')
+
+                if(_session != None):
+                    if (_session._SRRanges != None):
+                            for _i,_c in enumerate(_session._SRRanges):
+                                    if(_c[0] == '0'):
+                                        ax.axvspan(_c[1],_c[2],color="green",alpha=1)
+                                    if(_c[0] == '1'):
+                                        ax.axvspan(_c[1],_c[2],color="red",alpha=1)
+                                    if(_c[0] == '-1'):
+                                        ax.axvspan(_c[1],_c[2],color="gray",alpha=.7)
+
+
 		#save it! Because.. humans
 		plt.savefig(figname)
         def toJson(self):

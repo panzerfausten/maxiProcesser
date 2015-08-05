@@ -317,7 +317,7 @@ def generateAlbumScript(subjects):
 
 def getFts(_s,plot=False,gsr=None,ibi=None):
     _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
-    _dataAvgBySecIBI = _s._dataZEPHYR_IBI
+    _dataAvgBySecIBI = filter(None,_s.groupBySec(_s._dataZEPHYR_IBI,True,False))
     _dataSR = _s._dataSR
     _s = -1
     _features =[]
@@ -347,23 +347,40 @@ def getFts(_s,plot=False,gsr=None,ibi=None):
                         _s2Features.append(_f)
 
                 if(ibi):
-                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x-30:_x])
-                    if(plot):
-                        _path = "plots/ibi_%s_%i_1" %(_tag,_segmentNumber)
-                        ibife.plot(_path)
-                    for _f in ibife.extract():
-                        _s1Features.append(_f)
-                    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x:_x+30])
-                    if(plot):
-                        _path = "plots/ibi_%s_%i_2" %(_tag,_segmentNumber)
-                        ibife.plot(_path)
-                    for _f in ibife.extract():
-                        _s2Features.append(_f)
+                    try:
+                        ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x-30:_x])
+                        if(plot):
+                            _path = "plots/ibi_%s_%i_1" %(_tag,_segmentNumber)
+                            ibife.plot(_path)
+                        for _f in ibife.extract():
+                            _s1Features.append(_f)
+                    except:
+                        _s1Features.append(0)
+                        _s1Features.append(0)
+                        _s1Features.append(0)
+                    try:
+                        ibife = IBIFeatureExtractor(_dataAvgBySecIBI[_x:_x+30])
+                        if(plot):
+                            _path = "plots/ibi_%s_%i_2" %(_tag,_segmentNumber)
+                            ibife.plot(_path)
+                        for _f in ibife.extract():
+                            _s2Features.append(_f)
+                    except:
+                        _s2Features.append(0)
+                        _s2Features.append(0)
+                        _s2Features.append(0)
                 _features.append(_s1Features)
                 _features.append(_s2Features)
                 break
     for _f in _features:
         print ",".join(map(str,_f))
+def plotSessionSR(_s,path):
+    _dataGSR = _s.groupBySec(_s._dataGSR,True,False)
+    _dataAvgBySecIBI = _s.groupBySec(_s._dataZEPHYR_IBI,True,False)
+    htr = HalfRecoveryTimeDetector(_dataGSR)
+    htr.plot(path,_session=_s,_ylim=[0,15],_xTick=200,_xMinorTick=100)
+    ibife = IBIFeatureExtractor(_dataAvgBySecIBI[1:])
+    ibife.plot("plotIBI.png",_limy=[0,1.1],_session=_s)
 def getSessions(_sessions):
     _sessionsRtr = []
     for _s in _sessions:
@@ -494,4 +511,5 @@ if (__name__ == "__main__"):
     if("ibi" in _signals):
         _getIBI = True
     for _s in getSessions(_data):
-        getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)
+        #getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)
+        plotSessionSR(_s,"plotSR.png")

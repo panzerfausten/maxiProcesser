@@ -13,6 +13,7 @@ class session:
 		self.readSessionMetadata()
 		self.readAllDataTypes()
 		self.sanitizeAllData()
+                self.getSRRanges()
 	def initFiles(self):
 		"""Finds the files in the selected folder"""
 		self._dirList = os.listdir(self._path)
@@ -404,6 +405,18 @@ class session:
 				_x += 1
 			return _maxs
 		return _data
+        def getSRRanges(self):
+                if(self._dataSR != None):
+                    self._SRRanges = []
+                    _dataGSR = self.groupBySec(self._dataGSR,True,False)
+                    for _z in range(0,len(self._dataSR)):
+                            for _x,_d in enumerate(_dataGSR):
+                                    if((_x / 60.)  == _z+1.5):
+                                        _segment1 = [str(self._dataSR[_z]),_x-30,_x]
+                                        _segment2 = [str(self._dataSR[_z]),_x,_x+30]
+                                        self._SRRanges.append(_segment1)
+                                        self._SRRanges.append(_segment2)
+                                        break
 ########################N1
 if(__name__ == "__main__"):
 	u = u'\u00B5'
