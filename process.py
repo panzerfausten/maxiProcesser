@@ -511,5 +511,5 @@ if (__name__ == "__main__"):
     if("ibi" in _signals):
         _getIBI = True
     for _s in getSessions(_data):
-        getFts(_s,plot=True,gsr=_getGSR,ibi=_getIBI)
+        getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)
         #plotSessionSR(_s,"plotSR.png")
