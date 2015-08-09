@@ -91,7 +91,7 @@ class HalfRecoveryTimeDetector:
 					
 		else:
 			raise Exception("You must to call detect() first")
-	def plot(self,figname,_ylim=None,_xlim=None,_xTick=1,_xMinorTick=1,_session=None):
+	def plot(self,figname,_ylim=None,_xlim=None,_xTick=1,_xMinorTick=1,_session=None,_title=None):
 		fig, ax = plt.subplots()
                 index = np.arange(len (self._gaussianData))
 		plt.grid(True)
@@ -99,8 +99,11 @@ class HalfRecoveryTimeDetector:
             
 		#set axis. Nazi axis?
 		ax.set_ylabel("uS")
-                ax.set_xlabel("Seconds")
-                ax.set_title("GSR: Peak and Half Time Recovery detection")
+                ax.set_xlabel("Segundos")
+                if(_title == None):
+                    ax.set_title("GSR: Deteccion de picos y HTR.")
+                else:
+                    ax.set_title(_title)
                 # major ticks every 200, minor ticks every 100
                 major_ticks = np.arange(0, len(self._data), _xTick)                                              
                 minor_ticks = np.arange(0, len(self._data), _xMinorTick)     

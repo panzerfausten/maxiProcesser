@@ -5,7 +5,8 @@ import os
 import MyPlotter
 import numpy as np
 from sklearn import preprocessing
-
+from datetime import datetime
+from datetime import timedelta
 class session:
 	def __init__(self,folderPath):
 		self._path = folderPath
@@ -417,145 +418,13 @@ class session:
                                         self._SRRanges.append(_segment1)
                                         self._SRRanges.append(_segment2)
                                         break
-########################N1
-if(__name__ == "__main__"):
-	u = u'\u00B5'
-	s = session("n1/e3/n1/1425332915304/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session test 1",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n1/plots/GSR_1")
-
-	#HR
-	print s._positiveBVP[50:73]
-	print "\n"
-	_data_slide = s.groupBySec(s._positiveBVP,True)
-	print s._cleanHR[50:73]
-	m = MyPlotter.MyPlotter("Clean HR full session test 3",_data_slide,"Seconds","HR value")
-	m.plot("n1/plots/HR_1")
-
-	#HR ZEPYHR
-
-
-	s = session("n1/e3/n1_2/1425334248275/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session test 2",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n1/plots/GSR_2")
-
-	s = session("n1/e3/n1_3/1425335647100/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session test 3",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n1/plots/GSR_3")
-
-
-
-	#######################N2
-	#plot sample
-	s = session("n2/n2_sample/1425405680330/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session SAMPLE",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n2/plots/GSR_sample")
-
-
-	#plot HR from stage1
-	_data_slide = s.groupBySec(s._positiveBVP,False,_max=True)
-	m = MyPlotter.MyPlotter("Clean HR session SAMPLE",_data_slide,"Seconds","HR value")
-	m.plot("n2/plots/HR_SAMPLE_1")
-
-
-
-	#plot stage1
-	s = session("n2/n2_1/1425406094608/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 1",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n2/plots/GSR_1")
-
-
-	#plot HR from stage1
-	_data_slide = s.groupBySec(s._positiveBVP,False,_max=True)
-	m = MyPlotter.MyPlotter("Clean HR full session test 1",_data_slide[850:900],"Seconds","HR value")
-	m.plot("n2/plots/HR_1")
-
-
-
-	#plot HR ZEPHYR from stage1
-	_data_slide = s.groupBySec(s._dataZEPHYR_HR,True,False)
-	m = MyPlotter.MyPlotter("HR from Zephyr full session test 1",_data_slide[60:120],"Seconds","HR value")
-	m.plot("n2/plots/HR_ZEPHYR_1")
-
-
-	#plot GSR from stage 2
-	s = session("n2/n2_2/1425407232389/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 2",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n2/plots/GSR_2")
-
-
-
-	#plot GSR from stage 3
-	s = session("n2/n2_3/1425408677098/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 3",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n2/plots/GSR_3")
-
-
-	#######################N3
-	s = session("n3/n3_sample/1425409979748/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session SAMPLE",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n3/plots/GSR_sample")
-
-	s = session("n3/n3_1/1425410684040/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 1",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n3/plots/GSR_1")
-
-	s = session("n3/n3_2/1425411806445/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 2",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n3/plots/GSR_2")
-
-	s = session("n3/n3_3/1425413219572/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 3",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n3/plots/GSR_3")
-	#######################N4
-	s = session("n4/n4_sample/1425424011391/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session SAMPLE",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n4/plots/GSR_sample")
-
-	s = session("n4/n4_1/1425424406612/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 1",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n4/plots/GSR_1")
-
-	s = session("n4/n4_2/1425425734089/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 2",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n4/plots/GSR_2")
-
-	s = session("n4/n4_3/1425427210413/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 3",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n4/plots/GSR_3")
-	#######################N4
-	s = session("n5/n5_sample/1425492334386/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session SAMPLE",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n5/plots/GSR_sample")
-
-	s = session("n5/n5_1/1425492729555/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 1",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n5/plots/GSR_1")
-
-	s = session("n5/n5_2/1425494040887/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 2",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n5/plots/GSR_2")
-
-	s = session("n5/n5_3/1425495483937/")
-	_data_slide = s.groupBySec(s._dataGSR,True)
-	m = MyPlotter.MyPlotter("GSR full session 3",_data_slide,"Seconds","Avg Value "+u)
-	m.plot("n5/plots/GSR_3")
-
+        def getDataAtTime(self,_dataToGet,_time,_delta=29):
+            _data =[]
+            _d = timedelta(seconds=29)
+            for _gsr in _dataToGet:
+                _dataTime = datetime.fromtimestamp(float(_gsr[0]))
+                if ((_dataTime - _time).seconds <= _delta):
+                    _data.append(_gsr)
+                else:
+                    break
+            return _data

@@ -1,0 +1,507 @@
+#0:00:37.1# Pcd: Pue sí pero yo no quería venir	1
+#0:00:39.9#Pcd: Nomás  vengo por mis galetas y mi coca eee!! hola 	1
+#0:00:42.8#Participante: Hola	2
+#0:00:43.4#Pcd: Nos vemos e	2
+#0:00:44.6#Participante: Risa	2
+#0:00:44.7#Pcd: Me voy e 	2
+#0:00:45.5# Participante: Noooo	2
+#0:00:46.0# Investigador 2: No pero siéntese, siéntese 	2
+#0:00:47.5#Pcd: ¿Y por qué se está comiendo mis galletas ?	1
+#0:00:50.0#Participante: No me las estoy comiendo	1
+#0:00:51.4#Pcd: Sí yo lo vi	1
+#0:00:52.5#Participante: Nooo	1
+#0:00:53.2#Yo estba allí en la ventana porque  andaba cuidando mis, mis pollos del gato	1
+#0:00:59.6#Pcd:  Y lo vi que se estaba  come y come mis galletas 	1
+#0:01:02.8#Participante: Nooo la estaba comiendo, la estaba esperando aquí porque me dijo ??? que iba a venir 	1
+#0:01:06.4#Pcd: No pero no quiero jugar	1
+#0:01:07.6#Participante: Noo vamos a jugar, vamos a organizar unass tarjetas 	1
+#0:01:12.6#Pcd: Noo, tampoco quiero hacer eso	1
+#0:01:14.1#Participante: ¿No?	2
+#0:01:15.4#Pcd: Quiero irme con mi mamá, me fui a buscarla, por eso me tade porque fui a buscar a mi mamá	2
+#0:01:22.3#Pcd: Y además de eso tengo que cuidar los pollos 	2
+#0:01:25.1#Participante: ¿si? pero 	2
+#0:01:25.5# Pcd: Porque se los anda comiendo el gato 	2
+#0:01:28.4#Participante: No, no hay, lo andan cuidando para que no se los coman	2
+#0:01:31.7#Pcd: Mire y hasta mi soda se tomó	2
+#0:01:33.5#Participante: No, no lo tomé	2
+#0:01:34.4#Pcd: Entonces fue la mushasha que estaba aquí	2
+#0:01:37.1#Participante: A lo mejor sí, peero ya la corrí para que no, para que no volviera	2
+#0:01:41.1#Pcd: Mm¿Ahí está sentada?	2
+#0:01:43.4#Participante: Pero está sentada por tomarse su soda	2
+#0:01:47.9#Participante: Entonces lo que vamos hacer ahora es vamos a tomar una tarjeta, mire	2
+#0:01:51.8# Participante: Aquí están unos pollos	2
+#0:01:53.3#pcd: No pero no quiero ver esos pollos 	2
+#0:01:54.5#Participante: No le gustan los pollos?	2
+#0:01:55.8#No, quiero ver los mios los que están allá afuera	2
+#0:01:58.5#Participante: ¿si?	2
+#0:01:58.9#Pcd: ¿Qué no entiende?	2
+#0:01:59.9#Participante: Vamos a sacarlos a ver que sale aver si que sale a ver si...	2
+#0:02:02.2#Pcd: Pues sáquela 	2
+#0:02:03.6#Participante: Yo ya saqué ésta 	2
+#0:02:05.2#Pcd: Pues saque otra 	2
+#0:02:06.6#Participante: ¿saco otra?	2
+#0:02:07.6# Pcd: ¿Y que espera?	2
+#0:02:09.7#Participante: Mire unos tigres	2
+#0:02:12.1#Pcd: Pues saque otra	2
+#0:02:13.7#Participante: A Usted lo  va a sacar	2
+#0:02:16.2#Pcd: Yo tengo que sacar?	2
+#0:02:17.3# Participante: Mmju	2
+#0:02:18.0#Pcd: Nooo, ¿Y porque yo?	2
+#0:02:19.3#Participante: Porque me va ayudar	2
+#0:02:20.1# Pcd: Noooo, yo me voy a poner a llorar y llorar	2
+#0:02:23.4#Participante: nooo, no hace falta	2
+#0:02:24.1# Sí porque uste, uste me está castigando 	2
+#0:02:26.8#Participante: Nooo	2
+#0:02:27.2#Pcd:  si sigue así yo le voy a pegar con mi bordón 	2
+#0:02:30.4#Participante:Incomprensible 	2
+ #0:02:31.5#Y luego le voy a hacer un chipote aquí y otro acá  (toca su frente )	1
+#0:02:34.4#Participante: Dos?	1
+#0:02:35.3# Pcd:Sí	1
+#0:02:40.1#Participante:  ¿Qué son, unos conejos ?	1
+#0:02:42.7#Pcd:  Ahí está (incomprensible )	1
+#0:02:43.0#Pcd: Ese juego ya me lo sabía yo	1
+#0:02:45.3#Participante: Ya lo sab... ah entonces vamos a terminar más rápido	1
+#0:02:47.2#Pcd: Nooo, pos yo no quiero jugar ese juego	1
+#0:02:49.6#Participante: Pero si ya se lo sabe pues a lo mejor más rápido...	1
+#0:02:51.2#Pcd:  Quiero jugar otro jugo 	1
+#0:02:53.5#Pcd: Quiero jugar el otro	1
+#0:02:55.3#Participante: vamos, voy  a sacar el otro, este a ver vamos a  sacar uno 	1
+#0:02:59.9#Pcd: noooo	1
+#0:03:00.9#Participante:  Hora usted, sí	1
+#0:03:04.9#Participante: Ahí está (incomprensible)	1
+#0:03:05.0#Ya ve, paque quiere tanto pollo si yo nomás tengo dos 	1
+#0:03:09.0#Participante: Pues por eso aquí están dos 	3
+#0:03:10.2#Pcd: Noooo, no yo no quiero, me quiero ir ya 	3
+#0:03:13.1#Participante: No, ya, terminamos y ya  acomodarlos así y ya nos 	3
+#0:03:19.2#Pcd: Mmm ss, que poquita soda me dejaron 	3
+#0:03:23.6#Participante: Risa	3
+#0:03:23.8#Pcd:  quiero irme con mi mamá	3
+#0:03:25.1#Participante: Noo vamos a sacar  (incomprensible)	3
+#0:03:26.5#Pcd: Nooo  ya le dije ya me quiero ir 	3
+#0:03:27.8# Participante: Incompensible	3
+#0:03:29.0#Participante: Vamos a esta otra...	3
+#0:03:31.5#Pcd:  Uste ya sabe que  (incomprensible )estar preguntandome 	3
+#0:03:36.8#Pcd: Ahí está, ahí está otra	3
+#0:03:39.4#Pcd: Mamá, ven por mí!!!, mamá ven por mí	3
+#0:03:42.7#Participante: Sí, pues nos  dijeron que ya ahorita que terminemos ya va ir a buscar a su mamá 	3
+#0:03:46.6#Pcd: No, yo no quiero terminar	1
+#0:03:48.4#Participante: ¿No?	1
+#0:03:49.3#Pcd: No no estoy jugando	1
+#0:03:51.2#Participante: Estamos organizando las cartas, estamos acomodando como deben de ir 	1
+#0:03:54.9#Pcd: nooo, 	1
+#0:03:55.2#Participante: Los pollos con los pollos, los tigres con los tigres, los conejos con los conejos	1
+#0:03:59.1#Pcd: Y pa qué quiere tanto conejo?	1
+#0:04:01.8#Participante: bueno...	1
+#0:04:02.0#Pcd: Y pa qué quiere tanto tigre	1
+#0:04:03.8#Participante: Pues así están...	1
+#0:04:05.3#Pcd: No, no, yo no quiero, yo no quiero  	1
+#0:04:08.4#¿No?	1
+#0:04:09.2#Pcd: No	1
+#0:04:11.6#pcd: Yo quiero, yo no quiero jugar	1
+#0:04:13.7#pcd: Le voy a pegar si no, si no me deja jugar	1
+#0:04:17.2#Pcd:No ya no quiero jugar 	1
+#0:04:19.6#Participante: Pues si está...	1
+#0:04:20.8#Pcd: No, no me gustaron no me gustaron vuelvalos hacer otra vez 	1
+#0:04:25.2#Participante: Yo los vuelvo hacer no se preocupe 	1
+#0:04:26.9#Pcd: No no me preocupo	1
+#0:04:28.3#Participante: Ya están 	1
+#0:04:28.7#Pcd: No tengo porque preocuparme	1
+#0:04:29.9# Participante: ¿No?	1
+#0:04:30.7#Pcd: No	1
+#0:04:31.4#Participante: Nomás estamos aquí acomodando las terjetas...	1
+#0:04:34.0#Pcd: No, no me gustan esas tarjetas 	1
+#0:04:35.4#Participante: Ahí están los tigres, están los conejos, y si saca otra a ver si le gusta la otra que haya	1
+#0:04:39.9# Pcd: ¿Cuál  haya ?	1
+#0:04:41.1#Participante: Otra, otra que  (incomprensible) a ver si le gusta 	1
+#0:04:44.9#no me gustó tampoco	1
+#0:04:45.7#Participante: ¿no?	1
+#0:04:46.6#Pcd: No	1
+#0:04:46.8#Por qué no?, son dos changuitos 	1
+#0:04:48.8#Pcd: No, menos porque es un chango	1
+#0:04:50.9#Participante: ¿No?	1
+#0:04:52.3#Pcd: No	1
+#0:04:52.6#Participante: Y si sacamos otra a ver si hay uno que le guste 	1
+#0:04:54.3#Pcd: No	1
+#0:04:55.1#Participante: ¿Qué animalito le gusta?	1
+#0:04:55.6#Pcd: Ninguno	1
+#0:04:56.2#Participante: Aquí hay pollos, le gustan los pollos 	1
+#0:04:57.6#Pcd: Mis pollos me gustan pero allá los tengo afuera 	1
+#0:05:02.5#Participante: Esa a dónde va?	1
+#0:05:04.7#Pa qué, si sabe a donde va, paque me pregunta 	1
+#0:05:07.1#Pues porque usted me está ayudando	1
+#0:05:08.7#Pcd: No, yo no le estoy ayudando, quiero que uste lo haga solo 	1
+#0:05:12.5#Participante: Quiere, le voy hacer otra, un tigre	1
+#0:05:19.2#Participante: Ahí está 	1
+#0:05:21.1#Pcd:Ya me quiero ir, mamá!!, ¿Dónde está Antonio?, pa qué lo dejó ir ee	3
+#0:05:27.2#Participante: No, no lo dejé ir	3
+#0:05:28.2#Pcd:  Sí, uste dejí or Antonio 	3
+#0:05:30.5#Participante: No	3
+#0:05:31.1#Pcd: Sí, lo dejó ir, ya me picó un animal, ayy, aquí hay de esos que pican	3
+#0:05:39.7#Participante: ¿De esos que pican?	3
+#0:05:40.4#pcd: Sí, 	2
+#0:05:40.4#Participante: No... 	2
+#0:05:40.8#Pcd:  Si mire, aquí me mordió la mushasha esa 	2
+#0:05:44.3#Pcd: Que estaba aquí sentada	2
+#0:05:46.3#Participante: La golpeó	2
+#0:05:47.0#Pcd: Sí	2
+#0:05:47.6#Pcd: Y yo lo voy a golpear a uste 	2
+#0:05:49.6#Participante: Noo, pero yo no le hecho nada	2
+#0:05:51.3#Pcd: Bueno pero ella si me hizo a mí	1
+#0:05:53.5#Participante: Pero yo no le hice nada	2
+#0:05:54.4#Pcd: No, no, no	2
+#0:05:56.0# Yo nadamás le estoy pidiendo que me ayude a comodaR LAS TARJETAS	2
+#0:05:58.5#Participante: Pollos, tigres	2
+#0:06:08.3#Pcd: Ya las acomodé todas 	2
+#0:06:09.8#Participante: Nool si quiere las revolvemos poquito	2
+#0:06:13.4#Pcd: No, yo no las quiero revolver	2
+#0:06:15.1#Participante: Para que no..	1
+#0:06:16.0#Pcd: Aaa yo las quería como yo las queríA, porque me las revolvió	1
+#0:06:19.8#Participante: Así las teníamos	1
+#0:06:21.4#pcd: No, no las tenía así	1
+#0:06:22.9#Participante:  Las voy acomodar como  usted las tanía	1
+#0:06:23.8#Pcd: No, no las tanía así	1
+#0:06:26.4#Pcd: Ahorita le digo como las tanía yo las tenía así de otro modo 	1
+#0:06:37.2#Pcd: No, no las tenía así	1
+#0:06:38.9#Participante: No, no (incomprensible) nomás las estoy acomodando	1
+#0:06:43.2#Pcd: No las tenía así, porque como yo no quiero jugar 	1
+#0:06:47.6#pcd: Yo las tanía así, así y así y así	1
+#0:06:51.6#Participante:  Y así están más fáciles de agarrar mire ya nomás quedó uno y vamos a ver  cual es 	1
+#0:06:57.5#Participante: Conejos	2
+#0:06:59.0# Pcd: A ver  aaa	2
+#0:07:00.8#Participante: Aquí están los pollos 	2
+#0:07:01.6# Pcd: Se andan comiendo mis pollos, yo ya me voy 	2
+#0:07:04.2#Participante: No los perrito le andancuidandole (incomprensible )	2
+#0:07:05.1#Pcd: Yo ya me voy, si me detiene yo le voy a pegar 	2
+#0:07:09.2#Participante: No, no es necesario que me pegue 	2
+#0:07:11.0#Pcd: Sí	2
+#0:07:12.0#Participante: Pcd: No	2
+#0:07:12.7#Pcd:  Pa que no me detenga porque yo ya me quiero ir 	3
+#0:07:16.4#Participante: Noo, no hace falta 	3
+#0:07:16.4#Pcd:  Ya me quiero ir 	3
+#0:07:18.4#Pcd: Ya me voy 	3
+#0:07:19.6#Participante:  Vamos a 	3
+#0:07:21.6#Pcd: Ya seaqué otro	3
+#0:07:23.4#Participante: De donde quiere que saque uno?	3
+#0:07:24.4#Pcd: Pues de donde uste quiera 	3
+#0:07:33.2#Pcd: Ya me quiero ir	3
+#0:07:35.7#Participante: Ya casi terminamos mire solo  quedan poquitos 	3
+#0:07:37.7#Pcd: Bueno pues ya vamonos porque se está comiendo mis galletas y ya no me va a dejar nada	3
+#0:07:42.8#Noooo, allá usted está cuidando  de su lado 	3
+#0:07:45.0#pcd: No, no, nomás me descuido y agarra uno, se las come	3
+#0:07:50.7#Participante: Ya voy a poner mis manos aquí pa que vea que no le agarro ninguna galleta	3
+#0:07:55.1#Pcd: No, no ya me quiero ir	3
+#0:07:57.5#Participante: Ya 	3
+#0:07:57.9#Pcd: Mamá donde estás??, mamá!!!	3
+#0:07:59.9#Participante: Ya casi terminamos	3
+#0:08:00.9# Pcd: Mamá!!! mamá ven por mí	3
+#0:08:03.2#Participante: Aquí...	3
+#0:08:03.8#Pcd: Antonio, ¿dóne está Antonio?	3
+#0:08:07.1#Participante: Sigue usted	3
+#0:08:07.8#Pcd: ¿Dónde fue Anronio? como pa queé sigo	3
+#0:08:10.3#Participante: De,  estamos acomodando las tarjetas 	3
+#0:08:11.9#PcdY pa que quiere acomodarlas	3
+#0:08:14.1#Participante: Porque para ponerlas en orden	2
+#0:08:15.9#Participante: ¿No le gusta que las cosas estén en ornden?	2
+#0:08:17.1#Pcd: No 	2
+#0:08:18.4#Participante: ¿no?	2
+#0:08:18.4#Pcd: Me gusta todo el desorden 	2
+#0:08:20.2#¿Todo el desorden?	2
+#0:08:21.1#Pcd: Sí	2
+#0:08:21.5#Participante:  Pues acomodamos estas 	2
+#0:08:22.7#Sí  desacomódelos todos así, así, as, así, todas desacomóddlos	2
+#0:08:28.8#Pcdd: Mire otro pollo,	2
+#0:08:29.6#Participante:  Otro pollo 	2
+#0:08:30.9#Pcd: Sí, tengo que irme a cuidar los pollos  que están allá afuera 	2
+#0:08:36.4#Participante:  Ahí ahorita está un perro cuidandolos	2
+#0:08:36.8#Nooo, anda un gato 	2
+#0:08:38.7#Participante:  Por eso	2
+#0:08:39.6#Pcd:  Y el gato ataca a los perros	2
+#0:08:41.7#Participante:  Nooo, los perros atacan a los gatos para cuiidar a los pollos 	2
+#0:08:44.5#Pcd: nooooo	2
+#0:08:49.6#Participante:  Otro pollo, otro pollo	2
+#0:08:55.3#Ahí está 	2
+#0:08:56.4#Participante:   Noooo (incomprensible)	2
+#0:08:59.1#Pcd:  Nooo, de todas es mejor 	2
+#0:09:01.8#Participante:  Pero si no vamos a poder tomar las (incomprensible) vamos hacer otras	2
+#0:09:04.8#Participante:  ¿Así le gusta?	2
+#0:09:06.3#Pcd: Sí, así, así me gusta 	2
+#0:09:08.1#Pcd: De vuelta, oye el pollo me llama que quiere que me valla para allá 	2
+#0:09:13.7#pcd: Le voy a pegar a uste	2
+#0:09:15.2#Participante:  Noo, no	2
+#0:09:16.2#Pcd: Porque me cae mal	2
+#0:09:17.3#Participante:  ¿Le caigo mal?	2
+#0:09:18.0#Pcd: Sí	2
+#0:09:18.3# Participante:  Pero yo no le hecho nada	2
+#0:09:19.3#Pcd: Sí, me está haciendo que trabaje, y yo no quiero trabajar 	2
+#0:09:22.6# Participante: -Estamoshaciendolo los dos (incomprensible)	2
+#0:09:27.0# Participante: agarre una y es otro conejo	2
+#0:09:29.4#Pcd: Ya acabé ya me voy 	2
+#0:09:31.9# Participante: No mire quedan poquitas partes	3
+#0:09:34.0#pcd: No, ya son todas 	3
+#0:09:36.6#Pcd: Ya me voy, ya me voy,	3
+#0:09:38.6#Pcd: Ya es de noche y tengo sueño	3
+#0:09:40.8# Participante: Si, ya vamos a irnos, ya casi acabamos	3
+#0:09:48.2#Pcd: Tengo mucho sueño	3
+#0:09:49.6# Participante: Tene mucho sueño?	2
+#0:09:50.7#Pcd: Quiero llorar 	2
+#0:09:52.4# Participante: ¿Por qué ?	2
+#0:09:53.4#Pcd; Porque me da la gana de llorar 	2
+#0:09:55.1# Participante: Noo, no 	2
+#0:09:56.3#Pcd: Uste no le dan las ganas de llorar?	2
+#0:09:58.5# Participante: No, no	2
+#0:09:59.6#Pcd: Vamos a llorar los dos!!!	2
+#0:10:00.9#Participante:  Risa (no,no )	2
+#0:10:02.0#Pcd: ¿Porque no?, yo sí lloro 	2
+#0:10:04.3#Participante: No	2
+#0:10:05.2#Pcd:  Sí quiere que si llore 	2
+#0:10:06.2#Participante: Noo, no hay que  llorar	2
+#0:10:07.9#Pcd: Sí entonces 	2
+#0:10:10.4#Participante:  Vamos a terminar de tomar estas cartas y ya luego vamos a cuidar los pollos 	2
+#0:10:14.1#Pcd: Nooo	2
+#0:10:17.0#Pcd: Oi, tocan, ve a ver si llegó lupita o llegó mi mamá	2
+#0:10:25.0#Pcd: Y está cerrado 	2
+#0:10:26.8#Ahorita les van a ir abrir	2
+#0:10:29.0#Pcd: Ai, van ay voy yo corriendo 	2
+#0:10:32.1#Pcd: Yo puedo correr	2
+#0:10:33.7#Participante:   ¿Si?, pero no ahorita van  a ir abrir 	2
+#0:10:37.2#Pcd: No, ya me voy	3
+#0:10:38.9#Participante:   Pero ya nos quedan poquitos	3
+#0:10:43.7#Pcd: Oi, quién toca?	3
+#0:10:49.2#Pcd: A ve le voy a pegar porque no me deja ir abrir, ya me voy abrir	3
+#0:10:53.3#Participante:   No ahorita les van abrir	3
+#0:10:55.5#Pcd: Tan tocando	3
+#0:10:58.0#Participante:   No, no se escucha, ya le abrieron	3
+#0:11:00.1#pcd: voy, como que no se eschuca, que está sordo?	2
+#0:11:03.3#Participante:   mm no	2
+#0:11:04.4# Pcd: iga	2
+#0:11:05.7#Tan, tocando, toque, toque y  toque así (golpea la mesa)	2
+#0:11:13.4#Participante:   Aquí está otro pollo	2
+#0:11:15.2#Pcd: Y aquí está otro pollo y ya terminé	2
+#0:11:16.6# Participante:   pollo	2
+#0:11:18.2#pcd: Aquí está un conejo 	1
+#0:11:19.4#Participante:  Un conejo	1
+#0:11:20.4#Pcd:Aquí está un,  Ya terminé 	1
+#0:11:20.9#Participante:   Aquí está un tigre	1
+#0:11:23.2#Pcd: ya me quiero ir, ¿dónde está mi mamá?	2
+#0:11:26.2#Participante:   Ahorita vamos a ir 	2
+#0:11:28.7#Pcd: Eeee?	2
+#0:11:30.0#Qué le parece si ahora, mire como  están así, si las acomodamos por número	2
+#0:11:34.9#Pcd:  Pues acomódelo uste pos que cree que yo soy su criada?	1
+#0:11:38.1#Participante: Nooo,	1
+#0:11:39.0#Pcd: No y entonces  por qué me manda?	1
+#0:11:41.6#Participante:  No quiere ayudar con eso?	1
+#0:11:41.8#Pcd: No, yo no le quiero ayudar con ninguna 	1
+#0:11:44.0#Participante: Vamos a ponerlo así, 1, 2, 	1
+#0:11:46.6#Pcd:no pues acomodelos uste	1
+#0:11:48.7#Participante: 1, 2	1
+#0:11:52.1#Pcd: 3, 4, 5, 6, 7, yo no acomodelas, ándele	1
+#0:11:59.6#Participante: No me va ayudar?	1
+#0:12:00.6#Pcd: No, no le voy ayudar porque yo no soy su criada 	1
+#0:12:03.6#Participante:  Noo, nomás saque tantito	1
+#0:12:04.7#Pcd: No, no, 	1
+#0:12:05.0#Participante:( Incomprensicle), entonces	1
+#0:12:07.3#Participante: Yo no le voy ayudar 	1
+#0:12:09.6#Pcd: Pues uste es que sabe escribir y leer, yo no se 	1
+#0:12:12.7#Participante: pues uste me está ayudando  (incomprensible)	1
+#0:12:15.3#Pcd: Del 2	1
+#0:12:17.4#Participante:  Noo,	1
+#0:12:18.7#^Pcd: Sigue el 4	1
+#0:12:19.9#Segura?	1
+#0:12:21.2#Participante:  Segura	1
+#0:12:22.2#Participante:  noo, sigue el tres 	1
+#0:12:23.1# Pcd: En dónde, acomódelos, eso me gusta que obedezca 	1
+#0:12:30.4#Pcd: A uste la tiene acomodadas mire 	1
+#0:12:32.9#Pcd: No vatalle mire, ay las tiene acomodadas mire, ve	1
+#0:12:37.0#Participante:  Nooo, usted me ayudó acomodarlas 	1
+#0:12:39.0#Pcd: EEeee? sí	1
+#0:12:43.1#Participante:  (incomprensible)	1
+#0:12:44.1#Pcd: Entonces que?	1
+#0:12:45.9#Participante:  Con las que sí, estas ya están acomodadas	1
+#0:12:49.5#Pa que vea ya gané ya me voy 	1
+#0:12:51.5#Participante:  Uno, dos, tres,cuatro, cinco y seis	1
+#0:12:54.1# Pcd: Mamá ven por mí!!!!	3
+#0:12:56.7# Participante:  (incomprensible)	3
+#0:12:56.9#Pcd: Sí, ya yo ma me quiero ir 	3
+#0:13:01.5#Participante:  Ya, noo, terminamos éstos y nos vamos	3
+#0:13:03.8#Pcd: Y paqué se está comiendo mis galletas	3
+#0:13:06.1#No me las estoy, aquí tengo mis manos para que vea que  no 	1
+#0:13:08.8#Pcd: a pero por abajo las agarra  así	1
+#0:13:11.1#Participante:  No alcanzo está muy lejos	1
+#0:13:13.2#Pcd: Sí, si se las come	1
+#0:13:14.8#Participante:  ¿Cuáles quiere poner ahora?	1
+#0:13:17.2#Pcd: Ninguna	1
+#0:13:18.1#Participante:  Ninguna?	1
+#0:13:19.6#Participante:  Le gustan los pollos verdad, vamos a, a poner los polllos ahora	1
+#0:13:23.6#Pcd: No me gustan, namás que me los regalaron, tengo dos pollos	1
+#0:13:28.2#Participante:  sí?, mire aquí salió dos pollos, 	1
+#0:13:34.0#Pa que vea fíjese lo que hace uste, tiene los coinejos con los pollos 	1
+#0:13:38.4#Participante: Pues  son amigos	1
+#0:13:44.2#Pcd: Ándele empiece	1
+#0:13:45.9#Participante:  Yo empiezo?	1
+#0:13:46.8#Pcd:  Sí, pues uste es que sabe	1
+#0:13:48.4#Participante:   Y es uno y uno, yo empiezo con el uno	1
+#0:13:52.2# Pcd: Ahí está	1
+#0:13:52.8#Participante: 2, el 3, 	1
+#0:13:56.8#Pcd: Ahí está	1
+#0:13:57.6# Participante:Ahí está    el 4	1
+#0:14:01.4#Pcd: Ya me cansé	1
+#0:14:03.1#Participante:  Ya se canso?	1
+#0:14:04.5#Pcd: Sí, está muy cansado	1
+#0:14:05.5#Participante:  ¿Cómo sería más fácil?	1
+#0:14:08.5#Participante:  Ya se las acercco para que no 	1
+#0:14:11.6#Pcd: A, y porque me las va acercar a mí todas?	1
+#0:14:13.8#pcd: Sí a uste le toca 	1
+#0:14:17.5#Participante:  mmmm ¿Cuál sigue?	1
+#0:14:20.3#Participante:  4	1
+#0:14:21.4#Pcd: ¿Cuál es la que le toca a uste ?	1
+#0:14:24.9#Participante:  Me toca el 5, aquí está 	1
+#0:14:31.6#Participante:  6	3
+#0:14:37.4#Pcd: Ya no quiero jugar 	3
+#0:14:38.9#Participante:  Ya casi terminamos mire, siete	3
+#0:14:46.6#Participante:  8	3
+#0:14:50.1#Participante:  Usted las encontro más rápido que yo 	3
+#0:14:51.9#Pcd: Nooo	3
+#0:14:56.8#Pcd: ¿Cuál lde tocó ahora?	3
+#0:14:58.1#Participante:  Me toca a mí	3
+#0:14:59.3#Pcd: Sí	3
+#0:15:00.1#Pcd: Mamá ven por mí	3
+#0:15:03.1#No me oye, dónde está mi mamá?, a uste  no lo conozco	3
+#0:15:06.8#Participante:   Soy amigo de ????	2
+#0:15:08.0#Pcd: ¿Y qué está haciendo aquí?	2
+#0:15:10.0#Participante:  Vine aquí hacer...	2
+#0:15:11.3#Pcd:ni a ???? conozco yo 	2
+#0:15:13.3#Participante:  ¿No?	2
+#0:15:14.7#Pcd: No 	2
+#0:15:15.3#Participante:  Pero si ela viene con usted aquí todos los días 	2
+#0:15:16.5#Pcd:  No yo ya me quiero ir 	3
+#0:15:18.7#Pcd: Sí, porque nomás me quiere hacer preguntas, ya no le quiero contestar ni una	3
+#0:15:28.7#Participante:  No?	3
+#0:15:33.5#Pcd: Oi, el pollome está diciendo que me valla porque tiene hambre 	1
+#0:15:37.5#Participante:  ¿Si?	1
+#0:15:38.5#Pcd: Quiere comer, ya me voy eee	1
+#0:15:41.2#Participante:  Ya nos queda un timpo, ya nomás nos quda estos y los conejos y ya nos vamos	1
+#0:15:46.5#Pcd: ¿Paque  que acomoda tanto?	1
+#0:15:49.3#Participante:  ES aue así deben ir ordenadas	1
+#0:15:51.0#Pcd: No, yo no quiero que vallan ordenadas	1
+#0:15:53.6#Participante:  (incomprensible)	1
+#0:15:54.1#Pcd:Quiero que vallan desordenados que no entiende?	1
+#0:15:56.7#Participante:  Así pues desordenadas 	1
+#0:15:58.0#Pcd: Así, así, todas desordenadas, ya ya me quiero ir	1
+#0:16:03.9#Pcd: Tengo que irme porque tengo que ir a un mandado	1
+#0:16:08.6#Pcd: Sí, ya, son lasa cinco ya, me quiero ir	3
+#0:16:15.0#Participante:  Pero la van esperar	3
+#0:16:16.0#Pcd: N, no me va esperar mi mamá	3
+#0:16:18.8#Pcd: Por eso le stoy gritando, mamá, mamá!!!	3
+#0:16:23.7#Participante:  Y si terminamos de hacere sto y ya vamos a buscarla 	3
+#0:16:27.6#Pcd: Pues si tenemos que ir a buscarla porque no se donde anda 	3
+#0:16:31.3#Pcd: Aquí está una que puse yo 	3
+#0:16:34.9#Participante:  Entonces	3
+#0:16:36.5#Pcd: A uste le toca poner la otra 	3
+#0:16:38.3# Pcd: Ándele porque si no le voy a pegar, apúrele  porque si no le voy a pegar con mi bordón 	3
+#0:16:42.5#Participante:  Mejor le jugamos si gusta	3
+#0:16:44.5#Pcd:  eee, no pues si uste le toca 	3
+#0:16:46.8#Participante:   A ver entonces 	3
+#0:16:48.6#Pcd: Le doy 	3
+#0:16:50.0#Participante:   No ya, yo ya seguí para que no me pegara	3
+#0:16:57.9#Pcd: A ver	3
+#0:17:03.3#Pcd: Apúrele, apurele rápido, si no le pego 	2
+#0:17:07.2#Participante:   A no me pegue (risilla )	2
+#0:17:08.3#Pd: Cómo que no le pego, a se está riendo, cree que no le pego?	2
+#0:17:12.3#Pcd: Sí le pego	2
+#0:17:13.4#Participante:   No aquí ya, ya encontré para acá  	2
+#0:17:16.8#Pcd: Acá está tembién mire 	2
+#0:17:19.0#Pcd: Ya, si le pego	2
+#0:17:23.2#cd: A uste no le pega su mamá?	2
+#0:17:25.2#Participante:  Cuando me porto mal nomás 	2
+#0:17:26.9#Pcd: Y todo el teimpo se porta mal?	2
+#0:17:29.9#Participante:  M, noo, me porto bien para que no me pegue 	2
+#0:17:33.7# Pos que malo está que se porte bien	2
+#0:17:36.4#Si?, usted no se porta bien?	2
+#0:17:38.3# Noo, yo me porto muy mal, muy mal 	
+#0:17:41.5#Pcd: Yo, me poirto muy mal, muy mal 	2
+#0:17:43.9#Pcd: Si paque me pegue, cuando me pega me escondo	2
+#0:17:45.8#Participante:  Ya nos queda poquito quiere terminar y ya para irnos más rápido 	2
+#0:17:51.0#Pcd: Sí pòrque ya me quiero ir, ya me quiero ir porque uste se comió mis galletas  	2
+#0:17:56.8#Participante:  Nooo, ahí están sus galletas	2
+#0:17:57.8#Pcd: Nooo, eran 4	2
+#0:18:00.0#Pcd: Eran 5	2
+#0:18:01.0#Participante:  Nooo, ahí están 	2
+#0:18:03.4#Participante:  Tres 	2
+#0:18:04.5#Pcd: ¿Cómo que 3?	1
+#0:18:06.4#Pcd: No, no eran 3, eran 5 	1
+#0:18:09.2#Participante:  ¿Cinco? mire (incomprensible)	1
+#0:18:13.6#Pcd: Ye terminamos, vamonos	3
+#0:18:15.3#Participante:  Nos falta los conejos y ya nos vamos, ya ve que rápi¡do lo hicimos	3
+#0:18:17.4#Pcd: Ya vamonos 	3
+#0:18:20.9#Pcd: Vamonos, vamonos, vamoos	3
+#0:18:24.4#Pcd: ¿Dónde anda mi mamá?	3
+#0:18:27.7#Participante:  Ahorita vamos a buscarla	3
+#0:18:28.6#Pcd: El, el pollo me contesta que allá anda afuera	3
+#0:18:32.4#v Vamos a terminar entonces para ir con los pollos	3
+#0:18:35.6#Pcd: Empiece uste	3
+#0:18:38.0#Participante:  Pero ahorita empecé yo, ahora le toca	2
+#0:18:39.9#Pcd: Noo, yo fuí la que empecé promero	3
+#0:18:44.4#Pcd: Yo empecé primero apoco cree que se me olvida, se le olvida a uste que no sabe nada 	3
+#0:18:51.9#mMMMParticipante:  UNO	3
+#0:18:56.1#Pcd: Apúrele, apúrele, que vot¡y de prisa, ya me quiero ir, ya me quiero ir (golpea el pizo con su bordón)	3
+#0:19:01.6#Participante: Aquí hay uno	3
+#0:19:07.9#Pcd: Ya me quiero ir 	3
+#0:19:11.4#Participante:  Si lo hace más rápido....	3
+#0:19:14.1#Pcd: Sí, pues uste es que  lo debe hacer más rápido	3
+#0:19:17.6#Pcd: Yo no, yo ya hice dos, le toca hacer dos a uste	3
+#0:19:21.7#Participante:  Estamos haciendo una y una y una e	3
+#0:19:23.6#pcd: Noo, yo hice dos	3
+#0:19:29.1#Participante:  Aquí está una	3
+#0:19:30.2#Pcd: Nooo	3
+#0:19:31.2#Participante:  Esta no va?	3
+#0:19:33.0#Pcd: Noooo 	3
+#0:19:34.4#Pcd: Apúrele, no le estoy diciendo que le apure?	3
+#0:19:36.7#Participante:  ¿Cuál sigue?	3
+#0:19:38.6#Pcd: El 5	3
+#0:19:39.5#Participante:   El 5?	3
+#0:19:41.1#Participante:  Pero  vamos en el 3, que no	3
+#0:19:43.9#Participante:  1,2,3,4	3
+#0:19:46.7#Pcd: Es no trae el 5	3
+#0:19:49.9#Participante:  no segura ? Ahí está el 5....	2
+#0:19:54.0#Bueno yo yame cansé yo ya no quiero hacer nada	2
+#0:19:56.1# Participante:  Pero ya nos queda poco,	2
+#0:19:57.4#Pcd: noo, pues hágalas uste 	2
+#0:20:00.3#Pcd: ¿Qué le custa hacerlas uste?	2
+#0:20:05.9#Pcd: YA me duele el brazo!!!! de tanto levantar cartas y cartas y cartas, e 	2
+#0:20:13.9#Participante:  Mire ya todas estas ya las acomodamos ...	2
+#0:20:16.1# Pcd: pues por eso me duele el brazo, que no está oyendo?	2
+#0:20:19.6#Participante:  Sí pero ya nomás nos queda estas y ya 	2
+#0:20:20.5#Pcd: Entonces?	2
+#0:20:22.5#Pcd: Ya esa las va a levantar uste porque yo ya no aguanto mis brazos, me duele de aquí	2
+#0:20:27.1#Pcd: Ya se me safó mi brazo 	2
+#0:20:29.7#Participante: No es ciero	2
+#0:20:30.1# Pcd: Sí de tanta carta, pesa casi 1 kilo cada carta 	2
+#0:20:34.4#Participante: Y si usa su otro brazo 	2
+#0:20:36.0# Pcd: Noo, porque con esta no puedo porque es el izquierdo 	2
+#0:20:41.8#Participante:  pero ya mire nomás  nos quedan 4 cartas 	2
+#0:20:44.4#Pcd: Pues ándele que espera	2
+#0:20:48.4#Pcd: Apúrele 	2
+#0:20:51.1#Participante: Me va seguir ayudando?	2
+#0:20:52.1# Pcd: No 	2
+#0:20:54.5#Pcd: No, porque yo ya acabé	2
+#0:20:56.5#Participante: Noo, mire todavía le queda  4 cartas 	2
+#0:20:59.3#Pcd: nooo, el pollo 	2
+#0:21:01.4#Participante: Y si las ordenamos, porque uste la revolvamos 	2
+#0:21:07.0#Pcd: Esta, yo ya nadamás esa e 	1
+#0:21:09.2#Pcd: Ya mire yo me canso de estirar la mano, yo me canso de recoger la mano	1
+#0:21:14.2#Pcd: Todo eso me hace daño y me duele aquí	1
+#0:21:17.0#Pcd: Me duele mucho aquí	2
+#0:21:19.1#Participante: no, pues es que nof¡s hace falta estirarlos más	2
+#0:21:20.9#Pcd: Noo, ya no, ya no, ya me estire mucho, todo el d{ia me tiene aquí	2
+ #0:21:25.3#Participante: entoces para que no se estire voy a ponerlos más aquí	2
+#0:21:28.4#Pcd: Ándele pues sigue uste 	2
+#0:21:30.8#Participante: Aa sigo, aquí está pues 	2
+#0:21:31.6#Pcd: Yo ya termioné	2
+#0:21:33.7#Participante: Ya ponga la última y ya...	2
+#0:21:34.9#nooopues 	2
+#0:21:36.2#Pcd:  Aaaa , póngala porque uste es bien flojo no quiere hacer nada 	2
+#0:21:39.4#Participante:  Noooo uste me ayudó	2
+#0:21:40.7#Pcd:  Nooo, ya me quiero ir mamá dónde estas?	3
+#0:21:45.3#Pcd: Dónde está mi  mamá?	3
+#0:21:47.9#Ahorita ????, le va ayudar para que vallan a buscarla	3
+#0:21:51.1#Pcd: ¿Dónde está mi mamá?	3

@@ -23,11 +23,11 @@ def readFile(_F):
                 _dataA.append(_lineF)
             elif (_lineF[0] == 1):
                 _dataB.append(_lineF)
-            elif (_lineF[0] == 2):
+            elif (_lineF[0] == -3):
                 _dataC.append(_lineF)
             elif (_lineF[0] == 3):
                 _dataD.append(_lineF)
-        return _dataA,_dataB
+        return _dataA,_dataB,_dataC
 def convertLine(_line):
     _l = []
     for _x in range(0,len(_line)):
@@ -57,6 +57,18 @@ def takeSample(_maxSample,_s=0):
             break
     _y =    [0]*_maxSample + [1]*_maxSample
     return _X,_y
+
+def takeTest():
+    #at this point, the samples are sorted
+    _nm_A =    _data_t_A
+    _nm_B = _data_t_B
+    _X = []
+    for _x, _nm in enumerate(_nm_A):
+        _X.append(_nm.tolist())
+    for _x, _nm in enumerate(_nm_B):
+        _X.append(_nm.tolist())
+    _y =    [0]*len(_nm_A) + [1]*len(_nm_B)
+    return _X,_y
 def removeLabel(_data,_tag=False):
     _dataNolabel = []
     for _d in _data:
@@ -83,15 +95,11 @@ def validateVector(vector):
 def randomiceData(data):
         for d in data:
                 shuffle(d)
-def normalize(_dataA,_dataB):
-    x = np.array(_dataA)
-    y = np.array(_dataB)
-    return preprocessing.scale(x), preprocessing.scale(y)
-    #norm1 = x / np.linalg.norm(x)
-    #norm2 = normalize(x[:,np.newaxis]).ravel()
-    #_x_scaled =preprocessing.scale(x)
-    #_resA = _x_scaled[:len(_dataA),:]
-    #_resB = _x_scaled[len(_dataA):,:]
+def normalize(_dataToNorm):
+    x = np.array(_dataToNorm)
+    return preprocessing.scale(x)
+
+    return _resA,_resB,_resC
 def saveSet(_setA,_setB):
     with open("optimalSet.csv","w") as _os:
         for _x,_l in enumerate(_setA):
@@ -108,29 +116,44 @@ def calcProportion(_p=.8):
         _testing  = _lenB - _training
     return _training,_testing
 if __name__ == "__main__":
-    _file_path = sys.argv[1]
+    _file_path = sys.argv[1] #training
     _csv = False
     try:
-        _csvRequest = sys.argv[2]
+        _testFile = sys.argv[2]
+        _csvRequest = sys.argv[3]
         if("csv" in _csvRequest):
             _csv = True
     except:
             pass
-    _dataA,_dataB  = readFile(_file_path)
+    _dataA,_dataB,_dataC  = readFile(_file_path)
+    _data_t_A,_data_t_B,_data_t_C  = readFile(_testFile)
     _dataA = removeLabel(_dataA,True)
     _dataB = removeLabel(_dataB,True)
-    #_dataA = normalize(_dataA+_dataB)
-    #_dataB = normalize(_dataB)
-    #randomiceData([_dataA,_dataB])
-    _dataA,_dataB = normalize(_dataA,_dataB)
-    _training,_test = calcProportion(.8)
+    _dataC = removeLabel(_dataC,True)
+    _data_t_A = removeLabel(_data_t_A,True)
+    _data_t_B = removeLabel(_data_t_B,True)
+    _data_t_C = removeLabel(_data_t_C,True)
+    _dataA = normalize(_dataA)
+    _dataB = normalize(_dataB)
+    _dataC = normalize(_dataC)
+    _data_t_A = normalize(_data_t_A)
+    _data_t_B = normalize(_data_t_B)
+    _data_t_C = normalize(_data_t_C)
+
+ 
+    _training,_test = calcProportion(1.0) #take all for training, ignore _test for now
+
+    if(len(_data_t_A) < len(_data_t_B)):
+        _test = len(_data_t_A)
+    else:
+        _test = len(_data_t_B)
     if not _csv:
         print "Data: %s" % (_file_path)
-        print "     class 0 available data: %i" %(len(_dataA))
-        print "     class 1 available data: %i" %(len(_dataB))
+        print "     class 0 available data: %i" %(len(_dataA)+ len(_data_t_A))
+        print "     class 1 available data: %i" %(len(_dataB)+ len(_data_t_B))
         print ""
         print "     Training elements: %i" %(_training)
-        print "     Test elements: %i" %(_test)
+        print "     Test elements: %i" %( len(_dataC))
     _rLinear = []
     _pLinear = []
     _rRbf = []
@@ -138,53 +161,9 @@ if __name__ == "__main__":
     _rPoly = []
     _pPoly = []
     for _runs in range(1,2):
-        for i, kernel in enumerate(['linear','rbf','poly']):
-             ##individual kernel
+        for i, kernel in enumerate(['rbf']):
             clf = svm.SVC(kernel=kernel)
             X,y = takeSample(_training)
             Z = clf.fit(X,y)
-            _X,_y = takeSample(_test,_training)
-            y_pred = clf.predict(_X)
-            saveSet(X+_X,y+_y)
-            cm = confusion_matrix(_y, y_pred)
-            _p = precision_score(_y,y_pred)*100
-            _r = recall_score(_y,y_pred) *100
-            if not _csv:
-                print "\n=====KERNEL: %s=====" %(kernel)
-                print cm
-                print "Precision: %f" %(_p)
-                print "Recall: %f" %(_r)
-
-            if( kernel == 'linear'):
-                _rLinear.append(_r)
-                _pLinear.append(_p)
-            if( kernel == 'rbf'):
-                _rRbf.append(_r)
-                _pRbf.append(_p)
-            if( kernel == 'poly'):
-                _rPoly.append(_r)
-                _pPoly.append(_p)
-    if not _csv:
-        print ""
-        print "LINEAR P:",np.average(_pLinear)
-        print "LINEAR R:",np.average(_rLinear)
-        print "RBF P:",np.average(_pRbf)
-        print "RBF R:",np.average(_rRbf)
-        print "POLY P:",np.average(_pPoly)
-        print "POLY R:",np.average(_rPoly)
-    else:
-        print "%.2f" % np.average(_pLinear),",","%.2f"%np.average(_rLinear),",","%.2f"%np.average(_pRbf),",","%.2f"%np.average(_rRbf),",","%.2f"%np.average(_pPoly),",","%.2f"%np.average(_rPoly)+","+str(_training)+","+str(_test)
-            #print "----CROSS-VALIDATION--"
-            #clf = svm.SVC(kernel=kernel)
-            #X,y = takeSample(_training+_test)
-            #validateVector(X)
-            #X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.5, random_state=0)
-            #Z = clf.fit(X_train,y_test)
-            #y_pred = clf.predict(X_test)
-            #scores = cross_validation.cross_val_score(clf, X, y, cv=5)
-            #print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
-            #plot(_X,_y,clf)
-            #if(_p < 60.0 and kernel =='poly'):
-            #  print "Precision decayed below 60.0 after %i runs" %(_runs)
-            #    break
-
+            for _x,_sample in enumerate(_data_t_C):
+                print str(_x),",",clf.predict(_sample)[0]

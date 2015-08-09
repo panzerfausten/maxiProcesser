@@ -423,12 +423,6 @@ def getSessions(_sessions):
             _sessionsRtr.append(s)
             s = session("p7/alfonso_relax3/1435275565320/")
             _sessionsRtr.append(s)
-            s = session("p8/angello_relax/1434066549276/")
-            _sessionsRtr.append(s)
-            s = session("p8/angello_relax2/1434668094145/")
-            _sessionsRtr.append(s)
-            s = session("p8/angello_relax3/1435708008150/")
-            _sessionsRtr.append(s)
             s = session("p9/sandra_relax/1434150573545/")
             _sessionsRtr.append(s)
             s = session("p9/sandra_relax3/1435619278734/")
@@ -550,19 +544,12 @@ if (__name__ == "__main__"):
     _signals = _signals.split(",")
     _getGSR = False
     _getIBI = False
-    _fSession = False
-    try:
-        if(sys.argv[3] == "-fs"):
-            _fSession = True
-    except:
-        pass
+    _fSession = True
     if("gsr" in _signals):
         _getGSR = True
     if("ibi" in _signals):
         _getIBI = True
+    print _data
     for _s in getSessions(_data):
-        if not _fSession:
-            getFts(_s,plot=False,gsr=_getGSR,ibi=_getIBI)
-            #plotSessionSR(_s,"plotSR.png")
-        else:
-            getGSRSegments(_s,gsr=_getGSR,ibi=_getIBI)
+            print "plotting session..."
+            plotSessionSR(_s,"plotSR.png")

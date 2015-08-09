@@ -1,0 +1,581 @@
+#0:00:18.4#Pcd: Es que tengo muchos piojos y se le puede pegar	2
+#0:00:22.4#Participante: ¿Si?	2
+#0:00:22.7#Pcd: si	2
+#0:00:25.0#Participante: No, no importa	2
+#0:00:25.1#¿A quiere estár piojoso?	2
+#0:00:26.5#Participante: A Pues, después se van a caer	2
+#0:00:31.9#Pcd: No quiero, yo no quiero jugar	1
+#0:00:34.8#Participante: ¿No?	1
+#0:00:35.4#Pcd:  No	1
+#0:00:36.1#Participante: Pero va a ser bien fácil esto	1
+#0:00:38.9#Participante: No lo (incomprensible)	1
+#0:00:40.4#Pcd: No, nomás para uste sí	1
+#0:00:43.6#Participante: Ajá, lo voy hacer yo y después ested	1
+#0:00:45.8#No pero yo no quiero	1
+#0:00:48.6#Participante: Le voy 	1
+#0:00:48.9#Pcd: este día  estoy enojada 	1
+#0:00:51.1#Participante: Apoco!!, que le pasó?	1
+#0:00:53.1#Pcd: Porque no me han dado mi medecina, no , no	1
+#0:00:57.3#Participante: aa, alomejor más  tarda y se la dan 	1
+#0:00:59.5#Pcd: Y luego me pusieron este pantalón que está feo	1
+#0:01:04.5#Participante: mm, pero ya ahorita jugamos un ratito para que se distraiga y	1
+#0:01:09.0#Pcd: No quiero distraerme	1
+#0:01:10.5#Participante: no quiere	1
+#0:01:15.1#Participante: Vamos a, lo voy hacer  yo, y ya luego usted me dice si (incomprensible)	1
+#0:01:21.0#pcd: No yo no quiero, no	1
+#0:01:23.4#Participante: ¿Pero no sabe lo que vamos hacer?	1
+#0:01:26.3#Pcd: ?????, y quién es usted?	2
+#0:01:31.0#Participante: Yo soy  ????	2
+#0:01:32.7#Pcd: ¿?	2
+#0:01:33.3#Participante: ajá	2
+#0:01:33.9# Pcd: No, yo no lo conozco	2
+#0:01:35.5#Participante: No?, soy amigo de ???, me invitó para que viniera a jugar  con usted	2
+#0:01:41.3#Pcd: Pero yo no quiero jugar, quién le dijo a ella que yo quiero jugar	2
+#0:01:46.3#Participante: Pero está muy simple esto	2
+#0:01:50.3#Pcd: Pues  juegue uste	2
+#0:01:52.0#Participante: Podemos jugar los dos	2
+#0:01:57.0#Pcd: Tengo muchos piójos	2
+#0:01:58.9#Pcd: Se los voy a pegar 	2
+#0:02:00.7#Participante: no, no se me, no pasa nada	2
+#0:02:03.7#Pcd:¿Uste nunca ha tenido piójos?	2
+#0:02:05.6#Participante: Mm no	2
+#0:02:06.3#Pcd:  Es que aquí donde me tienen no me, no me  espulgan ni me peinan mire 	2
+#0:02:11.1#Pcd: mire que greñuda ando	2
+#0:02:13.9#Participante: No, pero eso no importa ahorita	2
+#0:02:17.3#pcd: En ligar de jugar, grite, dígales que me peinen	2
+#0:02:22.2#Participante: No, pero, ahorita eso va hacer más tarde	2
+#0:02:25.6#Participante: Bueno, primero vamos hacer, algo aquí   es rápido y ya luego vemos que la peinen	2
+#0:02:31.8#Participante:   y todo eso,¿ está bien?	2
+#0:02:33.2#Pcd: Y que me pinten	2
+#0:02:34.3#Participante: Ummju	2
+#0:02:34.8#pcd:  Porque voy a ir al baile. ¿No vamos?	2
+#0:02:37.5#Participante:  Sí , si me invita 	2
+#0:02:39.1#Pcd: ¿Sabe bailar?	2
+#0:02:39.8#Participante: Sí 	2
+#0:02:40.9#Pcd: A que bueno porque yo no se	2
+#0:02:42.7#Participante: Yo le enseño	2
+#0:02:43.8#Pcd: A que bien 	2
+#0:02:44.3# Participante: Pero primero vamos hacer  estos, es rápido	2
+#0:02:47.4#Pero si no me enseña,  no le  hago nada	2
+#0:02:49.8#Participante: Ummju, yo le enseño, yo lo hago primero 	2
+#0:02:52.0#Pcd: Va a bailar primero 	2
+#0:02:53.6#Participante:  (sonrisa) No primero vamos hacer esto	2
+#0:02:55.6#Participante: Primero hacemos 	2
+#0:02:56.3#Pcd: Es que yo quiero que baile primero 	2
+#0:02:59.2# Participante: ¿Y si usted me ayuda e después le ayudo yo?	2
+#0:03:04.3#Pcd: ¿A bailar?	2
+#0:03:05.8#Participante: Ummju, (risa), primero hacemos esto	2
+#0:03:07.7#Pcd: Pero necesitamos música	2
+#0:03:09.9#Participante: ¿música ?, a mire hacemos esto y ahorita vamos a por la música para bailar	2
+#0:03:16.1# Participante: Y ya luego nos vamos al baile	2
+#0:03:19.5#Participante: ¿Qué le parece?	2
+#0:03:20.7#Pcd: Pos hágalo uste	2
+#0:03:21.9#Participante: Lo voy hacer yo, y ya luego usted me ayuda	2
+#0:03:24.5#Participante:  ¿Está  bien?, tenemos éste cordonsito, está muy sencillo (incomprensible)	2
+#0:03:30.3#pcd: ¿Uste sabe dónde está Antonio?	3
+#0:03:32.7#Participante: Lo que vamos hacer ahorita es que vamos a pasar el cordoncito éste por el hoyito	3
+#0:03:38.3#Participante: Así	3
+#0:03:39.6#Pcd: No, no, yo quiero que me diga si sabe dónde está Antonio	3
+#0:03:43.1#Participante: Ee noo.	3
+#0:03:44.7#Pcd: O entonces voy a gritar 	3
+#0:03:46.0#Participante: No, no grite, no es necesario	3
+#0:03:47.9#Pcd: Sí pues pa que venga Antonio,  hacer eso, yo no puedo	3
+#0:03:51.9# Participante: ¿Por qué no puede?	2
+#0:03:52.7#Pcd: Porque me duele  mucho mis manos, me, me pegaron con una tabla	2
+#0:03:56.7#Participante: ¿Si?	2
+#0:03:57.8#Pcd:  Se me hicieron chuecos los dedos  mire con esa tabla por eso no quiero ver esa tabla 	2
+#0:04:04.9#Participante: Pero aquí nadie, nadie le va a pegar, nadie le va hacer nada , es nomás para hacer	2
+#0:04:09.7#Participante: aquí como le digo, realizamos una cruz	2
+#0:04:12.7#Participante: Pasamos el cordonsito este 	2
+#0:04:13.9#Pcd: Pues si Antono  quiere si lo hago, si no, no.	2
+#0:04:17.1#Participante: ¿No?	3
+#0:04:17.6#Pcd: No. ¿Dónde está antonio?	3
+#0:04:21.4#Participante: MMM	3
+#0:04:21.6#Pcd: ¿Y mi mamá dónde está?	3
+#0:04:24.5#Participante: La están esperando allí afuera	3
+#0:04:26.7#Pcd: Noo, no es cierto, uste es mentiroso	3
+#0:04:29.2#Participante: no	-
+#0:04:31.1#Participante: Pero, tenemos que hacer, a, habíamos dicho que   queríamos ir al baile no?	-
+#0:04:38.6#Sí, pero primero va a bailar uste aquí 	-
+#0:04:41.1#Participante: No, dijo que me iba ayudar	-
+#0:04:42.8#Participante: Y ya luego íbamos a bailar un ratito 	-
+#0:04:45.2# Participante: y ya luego iíbamos ir al baile	-
+#0:04:47.4#Pcd: ¿A bailar?	2
+#0:04:48.3#Participante: Ummmju	2
+#0:04:49.5#¿A dónbde vamos ir a bailar ?	2
+#0:04:51.2#Participante: En el baile	2
+#0:04:52.7#Pcd: ¿Y dónde está el baile?	2
+#0:04:54.6#Participante: Pero eso lo vamos hacer, ya después que usted me ayude en eso 	2
+#0:04:57.8#Participante: ¿Qué le parece?	2
+#0:05:00.0# Participante: Es muy sencillo lo quiere intentar 	2
+#0:05:03.1#Pcd: No quiero intentarlo	2
+#0:05:04.5#Participante:  ¿No?	2
+#0:05:04.9#Pcd:  me duele mis dedos mire (incomprensible)	2
+#0:05:09.2#Participante: Pero es un hilo nadamás	2
+#0:05:11.1#Pcd: Pero pesa un kilo	2
+#0:05:13.1#Participante: A  ver inténtelo	2
+#0:05:16.7#Participante: Ta sencillo mire pase aquí el hilito	2
+#0:05:20.3#Pcd: Entonces por aquí psa el hilito	2
+#0:05:28.5#Pcd: ¿Y no sale una cruz? mentiras	1
+#0:05:33.5#Participante: Es que los, páselo aquí por este	1
+#0:05:40.1#Participante: Incomprensible	1
+#0:05:44.5#Pcd: Uste está temblando porque no le gusta bailar	1
+#0:05:47.6#Participante: No, sí me gusta	1
+#0:05:48.7#Pcd: No	1
+#0:05:52.5#Participante:  Y lo va a jalar por abajo	1
+#0:05:59.2#Participante: ¿Sí está la cruz?	1
+#0:06:01.5#Pcd:  ¿Porqué le gustan las cruz?	1
+#0:06:03.6#Pcd: No, amí no me gusta	1
+#0:06:04.7#Participante: ¿No le gusta?, ¿qué le gusta?	1
+#0:06:05.5#Pcd: No, nada 	1
+#0:06:07.6#Participante: ¿Nada?	1
+#0:06:09.6#Participante: Pero mire, ya que tenemos éste así, podemos hacer un moño también	1
+#0:06:13.9# Pcd: ¿Le gustan los moños?	1
+#0:06:15.7#Pa ponérmelo en la cabeza cuando me peine?	1
+#0:06:18.0#Participante: Podría ser	1
+#0:06:20.5# Pcd: ¿Y me da ese cordón pa que me ponga  el moño en la cabeza?	1
+#0:06:23.9#Participante: ¿Le gusta ésta?, o puedo  buscar otro moñito  para el	1
+#0:06:26.9#Pcd: No, ese  megusta	1
+#0:06:28.2#Participante:  A pues con ese, entonces ya que tenemos este así	1
+#0:06:32.3#Participante: Vamos agarrar este mismo y lo pasamos por abajo	1
+#0:06:39.0#Pcd: Ya se le salió ve, que menso es	1
+#0:06:41.5#Participante: Risa, ahí está ya lo volvemos a poner	1
+#0:06:44.4#Participante: Lo metemos aquí    pasamos el otro, y lo metemos por aquí	1
+#0:06:48.8#Pcd: Oí  un pájaro cantar	1
+#0:06:51.4#Participante: Incomprensible	1
+#0:06:53.9#Participante: Y luego aquí  vamos hacer..	1
+#0:06:54.6#No, no es pájaro	1
+#0:06:56.2#No?, qué es?	1
+#0:07:01.0#Participante: Lo dejamos así (incomprensible)	1
+#0:07:05.8#Participante: Incomprensible	1
+#0:07:06.1#Pcd: Pos ahora póngamelo en la cabeza	1
+#0:07:12.2#Participante: ¿Lo quier hacer usted?	1
+#0:07:13.3#Pcd: Nooo, hágalo usted	1
+#0:07:14.2#Participante:Pero, a usted le sale más bonito que a mí	1
+#0:07:16.6#Participante: Yo digo que a usted le sale más bonito 	1
+#0:07:17.5#Pcd: Nooo, yo no se hacer  eso	1
+#0:07:20.0#Participante: Está  más  sencilllo	1
+#0:07:21.1#Pcd: No, no quiero	1
+#0:07:21.9#Participante:  Ya le mostré	1
+#0:07:23.1#Pcd: No, yo voy a tomarme mi veneno	2
+#0:07:26.1#Participante: ¿si?	2
+#0:07:26.5#Pcd: Sí	2
+#0:07:27.1# Participante:Risa	2
+#0:07:28.4#Pcd: Qué?	2
+#0:07:29.9#Participante: No	2
+#0:07:30.5# pcd: ¿No le gusta?	2
+#0:07:32.0#Pcd; No más que ag¡hora medieron bien  poquito	22
+#0:07:33.5#Participante: ¿si?, a lo mejor le dan más ahorita	2
+#0:07:38.0#Pcd: Mmm, no me pueden dar más porque me enveneno	2
+#0:07:43.3#Participante: ¿Si?, resolvemos esto  entonces?	1
+#0:07:48.0#Pcd: ¿Y si no quiero qué?	1
+#0:07:49.9#Participante: Pues habíamos dicho que hiríamos al baile nadamás que terminaramos	1
+#0:07:53.5#Pcd: Pero tiene que bailar primero aquí	1
+#0:07:55.8#Participante: Y me tiene que ayudar hacer un  monñito	1
+#0:07:58.1#Pcd: A ver (recibe la tabla)	1
+#0:08:00.7#Pcd: Yo termino de hacer el moño y usted  se pone a bailar	1
+#0:08:03.7#Participante: Mmju sí	1
+#0:08:04.3#pcd: Un zapateado	1
+#0:08:05.2#Participante:Participante:Un zapateado	1
+#0:08:07.3#¿Cómo lo (incomprensible)?	-
+#0:08:09.2#Participante: Pues así nonomás como us zapateado, tara, tara, tara	-
+#0:08:12.9#Pcd: Ok, Bueno lo va hacer e	-
+#0:08:16.1#Participante: Sí	-
+#0:08:17.2#pcd: Si no desbarato el moño y ya no le ayudo en nada	-
+#0:08:20.1#Participante: Está bien	-
+#0:08:23.1#Vamos a ver ??? baila un zapateado	-
+#0:08:27.4#Participante: Sí	-
+#0:08:35.4#Amanecí muy enojada	-
+#0:08:39.7#Pcd: Porque me tratan mal	-
+#0:08:43.5#Participante: ¿Si?, ¿cómo lo tratan?	-
+#0:08:44.7#Pcd: Toda la gente me trata mal 	-
+#0:08:47.4#Participante: Pero yo lo estoy tratandi bien ¿o no?	-
+#0:08:49.4#Pcd: No porque tiene que bailar	-
+#0:08:50.6#Participante:  Si pero ya hizo una puedo bailar 	-
+#0:08:52.9#Ándele pues,  (aplaude)	-
+#0:08:54.1#Participante:¿Me va a tararear?	-
+#0:08:56.9#Pcd: Yo le tarareo (aplaude)	-
+#0:08:57.8#Participante: Me tararea, ¿Va a bailar con migo?	-
+#0:08:59.5#Pcd: Nooo, uste solo primero	-
+#0:09:01.3#Participante: Así le tarareo	-
+#0:09:02.9#Pcd: Eso, eso, eso, bravo, bravo, la música maestro (aplaude)	-
+#0:09:07.8#Participante: Tan, tarra, tarara, 	--
+#0:09:10.7#Pcd: Eso, vge, así me gusta que me cumplan 	-
+#0:09:14.5#Pcd: ¿Así me va cumplir de llevarme a bailar?	-
+#0:09:15.8#Participante: Sí porque usted me ayudó hacer alguna 	-
+#0:09:20.0#Participante:entonces vamos hacer más  y pues..	-
+#0:09:21.4#Nooo más?	-
+#0:09:22.3#Participante: Sí	--
+#0:09:23.5#Pcd: Aaaa nooooo	-
+#0:09:25.5#Pcd: Sí es que dijimos que hacemos uno  y ya luego vamos al bailesillo  , yo ya bailé	-
+#0:09:31.2#Participante:Le abilé, entonces tenemos que hacer otros y luego seguims haciendo más cosas, ¿qué le parece?	-
+#0:09:36.5#Pcd: ¿qué, qué puede hacer más por mí?	-
+#0:09:39.7#Participante: Pues puedo, puedo vailar otra  canción si quiere 	-
+#0:09:42.4#Cante!!!	-
+#0:09:43.3#Participante: Canto	-
+#0:09:44.1#Pcd: Cante	-
+#0:09:44.4#Participante: Ok, cuando termine	-
+#0:09:45.8#Investigador 2: Cuando termine, cuando termine si	-
+#0:09:47.0#Participante: Ajá	-
+#0:09:47.0#Pcd: Eee	-
+# 0:09:47.9#Investigador 2: Hasta que termine de jugar	-
+#0:09:50.0#Participante:  Si me va a seguir ayudando entonces 	-
+#0:09:51.8#Pcd:Mmmm	-
+#0:09:54.6#Participante: Mire ahora	-
+#0:09:55.4#Pcd: Si va a canatar sí	-
+#0:09:56.4#Participante: Ajá está bien	-
+#0:09:57.1#Participante:   Mire va, lo que vamos hacer, vamos a empezar noo	-
+#0:10:01.5# Pcd: Aaaa,s  sabe que canción quiero que me cante	-
+#0:10:04.2#Participante:  ¿Cuál?	
+#0:10:04.9#Pcd: Amor eterno	
+#0:10:05.5#Participante:  A ok, pero ya que terminemos con esto	
+#0:10:08.0#Pcd: Ok	
+#0:10:09.5#Participante:  Mire, vamos a empezar éste igual así, lo pasamos por acá	
+#0:10:18.5#PParticipante:  Este lo pasamos por aquí	
+#0:10:19.9#Pcd: Y uste sígalo haciendo e	
+#0:10:21.4# Participante: Mmmju	
+#0:10:21.8#Pcd: Me gusta que trabaje	
+#0:10:23.3#Participante: Sí claro,los dos así nos vamos ayudar	
+#0:10:26.2#Participante: Y luego este lo pasamos por acá  abajo	
+#0:10:29.9#Participante: Así. este también 	
+#0:10:33.9#Participante: Y luego que ya lo tenemos así	
+#0:10:35.7#Pcd: Otro moño?	1
+#0:10:37.2#Participante: No, vamos ora cruz	1
+#0:10:39.2#Pcd: Ayy no ya deje tanto moño, no van a caer en mi cabeza	1
+#0:10:42.9#Participante:  (risa), así, dos cosas	1
+#0:10:47.3#Pcd: no ve	1
+#0:10:49.4#Pcd: ¿Y va a cantar verdad?	1
+#0:10:51.3#Participante: Sí, pero ya que lo termine	1
+#0:10:53.3#Pcd: ¿Y va cantar amor eterno?	1
+#0:10:54.6# Participante: Amor eterno	1
+#0:10:57.6#Participante: Ahora usted	1
+#0:11:04.3#Pcd: ¿Cómo se empieza la canción?	1
+#0:11:07.5#Pcd: ¿Uste la sabe?	1
+#0:11:09.0#Participante: Me se el corito que dice "amor eterno"	
+#0:11:14.0#Pcd: Aaa sí	
+#0:11:15.0#Pcd:  Yo, lloro	
+#0:11:16.6#Participante: ¿Si?	
+#0:11:16.8#Pcd: Sí, con esa canción	
+#0:11:20.1#Pcd: Fue cuando, cuando  se murió mi  mamá	
+#0:11:23.3#Pcd: A no, mentira, mi mamá ya no me acuerdo, mi mamá no se ha muerto	
+#0:11:29.0#Pcd: Mi mamá está viva	
+#0:11:32.1#Pcd: ¿Uste tiene mamá?	
+#0:11:33.9#Participante: Sí	
+#0:11:34.9#Pcd: Pues yo quiero ver a la mía	
+#0:11:37.3#Participante: mmmmm	
+#0:11:39.2#Pcd: Y me stoy apurando pa que cante eee	
+#0:11:48.8#Pcd: No le gusta que le haya puesto a bailar verdad?	
+#0:11:51.9#Pcd: Pos ahora lo voy a poner a cantar	
+#0:11:54.6#Pcd: Porque si no yo no trabajo	
+#0:11:58.4#Participante: Nooo, a muy bien hecho	
+#0:12:01.2#Participante: Muy bien, dos "X"	
+#0:12:04.4#Participante: ¿Hacemos otro?	
+#0:12:06.2#Pcd: Pero uste va a cantar primero	
+#0:12:07.2#Participante: Sí	
+#0:12:08.1#Participante: Hacemos otro y lugo es que ya vio como me ha engañado	
+#0:12:12.4#Participante:Entonces  ¿Hacemos otro?	
+#0:12:13.3#Pcd: ¿Pero va a cantar?	
+#0:12:13.9# Participante: Sí, si voy a cantar	
+#0:12:15.3#Mmju	
+#0:12:16.7#Pcd: Eterno, 	
+#0:12:16.3#Ok. Entonces vamos hacer otro	
+#0:12:20.3# Participante:Vamos hacerlo igual	
+#0:12:23.2#pcd:¿Qué no sabe hacer otra cosa?	
+#0:12:25.3# Participante: sí	
+#0:12:27.0# Participante: Pero ahorita hacemos esto, como ya está más fácil	
+#0:12:31.6# Participante: Es que si está más fácil así haciendo esto terminamos más rápido y nos vamos	
+#0:12:36.1#Pcd: Hoy no es jueves 	2
+#0:12:38.2# Pcd: Es martes 	2
+#0:12:39.2# Participante:Es martes!!	2
+#0:12:40.2# Participante: aquí alguien se equivocó entonces 	2
+#0:12:42.4#Pcd. ¿Por qué pusieron juves?	2
+#0:12:44.8#Pcd: Es martes	2
+#0:12:45.6#Participante: Es martes !!!! aa, entonces no haga caso a eso entonces	2
+#0:12:49.6#Participante:  Mire hacemos otro, para que acabemos más  rápido y ya si quiere 	2
+#0:12:53.8#Participante: No, nos digan nada y ya canto	2
+#0:12:55.5#Pcd: Ok	
+#0:12:55.4#Participante: Y así seguir trabajando	1
+#0:12:57.2#Que no están de metiches	1
+#0:12:58.8#Participante:Ok	1
+#0:12:59.4# Pcd: A mí me gusta que cante	1
+#0:13:01.1#Participante: ¿Si?	1
+#0:13:03.0#Pcd: Entonces vamos hacer otro	1
+#0:13:08.1#Participante: Vamos hacer así, yes te por aquí	1
+#0:13:29.3# Participante: y vamos hacerlo poe acá	1
+#0:13:29.9#Pcd: Tanto por allá	1
+#0:13:31.9#Participante: Mande?, para que quede bonito	1
+#0:13:35.1#Pcd: Ya ve ya se le cayó	1
+#0:13:36.6#Sí, ya está	1
+#0:13:38.2#Pcd: Antonio ¿Dónde estás?, mamá!!!, ¿Dónde está mi mamá?	3
+#0:13:42.7#Participante: Ahorita va a venir	3
+#0:13:44.0#Participante: Ahorita la llevamos, entonces está así	3
+#0:13:46.6#Pcd: Y si le hablamos a mí mamá para que lo oiga cantar?	3
+#0:13:49.7#Participante: Mmmju, sí	3
+#0:13:51.1#Pero priemero vamos a terminar esto sto aquí (incomprensible)	2
+#0:13:55.8#Pcd:Una cruz	2
+#0:13:56.8#Participante: Una cru, entonces una vez que está aquí así  esto  hacemos una cruz	2
+#0:14:04.0#Pcd: Y pa dónde se iría Antonio?	2
+#0:14:09.5#Participante:  Una "x" aquí está, entonces sería así	2
+#0:14:12.4#Participante: Dos así , y ya lugo nos queda así	2
+#0:14:19.5#Pcd: ¿Uste que está haciendo aquí ?	2
+#0:14:22.1#Participante: Mmmm, vine con usted porque es para jugar con usted un ratito	2
+#0:14:24.8#Participante: ¿Y quién lo invitó?	2
+#0:14:26.3#Participante:  y bailar,   ??????? me invitó	2
+#0:14:28.7#Pcd: Ah, y va a cantar	2
+#0:14:30.2#Participante:  mmmmju, aqué está 	2
+#0:14:31.2#Pcd: Va a cantar amor eterno	2
+#0:14:32.0#Participante:   Sí	1
+#0:14:35.2#Pcd: Entonces sí trabajo porque me hacen lo que yo quiera, porque quiero ir a bailar	1
+#0:14:40.9#Pcd: Quiero cantar, quiero jugar, no, o no quiero jugar	1
+#0:14:47.5#Pcd: No quero jugar	1
+#0:14:55.6#Pcd: No quiero jugar	1
+#0:14:57.6#Pcd: No quiero jugar	1
+#0:15:05.5#Pcd: ¿Uste ha concursado?	1
+#0:15:08.2#Participante:  Mm en qué?	1
+#0:15:09.4#Pcd: En el baile	1
+#0:15:11.0#Participante:  En el baile!!!, noooooo	1
+#0:15:12.9#Pcd: No pos que malo	1
+#0:15:14.2# Participante:   No soy tan bueno bailando	1
+#0:15:16.7#Pcd: Pos que malo	1
+#0:15:18.5#Pcd: Debería  agarrar  un concurso, e irse de gira artistica	1
+#0:15:24.2#Participante:  ¿Si?	1
+#0:15:26.5#Pcd: aquí está 	1
+#0:15:26.3#Participante:  Ok, muchas gracias, muy bien 	1
+#0:15:28.3#Pcd: Ahora sí muy bien cante	2
+#0:15:30.0# Risa	2
+#0:15:30.7#Pcd: Cante!!!, cante!!!	2
+#0:15:33.5#Participante:  Canto?, mmmm	2
+#0:15:34.5#Pcd: Ahí sentado cante	2
+#0:15:36.2#Participante:  Aquí sentado?	2
+#0:15:37.5#Pcd: No tiene que pararse porque ellos se asustan 	2
+#0:15:40.9#Pcd: ¿Sí?	2
+#0:15:41.7#Con su canto, yo no me asusto ni de su baile	2
+#0:15:44.9#Participante:  aaa ¿le gustó como bailo?	2
+#0:15:46.3#Pcd: Uuuu sí	2
+#0:15:47.0#Participante:  ¿Si?	2
+#0:15:47.5# Pcd: Le digo que está bueno pa un concurso	
+#0:15:49.4#Participante:  aaa ok, lo voy a considerar entonces 	-
+#0:15:51.9#Pcd: mmmju	-
+#0:15:53.0#Participante:  mmmju, hacemos otro?	-
+#0:15:54.3#Pcd: Noooo, va a cantar	-
+#0:15:55.1#Participante:  aaaa, voy a cantar, ¿Y si me regañan?	-
+#0:15:58.0#Participante:  Ya nomás con eso	-
+#0:15:58.4#Pcd: No, no, no lo regañan, verdad que  si cante!!!	-
+#0:16:03.0#Pcd: Si cante!!! Si cante!!!	-
+#0:16:06.1#Participante:  Si canto?	-
+#0:16:06.5#Pcd: Sí	-
+#0:16:08.0#Participante:   a ok, pero usted me va ayudar oooo	-
+#0:16:09.2#Pcd: Noo, yo no se amor eterno, 	-
+#0:16:11.3#Participante:   No?	-
+#0:16:11.5#Pcd: No	-
+#0:16:12.2#Participante:  Es que yo nadamás me acuerdo del, del  pedaso que dice "amor eterno "	-
+#0:16:16.6#Pcd: A pues uste	-
+#0:16:18.3#Participante: Inolvidable yo creo 	-
+#0:16:18.2#Pcd: Aaaa	-
+#0:16:21.8# Participante: Por tus ojitos es que no me la se	-
+#0:16:24.9#Quisiera que no se volvieran  a cerrar nunca y siempre vivir contigo	-
+#0:16:30.7#Participante: Y siempre vivir contigo	-
+#0:16:32.3#Pcd: Sí yo se que siempre vivir contigo	-
+#0:16:33.7#Participante: Incomprensible	-
+#0:16:35.4#Así, así está viviendo mi mamá 	-
+#0:16:38.1#Participante: Si?	-
+#0:16:38.4# Pcd: Conmigo	-
+#0:16:39.4#Participante:  sí?	-
+#0:16:40.1#Pcd: ummmju	-
+#0:16:43.7#Pcd: Pero ya no se sabe más!!	-
+#0:16:45.3#Pcd:  Noo, es que no me la se, no no sabía que la iba a cantar	-
+#0:16:51.1#Pcd: Pos para la otra practíquela	-
+#0:16:52.2#Para la otra practico está bien?	-
+#0:16:53.9#Pcd: Sí pero bien practicado 	-
+#0:16:55.1#Participante:  Sí bien praticado	-
+#0:16:56.5#Pcd: Sí porque ya no quiero jugar 	1
+#0:16:57.8#Participante:  Con música  y toda la (incomprensible)	1
+#0:16:59.3#Pcd:  Sí, con mariachi	1
+#0:17:01.4#Participante:  Pero para que me traigan otra vez me tiene que ayudar hacer otro 	1
+#0:17:06.5#Participante:  Porque lugo me dicen, no nomás quieres andar bailando 	1
+#0:17:09.8#Participante:   Y quieres andar cantando, pero pues no no puedes 	1
+#0:17:13.4#Pcd: Uste, uste debería ser artista 	-
+#0:17:15.9#Participante:  (risa), debería ser artista, No (risa), no	-
+#0:17:19.3#Pcd: ¿Por qué le da risa?	-
+#0:17:20.5#Participante:  Nooo, pero ser artista está muy díficil	-
+#0:17:24.4#Pcd: No, pues namás canta	-
+#0:17:25.7#Participante:  Nomás cantando y ya, y bailando noo 	-
+#0:17:27.4#Pcd: Y bailando	-
+#0:17:29.3#Pcd: Y cuando valla a cantar tiene que bailar, cuando vallla agarrar el micrófono  tiene que bailar, así, pa un lado, pa otro	-
+#0:17:37.6#Pcd: No quedese  parado como estatua no, tiene que moverse pa cantar	-
+#0:17:45.2#Pcd: Sí	-
+#0:17:45.6#Participante:  Y bailar también 	-
+#0:17:46.5#Pcd:  Y bailar también 	-
+#0:17:48.2#Participante:  Ok, Entonces hacemos otro  	-
+#0:17:50.3#Pcd:  Y ya 	-
+#0:17:51.0#Pcd: Ajá ya vimos 	-
+#0:17:51.4#Ya vimos, me toco tomarme mi mnedecina 	-
+#0:17:54.0#Participante:  Sí Y ya después para la otra 	-
+#0:17:55.9#Sí porque tengo que buscar a mi mamá, ¿Dónde está mi mamá ?	-
+#0:17:55.8#Participante:   A Ok	-
+#0:17:58.8#Pcd: Y Antoino pa donde se fue?	3
+#0:18:00.7#Participante:  Terminamos esta y ya luego vamos a buscarlo	3
+#0:18:04.6#Participante:  Está?	3
+#0:18:05.2# Pcd:  Ok	3
+#0:18:06.8#Participante:Ok mire ahora como comenzamos con cruz, con moño o como quiere empezar	3
+#0:18:12.2#Pcd: Nooo, no me gusta eso 	1
+#0:18:13.7#Participante: no?, es el último ya, ya para irnos 	1
+#0:18:16.5#Pcd: Pues ponga que quiere uste 	1
+#0:18:17.9#Participante: nooo, ok voy a poner lo que quiera, vamos a mostrar aquí	1
+#0:18:23.9#Participante: Una cruz	1
+#0:18:28.1#Participante: Vamos hacer, vamos a empezar con una "x"	1
+#0:18:30.9#Pcd: no, no me gusta la tabla 	1
+#0:18:33.1#Participante: ¿No?	1
+#0:18:33.9#Pcd: No	1
+#0:18:34.2#Participante: Pero, ya es, ya se va acabar	1
+#0:18:39.8#Participante: Para terminar y hacer lo siguiente y vengo a cantarle 	1
+#0:18:46.5#Pcd: ¿Pero deberas va  a venir?	1
+#0:18:48.2# Participante: Sí	1
+#0:18:49.5#Pcd: amor eterno	1
+#0:18:49.9#Participante: Amor eterno	1
+#0:18:52.3#Participante: Va hacer así una "x"	1
+#0:18:54.1#Pcd: Puras "x"	1
+#0:18:56.4#Participante: Puras "x", lo hacemos ok, entonces lo pasamos por aquí donde está el otro, por ahí lo pasamos  	1
+#0:19:02.8#Pcd: Otra "x"	1
+#0:19:04.5#Participante: Ummmju y este 	1
+#0:19:05.7#Pcd: Y puras  "x"	1
+#0:19:08.5#Participante: Lo pasamos por aquí (Incomprensible)	1
+#0:19:10.6#Pcd: Y a uste porque le gusta jugar ese jugo?	1
+#0:19:14.0#Participante: Porque está muy tranquilo está muy fácil	1
+#0:19:16.4#Pcd: Nooo, ta más  tranquilo que baile	1
+#0:19:19.3#Participante:  Y así (risa ) noo, pero es muy cansado (incomprensible)	1
+#0:19:24.6#Participante: Lo hacemos aquí, lo volvemos a pasar	1
+#0:19:27.2#Pcd: Eso no voy a poder hacerlo yo 	1
+#0:19:30.1#Participante: Ok, vamos hacer otro más fácil	1
+#0:19:35.6#Pcd: Ni esa tampoco	1
+#0:19:37.1#Participante: Si ahorita ya la hizo	1
+#0:19:38.7#Pcd: ¿Yo lo hice?	1
+#0:19:39.8#Participante: Mmm ju pero 	1
+#0:19:40.8# Pcd: Yo no me acuerdo 	1
+#0:19:41.5# Participante: Y yo le estoy diciendo como hacerlo	1
+#0:19:43.8#Pcd: Pero yo no me acuerdo	1
+#0:19:45.0#Participante: Ok, Vamos hacerlo desde el principio	1
+#0:19:48.6#Participante: mire, vamos agarrar el cordonsito y lo vamos a meter aquí	1
+#0:19:50.9#Participante: lo pasamos y después 	1
+#0:19:54.5#Pcd: Noo, yo quiero ver Antonio	3
+#0:19:56.9#Participante: Sí, pero ya vamos a terminar (incomprensible)	3
+#0:19:58.5#Pcd:  Si porque él se va a comer mi pollo	2
+#0:20:00.9#Participante: Ajá  ahorita va ir usted para que no se lo coma 	2
+#0:20:05.7#Noooo, tengo que tomarme mi medecina 	2
+#0:20:08.3#Participante: Ok, hacemos el último y ya, vale 	2
+#0:20:10.4#Pcd: Ummju	2
+#0:20:12.1#Participante: Entonces esto lo pasa por acá	2
+#0:20:17.1#Pcd: Que bonito trabaja e	1
+#0:20:18.9#Pcd: Siga trabajando, siga trabajando	1
+#0:20:21.7#Participante: Ahorita usted me va ayudar hacer igual 	1
+#0:20:23.9#Pcd: No pero es que yo no se	1
+#0:20:25.9#Participante:  Aqu'i les estoy, le stoy  mostrando como 	1
+#0:20:28.6#Participante:   Y ya, son dos circulos  (incomprensibles)	2
+#0:20:35.2#Pcd: axxx, no me peinaron (se rasca la cabeza), tengo que andar peinada	2
+#0:20:40.8# Pcd: Y cambiada pa cuando uste cante 	2
+#0:20:52.8#Pcd:  Mama, donde estas?, ven por mi	3
+#0:20:56.0#Pcd: Ya quiero que venga mi mama por mi	3
+#0:20:58.1#Pcd:  Porque ya me quiero ir	3
+#0:21:00.8#Pcd: Ya me quiero ir	3
+#0:21:03.6#Pcd:  Uste no se quiere ir?	3
+#0:21:06.4#Participante:  No, estoy jugando a gusto  aqui con usted	3
+#0:21:08.9#Pcd: No pero yo no estoy	3
+#0:21:10.8#Participante:  No?	3
+#0:21:10.9#Pcd: No porque...	3
+#0:21:11.9#Participante:  Pero estamos jugandon  y baile un ratito y a uste le gusto	3
+#0:21:21.3#Participante: Y  Cante mal pero intente cantar mira 	3
+#0:21:24.4#Pcd: Ya, ya dijo que era el ultimo e, yo ya me voy	3
+#0:21:28.7#Pcd:  Yo ya me voy 	33
+#0:21:30.9#Participante:   Una mas 	3
+#0:21:33.1#Pcd:  Otro mas?	3
+#0:21:33.9#Participante:   Mmmju otra mas 	3-
+ #0:21:35.1#Pcd: (Incomprensible), el otro mushasho ya se durmio?	-
+#0:21:39.7#Participante: Noo,  ahi no importa, una mas 	-
+#0:21:44.1# Participante:   Va estar  hacer bien facil usted,  si?	-
+#0:21:47.4#Pcd:  Pero uste no va a cantar?	-
+#0:21:49.5#Participante:   Si  pero es que no me laa se 	-
+#0:21:51.7#Pcd: Cual si sabe?	-
+#0:21:52.1#Participante:  Le dije que a la siguiente mire, cual me se mmmmmm?	-
+#0:22:00.4#Pcd: Uuu, ps lo piensa mucho	-
+#0:22:02.2#Participante:   Mientras yo hago uno uste piense en una  cancion para cantar y luego y ya veo si me la se	-
+#0:22:05.9#No pos  a mi me gusta mas amor eterno	-
+#0:22:10.4#Participante:   (incomprensible)	1
+#0:22:11.3#Pcd: nomas	1
+#0:22:13.9#Participante: Entonces hacemos otro supern facil, rapido y ya luego pues nos vamos y para luego cantar el siguiente 	1
+#0:22:22.3#Participante: Esta bien?	1
+#0:22:25.2#Participante:  Lo vamos hacer bien facil	1
+#0:22:28.0#Pcd: No pero ya no quiero hacer eso	1
+#0:22:30.6#Participante:   No, pero si quiere hacer algo mas dificil lugo no vamos a cabar rapido y no se va a poder ir rapido 	1
+#0:22:37.4#Participante:   Mire lo vamos a pasar nomas por aqui asi	1
+#0:22:43.4#Pcd: Pos uste sigale haciendo 	1
+#0:22:45.2#Participante:   Yo lo voy a seguir  haciendo  y uste despues me ayuda y ya nos ayudamos los todos 	1
+#0:22:49.8#Pcd:  todos?	1
+#0:22:50.3#Participante:   mmmju 	1
+#0:22:51.5#Pcd:  No 	1
+#0:22:52.4#Participante:   No?, bueno 	1
+#0:22:53.8#Pcd: Quiero que cante	2
+#0:22:55.9#Participante:   Este ya esta... 	2
+#0:22:57.7#Mama donde estas?	2
+#0:22:59.8# Participante:   Asi de facil... 	2
+#0:23:02.6#Pcd:  Y eso que significa?	2
+#0:23:04.8#Participante:   No significa nomas es para tranquilisarse  un ratito para jugar... 	2
+#0:23:10.1#Pcd: Yo estoy tranquila  	2
+#0:23:12.2#Participante:   Ha pos entonces nomas  sirve  para entretenernos 	2
+#0:23:14.1#Pcd:  Muy tranquila 	2
+#0:23:17.7#Participante:   Ya asi y asi y ya este es el ultimo  ESte es el ultimo 	2
+#0:23:20.5#Esta  diciendo desde hace hora este es el utimo	2
+#0:23:23.8#Participante:  No pero  	2
+#0:23:24.7# Pcd: Este es el ultimo y sigue y sigue noo, ya es n mucho 	3
+#0:23:35.2#Pcd: Donde esta mi mama?	3
+#0:23:39.1#Pcd:Hablele Antonio	3
+#0:23:46.0# Pcd: Uste ya se comio una de mis galletas 	3
+#0:23:48.3#Participante: Noo, no aqui he estado 	3
+#0:23:49.8#Pcd: Yom traia  habia 4	3
+#0:23:51.4#Participante: Ahi esta los cuatro 	3
+#0:23:57.2#Pcd: Aa, agarreme una 	
+#0:23:59.1#Participante: Me regala una??	3
+#0:23:59.7#Pcd:  Si	3
+#0:24:01.0#Participante: Gracias (incomprensible)	3
+#0:24:07.2#Pcd: Poque despues le sabe a uno la boca amarga 	3
+#0:24:10.5#Participante: Si?	3
+#0:24:20.3#Pcd: Busqueme Antonio	3
+#0:24:21.6#Participante: Ahorita que terminemos lo buscamos 	3
+#0:24:23.5#Pcd:  Ya voy a terminar	2
+#0:24:23.9#Participante:  Ummju si	2
+#0:24:26.5#Pcd: Queremos que  haga  Antonio para que no se valla a comer  mi pollo	2
+#0:24:32.8#Pcd:  Uste le gusta el pollo?	2
+#0:24:34.1# Participante:  Si esta rico 	2
+#0:24:35.5#Pcd: A mi no	2
+#0:24:36.3#Participante:  A uste no?	2
+#0:24:36.9#Pcd:  no	2
+#0:24:38.5#Pcd:No quiero que se lo coma	2
+#0:24:40.3#Participante: A ok	2
+#0:24:42.0#Pcd: Ya	2
+#0:24:42.4#Participante: Ya esta muchas gracias e	2
+#0:24:43.2#Pcd:  Ya,  iba a cantar	-
+#0:24:46.1#Participante: Pero le dije que no, que no me la sabia completa 	-
+#0:24:49.6#Pcd: Pues tiene que saberselo otra 	-
+#0:24:52.6#Participante: Pero usted me dijo que nadamas le gustaba esa	-
+#0:24:55.7#Pcd: Bueno a ,lo mejor oigo otra y me gusta 	-
+#0:25:01.0#Participante: Mmmmm la  de secreto de amor 	-
+#0:25:13.6#Pcd:  Y que dice eso 	-
+#0:25:15.6#Participante:  Eres secreto de amor, secreto  	-
+#0:25:17.1#Pcd:  Ese es de una novela	-
+#0:25:19.2#Participante: Si?	-
+#0:25:20.3#Pcd: Secretos de amor es de una novela	-
+#0:25:23.1#Participante:  Pero no le gusta?	-
+#0:25:23.5# Pcd: Ta bonito 	-
+#0:25:25.0# Participante: Si?	-
+#0:25:26.1#Pcd:  Se la canta a su novia 	-
+#0:25:26.6#Participante: Delante de la gente no me mires . no suspires	-
+#0:25:32.5#Pcd:  Se la canta a su novia 	-
+#0:25:34.8#Participante:  Risa	-
+#0:25:35.6# Participante: Si, porque ella le gusta tambien 	-
+#0:25:38.2#Pcd: Ayy ta bonita secretos de amor 	-
+#0:25:39.8# Participante: Si	-
+#0:25:40.4#Pcd: Otra vez que venga me la canta toda 	-
+#0:25:42.6#Participante:  Si	-
+#0:25:43.6#Pcd: Toda, toda, toda, 	-
+#0:25:45.0#Participante: Si	-
+#0:25:48.1#Pcd: La de amore terno 	-
+#0:25:49.4#Pcd: Ya me quiero ir ya me quiero ir porque, comase la galleta porque ya  no me den	-

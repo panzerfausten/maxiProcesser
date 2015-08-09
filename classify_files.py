@@ -96,12 +96,10 @@ def randomiceData(data):
         for d in data:
                 shuffle(d)
 def normalize(_dataA,_dataB):
-    x = np.array(_dataA+_dataB)
-    _resA = x[:len(_dataA),:]
-    _resB = x[len(_dataA):,:]
-    norm1 = x / np.linalg.norm(x)
-    #norm2 = normalize(x[:,np.newaxis], axis=0).ravel()
-    return _resA,_resB
+    x = np.array(_dataA)
+    y = np.array(_dataB)
+    return preprocessing.scale(x), preprocessing.scale(y)
+
 def saveSet(_setA,_setB):
     with open("optimalSet.csv","w") as _os:
         for _x,_l in enumerate(_setA):
