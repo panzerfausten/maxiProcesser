@@ -7,6 +7,26 @@ def readFile(_path):
     with open(_path,"r") as _file:
         _lines = _file.readlines()
     return  cleanFile(_lines)
+def erotion(_data):
+    _d = []
+    _se =[0]*3
+#    _se = [0,0,0,0]
+    for _x in range(0,len(_data),3):
+        _d = []
+        if(_x+len(_se) < len(_data)):
+            for _z in range(_x,_x+len(_se)):
+                _d.append(int(_data[_z][1]))
+            print _d
+            print _se
+            print "------"
+            if( _d== _se):
+                for _y in range(_x,_x+len(_se)):
+                    _data[_y][1] = 0
+            else:
+                for _y in range(_x,_x+len(_se)):
+                    _data[_y][1] = 1
+
+    return _data
 def cleanFile(_l):
     _cFile = []
     for _line in _l:
@@ -55,4 +75,6 @@ def plot(_path,_data,_xTick=200,_xMinorTick=100):
 
 _file_path = sys.argv[1]
 _data = readFile(_file_path)
+#_data = calcTimes(_data) 
+_data = erotion(_data)
 plot("app.png",calcTimes(_data))
