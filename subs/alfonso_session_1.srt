@@ -1,0 +1,1064 @@
+2
+0:00:00,000 --> 0:0:1,000
+  Investigador 2: (Incomprensible)
+
+3
+0:00:02,000 --> 0:0:2,000
+ Participante: Hola
+
+4
+0:00:03,000 --> 0:0:6,000
+ (Incomprensible)
+
+5
+0:00:07,000 --> 0:0:9,000
+  Participante:Buenas tardes
+
+6
+0:00:10,000 --> 0:0:13,000
+  Investigador 2: El se llama *****? y el se llama*****?
+
+7
+0:00:14,000 --> 0:0:15,000
+******?
+
+8
+0:00:16,000 --> 0:0:19,000
+ Investigador 2:Aquí le voy a poner sus galletitas ok!!
+
+9
+0:00:20,000 --> 0:0:24,000
+ Pcd:  Mis galletitas
+
+10
+0:00:25,000 --> 0:0:26,000
+ Pcd: Usted si sabe jugar?
+
+11
+0:00:27,000 --> 0:0:27,000
+ Participante: Sí!! yo sí!!
+
+12
+0:00:28,000 --> 0:0:29,000
+ Pcd:  A pues bien
+
+13
+0:00:30,000 --> 0:0:34,000
+  Participante :  A Ahorita vamos a enseñarnos los dos a practicar un rato
+
+14
+0:00:35,000 --> 0:0:38,000
+ Pcd: Pero si no se, pues entonces me voy
+
+15
+0:00:39,000 --> 0:0:40,000
+ Participante: No, no se preocupe
+
+16
+0:00:41,000 --> 0:0:42,000
+ Participante: Nosotros sabemos (incomprensible)
+
+17
+0:00:43,000 --> 0:0:49,000
+ Participante: Nosotros ensayamos
+
+18
+0:00:50,000 --> 0:0:53,000
+ Participante: Le voy enseñando como están los (incomprensible).¿ Sí?... ¿ este?
+
+19
+0:00:54,000 --> 0:1:0,000
+ Participante: Aquí tenemos estos (incomprensible)  de fichitas
+
+20
+0:01:01,000 --> 0:1:3,000
+ Pcd: (incomprensible)
+
+21
+0:01:04,000 --> 0:1:12,000
+ Participante: Entonces nosotros, usted lo que tiene que hacer es poner unas verdeaquí y otra rosa aquí
+
+22
+0:01:13,000 --> 0:1:16,000
+ Pcd: Es mejor acá
+
+23
+0:01:17,000 --> 0:1:17,000
+ Participante:(Incomprensible)
+
+24
+0:01:18,000 --> 0:1:23,000
+ Participante:Después una verde aquí,  abajo de este verde
+
+25
+0:01:24,000 --> 0:1:26,000
+ Participante:y una rosa abajo de ésta rosa
+
+26
+0:01:27,000 --> 0:1:33,000
+ Participante: y así ir formando la escalerita, hasta aquí abajo
+
+27
+0:01:34,000 --> 0:1:37,000
+ Participante:Una verde y una rosa. ¿Si?
+
+28
+0:01:38,000 --> 0:1:40,000
+ Pcd:sí
+
+29
+0:01:41,000 --> 0:1:49,000
+ Participante: Entonces a ver intentelo usted
+
+30
+0:01:50,000 --> 0:1:51,000
+ Participante: Una por una
+
+31
+0:01:52,000 --> 0:1:52,000
+ Pcd: Esa es una por una 
+
+32
+0:01:53,000 --> 0:2:0,000
+ Participante:Aja, pongala una verde, osea si está muy bien pero ponga una y una
+
+33
+0:02:001,000 --> 0:2:11,000
+ Participante: Una rosa y una verde
+
+34
+0:02:12,000 --> 0:2:13,000
+ Participante: Muy bien, ahora este
+
+35
+0:02:14,000 --> 0:2:19,000
+ Participante: vamos hacer lo mismo para acá, lo que va hacer, lo va moviendo para acá
+
+36
+0:02:20,000 --> 0:2:25,000
+ Participante: E, una verde y una rosa (incomprensible) ¿Si?
+
+37
+0:02:26,000 --> 0:2:27,000
+ Pcd: Pero es que no se!!,  mira, 
+
+38
+0:02:28,000 --> 0:2:28,000
+ Participante: Mande
+
+39
+0:02:29,000 --> 0:2:30,000
+ Pcd: aquí no se mira, porque eso está verde
+
+40
+0:02:31,000 --> 0:2:33,000
+ Participante: Así se (incomprensible)  se pierde verdad
+
+41
+0:02:34,000 --> 0:2:35,000
+ (incomprensible)
+
+42
+0:02:36,000 --> 0:2:35,000
+ Pcd: Mejor aquí
+
+43
+0:02:36,000 --> 0:2:40,000
+ Participante: sí aquí (incomprensible)
+
+44
+0:02:41,000 --> 0:2:42,000
+ Pcd:Esa no se pierde
+
+45
+0:02:43,000 --> 0:2:49,000
+ Participante Vamos hacerlo aqí otra vez
+
+46
+0:02:50,000 --> 0:2:53,000
+ Participante: Una verde, una roja. a
+
+47
+0:02:54,000 --> 0:2:58,000
+ Participante: Para que no se pierda el color y se vea bien
+
+48
+0:02:59,000 --> 0:3:2,000
+ Participnte: Una verde, una rosa
+
+49
+0:03:03,000 --> 0:3:5,000
+ Pcd: Mire  debería ser un papel negro no verdad !!
+
+50
+0:03:06,000 --> 0:3:8,000
+Participante: Pues así alcanza a distinguir usted?
+
+51
+0:03:09,000 --> 0:3:9,000
+pcd:Sí
+
+52
+0:03:10,000 --> 0:3:11,000
+Participante:¿Si?
+
+53
+0:03:12,000 --> 0:3:14,000
+Pcd: Pero a mi me gusta el papel negro 
+
+54
+0:03:15,000 --> 0:3:20,000
+: Participante: Aaa, este no trajimos negro 
+
+55
+0:03:21,000 --> 0:3:21,000
+:Pcd: hay pues tan  malo es!!  bueno sigale
+
+56
+0:03:22,000 --> 0:3:23,000
+Participante: (Incomprensible)
+
+57
+0:03:24,000 --> 0:3:24,000
+Pcd: Sigale
+
+58
+0:03:25,000 --> 0:3:29,000
+Participante: Bueno, entonces seguimos con la verde aquí, abajo de la verde
+
+59
+0:03:30,000 --> 0:3:32,000
+ Participante: y la roja abajo de la roja, uno por uno
+
+60
+0:03:33,000 --> 0:3:36,000
+Participante: Uno verde y luego uno rojo, una rosa
+
+61
+0:03:37,000 --> 0:3:43,000
+Participante: Y la siguiente es uno verde  y luego uno rosa
+
+62
+0:03:44,000 --> 0:3:43,000
+Participante:¿Si?
+
+63
+0:03:44,000 --> 0:3:45,000
+#Pcd:Ummmju
+
+64
+0:03:46,000 --> 0:3:59,000
+Participante: A ver permitame
+
+65
+0:04:00,000 --> 0:4:7,000
+Participante:A muy bien 
+
+66
+0:04:08,000 --> 0:4:9,000
+ Pcd:Y muchas  mejor
+
+67
+0:04:10,000 --> 0:4:14,000
+Participante: Este si (Incomprensible) pero (incomprensible) pues
+
+68
+0:04:15,000 --> 0:4:17,000
+Pcd: Aquí ya acabamos juntos
+
+69
+0:04:18,000 --> 0:4:17,000
+Participante: ¿Si?
+
+70
+0:04:18,000 --> 0:4:22,000
+Pcd: Sí porque del otro una por una tarda mucho
+
+71
+0:04:23,000 --> 0:4:25,000
+ Participante: si pero pues nada mas(Incomprensible)
+
+72
+0:04:26,000 --> 0:4:27,000
+ Pcd: A usted no pero yo sí
+
+73
+0:04:28,000 --> 0:4:28,000
+Participante:¿Así? jajaja
+
+74
+0:04:29,000 --> 0:4:29,000
+Pcd: Sí Yo  me quiero ir
+
+75
+0:04:30,000 --> 0:4:34,000
+Participante: jaja
+
+76
+0:04:35,000 --> 0:4:39,000
+Participante: Este que se divierta tanto que está tan fácil.
+
+77
+0:04:40,000 --> 0:4:41,000
+Pcd: ¿Va ver baile?
+
+78
+0:04:42,000 --> 0:4:43,000
+Participante: Pues
+
+79
+0:04:44,000 --> 0:4:45,000
+Pcd: pos Si va ver baile si las acomodo bien 
+
+80
+0:04:46,000 --> 0:4:46,000
+Particpante: A pues
+
+81
+0:04:47,000 --> 0:4:50,000
+Pcd: Porque necesito que, que me arreglen mi bicicleta
+
+82
+0:04:51,000 --> 0:4:51,000
+Particpante: noo
+
+83
+0:04:52,000 --> 0:4:55,000
+Pcd: Por eso me voy a purar. ¿Si las puede arreglar? 
+
+84
+0:04:56,000 --> 0:4:58,000
+Participante:pues si lo hace bien. La arreglamos 
+
+85
+0:04:59,000 --> 0:5:0,000
+Pcd: Para ir al baile
+
+86
+0:05:01,000 --> 0:5:3,000
+Participante: Vamos al baile  y le arreglamos su bicicleta
+
+87
+0:05:04,000 --> 0:5:5,000
+Pcd:¿Usted tiene novia?
+
+88
+0:05:06,000 --> 0:5:6,000
+Participante: Noo yo no
+
+89
+0:05:07,000 --> 0:5:8,000
+Pcd: Aaa pues yo si tengo novio
+
+90
+0:05:09,000 --> 0:5:11,000
+Participante: Así ¿y por eso va ir al baile?
+
+91
+0:05:12,000 --> 0:5:13,000
+Pcd: Sí con ese vamos a bailar
+
+92
+0:05:14,000 --> 0:5:16,000
+Participante:A pos que bueno entonces
+
+93
+0:05:17,000 --> 0:5:47,000
+Participante: Entonces hay que hacerlo bien para ir a bailar 
+
+94
+0:05:48,000 --> 0:5:53,000
+Pcd: Así que bien bonita estan 
+
+95
+0:05:54,000 --> 0:5:56,000
+Pcd:otra acá y otra acá
+
+96
+0:05:57,000 --> 0:5:58,000
+Particicipante: No ahí estan (Incomprensible)
+
+97
+0:05:59,000 --> 0:6:11,000
+Pcd:Así, así estan más bonitas
+
+98
+0:06:12,000 --> 0:6:13,000
+Participante:  Entonces
+
+99
+0:06:14,000 --> 0:6:15,000
+Pcd: ¿Quiere que llegue hasta acá?
+
+100
+0:06:16,000 --> 0:6:19,000
+Participante:Sí (Incomprensible) aquí
+
+101
+0:06:20,000 --> 0:6:20,000
+Pcd: ¿Otra?
+
+102
+0:06:21,000 --> 0:6:28,000
+Participante: Sí
+
+103
+0:06:29,000 --> 0:6:33,000
+Pcd: ¿No sabe otro juego?
+
+104
+0:06:34,000 --> 0:6:38,000
+Participante: Ahorita me acuerdo de este, este es, este es  el que me gusta jugar
+
+105
+0:06:39,000 --> 0:6:40,000
+Pcd: ¿A usted le gusta? 
+
+106
+0:06:41,000 --> 0:6:41,000
+Participante: Sí
+
+107
+0:06:42,000 --> 0:6:42,000
+Pcd: pero a mi no
+
+108
+0:06:43,000 --> 0:6:45,000
+Participante: No,  es que me gustan los colores
+
+109
+0:06:46,000 --> 0:6:48,000
+Pcd: A pues este es  color verde 
+
+110
+0:06:49,000 --> 0:6:52,000
+Participante: Sí como su blusa, está bonito ese color 
+
+111
+0:06:53,000 --> 0:7:13,000
+Pcd: No pos me la pusieron a fuerza, yo no queria ésta blusa, yo quería una roja
+
+112
+0:07:14,000 --> 0:7:19,000
+Pcd: (Incomprensible)
+
+113
+0:07:20,000 --> 0:7:28,000
+Participante:Jaja
+
+114
+0:07:29,000 --> 0:7:34,000
+Participante:Hay que acomodarlos poquito más, este,  juntitas para que se vea bonita como éste
+
+115
+0:07:35,000 --> 0:7:37,000
+Participante: Este lo dejó muy  bonito
+
+116
+0:07:38,000 --> 0:7:42,000
+Participante: Si, ¿si ve como lo dejó de bonito?
+
+117
+0:07:43,000 --> 0:8:8,000
+Pcd: Incomprensible
+
+118
+0:08:09,000 --> 0:8:10,000
+Pcd: Incomprensible¿verdad?
+
+119
+0:08:11,000 --> 0:8:33,000
+Participante:Noo (Incomprensible)
+
+120
+0:08:34,000 --> 0:8:40,000
+Pcd: ¿A dónde dejaron a las muchachas?, ¿usted venía con unas muchachas?
+
+121
+0:08:41,000 --> 0:8:52,000
+Participante:Sí nomas que se quedaron, allá afuera pero ya luego van a venir
+
+122
+0:08:53,000 --> 0:8:55,000
+Participante: Ahora mientros nosotros (Incomprensible)
+
+123
+0:08:56,000 --> 0:8:59,000
+Participante:Aquí otra ves vamos a empezar dos líneas, pero
+
+124
+0:09:00,000 --> 0:9:10,000
+Participante: Ahora si va ser el rosa de éste lado, el verde aquí
+
+125
+0:09:11,000 --> 0:9:13,000
+Participante: El rosa aquí
+
+126
+0:09:14,000 --> 0:9:17,000
+Pcd:La tuya si se ve más mejor 
+
+127
+0:09:18,000 --> 0:9:19,000
+Participante:¿Y así si está más fácil que?
+
+128
+0:09:20,000 --> 0:9:30,000
+Pcd: Sí porque así termino más rápido, y ya me puedo ir
+
+129
+0:09:31,000 --> 0:9:37,000
+Pcd: Casi no me gusta
+
+130
+0:09:38,000 --> 0:9:40,000
+Participante:Pero lo está haciendo muy bien así
+
+131
+0:09:41,000 --> 0:10:10,000
+Pcd: Pero no me gusta
+
+132
+0:10:11,000 --> 0:10:31,000
+Participante:Mmm muy bien
+
+133
+0:10:32,000 --> 0:10:33,000
+Pcd: Nunca han cantado los pajaros ¿verdad?
+
+134
+0:10:34,000 --> 0:10:38,000
+Participante:No ahorita todavía no
+
+135
+0:10:39,000 --> 0:10:57,000
+Participante:No hace falta yo creo
+
+136
+0:10:58,000 --> 0:10:58,000
+Participante (Incomprensible)
+
+137
+0:10:59,000 --> 0:11:0,000
+Pcd:A uste a mí no
+
+138
+0:11:01,000 --> 0:11:5,000
+Participante: Sí se me olvidó, lo voy a pooner acá 
+
+139
+0:11:06,000 --> 0:11:6,000
+Pcd:Yo todas las tengo así
+
+140
+0:11:07,000 --> 0:11:10,000
+Participante:Sí si está muy bien 
+
+141
+0:11:11,000 --> 0:11:13,000
+Pcd: Es que amí no me gustó
+
+142
+0:11:14,000 --> 0:11:14,000
+Participante¿Por qué no le gustó?
+
+143
+0:11:15,000 --> 0:11:16,000
+Pcd: Ahí se le calló otra ve
+
+144
+0:11:17,000 --> 0:11:33,000
+Participante:Sí si ya ok si
+
+145
+0:11:34,000 --> 0:11:42,000
+Participante:Aaa muy bien
+
+146
+0:11:43,000 --> 0:11:46,000
+Participante:Hay que revolverlo tantito
+
+147
+0:11:47,000 --> 0:11:48,000
+Pcd: Yo las estaba revolviendo
+
+148
+0:11:49,000 --> 0:11:58,000
+Participante: Aa ayudame revolverlo
+
+149
+0:11:59,000 --> 0:12:0,000
+Pcd:Me gusta como quedan
+
+150
+0:12:01,000 --> 0:12:18,000
+Participante:Sí si están muy bonitas
+
+151
+0:12:19,000 --> 0:12:18,000
+Participante:Ahora
+
+152
+0:12:19,000 --> 0:12:23,000
+Pcd:¿Si sabe dónde está mi mamá?
+
+153
+0:12:24,000 --> 0:12:24,000
+Participante: Mmm no
+
+154
+0:12:25,000 --> 0:12:28,000
+Pcd:Pues es que quiero que venga por mi porque ya me quiero ir
+
+155
+0:12:29,000 --> 0:12:33,000
+Pcd: Cómo que no sabe si usted me dijo que si sabía dónde estaba mi mamá
+
+156
+0:12:34,000 --> 0:12:36,000
+Participante: Así perdón si se 
+
+157
+0:12:37,000 --> 0:12:38,000
+Pcd Mmm
+
+158
+0:12:39,000 --> 0:12:43,000
+Participante:Sí ahí , este ahorita va a venir por , ya que acabe de jugar
+
+159
+0:12:44,000 --> 0:12:48,000
+Participante: Otra vez ahora vamos a poner uno verde y uno rosa
+
+160
+0:12:49,000 --> 0:13:8,000
+Pcd: Mm Mejorr lo vamos a poner así, sí, sí (Incomprensible)
+
+161
+0:13:09,000 --> 0:13:18,000
+Pcd:Ni usted sabe jugar, no más lo mandaron pero no sabe hacer nada uste
+
+162
+0:13:19,000 --> 0:13:19,000
+Participante: ¿Usted había jugado éste?
+
+163
+0:13:20,000 --> 0:13:23,000
+Pcd: No pero pos es la primera vez que juego
+
+164
+0:13:24,000 --> 0:13:24,000
+Participante: Aaa
+
+165
+0:13:25,000 --> 0:13:55,000
+Pcd: Pero yo juego como amí me gusta no como a uste le gusta
+
+166
+0:13:56,000 --> 0:13:59,000
+Pcd:Y así no se tarda uno tanto
+
+167
+0:14:00,000 --> 0:14:1,000
+Pcd: ¿Ya mero está la bicicleta?
+
+168
+0:14:02,000 --> 0:14:6,000
+Participante: Sí ya mero ya ahorita que acabemos
+
+169
+0:14:07,000 --> 0:14:12,000
+Pcd: Bueno quiero ver
+
+170
+0:14:13,000 --> 0:14:13,000
+Pcd: Ve que está mejor así
+
+171
+0:14:14,000 --> 0:14:17,000
+Participante: si, si,  se ve más bonito
+
+172
+0:14:18,000 --> 0:14:24,000
+Pcd: No esto no me gusta, ese no me gusta, éste está mejor 
+
+173
+0:14:25,000 --> 0:14:26,000
+Participante:¿Así?, ¿así le gusta?
+
+174
+0:14:27,000 --> 0:14:30,000
+Pcd: Sí, así sí, ésta tampoco 
+
+175
+0:14:31,000 --> 0:14:37,000
+Participante:Ahora 
+
+176
+0:14:38,000 --> 0:14:41,000
+Participante: Vamos hacer hileras de tres fichitas
+
+177
+0:14:42,000 --> 0:14:42,000
+Pcd: Hileras?
+
+178
+0:14:43,000 --> 0:14:44,000
+Participante: A filas
+
+179
+0:14:45,000 --> 0:14:45,000
+Pcd: A (Incomprensible)
+
+180
+0:14:46,000 --> 0:14:49,000
+Participante:Lo voy a poner acá en su
+
+181
+0:14:50,000 --> 0:14:51,000
+Pcd:A no pos aviéntelo  así
+
+182
+0:14:52,000 --> 0:14:53,000
+Participante:A bueno
+
+183
+0:14:54,000 --> 0:15:3,000
+Participante:Este vamos a poner una, una verde, una rosa y una verde y así para abajo
+
+184
+0:15:04,000 --> 0:15:6,000
+Participante:Una verde
+
+185
+0:15:07,000 --> 0:15:7,000
+Pcd:Pos hágalo uste
+
+186
+0:15:08,000 --> 0:15:9,000
+Participante:Una rosa y una verde
+
+187
+0:15:10,000 --> 0:15:12,000
+Participante:No pero ayúdeme
+
+188
+0:15:13,000 --> 0:15:14,000
+Pcd: A no (Incomprensible)  se cansa
+
+189
+0:15:15,000 --> 0:15:17,000
+Participante:¿Si? pos es que
+
+190
+0:15:18,000 --> 0:15:19,000
+Participante:Aquí estamos jugando los dos 
+
+191
+0:15:20,000 --> 0:15:22,000
+Pcd:No pero pos me deja todo el trabajo amí
+
+192
+0:15:23,000 --> 0:15:24,000
+ Participante: jaja bueno yo se lo paso
+
+193
+0:15:25,000 --> 0:15:48,000
+Pcd:No no quiero 
+
+194
+0:15:49,000 --> 0:16:10,000
+Participante:A muy bien, ahí se ve muy bien
+
+195
+0:16:11,000 --> 0:16:13,000
+Pcd:¿y que son estas fichas?
+
+196
+0:16:14,000 --> 0:16:19,000
+Participante:Pues, parecen botonos pere no son botones
+
+197
+0:16:20,000 --> 0:16:20,000
+Pcd: A son botones!! no, no son botones 
+
+198
+0:16:21,000 --> 0:16:23,000
+Participante:No, no son botones 
+
+199
+0:16:24,000 --> 0:16:26,000
+Participante:Pues fichitas que sirven  para jugar
+
+200
+0:16:27,000 --> 0:16:30,000
+Participante:No se como se lllaman
+
+201
+0:16:31,000 --> 0:16:32,000
+Pcd:Póngales  un nombre
+
+202
+0:16:33,000 --> 0:16:34,000
+Participante:Ee
+
+203
+0:16:35,000 --> 0:16:36,000
+Participante:¿Qué nombres?
+
+204
+0:16:37,000 --> 0:16:44,000
+Pcd:Uste que sabe
+
+205
+0:16:45,000 --> 0:16:46,000
+Participante:¿Diamantes?, si quiere
+
+206
+0:16:47,000 --> 0:16:48,000
+Pcd:Noo eso no es diamante
+
+207
+0:16:49,000 --> 0:16:51,000
+Participante:¿O qué nombre le gusta a usted?
+
+208
+0:16:52,000 --> 0:16:51,000
+Pcd:¿ A mí?
+
+209
+0:16:52,000 --> 0:16:52,000
+Participante:Mmju
+
+210
+0:16:53,000 --> 0:16:54,000
+Pcd:Ninguna
+
+211
+0:16:55,000 --> 0:16:55,000
+Participante: ¿No le quiere poner nombre usted?
+
+212
+0:16:56,000 --> 0:16:59,000
+Pcd:Noo porque me canso con esto
+
+213
+0:17:00,000 --> 0:17:1,000
+Pcd: Ya me canse
+
+214
+0:17:02,000 --> 0:17:6,000
+Pcd:Ahí está ya se lo hice bien pa que no meste mandando
+
+215
+0:17:07,000 --> 0:17:7,000
+Participante:jajajaj lo hizo muy bien
+
+216
+0:17:08,000 --> 0:17:8,000
+¿Y de que se  ríe?
+
+217
+0:17:09,000 --> 0:17:11,000
+Participante:Noo de ,  me gustó como lo hizo
+
+218
+0:17:12,000 --> 0:17:31,000
+Bueno  pos pa que no me mande
+
+219
+0:17:32,000 --> 0:17:35,000
+Participante: Ahora sigamos de cuatro fichitas
+
+220
+0:17:36,000 --> 0:17:36,000
+Pcd: Pos uste lo va ser
+
+221
+0:17:37,000 --> 0:17:37,000
+Participante:yo lo voy hacer, mira
+
+222
+0:17:38,000 --> 0:17:44,000
+Pcd:que éste es de cuatro!!
+
+223
+0:17:45,000 --> 0:17:48,000
+Participante:Una verde, una rosa, otra verde y otra rosa
+
+224
+0:17:49,000 --> 0:17:48,000
+Pcd:(Incomprensible), sígale, sígale
+
+225
+0:17:49,000 --> 0:17:54,000
+Participante: hay voy 
+
+226
+0:17:55,000 --> 0:17:58,000
+Participante:Entonces sigue otra verde 
+
+227
+0:17:59,000 --> 0:18:0,000
+Pcd:No sigue una  rosa
+
+228
+0:18:01,000 --> 0:18:0,000
+Participante:Ajá una rosa, sigue una rosa
+
+229
+0:18:01,000 --> 0:18:5,000
+Participante:¿Cuál sigue?
+
+230
+0:18:06,000 --> 0:18:6,000
+Pcd:Una rosa
+
+231
+0:18:07,000 --> 0:18:8,000
+Participante:Una rosa
+
+232
+0:18:09,000 --> 0:18:9,000
+Participante:¿Una rosa? o ¿una verde?
+
+233
+0:18:10,000 --> 0:18:12,000
+Pcd:Hay  pos sígale mire lo que usted quiere
+
+234
+0:18:13,000 --> 0:18:15,000
+Participante: (Risa) Lo que usted me  diga
+
+235
+0:18:16,000 --> 0:18:16,000
+Pcd:Una rosa
+
+236
+0:18:17,000 --> 0:18:17,000
+Participante:Una rosa, 
+
+237
+0:18:18,000 --> 0:18:19,000
+Participante:¿después sigue??
+
+238
+0:18:20,000 --> 0:18:20,000
+Pcd:Una verde
+
+239
+0:18:21,000 --> 0:18:25,000
+Participante:Una verde
+
+240
+0:18:26,000 --> 0:18:28,000
+Participante:Después... ¿que color sigue?
+
+241
+0:18:29,000 --> 0:18:29,000
+Pcd:¿No quiere?
+
+242
+0:18:30,000 --> 0:18:30,000
+¿Galleta?
+
+243
+0:18:31,000 --> 0:18:32,000
+Participante:Acabo de comer... entonces
+
+244
+0:18:33,000 --> 0:18:34,000
+Pcd:¿ Y que comió?
+
+245
+0:18:35,000 --> 0:18:36,000
+Participante: este...!!!?
+
+246
+0:18:37,000 --> 0:18:37,000
+Participante:Pollo
+
+247
+0:18:38,000 --> 0:18:38,000
+Pcd:Aay, pollo??
+
+248
+0:18:39,000 --> 0:18:40,000
+Participante:Sí
+
+249
+0:18:41,000 --> 0:18:42,000
+Pcd:No me gusta el pollo
+
+250
+0:18:43,000 --> 0:18:43,000
+Participante:¿No le gusta el pollo?
+
+251
+0:18:44,000 --> 0:18:45,000
+Pcd:Nooo
+
+252
+0:18:46,000 --> 0:18:49,000
+Pcd:Yo quiero que hubiera comido  chuletas ... de borrego
+
+253
+0:18:50,000 --> 0:18:50,000
+Participante:Noo
+
+254
+0:18:51,000 --> 0:18:52,000
+Pcd: ¿No le gusta el borrego?
+
+255
+0:18:53,000 --> 0:18:54,000
+Participante:Nooo no me gusta
+
+256
+0:18:55,000 --> 0:18:58,000
+Pcd:Mmmmm pos no sabe de  lo que es bueno (Incomprensible)
+
+257
+0:18:59,000 --> 0:19:0,000
+Pcd:Yo le iba invitar
+
+258
+0:19:01,000 --> 0:19:3,000
+Participante:(Risa), no gracias...
+
+259
+0:19:04,000 --> 0:19:21,000
+Participante: Haber...  trate de seguir el... la secuencia
+
+260
+0:19:22,000 --> 0:19:28,000
+Pcd:Mire... se ve más bonito así y termino más rápido
+
+261
+0:19:29,000 --> 0:19:33,000
+Participante: (risa)Sí  pero se ve muy bien así
+
+262
+0:19:34,000 --> 0:19:38,000
+Pero... hay que hacerlo primero así y ahorita hacemos (Incomprensible)
+
+263
+0:19:39,000 --> 0:19:41,000
+Pcd:Aay!! no le gustó
+
+264
+0:19:42,000 --> 0:19:46,000
+Participante:Sí me gustó pero primero el otro.. está bien
+
+265
+0:19:47,000 --> 0:19:55,000
+Participante: Uno verde, uno rosa, uno verde
+
+266
+0:19:56,000 --> 0:19:58,000
+Participante: Uno rosa
+
+267
+0:19:59,000 --> 0:20:3,000
+Participante: Uno verde
+

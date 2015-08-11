@@ -2,6 +2,106 @@ import numpy as np
 import pylab as plt
 import sys
 from maxi import session
+def getSessions(_s):
+    _sessionsRtr = []
+    if(_s == "all"):
+        s = session("p1/carlos_S1_R1/1433807211979/")
+        _sessionsRtr.append(s)
+        s = session("p1/carlos_relax3/1435362269780/")
+        _sessionsRtr.append(s)
+        s = session("p6/luis_relax/1433979780288/")
+        _sessionsRtr.append(s)
+        s = session("p6/luismiguel_relax2/1434671046538/")
+        _sessionsRtr.append(s)
+        s = session("p6/luis_relax3/1435273024530/")
+        _sessionsRtr.append(s)
+        s = session("p7/alfonso_relax/1434064078558/")
+        _sessionsRtr.append(s)
+        s = session("p7/alfonso_relax2/1434495734670/")
+        _sessionsRtr.append(s)
+        s = session("p7/alfonso_relax3/1435275565320/")
+        _sessionsRtr.append(s)
+        s = session("p8/angello_relax/1434066549276/")
+        _sessionsRtr.append(s)
+        s = session("p8/angello_relax2/1434668094145/")
+        _sessionsRtr.append(s)
+        s = session("p8/angello_relax3/1435708008150/")
+        _sessionsRtr.append(s)
+        s = session("p9/sandra_relax/1434150573545/")
+        _sessionsRtr.append(s)
+        s = session("p9/sandra_relax3/1435619278734/")
+        _sessionsRtr.append(s)
+    if(_s == "p1"):
+        s = session("p1/carlos_S1_R1/1433807211979/")
+        _sessionsRtr.append(s)
+        s = session("p1/carlos_relax3/1435362269780/")
+        _sessionsRtr.append(s)
+    if(_s == "p1s1"):
+        s = session("p1/carlos_S1_R1/1433807211979/")
+        _sessionsRtr.append(s)
+    if(_s == "p1s3"):
+        s = session("p1/carlos_relax3/1435362269780/")
+        _sessionsRtr.append(s)
+    if(_s == "p6"):
+        s = session("p6/luis_relax/1433979780288/")
+        _sessionsRtr.append(s)
+        s = session("p6/luismiguel_relax2/1434671046538/")
+        _sessionsRtr.append(s)
+        s = session("p6/luis_relax3/1435273024530/")
+        _sessionsRtr.append(s)
+    if(_s =="p6s1"):
+        s = session("p6/luis_relax/1433979780288/")
+        _sessionsRtr.append(s)
+    if(_s =="p6s2"):
+        s = session("p6/luismiguel_relax2/1434671046538/")
+        _sessionsRtr.append(s)
+    if(_s =="p6s3"):
+        s = session("p6/luis_relax3/1435273024530/")
+        _sessionsRtr.append(s)
+    if(_s == "p7"):
+        s = session("p7/alfonso_relax/1434064078558/")
+        _sessionsRtr.append(s)
+        s = session("p7/alfonso_relax2/1434495734670/")
+        _sessionsRtr.append(s)
+        s = session("p7/alfonso_relax3/1435275565320/")
+        _sessionsRtr.append(s)
+    if(_s == "p7s1"):
+        s = session("p7/alfonso_relax/1434064078558/")
+        _sessionsRtr.append(s)
+    if(_s == "p7s2"):
+        s = session("p7/alfonso_relax2/1434495734670/")
+        _sessionsRtr.append(s)
+    if(_s == "p7s3"):
+        s = session("p7/alfonso_relax3/1435275565320/")
+        _sessionsRtr.append(s)
+    if(_s == "p8"):
+        s = session("p8/angello_relax/1434066549276/")
+        _sessionsRtr.append(s)
+        s = session("p8/angello_relax2/1434668094145/")
+        _sessionsRtr.append(s)
+        s = session("p8/angello_relax3/1435708008150/")
+        _sessionsRtr.append(s)
+    if(_s == "p8s1"):
+        s = session("p8/angello_relax/1434066549276/")
+        _sessionsRtr.append(s)
+    if(_s == "p8s2"):
+        s = session("p8/angello_relax2/1434668094145/")
+        _sessionsRtr.append(s)
+    if(_s == "p8s3"):
+        s = session("p8/angello_relax3/1435708008150/")
+        _sessionsRtr.append(s)
+    if(_s == "p9"):
+        s = session("p9/sandra_relax/1434150573545/")
+        _sessionsRtr.append(s)
+        s = session("p9/sandra_relax3/1435619278734/")
+        _sessionsRtr.append(s)
+    if(_s == "p9s1"):
+        s = session("p9/sandra_relax/1434150573545/")
+        _sessionsRtr.append(s)
+    if(_s == "p9s3"):
+        s = session("p9/sandra_relax3/1435619278734/")
+        _sessionsRtr.append(s)
+    return _sessionsRtr
 def readFile(_path):
     _lines = []
     with open(_path,"r") as _file:
@@ -16,9 +116,9 @@ def erotion(_data):
         if(_x+len(_se) < len(_data)):
             for _z in range(_x,_x+len(_se)):
                 _d.append(int(_data[_z][1]))
-            print _d
-            print _se
-            print "------"
+            #print _d
+            #print _se
+            #print "------"
             if( _d== _se):
                 for _y in range(_x,_x+len(_se)):
                     _data[_y][1] = 0
@@ -40,8 +140,7 @@ def calcTimes(_cf):
         _t = int(_c[0]) * 30
         _times.append([_t,_t+60,_c[1]])
     return _times
-def plot(_path,_data,_xTick=200,_xMinorTick=100):
-    s = session("p7/alfonso_relax2/1434495734670/")
+def plot(s,_path,_data,_xTick=200,_xMinorTick=100):
     fig, ax = plt.subplots()
     plt.grid(True)
 
@@ -74,7 +173,15 @@ def plot(_path,_data,_xTick=200,_xMinorTick=100):
     plt.savefig(_path)
 
 _file_path = sys.argv[1]
+_session_sel = sys.argv[2]
+print _session_sel
+_s = getSessions(_session_sel)
+_filter = sys.argv[3]
+_fil_erotion = True
 _data = readFile(_file_path)
+if(_filter == "erosion"):
+    _data = erotion(_data)
+    plot(_s[0],"app_erosion.png",calcTimes(_data))
+else:
+    plot(_s[0],"app.png",calcTimes(_data))
 #_data = calcTimes(_data) 
-_data = erotion(_data)
-plot("app.png",calcTimes(_data))

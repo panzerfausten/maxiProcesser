@@ -12,6 +12,8 @@ cat p9.csv >> training.csv
 
 python process.py p7s2 gsr,ibi -fs > fs.csv
 python classifySession.py training.csv fs.csv csv > fs_results.csv
-python plotApp.py fs_results.csv ; 
-convert -append plotSR.png app.png prediction.png
+python plotSession.py  p7s2 gsr,ibi
+python plotApp.py fs_results.csv p7s2 noerosion; 
+python plotApp.py fs_results.csv p7s2 erosion; 
+convert -append plotSR.png app.png app_erosion.png prediction.png
 gwenview prediction.png

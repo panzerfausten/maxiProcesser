@@ -1,0 +1,377 @@
+#0:00:00.0#  Investigador 2: (Incomprensible)
+#0:00:02.6# Participante: Hola
+#0:00:03.8# (Incomprensible)
+#0:00:07.8#  Participante:Buenas tardes
+#0:00:10.5#  Investigador 2: El se llama *****? y el se llama*****?
+#0:00:14.9#******?
+#0:00:16.2# Investigador 2:Aquí le voy a poner sus galletitas ok!!
+#0:00:20.1# Pcd:  Mis galletitas
+#0:00:25.7# Pcd: Usted si sabe jugar?
+#0:00:27.0# Participante: Sí!! yo sí!!
+#0:00:28.9# Pcd:  A pues bien
+#0:00:30.1#  Participante :  A Ahorita vamos a enseñarnos los dos a practicar un rato
+#0:00:35.6# Pcd: Pero si no se, pues entonces me voy
+#0:00:39.0# Participante: No, no se preocupe
+#0:00:41.6# Participante: Nosotros sabemos (incomprensible)
+#0:00:43.5# Participante: Nosotros ensayamos
+#0:00:50.3# Participante: Le voy enseñando como están los (incomprensible).¿ Sí?... ¿ este?
+#0:00:54.3# Participante: Aquí tenemos estos (incomprensible)  de fichitas
+#0:01:01.9# Pcd: (incomprensible)
+#0:01:04.0# Participante: Entonces nosotros, usted lo que tiene que hacer es poner unas verdeaquí y otra rosa aquí
+#0:01:13.3# Pcd: Es mejor acá
+#0:01:17.5# Participante:(Incomprensible)
+#0:01:18.0# Participante:Después una verde aquí,  abajo de este verde
+#0:01:24.2# Participante:y una rosa abajo de ésta rosa
+#0:01:27.7# Participante: y así ir formando la escalerita, hasta aquí abajo
+#0:01:34.4# Participante:Una verde y una rosa. ¿Si?
+#0:01:38.6# Pcd:sí
+#0:01:41.6# Participante: Entonces a ver intentelo usted
+#0:01:50.5# Participante: Una por una
+#0:01:52.3# Pcd: Esa es una por una 
+#0:01:53.9# Participante:Aja, pongala una verde, osea si está muy bien pero ponga una y una
+#0:02:00.1 # Participante: Una rosa y una verde
+#0:02:12.5# Participante: Muy bien, ahora este
+#0:02:14.9# Participante: vamos hacer lo mismo para acá, lo que va hacer, lo va moviendo para acá
+#0:02:20.5# Participante: E, una verde y una rosa (incomprensible) ¿Si?
+#0:02:26.2# Pcd: Pero es que no se!!,  mira, 
+#0:02:28.6# Participante: Mande
+#0:02:29.6# Pcd: aquí no se mira, porque eso está verde
+#0:02:31.7# Participante: Así se (incomprensible)  se pierde verdad
+#0:02:34.9# (incomprensible)
+#0:02:36.3# Pcd: Mejor aquí
+#0:02:36.6# Participante: sí aquí (incomprensible)
+#0:02:41.1# Pcd:Esa no se pierde
+#0:02:43.4# Participante Vamos hacerlo aqí otra vez
+#0:02:50.8# Participante: Una verde, una roja. a
+#0:02:54.9# Participante: Para que no se pierda el color y se vea bien
+#0:02:59.4# Participnte: Una verde, una rosa
+#0:03:03.9# Pcd: Mire  debería ser un papel negro no verdad !!
+#0:03:06.8#Participante: Pues así alcanza a distinguir usted?
+#0:03:09.8#pcd:Sí
+#0:03:10.4#Participante:¿Si?
+#0:03:12.1#Pcd: Pero a mi me gusta el papel negro 
+#0:03:15.3#: Participante: Aaa, este no trajimos negro 
+#0:03:21.0#:Pcd: hay pues tan  malo es!!  bueno sigale
+#0:03:22.6#Participante: (Incomprensible)
+#0:03:24.3#Pcd: Sigale
+#0:03:25.3#Participante: Bueno, entonces seguimos con la verde aquí, abajo de la verde
+#0:03:30.5# Participante: y la roja abajo de la roja, uno por uno
+#0:03:33.4#Participante: Uno verde y luego uno rojo, una rosa
+#0:03:37.2#Participante: Y la siguiente es uno verde  y luego uno rosa
+#0:03:44.5#Participante:¿Si?
+ #0:03:44.9#Pcd:Ummmju
+#0:03:46.8#Participante: A ver permitame
+#0:04:00.0#Participante:A muy bien 
+#0:04:08.7# Pcd:Y muchas  mejor
+#0:04:10.6#Participante: Este si (Incomprensible) pero (incomprensible) pues
+#0:04:15.5#Pcd: Aquí ya acabamos juntos
+#0:04:18.2#Participante: ¿Si?
+#0:04:18.9#Pcd: Sí porque del otro una por una tarda mucho
+#0:04:23.4# Participante: si pero pues nada mas(Incomprensible)
+#0:04:26.5# Pcd: A usted no pero yo sí
+#0:04:28.6#Participante:¿Así? jajaja
+#0:04:29.3#Pcd: Sí Yo  me quiero ir
+#0:04:30.5#Participante: jaja
+#0:04:35.5#Participante: Este que se divierta tanto que está tan fácil.
+#0:04:40.3#Pcd: ¿Va ver baile?
+#0:04:42.2#Participante: Pues
+#0:04:44.0#Pcd: pos Si va ver baile si las acomodo bien 
+#0:04:46.8#Particpante: A pues
+#0:04:47.2#Pcd: Porque necesito que, que me arreglen mi bicicleta
+#0:04:51.5#Particpante: noo
+#0:04:52.7#Pcd: Por eso me voy a purar. ¿Si las puede arreglar? 
+#0:04:56.6#Participante:pues si lo hace bien. La arreglamos 
+#0:04:59.2#Pcd: Para ir al baile
+#0:05:01.2#Participante: Vamos al baile  y le arreglamos su bicicleta
+#0:05:04.7#Pcd:¿Usted tiene novia?
+#0:05:06.7#Participante: Noo yo no
+#0:05:07.8#Pcd: Aaa pues yo si tengo novio
+#0:05:09.7#Participante: Así ¿y por eso va ir al baile?
+#0:05:12.3#Pcd: Sí con ese vamos a bailar
+#0:05:14.1#Participante:A pos que bueno entonces
+#0:05:17.7#Participante: Entonces hay que hacerlo bien para ir a bailar 
+#0:05:48.2#Pcd: Así que bien bonita estan 
+#0:05:54.3#Pcd:otra acá y otra acá
+#0:05:57.6#Particicipante: No ahí estan (Incomprensible)
+#0:05:59.9#Pcd:Así, así estan más bonitas
+#0:06:12.2#Participante:  Entonces
+#0:06:14.6#Pcd: ¿Quiere que llegue hasta acá?
+#0:06:16.1#Participante:Sí (Incomprensible) aquí
+#0:06:20.1#Pcd: ¿Otra?
+#0:06:21.1#Participante: Sí
+#0:06:29.7#Pcd: ¿No sabe otro juego?
+#0:06:34.6#Participante: Ahorita me acuerdo de este, este es, este es  el que me gusta jugar
+#0:06:39.9#Pcd: ¿A usted le gusta? 
+#0:06:41.1#Participante: Sí
+#0:06:42.2#Pcd: pero a mi no
+#0:06:43.3#Participante: No,  es que me gustan los colores
+#0:06:46.4#Pcd: A pues este es  color verde 
+#0:06:49.2#Participante: Sí como su blusa, está bonito ese color 
+#0:06:53.1#Pcd: No pos me la pusieron a fuerza, yo no queria ésta blusa, yo quería una roja
+#0:07:14.7#Pcd: (Incomprensible)
+#0:07:20.2#Participante:Jaja
+#0:07:29.2#Participante:Hay que acomodarlos poquito más, este,  juntitas para que se vea bonita como éste
+#0:07:35.4#Participante: Este lo dejó muy  bonito
+#0:07:38.7#Participante: Si, ¿si ve como lo dejó de bonito?
+#0:07:43.0#Pcd: Incomprensible
+#0:08:09.9#Pcd: Incomprensible¿verdad?
+#0:08:11.9#Participante:Noo (Incomprensible)
+#0:08:34.6#Pcd: ¿A dónde dejaron a las muchachas?, ¿usted venía con unas muchachas?
+#0:08:41.0#Participante:Sí nomas que se quedaron, allá afuera pero ya luego van a venir
+#0:08:53.2#Participante: Ahora mientros nosotros (Incomprensible)
+#0:08:56.7#Participante:Aquí otra ves vamos a empezar dos líneas, pero
+#0:09:00.6#Participante: Ahora si va ser el rosa de éste lado, el verde aquí
+#0:09:11.9#Participante: El rosa aquí
+#0:09:14.0#Pcd:La tuya si se ve más mejor 
+#0:09:18.5#Participante:¿Y así si está más fácil que?
+#0:09:20.7#Pcd: Sí porque así termino más rápido, y ya me puedo ir
+#0:09:31.8#Pcd: Casi no me gusta
+#0:09:38.2#Participante:Pero lo está haciendo muy bien así
+#0:09:41.4#Pcd: Pero no me gusta
+#0:10:11.1#Participante:Mmm muy bien
+#0:10:32.2#Pcd: Nunca han cantado los pajaros ¿verdad?
+#0:10:34.9#Participante:No ahorita todavía no
+#0:10:39.3#Participante:No hace falta yo creo
+#0:10:58.0#Participante (Incomprensible)
+#0:10:59.4#Pcd:A uste a mí no
+#0:11:01.2#Participante: Sí se me olvidó, lo voy a pooner acá 
+#0:11:06.0#Pcd:Yo todas las tengo así
+#0:11:07.8#Participante:Sí si está muy bien 
+#0:11:11.1#Pcd: Es que amí no me gustó
+#0:11:14.0#Participante¿Por qué no le gustó?
+#0:11:15.9#Pcd: Ahí se le calló otra ve
+#0:11:17.4#Participante:Sí si ya ok si
+#0:11:34.1#Participante:Aaa muy bien
+#0:11:43.9#Participante:Hay que revolverlo tantito
+#0:11:47.3#Pcd: Yo las estaba revolviendo
+#0:11:49.4#Participante: Aa ayudame revolverlo
+#0:11:59.1#Pcd:Me gusta como quedan
+#0:12:01.1#Participante:Sí si están muy bonitas
+#0:12:19.0#Participante:Ahora
+#0:12:19.2#Pcd:¿Si sabe dónde está mi mamá?
+#0:12:24.3#Participante: Mmm no
+#0:12:25.1#Pcd:Pues es que quiero que venga por mi porque ya me quiero ir
+#0:12:29.5#Pcd: Cómo que no sabe si usted me dijo que si sabía dónde estaba mi mamá
+#0:12:34.9#Participante: Así perdón si se 
+#0:12:37.9#Pcd Mmm
+#0:12:39.8#Participante:Sí ahí , este ahorita va a venir por , ya que acabe de jugar
+#0:12:44.5#Participante: Otra vez ahora vamos a poner uno verde y uno rosa
+#0:12:49.4#Pcd: Mm Mejorr lo vamos a poner así, sí, sí (Incomprensible)
+#0:13:09.2#Pcd:Ni usted sabe jugar, no más lo mandaron pero no sabe hacer nada uste
+#0:13:19.3#Participante: ¿Usted había jugado éste?
+#0:13:20.4#Pcd: No pero pos es la primera vez que juego
+#0:13:24.4#Participante: Aaa
+#0:13:25.9#Pcd: Pero yo juego como amí me gusta no como a uste le gusta
+#0:13:56.8#Pcd:Y así no se tarda uno tanto
+#0:14:00.3#Pcd: ¿Ya mero está la bicicleta?
+#0:14:02.5#Participante: Sí ya mero ya ahorita que acabemos
+#0:14:07.3#Pcd: Bueno quiero ver
+#0:14:13.1#Pcd: Ve que está mejor así
+#0:14:14.8#Participante: si, si,  se ve más bonito
+#0:14:18.4#Pcd: No esto no me gusta, ese no me gusta, éste está mejor 
+#0:14:25.9#Participante:¿Así?, ¿así le gusta?
+#0:14:27.4#Pcd: Sí, así sí, ésta tampoco 
+#0:14:31.8#Participante:Ahora 
+#0:14:38.7#Participante: Vamos hacer hileras de tres fichitas
+#0:14:42.4#Pcd: Hileras?
+#0:14:43.5#Participante: A filas
+#0:14:45.4#Pcd: A (Incomprensible)
+#0:14:46.5#Participante:Lo voy a poner acá en su
+#0:14:50.0#Pcd:A no pos aviéntelo  así
+#0:14:52.8#Participante:A bueno
+#0:14:54.8#Participante:Este vamos a poner una, una verde, una rosa y una verde y así para abajo
+#0:15:04.5#Participante:Una verde
+#0:15:07.2#Pcd:Pos hágalo uste
+#0:15:08.6#Participante:Una rosa y una verde
+#0:15:10.9#Participante:No pero ayúdeme
+#0:15:13.4#Pcd: A no (Incomprensible)  se cansa
+#0:15:15.5#Participante:¿Si? pos es que
+#0:15:18.3#Participante:Aquí estamos jugando los dos 
+#0:15:20.8#Pcd:No pero pos me deja todo el trabajo amí
+#0:15:23.2# Participante: jaja bueno yo se lo paso
+#0:15:25.8#Pcd:No no quiero 
+#0:15:49.3#Participante:A muy bien, ahí se ve muy bien
+#0:16:11.5#Pcd:¿y que son estas fichas?
+#0:16:14.4#Participante:Pues, parecen botonos pere no son botones
+#0:16:20.3#Pcd: A son botones!! no, no son botones 
+#0:16:21.9#Participante:No, no son botones 
+#0:16:24.3#Participante:Pues fichitas que sirven  para jugar
+#0:16:27.1#Participante:No se como se lllaman
+#0:16:31.3#Pcd:Póngales  un nombre
+#0:16:33.5#Participante:Ee
+#0:16:35.9#Participante:¿Qué nombres?
+#0:16:37.4#Pcd:Uste que sabe
+#0:16:45.3#Participante:¿Diamantes?, si quiere
+#0:16:47.3#Pcd:Noo eso no es diamante
+#0:16:49.8#Participante:¿O qué nombre le gusta a usted?
+#0:16:52.2#Pcd:¿ A mí?
+#0:16:52.8#Participante:Mmju
+#0:16:53.4#Pcd:Ninguna
+#0:16:55.2#Participante: ¿No le quiere poner nombre usted?
+#0:16:56.9#Pcd:Noo porque me canso con esto
+#0:17:00.5#Pcd: Ya me canse
+#0:17:02.4#Pcd:Ahí está ya se lo hice bien pa que no meste mandando
+#0:17:07.4#Participante:jajajaj lo hizo muy bien
+#0:17:08.3#¿Y de que se  ríe?
+#0:17:09.6#Participante:Noo de ,  me gustó como lo hizo
+#0:17:12.2#Bueno  pos pa que no me mande
+#0:17:32.5#Participante: Ahora sigamos de cuatro fichitas
+#0:17:36.2#Pcd: Pos uste lo va ser
+#0:17:37.5#Participante:yo lo voy hacer, mira
+#0:17:38.8#Pcd:que éste es de cuatro!!
+#0:17:45.1#Participante:Una verde, una rosa, otra verde y otra rosa
+#0:17:49.8#Pcd:(Incomprensible), sígale, sígale
+#0:17:49.8#Participante: hay voy 
+#0:17:55.2#Participante:Entonces sigue otra verde 
+#0:17:59.7#Pcd:No sigue una  rosa
+#0:18:01.6#Participante:Ajá una rosa, sigue una rosa
+#0:18:01.6#Participante:¿Cuál sigue?
+#0:18:06.1#Pcd:Una rosa
+#0:18:07.7#Participante:Una rosa
+#0:18:09.6#Participante:¿Una rosa? o ¿una verde?
+#0:18:10.9#Pcd:Hay  pos sígale mire lo que usted quiere
+#0:18:13.2#Participante: (Risa) Lo que usted me  diga
+#0:18:16.4#Pcd:Una rosa
+#0:18:17.6#Participante:Una rosa, 
+#0:18:18.9#Participante:¿después sigue??
+#0:18:20.2#Pcd:Una verde
+#0:18:21.3#Participante:Una verde
+#0:18:26.5#Participante:Después... ¿que color sigue?
+#0:18:29.5#Pcd:¿No quiere?
+#0:18:30.9#¿Galleta?
+#0:18:31.9#Participante:Acabo de comer... entonces
+#0:18:33.6#Pcd:¿ Y que comió?
+#0:18:35.4#Participante: este...!!!?
+#0:18:37.6#Participante:Pollo
+#0:18:38.6#Pcd:Aay, pollo??
+#0:18:39.9#Participante:Sí
+#0:18:41.1#Pcd:No me gusta el pollo
+#0:18:43.3#Participante:¿No le gusta el pollo?
+#0:18:44.1#Pcd:Nooo
+#0:18:46.6#Pcd:Yo quiero que hubiera comido  chuletas ... de borrego
+#0:18:50.9#Participante:Noo
+#0:18:51.7#Pcd: ¿No le gusta el borrego?
+#0:18:53.4#Participante:Nooo no me gusta
+#0:18:55.6#Pcd:Mmmmm pos no sabe de  lo que es bueno (Incomprensible)
+#0:18:59.7#Pcd:Yo le iba invitar
+#0:19:01.2#Participante:(Risa), no gracias...
+#0:19:04.6#Participante: Haber...  trate de seguir el... la secuencia
+#0:19:22.1#Pcd:Mire... se ve más bonito así y termino más rápido
+#0:19:29.6#Participante: (risa)Sí  pero se ve muy bien así
+#0:19:34.8#Pero... hay que hacerlo primero así y ahorita hacemos (Incomprensible)
+#0:19:39.3#Pcd:Aay!! no le gustó
+#0:19:42.4#Participante:Sí me gustó pero primero el otro.. está bien
+#0:19:47.8#Participante: Uno verde, uno rosa, uno verde
+#0:19:56.8#Participante: Uno rosa
+#0:19:59.8#Participante: Uno verde
+#0:20:04.7#Pcd: Mire van vendiendo tamales!!!, vamos a comprar!! a cinco pesos, que baratos!!
+#0:20:15.3 Participante:sí estan baratos
+#0:20:17.6#Pcd:Han de estar bien malos
+#0:20:19.6#Participante:(risa)
+#0:20:23.2#Participante:A muy bien, se ven bonitos
+#0:20:27.1#Pcd:¿Qué se ve bonito?
+#0:20:28.6#Participante:  (Incomprensible) como van quedando, las fichas como van
+#0:21:03.0#Participante:  (Incomprensible) porque se está moviendo
+#0:21:05.9#Pcd:se mueve porque se quiere ir como yo
+#0:21:08.9#Participante: (Risa)
+#0:21:13.3#Pcd: Lo voy  hacer bien porque quiero la bicicleta
+#0:21:18.9#Pcd:Y ¿Dónde está la bicicleta?
+#0:21:21.8#Participante: Ahí está guardada
+#0:21:38.3#Pcd:¿Uste sabe dónde fue mi mamá?
+#0:21:41.3#Participante: Sí!!
+#0:21:42.8#Pcd:A ver dígame
+#0:21:46.3#Participante: Pues ahí está esperandola... a queee.. que  se divierta primero
+#0:21:54.6#Pcd:Hablele al de los tamales
+#0:22:01.8#Participante: De que acabemos de jugar vamos por uno
+#0:22:04.3#No me gusta
+#0:22:09.3#Pcd: Yo no como tamales
+#0:22:16.6#Participante: ¿Los tamales?, y ¿Por qué no le gusta?
+#0:22:19.8#Pcd: Me gusta hacer ésto
+#0:22:22.2#Participante: Haa ¿sabe hacer tamales?
+#0:22:23.5#Pcd:Yo sí ¿ y uste no?
+#0:22:26.3#Participante:(Incomprensible) hacerlo, pero no se, no se hacerlo
+#0:22:29.5#Pcd:No pos que mal
+#0:22:34.7#Participante: (Incomprensible)
+#0:22:36.6#Pcd: Muy malisimo pos ay se los come la gente
+#0:22:42.9#Pcd: Ahí está mire
+#0:22:47.1#Pcd: Ya me canse oiga
+#0:22:52.3#Participante: ¿Se le cansó el dedo?
+#0:22:54.2#Pcd:(Incomprensible)ayy, ayy
+#0:22:58.6#Pcd: Es que todos los días me duelen los huesos, me duele aquí, me duele aquí, me duele aquí
+#0:23:08.2#Pcd: Y uste me pone hacer ésto pos me duele más
+#0:23:15.2#Participante:Pero es un ratito nomas... para jugar
+#0:23:26.3#Pcd:Ay está ya terminé
+#0:23:27.8#Participante: Falta la otra hilera aquí
+#0:23:30.6#Pcd: Otra pos esa hágala uste, uste nomás está mandando, ándele póngase hacerlo uste
+#0:23:37.6#Participante: Le voy hacer la primera y uste va hacer la, las de abajo
+#0:23:43.5#Participante: Va ser uno verde, una rosa,
+#0:23:47.1#Pcd:Uno azul, uno amarillo y un anaranjado
+#0:23:53.2#Pcd: Uno rojo
+#0:23:59.0#Participante: Y así lo va hace uste
+#0:24:02.4#entonces verde, rosa, verde, rosa
+#0:24:08.9#Pcd:Y pa qué quiero tanto cuadro
+#0:24:12.9#Participante: Pues de eso se trata el juego
+#0:24:17.2#Pcd: ¿ Y qué?, ¿Con éste juego me va sacar la licencia?
+#0:24:20.8#Participante: Sí, si lo hace muy bien sí
+#0:24:24.7#Pcd: Quiero una licencia de manejar
+#0:24:27.5#Participante: Para manejar, ¿en moto o en carro?
+#0:24:30.2#Pcd:¿Qué será mejor?, moto verdad!!! porque no gasta tanta gasolina
+#0:24:34.4#Participante: Sí ee ta mejor la moto
+#0:24:42.4#Participante:Yo prefiero una moto
+#0:24:44.5#Participante:Uste (incomprensible)
+#0:24:44.8#Pcd: (Incomprensible), del diablo
+#0:24:50.8#Participante: ¿Así?, ¿Por qué?
+#0:24:52.1#Pcd:Porque las motos son malas
+#0:25:08.2#Pcd: La bicicleta no es mala
+#0:25:14.7#Participante: ¿Le guasta andar en bici?
+#0:25:16.2#Pcd: Sí
+#0:25:23.7#Pcd:Pero se me descompuso mi bicicleta
+#0:25:30.3#Participante: ¿Qué le pasó?
+#0:25:31.9#Pcd: Pues se le salió la cadena
+#0:25:34.4#Participante:Mmmmmm
+#0:25:34.9#Pcd:Como amí se me salió la cadena, amí también se me salió la cadena
+#0:25:45.5#Participante:Así pasa con las bicis 
+#0:25:48.9#Pcd: Es que está loca
+#0:25:50.2#Participante: Si no???
+#0:25:51.8#Pcd: Mucho, mucho
+#0:25:56.9#Pcd: Ya lo hace uste, porque ya me cansé, oiga yo ya me quiero ir
+#0:26:02.6#Pcd: Y ¿dónde está mi mamá?
+#0:26:04.9#Participante: Ahí está afuera
+#0:26:07.2#Pcd: Ay pasela no sea malo, ay la quiere tener parada como momia
+#0:26:13.1#Participante:Noooo está viendo otras cosas
+#0:26:16.0#Pcd: Ayyy,  ahorita le voy a ira  preguntar, ya voy a ir a preguntarle
+#0:26:27.8#Participante: Yo le voy a decir que está jugando muy bien usted
+#0:26:30.5#Pcc: No pos si me dice que estoy jugando muy bien la desbarato toda
+#0:26:34.8#Participante:Bueno
+#0:26:35.0#Pcd: Y luego las pone y las hace uste
+#0:26:36.9#Participante: Entonces no le digo nada
+#0:26:40.3#Pcd: No  porque esto es mi regalo
+#0:26:41.7#Participante: Aaa bueno
+#0:26:48.0#Pcd: Entonces no le decimos nada
+#0:26:50.0#Pcd:Noo 
+#0:26:50.8#Participante:Aaa
+#0:27:08.5#Pcd:Listo, ya terminé
+#0:27:11.5# Investigador 2: Señora María 
+#0:27:12.4#Pcd: Mande
+#0:27:13.0#Investigador 2: vamos a ir a tomar una, una  medicina, primero (Incomprensible)
+#0:27:15.5#Sí, sí porque, el nomás  me está poniendo a jugar esto y no me gusta
+ #0:27:20.3#Investigador 2: ¿No le gustaron las fichitas?
+#0:27:22.6#Pcd: #Nooo, Ya me cansé y me duele el hombro
+#0:27:24.7# Investigador 2: ¿En serio?
+#0:27:26.0#Pcd: Pero ¿dejo aquí mi veneno?
+#0:27:27.8#Sí, sí ahorita va a regresar aquí déjemelo no lo ocupa
+#0:27:31.2#Investigador 2: Va a tomar agua con (Incomprensible)
+#0:27:34.3#Investigador 2:Con médicina que le va a dar su mami
+#0:27:37.4#Pcd: ¿ No se lo va tomar él?
+#0:27:39.0#Investigador 2: Noo, no, yo ahorita lo voy a, yo lo voy a estar cuidando ok...
+#0:27:43.3#Pcd: cuida, Cuide mi veneno heee siii
+#0:27:45.9#Participante:Sí yo aquí lo cuido
+#0:27:48.3#Investigador 2:Vamos a, a que le den su medicina
+#0:27:52.9#Investigador 2:Mire no se me valla a caer
+#0:27:49.3#Investigador 2:Vamos a que le den un par de  medicinas y a  luego ahorita voy por uste
+#0:27:59.0#Investigador 2: Y vamos a jugar flores eee
+#0:28:01.9#Pcd: ¿Con él 
+#0:28:02.7#Investigador 2:Sí con él va a jugar
+#0:28:04.9#Pcd: y no va ser tan malo como él?
+#0:28:06.8#Investigador 2: No, noo,noo, va jugar bien 
+#0:28:10.4#Investigador 2: Nadamas que, (Incomprensible) sus medicinas y uste...
